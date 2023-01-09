@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C0C9B6CE-9D55-490D-AB42-003FB402D8DF}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="MainCharacter" ID="{C0C9B6CE-9D55-490D-AB42-003FB402D8DF}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="MC_Footsteps" ID="{77E62F63-EDE4-4B1B-BC2C-5EBBAF11C599}" PersistMode="Reference"/>
+				<WorkUnit Name="MC_Voice" ID="{436A7F8F-4040-4F6B-BD03-F85E3121F7D9}" PersistMode="Reference"/>
+				<WorkUnit Name="MC_Combat" ID="{B03E3EEB-2180-4F9D-9601-01E866907653}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

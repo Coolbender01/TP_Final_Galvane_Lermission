@@ -9,6 +9,14 @@
 							<ObjectRef Name="System" ID="{547B08BA-7F4D-4DAD-8320-03760F48DFCA}" WorkUnitID="{8FA79570-519B-4C07-AAC7-76D4B486F95D}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="MainCharacter" ID="{599C9CD5-2555-47BD-949E-D3B28CBFC8CB}"/>
+						<Bus Name="Ennemis" ID="{D921ECC2-95EE-4636-8716-4524E305F5D4}"/>
+						<AuxBus Name="ReverbZone_Small" ID="{3A47EB4C-B04E-4EDE-B8B3-81F4EBC451DF}"/>
+						<AuxBus Name="ReverbZone_Cavern" ID="{B14C7F03-B676-404E-9C8C-5E8BF7F07ABB}"/>
+						<AuxBus Name="ReverbZone_Big" ID="{B49B40C7-13A6-4457-905D-C904CF57E58B}"/>
+						<Bus Name="Ambiance" ID="{03157D0B-F98F-4BF9-896C-9D3E804E05BA}"/>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

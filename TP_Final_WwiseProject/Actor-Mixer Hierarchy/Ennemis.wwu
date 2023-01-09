@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{56CB0296-6F07-40FF-A50B-59C7E07AD1D9}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Ennemis" ID="{56CB0296-6F07-40FF-A50B-59C7E07AD1D9}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Chomper" ID="{A0759163-C9B6-4D67-90A2-4564036069DE}" PersistMode="Reference"/>
+				<WorkUnit Name="Grenadier" ID="{739B82B8-7145-4C77-B346-A6697320B36E}" PersistMode="Reference"/>
+				<WorkUnit Name="Spitter" ID="{F110358F-0D0F-4303-B70D-5BA91100D38A}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

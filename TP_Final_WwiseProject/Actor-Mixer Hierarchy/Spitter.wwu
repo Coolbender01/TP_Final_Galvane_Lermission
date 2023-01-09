@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F110358F-0D0F-4303-B70D-5BA91100D38A}" SchemaVersion="110" RootDocumentID="{56CB0296-6F07-40FF-A50B-59C7E07AD1D9}" ParentDocumentID="{56CB0296-6F07-40FF-A50B-59C7E07AD1D9}">
+	<AudioObjects>
+		<WorkUnit Name="Spitter" ID="{F110358F-0D0F-4303-B70D-5BA91100D38A}" OwnerID="{56CB0296-6F07-40FF-A50B-59C7E07AD1D9}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="@Spitter" ID="{C8371CD6-C246-4878-8DDD-7FEAC122E78B}" ShortID="829674526">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SwitchContainer Name="Footsteps" ID="{A39D9BD3-CB57-4530-B5D5-289E4864F3CE}" ShortID="555850376">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Switch_Dirt" ID="{623E008E-FC81-42E0-BF99-12E2F1282DD5}" WorkUnitID="{5EEEE47E-17F5-4633-9157-438DFE872318}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Footsteps" ID="{6242E891-0D99-438E-AD40-1249085F2C3E}" WorkUnitID="{5EEEE47E-17F5-4633-9157-438DFE872318}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="SP_Footsteps_Dirt" ID="{B02A01A9-50F5-48C4-881D-86C2D5075461}" ShortID="292885112">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SP_Footsteps_Grass" ID="{9CD37E56-38AE-4114-8A2A-05D7348FED50}" ShortID="765116162">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SP_Footsteps_Mud" ID="{DBB5A83B-D691-4E0F-B3F3-698F931A06F4}" ShortID="906252405">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SP_Footsteps_Stone" ID="{9D55026B-91A1-4627-8040-5BEE2A637BBC}" ShortID="866987789">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="SP_Footsteps_Mud" ID="{DBB5A83B-D691-4E0F-B3F3-698F931A06F4}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="SP_Footsteps_Grass" ID="{9CD37E56-38AE-4114-8A2A-05D7348FED50}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="SP_Footsteps_Stone" ID="{9D55026B-91A1-4627-8040-5BEE2A637BBC}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="SP_Footsteps_Dirt" ID="{B02A01A9-50F5-48C4-881D-86C2D5075461}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Switch_Stone" ID="{7A04C943-75EC-4C4B-BEC0-2CB009DA53C6}"/>
+										<ItemList>
+											<ItemRef Name="SP_Footsteps_Stone" ID="{9D55026B-91A1-4627-8040-5BEE2A637BBC}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Switch_Dirt" ID="{623E008E-FC81-42E0-BF99-12E2F1282DD5}"/>
+										<ItemList>
+											<ItemRef Name="SP_Footsteps_Dirt" ID="{B02A01A9-50F5-48C4-881D-86C2D5075461}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Switch_Mud" ID="{9B5EBEA9-3F44-426A-8BBE-2D4281B74642}"/>
+										<ItemList>
+											<ItemRef Name="SP_Footsteps_Mud" ID="{DBB5A83B-D691-4E0F-B3F3-698F931A06F4}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Switch_Grass" ID="{A797C1E8-9105-4C74-B19A-3CA887BF5F36}"/>
+										<ItemList>
+											<ItemRef Name="SP_Footsteps_Grass" ID="{9CD37E56-38AE-4114-8A2A-05D7348FED50}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
