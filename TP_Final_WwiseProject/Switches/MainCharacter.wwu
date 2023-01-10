@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{83B32B5F-F308-4E9C-978D-E48DD17DF45C}" SchemaVersion="110" RootDocumentID="{5EEEE47E-17F5-4633-9157-438DFE872318}" ParentDocumentID="{5EEEE47E-17F5-4633-9157-438DFE872318}">
+	<Switches>
+		<WorkUnit Name="MainCharacter" ID="{83B32B5F-F308-4E9C-978D-E48DD17DF45C}" OwnerID="{5EEEE47E-17F5-4633-9157-438DFE872318}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchGroup Name="Footsteps" ID="{6242E891-0D99-438E-AD40-1249085F2C3E}">
+					<ChildrenList>
+						<Switch Name="Switch_Mud" ID="{9B5EBEA9-3F44-426A-8BBE-2D4281B74642}"/>
+						<Switch Name="Switch_Grass" ID="{A797C1E8-9105-4C74-B19A-3CA887BF5F36}"/>
+						<Switch Name="Switch_Dirt" ID="{623E008E-FC81-42E0-BF99-12E2F1282DD5}"/>
+						<Switch Name="Switch_Stone" ID="{7A04C943-75EC-4C4B-BEC0-2CB009DA53C6}"/>
+						<Switch Name="Switch_Metal" ID="{F049C474-F5D5-47D1-860D-C975B26E441F}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="AttackCombo" ID="{11FC7EA5-6E07-457B-ADA3-96F1215BE9EE}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Combo01" ID="{5E713A80-011F-442B-A047-986F6A82A568}"/>
+						<Switch Name="Combo02" ID="{0205FADF-C4DF-431B-AA0E-82BA9E68517A}"/>
+						<Switch Name="Combo03" ID="{D06746D0-B7C6-431A-8D55-AFE1C066A1E8}"/>
+						<Switch Name="Combo04" ID="{9EA691C6-EDE0-43D4-A55B-1CCCD44917F7}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="AttackCombo" ID="{4924BD68-23EC-449C-A634-A3457BDE7AAC}"/>
+						<Curve Name="" ID="{13917CE1-BA64-4BA5-A15E-E6CF832EAE13}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>0</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>1.00062</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>2.00125</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>3.00187</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>3.99813</XPos>
+									<YPos>4</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>5</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

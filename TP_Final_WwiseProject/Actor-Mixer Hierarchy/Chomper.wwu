@@ -19,13 +19,13 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
 								</Reference>
 								<Reference Name="DefaultSwitchOrState">
-									<ObjectRef Name="Switch_Dirt" ID="{623E008E-FC81-42E0-BF99-12E2F1282DD5}" WorkUnitID="{5EEEE47E-17F5-4633-9157-438DFE872318}"/>
+									<ObjectRef Name="Switch_Dirt" ID="{623E008E-FC81-42E0-BF99-12E2F1282DD5}" WorkUnitID="{83B32B5F-F308-4E9C-978D-E48DD17DF45C}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
 								</Reference>
 								<Reference Name="SwitchGroupOrStateGroup">
-									<ObjectRef Name="Footsteps" ID="{6242E891-0D99-438E-AD40-1249085F2C3E}" WorkUnitID="{5EEEE47E-17F5-4633-9157-438DFE872318}"/>
+									<ObjectRef Name="Footsteps" ID="{6242E891-0D99-438E-AD40-1249085F2C3E}" WorkUnitID="{83B32B5F-F308-4E9C-978D-E48DD17DF45C}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
