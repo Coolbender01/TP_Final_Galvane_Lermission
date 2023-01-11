@@ -9,6 +9,176 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
+		<SoundBank Id="1290967234" Type="User" Language="SFX">
+			<ShortName>Spitter_SoundBank</ShortName>
+			<Path>Spitter_SoundBank.bnk</Path>
+			<Media>
+				<File Id="50923530" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Dirt-002.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Dirt-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="77456658" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Grass-003.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Grass-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="90159069" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Mud-001.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Mud-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="151233379" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Mud-004.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Mud-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="161496371" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Mud-005.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Mud-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="208791350" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MS02_WP_Projectile_Hit.wav</ShortName>
+					<CachePath>SFX/SFX_MS02_WP_Projectile_Hit_10C4C929.wem</CachePath>
+				</File>
+				<File Id="215377584" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Stone-005.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Stone-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="223463109" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Grass-002.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Grass-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="253880444" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Grass-005.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Grass-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="328049958" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Mud-002.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Mud-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="338832736" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Dirt-001.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Dirt-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="430432491" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MS02_WP_Projectile_Splat.wav</ShortName>
+					<CachePath>SFX/SFX_MS02_WP_Projectile_Splat_10C4C929.wem</CachePath>
+				</File>
+				<File Id="437962700" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MS02_WP_Projectile.wav</ShortName>
+					<CachePath>SFX/SFX_MS02_WP_Projectile_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="497480294" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Grass-001.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Grass-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="588175256" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Stone-001.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Stone-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="621238002" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Dirt-005.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Dirt-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="646633001" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Dirt-004.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Dirt-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="758695779" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Stone-003.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Stone-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="790390031" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Grass-004.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Grass-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="831853343" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Stone-004.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Stone-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="844551065" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Dirt-003.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Dirt-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="935473479" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Stone-002.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Stone-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="953202994" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Mud-003.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Mud-003_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2561501052" Name="Play_SP_FootStep" DurationType="OneShot" DurationMin="0.043270834" DurationMax="0.25239584">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2541504615"/>
+							<MediaRefs>
+								<MediaRef Id="215377584"/>
+								<MediaRef Id="588175256"/>
+								<MediaRef Id="758695779"/>
+								<MediaRef Id="831853343"/>
+								<MediaRef Id="935473479"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3262067523" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="50923530"/>
+								<MediaRef Id="338832736"/>
+								<MediaRef Id="621238002"/>
+								<MediaRef Id="646633001"/>
+								<MediaRef Id="844551065"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3817369922"/>
+							<MediaRefs>
+								<MediaRef Id="90159069"/>
+								<MediaRef Id="151233379"/>
+								<MediaRef Id="161496371"/>
+								<MediaRef Id="328049958"/>
+								<MediaRef Id="953202994"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2902377486"/>
+							<MediaRefs>
+								<MediaRef Id="77456658"/>
+								<MediaRef Id="223463109"/>
+								<MediaRef Id="253880444"/>
+								<MediaRef Id="497480294"/>
+								<MediaRef Id="790390031"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2046270727" Name="Play_SP_Projectile" MaxAttenuation="50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="437962700"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3525273781" Name="Play_SP_Projectile_Hit" DurationType="OneShot" DurationMin="2.477007" DurationMax="2.477007">
+					<MediaRefs>
+						<MediaRef Id="208791350"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3466111482" Name="Play_SP_Projectile_Splat" DurationType="OneShot" DurationMin="5.1519957" DurationMax="5.1519957">
+					<MediaRefs>
+						<MediaRef Id="430432491"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="Footsteps">
+					<Switches>
+						<Switch Id="1981379785" Name="Switch_Metal"/>
+						<Switch Id="2541504615" Name="Switch_Stone"/>
+						<Switch Id="2902377486" Name="Switch_Grass"/>
+						<Switch Id="3262067523" Name="Switch_Dirt"/>
+						<Switch Id="3817369922" Name="Switch_Mud"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{0A4E8705-C780-9955-3C70-6A441285293E}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -53,23 +223,260 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3157003241" Type="User" Language="SFX" Hash="{2F90D610-CFF9-82D9-5BC9-C43A589EE53D}">
-			<ShortName>Test</ShortName>
-			<Path>Test.bnk</Path>
+		<SoundBank Id="2458534638" Type="User" Language="SFX">
+			<ShortName>Grenadier_SoundBank</ShortName>
+			<Path>Grenadier_SoundBank.bnk</Path>
 			<Media>
-				<File Id="437962700" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_MS02_WP_Projectile.wav</ShortName>
-					<CachePath>SFX/SFX_MS02_WP_Projectile_D79FB2B7.wem</CachePath>
+				<File Id="50923530" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Dirt-002.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Dirt-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="270882786" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS03_FT_Stone-001.wav</ShortName>
+					<CachePath>SFX/MS03_FT_Stone-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="338832736" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Dirt-001.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Dirt-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="467646680" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS03_FT_Stone-004.wav</ShortName>
+					<CachePath>SFX/MS03_FT_Stone-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="621238002" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Dirt-005.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Dirt-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="646633001" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Dirt-004.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Dirt-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="835293703" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS03_FT_Stone-002.wav</ShortName>
+					<CachePath>SFX/MS03_FT_Stone-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="836619643" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS03_FT_Stone-005.wav</ShortName>
+					<CachePath>SFX/MS03_FT_Stone-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="844551065" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Dirt-003.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Dirt-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1031321835" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS03_FT_Stone-003.wav</ShortName>
+					<CachePath>SFX/MS03_FT_Stone-003_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3075902904" Name="Play_SFX_MS02_WP_Projectile" MaxAttenuation="50" DurationType="Infinite">
+				<Event Id="2547724478" Name="Play_GR_Footstep" DurationType="OneShot" DurationMin="0.050416667" DurationMax="0.5047917">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2541504615" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="270882786"/>
+								<MediaRef Id="467646680"/>
+								<MediaRef Id="835293703"/>
+								<MediaRef Id="836619643"/>
+								<MediaRef Id="1031321835"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3262067523"/>
+							<MediaRefs>
+								<MediaRef Id="50923530"/>
+								<MediaRef Id="338832736"/>
+								<MediaRef Id="621238002"/>
+								<MediaRef Id="646633001"/>
+								<MediaRef Id="844551065"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="Footsteps">
+					<Switches>
+						<Switch Id="1981379785" Name="Switch_Metal"/>
+						<Switch Id="2541504615" Name="Switch_Stone"/>
+						<Switch Id="2902377486" Name="Switch_Grass"/>
+						<Switch Id="3262067523" Name="Switch_Dirt"/>
+						<Switch Id="3817369922" Name="Switch_Mud"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="3105787907" Type="User" Language="SFX" Hash="{0D8BDD7D-518D-2B28-2051-619DE7EB228E}">
+			<ShortName>Chomper_SoundBank</ShortName>
+			<Path>Chomper_SoundBank.bnk</Path>
+			<Media>
+				<File Id="50923530" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Dirt-002.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Dirt-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="58085114" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MS01_WP_Hit-001.wav</ShortName>
+					<CachePath>SFX/SFX_MS01_WP_Hit-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="77456658" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Grass-003.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Grass-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="90159069" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Mud-001.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Mud-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="143820051" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MS01_WP_Hit-002.wav</ShortName>
+					<CachePath>SFX/SFX_MS01_WP_Hit-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="151233379" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Mud-004.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Mud-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="161496371" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Mud-005.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Mud-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="215377584" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Stone-005.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Stone-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="223463109" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Grass-002.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Grass-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="253880444" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Grass-005.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Grass-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="308880629" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MS01_WP_At.wav</ShortName>
+					<CachePath>SFX/SFX_MS01_WP_At_10C4C929.wem</CachePath>
+				</File>
+				<File Id="328049958" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Mud-002.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Mud-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="338832736" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Dirt-001.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Dirt-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="497480294" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Grass-001.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Grass-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="508255807" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MS01_WP_Hit-003.wav</ShortName>
+					<CachePath>SFX/SFX_MS01_WP_Hit-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="588175256" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Stone-001.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Stone-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="621238002" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Dirt-005.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Dirt-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="646633001" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Dirt-004.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Dirt-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="758695779" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Stone-003.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Stone-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="790390031" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Grass-004.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Grass-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="831853343" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Stone-004.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Stone-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="844551065" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Dirt-003.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Dirt-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="935473479" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Stone-002.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Stone-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="953202994" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_FT_Walk_Mud-003.wav</ShortName>
+					<CachePath>SFX/MS01_FT_Walk_Mud-003_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1456885134" Name="Play_CH_Attack" MaxAttenuation="6" DurationType="OneShot" DurationMin="1.1794558" DurationMax="1.1794558">
 					<MediaRefs>
-						<MediaRef Id="437962700"/>
+						<MediaRef Id="308880629"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1825440468" Name="Play_CH_FootStep" MaxAttenuation="6" DurationType="OneShot" DurationMin="0.043270834" DurationMax="0.25239584">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2541504615"/>
+							<MediaRefs>
+								<MediaRef Id="215377584"/>
+								<MediaRef Id="588175256"/>
+								<MediaRef Id="758695779"/>
+								<MediaRef Id="831853343"/>
+								<MediaRef Id="935473479"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3262067523" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="50923530"/>
+								<MediaRef Id="338832736"/>
+								<MediaRef Id="621238002"/>
+								<MediaRef Id="646633001"/>
+								<MediaRef Id="844551065"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3817369922"/>
+							<MediaRefs>
+								<MediaRef Id="90159069"/>
+								<MediaRef Id="151233379"/>
+								<MediaRef Id="161496371"/>
+								<MediaRef Id="328049958"/>
+								<MediaRef Id="953202994"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2902377486"/>
+							<MediaRefs>
+								<MediaRef Id="77456658"/>
+								<MediaRef Id="223463109"/>
+								<MediaRef Id="253880444"/>
+								<MediaRef Id="497480294"/>
+								<MediaRef Id="790390031"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2960666077" Name="Play_Hit" MaxAttenuation="6" DurationType="OneShot" DurationMin="0.6589116" DurationMax="0.77217686">
+					<MediaRefs>
+						<MediaRef Id="58085114"/>
+						<MediaRef Id="143820051"/>
+						<MediaRef Id="508255807"/>
 					</MediaRefs>
 				</Event>
 			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="Footsteps">
+					<Switches>
+						<Switch Id="1981379785" Name="Switch_Metal"/>
+						<Switch Id="2541504615" Name="Switch_Stone"/>
+						<Switch Id="2902377486" Name="Switch_Grass"/>
+						<Switch Id="3262067523" Name="Switch_Dirt"/>
+						<Switch Id="3817369922" Name="Switch_Mud"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7371118C-5CDD-2104-574B-15897AE4F4C8}</FileHash>
+	<FileHash>{3AE19C6D-9AAA-EE47-175B-A4FBCB6E38F6}</FileHash>
 </SoundBanksInfo>

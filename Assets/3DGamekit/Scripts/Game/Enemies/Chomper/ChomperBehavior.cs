@@ -35,18 +35,23 @@ namespace Gamekit3D
 
         [Header("Audio")]
         public RandomAudioPlayer attackAudio;
-        public RandomAudioPlayer frontStepAudio;
-        public RandomAudioPlayer backStepAudio;
+        /* public RandomAudioPlayer frontStepAudio;
+         public RandomAudioPlayer backStepAudio;*/
         public RandomAudioPlayer hitAudio;
-        public RandomAudioPlayer gruntAudio;
-        public RandomAudioPlayer deathAudio;
-        public RandomAudioPlayer spottedAudio;
+         public RandomAudioPlayer gruntAudio;
+         public RandomAudioPlayer deathAudio;
+         public RandomAudioPlayer spottedAudio; 
 
         protected float m_TimerSinceLostTarget = 0.0f;
 
         protected PlayerController m_Target = null;
         protected EnemyController m_Controller;
         protected TargetDistributor.TargetFollower m_FollowerInstance = null;
+
+        void Start()
+        {
+            AkSoundEngine.RegisterGameObj(gameObject);
+        }
 
         protected void OnEnable()
         {
@@ -61,16 +66,16 @@ namespace Gamekit3D
             SceneLinkedSMB<ChomperBehavior>.Initialise(m_Controller.animator, this);
         }
 
+
+
         /// <summary>
         /// Called by animation events.
         /// </summary>
         /// <param name="frontFoot">Has a value of 1 when it's a front foot stepping and 0 when it's a back foot.</param>
-        void PlayStep(int frontFoot)
+        void PlayStep()
         {
-            if (frontStepAudio != null && frontFoot == 1)
-                frontStepAudio.PlayRandomClip();
-            else if (backStepAudio != null && frontFoot == 0)
-                backStepAudio.PlayRandomClip ();
+                AkSoundEngine.PostEvent("Play_CH_FootStep", gameObject);
+
         }
 
         /// <summary>
@@ -86,7 +91,7 @@ namespace Gamekit3D
         {
             if (spottedAudio != null)
                 spottedAudio.PlayRandomClip();
-        }
+        } 
 
         protected void OnDisable()
         {

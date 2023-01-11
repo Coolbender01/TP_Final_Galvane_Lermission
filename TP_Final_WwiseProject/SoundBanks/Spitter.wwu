@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{41A1C74E-B1FD-41D4-B3FC-8DAEE5BDDD8B}" SchemaVersion="110" RootDocumentID="{9F591697-3B79-4603-9DCB-447972967BAC}" ParentDocumentID="{36341773-5FDD-4C74-AC4D-1385928A34FA}">
+	<SoundBanks>
+		<WorkUnit Name="Spitter" ID="{41A1C74E-B1FD-41D4-B3FC-8DAEE5BDDD8B}" OwnerID="{36341773-5FDD-4C74-AC4D-1385928A34FA}" PersistMode="Nested">
+			<ChildrenList>
+				<SoundBank Name="Spitter_SoundBank" ID="{DBC43447-762D-4565-A6E5-6CCB9ADEC25D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_SP_Projectile" ID="{5C6AA71C-7183-40AE-A08A-E0F7C56E8862}" WorkUnitID="{B08D371F-A60C-4172-AD7C-9A270DDA8884}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SP_Projectile_Hit" ID="{45CFE566-4B68-4340-9F89-88E994CBFEB6}" WorkUnitID="{B08D371F-A60C-4172-AD7C-9A270DDA8884}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SP_FootStep" ID="{27192C70-6230-43CF-BDB2-36E47A78ECDF}" WorkUnitID="{B08D371F-A60C-4172-AD7C-9A270DDA8884}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SP_Projectile_Splat" ID="{1FC49731-038C-4E2F-9DC3-97C0602281A0}" WorkUnitID="{B08D371F-A60C-4172-AD7C-9A270DDA8884}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

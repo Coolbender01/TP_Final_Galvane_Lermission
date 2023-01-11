@@ -3,13 +3,7 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{9F591697-3B79-4603-9DCB-447972967BAC}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Test" ID="{75DC6A75-84D3-482D-9BE8-982ADF4F8888}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Play_SFX_MS02_WP_Projectile" ID="{3E798D5E-26C8-49A0-B329-173EF8B9A1ED}" WorkUnitID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
+				<WorkUnit Name="Monstre" ID="{36341773-5FDD-4C74-AC4D-1385928A34FA}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

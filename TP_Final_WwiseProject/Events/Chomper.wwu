@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7F8B3F9A-B23B-4721-9366-F252328BCC4A}" SchemaVersion="110" RootDocumentID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" ParentDocumentID="{27B771D3-7C37-4469-83C6-4B740136E820}">
+	<Events>
+		<WorkUnit Name="Chomper" ID="{7F8B3F9A-B23B-4721-9366-F252328BCC4A}" OwnerID="{27B771D3-7C37-4469-83C6-4B740136E820}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Footsteps" ID="{4C1C1288-81BC-47E9-91FF-62496FA802ED}" ShortID="942635595">
+					<ChildrenList>
+						<Event Name="Play_CH_FootStep" ID="{DEC4A001-1858-4638-8AA7-CA883335CF40}">
+							<ChildrenList>
+								<Action Name="" ID="{A0656FBA-690C-4579-83BB-60C559CF03DA}" ShortID="525422445">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CH_Footsteps" ID="{D0C95FB2-80F7-48E3-BBB9-F110BA1644D1}" WorkUnitID="{A0759163-C9B6-4D67-90A2-4564036069DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Attack" ID="{3E89D40E-AC74-457B-82A5-81DBC290D2A8}" ShortID="174371292">
+					<ChildrenList>
+						<Event Name="Play_CH_Attack" ID="{2A4BC926-3C24-46DC-A6D3-8DA9C258EF5A}">
+							<ChildrenList>
+								<Action Name="" ID="{F6101D4A-2DC0-43A8-9277-C01C5A2265CC}" ShortID="379130759">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MS01_WP_Attack" ID="{56D4E451-6D0D-4F53-B2D1-820ADD1581FE}" WorkUnitID="{A0759163-C9B6-4D67-90A2-4564036069DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Foley" ID="{527282F1-22E5-48E5-BCD6-6D11B4EBAF18}" ShortID="231120388">
+					<ChildrenList>
+						<Event Name="Play_CH_Foley" ID="{ACA88C2D-7978-4178-A409-544126EEE4D4}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Die" ID="{A15D03CB-0A7B-4B44-9AA1-8AD848BA7CD0}" ShortID="268219167">
+					<ChildrenList>
+						<Event Name="Play_CH_Die" ID="{4965A9C3-A60C-4E71-85CF-773BC5F18524}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Hit" ID="{64734288-30C1-43B6-8709-5EC9FC304AD6}" ShortID="497064041">
+					<ChildrenList>
+						<Event Name="Play_Hit" ID="{3462BEA8-83C6-40FD-840C-CD7189CA3260}">
+							<ChildrenList>
+								<Action Name="" ID="{0CA9C074-428F-48CB-AF15-560837C3B8F7}" ShortID="710387719">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MS01_WP_Hit" ID="{F7448830-2968-4B2B-A537-0F4075A8234E}" WorkUnitID="{A0759163-C9B6-4D67-90A2-4564036069DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

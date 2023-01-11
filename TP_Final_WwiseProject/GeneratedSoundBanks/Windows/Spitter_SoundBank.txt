@@ -1,0 +1,41 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2046270727	Play_SP_Projectile			\Default Work Unit\Monstre\Spitter\Attack\Play_SP_Projectile	
+	2561501052	Play_SP_FootStep			\Default Work Unit\Monstre\Spitter\Footsteps\Play_SP_FootStep	
+	3466111482	Play_SP_Projectile_Splat			\Default Work Unit\Monstre\Spitter\Attack\Play_SP_Projectile_Splat	
+	3525273781	Play_SP_Projectile_Hit			\Default Work Unit\Monstre\Spitter\Attack\Play_SP_Projectile_Hit	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\MainCharacter\Footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	1981379785	Switch_Metal	Footsteps			
+	2541504615	Switch_Stone	Footsteps			
+	2902377486	Switch_Grass	Footsteps			
+	3262067523	Switch_Dirt	Footsteps			
+	3817369922	Switch_Mud	Footsteps			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	50923530	MS01_FT_Walk_Dirt-002	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS01_FT_Walk_Dirt-002_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Spitter\@Spitter\SP_Footsteps\SP_Footsteps_Dirt\MS01_FT_Walk_Dirt-002		4942
+	77456658	MS01_FT_Walk_Grass-003	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS01_FT_Walk_Grass-003_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Spitter\@Spitter\SP_Footsteps\SP_Footsteps_Grass\MS01_FT_Walk_Grass-003		11866
+	90159069	MS01_FT_Walk_Mud-001	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS01_FT_Walk_Mud-001_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Spitter\@Spitter\SP_Footsteps\SP_Footsteps_Mud\MS01_FT_Walk_Mud-001		22250
+	151233379	MS01_FT_Walk_Mud-004	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS01_FT_Walk_Mud-004_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Spitter\@Spitter\SP_Footsteps\SP_Footsteps_Mud\MS01_FT_Walk_Mud-004		22250
+	161496371	MS01_FT_Walk_Mud-005	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS01_FT_Walk_Mud-005_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Spitter\@Spitter\SP_Footsteps\SP_Footsteps_Mud\MS01_FT_Walk_Mud-005		13942
+	208791350	SFX_MS02_WP_Projectile_Hit	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\SFX_MS02_WP_Projectile_Hit_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Spitter\@Spitter\Attack\SFX_MS02_WP_Projectile_Hit		218568
+	215377584	MS01_FT_Walk_Stone-005	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS01_FT_Walk_Stone-005_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Spitter\@Spitter\SP_Footsteps\SP_Footsteps_Stone\MS01_FT_Walk_Stone-005		4250
+	223463109	MS01_FT_Walk_Grass-002	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS01_FT_Walk_Grass-002_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Spitter\@Spitter\SP_Footsteps\SP_Footsteps_Grass\MS01_FT_Walk_Grass-002		11866
+	253880444	MS01_FT_Walk_Grass-005	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS01_FT_Walk_Grass-005_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Spitter\@Spitter\SP_Footsteps\SP_Footsteps_Grass\MS01_FT_Walk_Grass-005		24326
+	328049958	MS01_FT_Walk_Mud-002	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS01_FT_Walk_Mud-002_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Spitter\@Spitter\SP_Footsteps\SP_Footsteps_Mud\MS01_FT_Walk_Mud-002		22250
+	338832736	MS01_FT_Walk_Dirt-001	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS01_FT_Walk_Dirt-001_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Spitter\@Spitter\SP_Footsteps\SP_Footsteps_Dirt\MS01_FT_Walk_Dirt-001		16712
+	430432491	SFX_MS02_WP_Projectile_Splat	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\SFX_MS02_WP_Projectile_Splat_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Spitter\@Spitter\Attack\SFX_MS02_WP_Projectile_Splat		454502
+	437962700	SFX_MS02_WP_Projectile	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\SFX_MS02_WP_Projectile_D79FB2B7.wem		\Actor-Mixer Hierarchy\Monster\Spitter\@Spitter\Attack\SFX_MS02_WP_Projectile		122694
+	497480294	MS01_FT_Walk_Grass-001	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS01_FT_Walk_Grass-001_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Spitter\@Spitter\SP_Footsteps\SP_Footsteps_Grass\MS01_FT_Walk_Grass-001		14634
+	588175256	MS01_FT_Walk_Stone-001	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS01_FT_Walk_Stone-001_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Spitter\@Spitter\SP_Footsteps\SP_Footsteps_Stone\MS01_FT_Walk_Stone-001		7020
+	621238002	MS01_FT_Walk_Dirt-005	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS01_FT_Walk_Dirt-005_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Spitter\@Spitter\SP_Footsteps\SP_Footsteps_Dirt\MS01_FT_Walk_Dirt-005		9780
+	646633001	MS01_FT_Walk_Dirt-004	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS01_FT_Walk_Dirt-004_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Spitter\@Spitter\SP_Footsteps\SP_Footsteps_Dirt\MS01_FT_Walk_Dirt-004		4936
+	758695779	MS01_FT_Walk_Stone-003	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS01_FT_Walk_Stone-003_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Spitter\@Spitter\SP_Footsteps\SP_Footsteps_Stone\MS01_FT_Walk_Stone-003		5634
+	790390031	MS01_FT_Walk_Grass-004	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS01_FT_Walk_Grass-004_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Spitter\@Spitter\SP_Footsteps\SP_Footsteps_Grass\MS01_FT_Walk_Grass-004		15326
+	831853343	MS01_FT_Walk_Stone-004	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS01_FT_Walk_Stone-004_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Spitter\@Spitter\SP_Footsteps\SP_Footsteps_Stone\MS01_FT_Walk_Stone-004		4942
+	844551065	MS01_FT_Walk_Dirt-003	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS01_FT_Walk_Dirt-003_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Spitter\@Spitter\SP_Footsteps\SP_Footsteps_Dirt\MS01_FT_Walk_Dirt-003		9788
+	935473479	MS01_FT_Walk_Stone-002	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS01_FT_Walk_Stone-002_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Spitter\@Spitter\SP_Footsteps\SP_Footsteps_Stone\MS01_FT_Walk_Stone-002		4942
+	953202994	MS01_FT_Walk_Mud-003	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS01_FT_Walk_Mud-003_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Spitter\@Spitter\SP_Footsteps\SP_Footsteps_Mud\MS01_FT_Walk_Mud-003		16712
+

@@ -1,6 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	3075902904	Play_SFX_MS02_WP_Projectile			\Default Work Unit\Play_SFX_MS02_WP_Projectile	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	437962700	SFX_MS02_WP_Projectile	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\SFX_MS02_WP_Projectile_D79FB2B7.wem		\Actor-Mixer Hierarchy\Monster\Spitter\@Spitter\Attack\SFX_MS02_WP_Projectile		122694
-

@@ -13,7 +13,14 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_SFX_MS02_WP_PROJECTILE = 3075902904U;
+        static const AkUniqueID PLAY_CH_ATTACK = 1456885134U;
+        static const AkUniqueID PLAY_CH_FOOTSTEP = 1825440468U;
+        static const AkUniqueID PLAY_GR_FOOTSTEP = 2547724478U;
+        static const AkUniqueID PLAY_HIT = 2960666077U;
+        static const AkUniqueID PLAY_SP_FOOTSTEP = 2561501052U;
+        static const AkUniqueID PLAY_SP_PROJECTILE = 2046270727U;
+        static const AkUniqueID PLAY_SP_PROJECTILE_HIT = 3525273781U;
+        static const AkUniqueID PLAY_SP_PROJECTILE_SPLAT = 3466111482U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -55,7 +62,9 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID TEST = 3157003241U;
+        static const AkUniqueID CHOMPER_SOUNDBANK = 3105787907U;
+        static const AkUniqueID GRENADIER_SOUNDBANK = 2458534638U;
+        static const AkUniqueID SPITTER_SOUNDBANK = 1290967234U;
     } // namespace BANKS
 
     namespace BUSSES

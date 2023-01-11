@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{36341773-5FDD-4C74-AC4D-1385928A34FA}" SchemaVersion="110" RootDocumentID="{9F591697-3B79-4603-9DCB-447972967BAC}" ParentDocumentID="{9F591697-3B79-4603-9DCB-447972967BAC}">
+	<SoundBanks>
+		<WorkUnit Name="Monstre" ID="{36341773-5FDD-4C74-AC4D-1385928A34FA}" OwnerID="{9F591697-3B79-4603-9DCB-447972967BAC}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="Chomper" ID="{4515C951-1EAB-4F50-A3E4-0A811D43467C}" PersistMode="Reference"/>
+				<WorkUnit Name="Grenadier" ID="{69ADF2A6-77C4-4832-A9D8-BAE4F681A341}" PersistMode="Reference"/>
+				<WorkUnit Name="Spitter" ID="{41A1C74E-B1FD-41D4-B3FC-8DAEE5BDDD8B}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

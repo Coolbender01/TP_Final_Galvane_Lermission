@@ -549,6 +549,7 @@
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
+						<Folder Name="Attack" ID="{7B7DA4B9-7723-4CF0-8C40-83BB2CF3390E}" ShortID="449383811"/>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

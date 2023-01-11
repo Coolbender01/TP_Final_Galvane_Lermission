@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{640EAD4F-2490-487D-90AC-594088D180D6}" SchemaVersion="110" RootDocumentID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" ParentDocumentID="{27B771D3-7C37-4469-83C6-4B740136E820}">
+	<Events>
+		<WorkUnit Name="Grenadier" ID="{640EAD4F-2490-487D-90AC-594088D180D6}" OwnerID="{27B771D3-7C37-4469-83C6-4B740136E820}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Attack" ID="{F5130B01-E122-4A24-85C4-9274F8A271BC}" ShortID="350904355">
+					<ChildrenList>
+						<Event Name="Play_GR_Attack" ID="{67D01130-74C4-4F1A-A4FA-C067C4BB8D37}">
+							<ChildrenList>
+								<Action Name="" ID="{CBEC7A9B-2381-4119-AEBE-B59110D41597}" ShortID="796711460"/>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Foley" ID="{F5180D7B-5E4C-49B8-A18B-496D5DC79082}" ShortID="917192901">
+					<ChildrenList>
+						<Event Name="Play_GR_Foley" ID="{8AE42BDF-744A-47DA-A38E-3B73516351E9}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Footsteps" ID="{DF4EC155-E3F1-42B5-B2B3-C9554932B54C}" ShortID="872780527">
+					<ChildrenList>
+						<Event Name="Play_GR_Footstep" ID="{4A826DF4-76CC-46A5-BEBF-496AF504EFC8}">
+							<ChildrenList>
+								<Action Name="" ID="{220AFB36-57FA-4593-917B-3C4A408DF501}" ShortID="408066868">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GR_Footsteps" ID="{19171E1F-EE4A-49A5-A067-894AE36E3F11}" WorkUnitID="{739B82B8-7145-4C77-B346-A6697320B36E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Die" ID="{4036BBFF-54D2-45DD-9E86-9DC0FB2DD33A}" ShortID="399031839">
+					<ChildrenList>
+						<Event Name="Play_GR_Die" ID="{70423467-45E3-4069-83B0-2AE2FCE87A41}"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

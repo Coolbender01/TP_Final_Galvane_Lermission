@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4515C951-1EAB-4F50-A3E4-0A811D43467C}" SchemaVersion="110" RootDocumentID="{9F591697-3B79-4603-9DCB-447972967BAC}" ParentDocumentID="{36341773-5FDD-4C74-AC4D-1385928A34FA}">
+	<SoundBanks>
+		<WorkUnit Name="Chomper" ID="{4515C951-1EAB-4F50-A3E4-0A811D43467C}" OwnerID="{36341773-5FDD-4C74-AC4D-1385928A34FA}" PersistMode="Nested">
+			<ChildrenList>
+				<SoundBank Name="Chomper_SoundBank" ID="{65F180EE-D89E-4CA5-A8E1-3E69FBE2920A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Hit" ID="{3462BEA8-83C6-40FD-840C-CD7189CA3260}" WorkUnitID="{7F8B3F9A-B23B-4721-9366-F252328BCC4A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CH_FootStep" ID="{DEC4A001-1858-4638-8AA7-CA883335CF40}" WorkUnitID="{7F8B3F9A-B23B-4721-9366-F252328BCC4A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CH_Attack" ID="{2A4BC926-3C24-46DC-A6D3-8DA9C258EF5A}" WorkUnitID="{7F8B3F9A-B23B-4721-9366-F252328BCC4A}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

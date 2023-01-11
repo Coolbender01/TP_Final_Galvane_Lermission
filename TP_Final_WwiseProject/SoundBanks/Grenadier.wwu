@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{69ADF2A6-77C4-4832-A9D8-BAE4F681A341}" SchemaVersion="110" RootDocumentID="{9F591697-3B79-4603-9DCB-447972967BAC}" ParentDocumentID="{36341773-5FDD-4C74-AC4D-1385928A34FA}">
+	<SoundBanks>
+		<WorkUnit Name="Grenadier" ID="{69ADF2A6-77C4-4832-A9D8-BAE4F681A341}" OwnerID="{36341773-5FDD-4C74-AC4D-1385928A34FA}" PersistMode="Nested">
+			<ChildrenList>
+				<SoundBank Name="Grenadier_SoundBank" ID="{9578A482-DD6A-4C5F-8242-33415911CF8A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_GR_Footstep" ID="{4A826DF4-76CC-46A5-BEBF-496AF504EFC8}" WorkUnitID="{640EAD4F-2490-487D-90AC-594088D180D6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

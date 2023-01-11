@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 6bfbccf4d2879c4583fb448e8130ba97
     GuidInternal: 
-    m_lastTime: -8585285072693979694
+    m_lastTime: -8585285128791435803
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: c096f127753d3c4da6341e50f5479ee5
     GuidInternal: 
-    m_lastTime: -8585282468319374651
+    m_lastTime: -8585283305295896887
     List:
     - name: Ambiance
       guid: 0b7d15038ff9f94b896c9d3e804e05ba
@@ -157,6 +157,45 @@ MonoBehaviour:
         guid: 4ceb473a4eb0de4eb8b381f4ebc451df
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ReverbZone_Small
   BankWwu:
+  - PhysicalPath: SoundBanks\Chomper.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9716599f793b03469dcb447972967bac
+    - ElementName: Monstre
+      ObjectType: 12
+      guid: 73173436dd5f744cac4d1385928a34fa
+    - ElementName: Chomper
+      ObjectType: 12
+      guid: 51c91545ab1e504fa3e40a811d43467c
+    ParentPath: SoundBanks\Default Work Unit\Monstre\Chomper
+    guid: 51c91545ab1e504fa3e40a811d43467c
+    GuidInternal: 
+    m_lastTime: -8585281322571777401
+    List:
+    - name: Chomper_SoundBank
+      guid: ee80f1659ed8a54ca8e13e69fbe2920a
+      id: 3105787907
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9716599f793b03469dcb447972967bac
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: 73173436dd5f744cac4d1385928a34fa
+      - ElementName: Chomper
+        ObjectType: 12
+        guid: 51c91545ab1e504fa3e40a811d43467c
+      - ElementName: Chomper_SoundBank
+        ObjectType: 7
+        guid: ee80f1659ed8a54ca8e13e69fbe2920a
+      Path: SoundBanks\Default Work Unit\Monstre\Chomper\Chomper_SoundBank
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
@@ -168,9 +207,367 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 9716599f793b03469dcb447972967bac
     GuidInternal: 
-    m_lastTime: -8585282468348782458
+    m_lastTime: -8585281271320215189
     List: []
+  - PhysicalPath: SoundBanks\Grenadier.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9716599f793b03469dcb447972967bac
+    - ElementName: Monstre
+      ObjectType: 12
+      guid: 73173436dd5f744cac4d1385928a34fa
+    - ElementName: Grenadier
+      ObjectType: 12
+      guid: a6f2ad69c4773248a9d8bae4f681a341
+    ParentPath: SoundBanks\Default Work Unit\Monstre\Grenadier
+    guid: a6f2ad69c4773248a9d8bae4f681a341
+    GuidInternal: 
+    m_lastTime: -8585281322571867146
+    List:
+    - name: Grenadier_SoundBank
+      guid: 82a478956add5f4c824233415911cf8a
+      id: 2458534638
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9716599f793b03469dcb447972967bac
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: 73173436dd5f744cac4d1385928a34fa
+      - ElementName: Grenadier
+        ObjectType: 12
+        guid: a6f2ad69c4773248a9d8bae4f681a341
+      - ElementName: Grenadier_SoundBank
+        ObjectType: 7
+        guid: 82a478956add5f4c824233415911cf8a
+      Path: SoundBanks\Default Work Unit\Monstre\Grenadier\Grenadier_SoundBank
+  - PhysicalPath: SoundBanks\Monstre.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9716599f793b03469dcb447972967bac
+    - ElementName: Monstre
+      ObjectType: 12
+      guid: 73173436dd5f744cac4d1385928a34fa
+    ParentPath: SoundBanks\Default Work Unit\Monstre
+    guid: 73173436dd5f744cac4d1385928a34fa
+    GuidInternal: 
+    m_lastTime: -8585281322572291802
+    List: []
+  - PhysicalPath: SoundBanks\Spitter.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9716599f793b03469dcb447972967bac
+    - ElementName: Monstre
+      ObjectType: 12
+      guid: 73173436dd5f744cac4d1385928a34fa
+    - ElementName: Spitter
+      ObjectType: 12
+      guid: 4ec7a141fdb1d441b3fc8daee5bddd8b
+    ParentPath: SoundBanks\Default Work Unit\Monstre\Spitter
+    guid: 4ec7a141fdb1d441b3fc8daee5bddd8b
+    GuidInternal: 
+    m_lastTime: -8585281322571966873
+    List:
+    - name: Spitter_SoundBank
+      guid: 4734c4db2d766545a6e56ccb9adec25d
+      id: 1290967234
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9716599f793b03469dcb447972967bac
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: 73173436dd5f744cac4d1385928a34fa
+      - ElementName: Spitter
+        ObjectType: 12
+        guid: 4ec7a141fdb1d441b3fc8daee5bddd8b
+      - ElementName: Spitter_SoundBank
+        ObjectType: 7
+        guid: 4734c4db2d766545a6e56ccb9adec25d
+      Path: SoundBanks\Default Work Unit\Monstre\Spitter\Spitter_SoundBank
   EventWwu:
+  - PhysicalPath: Events\Chomper.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9fe65a885223ee4c989d7397dfbf3795
+    - ElementName: Monstre
+      ObjectType: 12
+      guid: d371b727377c694483c64b740136e820
+    - ElementName: Chomper
+      ObjectType: 12
+      guid: 9a3f8b7f3bb221479366f252328bcc4a
+    ParentPath: Events\Default Work Unit\Monstre\Chomper
+    guid: 9a3f8b7f3bb221479366f252328bcc4a
+    GuidInternal: 
+    m_lastTime: -8585281322572501248
+    List:
+    - name: Attack
+      guid: 0ed4893e74ac7b4582a581dbc290d2a8
+      id: 180661997
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Chomper
+        ObjectType: 12
+        guid: 9a3f8b7f3bb221479366f252328bcc4a
+      - ElementName: Attack
+        ObjectType: 4
+        guid: 0ed4893e74ac7b4582a581dbc290d2a8
+      Path: Events\Default Work Unit\Monstre\Chomper\Attack
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Die
+      guid: cb035da17b0a444b9aa18ad848ba7cd0
+      id: 445985469
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Chomper
+        ObjectType: 12
+        guid: 9a3f8b7f3bb221479366f252328bcc4a
+      - ElementName: Die
+        ObjectType: 4
+        guid: cb035da17b0a444b9aa18ad848ba7cd0
+      Path: Events\Default Work Unit\Monstre\Chomper\Die
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Foley
+      guid: f1827252e522e548bcd66d11b4ebaf18
+      id: 247557814
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Chomper
+        ObjectType: 12
+        guid: 9a3f8b7f3bb221479366f252328bcc4a
+      - ElementName: Foley
+        ObjectType: 4
+        guid: f1827252e522e548bcd66d11b4ebaf18
+      Path: Events\Default Work Unit\Monstre\Chomper\Foley
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Footsteps
+      guid: 88121c4cbc81e94791ff62496fa802ed
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Chomper
+        ObjectType: 12
+        guid: 9a3f8b7f3bb221479366f252328bcc4a
+      - ElementName: Footsteps
+        ObjectType: 4
+        guid: 88121c4cbc81e94791ff62496fa802ed
+      Path: Events\Default Work Unit\Monstre\Chomper\Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Hit
+      guid: 88427364c130b64387095ec9fc304ad6
+      id: 1116398592
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Chomper
+        ObjectType: 12
+        guid: 9a3f8b7f3bb221479366f252328bcc4a
+      - ElementName: Hit
+        ObjectType: 4
+        guid: 88427364c130b64387095ec9fc304ad6
+      Path: Events\Default Work Unit\Monstre\Chomper\Hit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_CH_Attack
+      guid: 26c94b2a243cdc46a6d38da9c258ef5a
+      id: 1456885134
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Chomper
+        ObjectType: 12
+        guid: 9a3f8b7f3bb221479366f252328bcc4a
+      - ElementName: Attack
+        ObjectType: 4
+        guid: 0ed4893e74ac7b4582a581dbc290d2a8
+      - ElementName: Play_CH_Attack
+        ObjectType: 3
+        guid: 26c94b2a243cdc46a6d38da9c258ef5a
+      Path: Events\Default Work Unit\Monstre\Chomper\Attack\Play_CH_Attack
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_CH_Die
+      guid: c3a965490ca6714e85cf773bc5f18524
+      id: 1383584624
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Chomper
+        ObjectType: 12
+        guid: 9a3f8b7f3bb221479366f252328bcc4a
+      - ElementName: Die
+        ObjectType: 4
+        guid: cb035da17b0a444b9aa18ad848ba7cd0
+      - ElementName: Play_CH_Die
+        ObjectType: 3
+        guid: c3a965490ca6714e85cf773bc5f18524
+      Path: Events\Default Work Unit\Monstre\Chomper\Die\Play_CH_Die
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_CH_Foley
+      guid: 2d8ca8ac78797841a409544126eee4d4
+      id: 2126508771
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Chomper
+        ObjectType: 12
+        guid: 9a3f8b7f3bb221479366f252328bcc4a
+      - ElementName: Foley
+        ObjectType: 4
+        guid: f1827252e522e548bcd66d11b4ebaf18
+      - ElementName: Play_CH_Foley
+        ObjectType: 3
+        guid: 2d8ca8ac78797841a409544126eee4d4
+      Path: Events\Default Work Unit\Monstre\Chomper\Foley\Play_CH_Foley
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_CH_FootStep
+      guid: 01a0c4de581838468aa7ca883335cf40
+      id: 1825440468
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Chomper
+        ObjectType: 12
+        guid: 9a3f8b7f3bb221479366f252328bcc4a
+      - ElementName: Footsteps
+        ObjectType: 4
+        guid: 88121c4cbc81e94791ff62496fa802ed
+      - ElementName: Play_CH_FootStep
+        ObjectType: 3
+        guid: 01a0c4de581838468aa7ca883335cf40
+      Path: Events\Default Work Unit\Monstre\Chomper\Footsteps\Play_CH_FootStep
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Hit
+      guid: a8be6234c683fd40840ccd7189ca3260
+      id: 2960666077
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Chomper
+        ObjectType: 12
+        guid: 9a3f8b7f3bb221479366f252328bcc4a
+      - ElementName: Hit
+        ObjectType: 4
+        guid: 88427364c130b64387095ec9fc304ad6
+      - ElementName: Play_Hit
+        ObjectType: 3
+        guid: a8be6234c683fd40840ccd7189ca3260
+      Path: Events\Default Work Unit\Monstre\Chomper\Hit\Play_Hit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -182,8 +579,523 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 9fe65a885223ee4c989d7397dfbf3795
     GuidInternal: 
-    m_lastTime: -8585282468348787422
+    m_lastTime: -8585281322571388438
+    List:
+    - name: Play_SFX_MS02_WP_Projectile
+      guid: 5e8d793ec826a049b329173ef8b9a1ed
+      id: 3075902904
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Play_SFX_MS02_WP_Projectile
+        ObjectType: 3
+        guid: 5e8d793ec826a049b329173ef8b9a1ed
+      Path: Events\Default Work Unit\Play_SFX_MS02_WP_Projectile
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\Grenadier.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9fe65a885223ee4c989d7397dfbf3795
+    - ElementName: Monstre
+      ObjectType: 12
+      guid: d371b727377c694483c64b740136e820
+    - ElementName: Grenadier
+      ObjectType: 12
+      guid: 4fad0e6490247d4890ac594088d180d6
+    ParentPath: Events\Default Work Unit\Monstre\Grenadier
+    guid: 4fad0e6490247d4890ac594088d180d6
+    GuidInternal: 
+    m_lastTime: -8585281322572192085
+    List:
+    - name: Attack
+      guid: 010b13f522e1244a85c49274f8a271bc
+      id: 180661997
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Grenadier
+        ObjectType: 12
+        guid: 4fad0e6490247d4890ac594088d180d6
+      - ElementName: Attack
+        ObjectType: 4
+        guid: 010b13f522e1244a85c49274f8a271bc
+      Path: Events\Default Work Unit\Monstre\Grenadier\Attack
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Die
+      guid: ffbb3640d254dd459e869dc0fb2dd33a
+      id: 445985469
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Grenadier
+        ObjectType: 12
+        guid: 4fad0e6490247d4890ac594088d180d6
+      - ElementName: Die
+        ObjectType: 4
+        guid: ffbb3640d254dd459e869dc0fb2dd33a
+      Path: Events\Default Work Unit\Monstre\Grenadier\Die
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Foley
+      guid: 7b0d18f54c5eb849a18b496d5dc79082
+      id: 247557814
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Grenadier
+        ObjectType: 12
+        guid: 4fad0e6490247d4890ac594088d180d6
+      - ElementName: Foley
+        ObjectType: 4
+        guid: 7b0d18f54c5eb849a18b496d5dc79082
+      Path: Events\Default Work Unit\Monstre\Grenadier\Foley
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Footsteps
+      guid: 55c14edff1e3b542b2b3c9554932b54c
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Grenadier
+        ObjectType: 12
+        guid: 4fad0e6490247d4890ac594088d180d6
+      - ElementName: Footsteps
+        ObjectType: 4
+        guid: 55c14edff1e3b542b2b3c9554932b54c
+      Path: Events\Default Work Unit\Monstre\Grenadier\Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GR_Attack
+      guid: 3011d067c4741a4fa4fac067c4bb8d37
+      id: 3040080128
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Grenadier
+        ObjectType: 12
+        guid: 4fad0e6490247d4890ac594088d180d6
+      - ElementName: Attack
+        ObjectType: 4
+        guid: 010b13f522e1244a85c49274f8a271bc
+      - ElementName: Play_GR_Attack
+        ObjectType: 3
+        guid: 3011d067c4741a4fa4fac067c4bb8d37
+      Path: Events\Default Work Unit\Monstre\Grenadier\Attack\Play_GR_Attack
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GR_Die
+      guid: 67344270e345694083b02ae2fce87a41
+      id: 1350860350
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Grenadier
+        ObjectType: 12
+        guid: 4fad0e6490247d4890ac594088d180d6
+      - ElementName: Die
+        ObjectType: 4
+        guid: ffbb3640d254dd459e869dc0fb2dd33a
+      - ElementName: Play_GR_Die
+        ObjectType: 3
+        guid: 67344270e345694083b02ae2fce87a41
+      Path: Events\Default Work Unit\Monstre\Grenadier\Die\Play_GR_Die
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GR_Foley
+      guid: df2be48a4a74da47a38e3b73516351e9
+      id: 1061440777
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Grenadier
+        ObjectType: 12
+        guid: 4fad0e6490247d4890ac594088d180d6
+      - ElementName: Foley
+        ObjectType: 4
+        guid: 7b0d18f54c5eb849a18b496d5dc79082
+      - ElementName: Play_GR_Foley
+        ObjectType: 3
+        guid: df2be48a4a74da47a38e3b73516351e9
+      Path: Events\Default Work Unit\Monstre\Grenadier\Foley\Play_GR_Foley
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GR_Footstep
+      guid: f46d824acc76a546bebf496af504efc8
+      id: 2547724478
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Grenadier
+        ObjectType: 12
+        guid: 4fad0e6490247d4890ac594088d180d6
+      - ElementName: Footsteps
+        ObjectType: 4
+        guid: 55c14edff1e3b542b2b3c9554932b54c
+      - ElementName: Play_GR_Footstep
+        ObjectType: 3
+        guid: f46d824acc76a546bebf496af504efc8
+      Path: Events\Default Work Unit\Monstre\Grenadier\Footsteps\Play_GR_Footstep
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\Monstre.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9fe65a885223ee4c989d7397dfbf3795
+    - ElementName: Monstre
+      ObjectType: 12
+      guid: d371b727377c694483c64b740136e820
+    ParentPath: Events\Default Work Unit\Monstre
+    guid: d371b727377c694483c64b740136e820
+    GuidInternal: 
+    m_lastTime: -8585281322572076593
     List: []
+  - PhysicalPath: Events\Spitter.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9fe65a885223ee4c989d7397dfbf3795
+    - ElementName: Monstre
+      ObjectType: 12
+      guid: d371b727377c694483c64b740136e820
+    - ElementName: Spitter
+      ObjectType: 12
+      guid: 1f378db00ca67241ad7c9a270dda8884
+    ParentPath: Events\Default Work Unit\Monstre\Spitter
+    guid: 1f378db00ca67241ad7c9a270dda8884
+    GuidInternal: 
+    m_lastTime: -8585281322572401509
+    List:
+    - name: Attack
+      guid: 6825c5cdad11424496fdcd055a684992
+      id: 180661997
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Spitter
+        ObjectType: 12
+        guid: 1f378db00ca67241ad7c9a270dda8884
+      - ElementName: Attack
+        ObjectType: 4
+        guid: 6825c5cdad11424496fdcd055a684992
+      Path: Events\Default Work Unit\Monstre\Spitter\Attack
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Die
+      guid: 1f15cb2ad029ac4eac0acf987df13ad1
+      id: 445985469
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Spitter
+        ObjectType: 12
+        guid: 1f378db00ca67241ad7c9a270dda8884
+      - ElementName: Die
+        ObjectType: 4
+        guid: 1f15cb2ad029ac4eac0acf987df13ad1
+      Path: Events\Default Work Unit\Monstre\Spitter\Die
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Foley
+      guid: 05c0cc1fcaa5e9429bef7c0abc4b8496
+      id: 247557814
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Spitter
+        ObjectType: 12
+        guid: 1f378db00ca67241ad7c9a270dda8884
+      - ElementName: Foley
+        ObjectType: 4
+        guid: 05c0cc1fcaa5e9429bef7c0abc4b8496
+      Path: Events\Default Work Unit\Monstre\Spitter\Foley
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Footsteps
+      guid: e4f3d53dc2d37447a315c39bbef9bea4
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Spitter
+        ObjectType: 12
+        guid: 1f378db00ca67241ad7c9a270dda8884
+      - ElementName: Footsteps
+        ObjectType: 4
+        guid: e4f3d53dc2d37447a315c39bbef9bea4
+      Path: Events\Default Work Unit\Monstre\Spitter\Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SP_Die
+      guid: e17049fa9562b04ba5d6cd69a82bfe25
+      id: 568765208
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Spitter
+        ObjectType: 12
+        guid: 1f378db00ca67241ad7c9a270dda8884
+      - ElementName: Die
+        ObjectType: 4
+        guid: 1f15cb2ad029ac4eac0acf987df13ad1
+      - ElementName: Play_SP_Die
+        ObjectType: 3
+        guid: e17049fa9562b04ba5d6cd69a82bfe25
+      Path: Events\Default Work Unit\Monstre\Spitter\Die\Play_SP_Die
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SP_Foley
+      guid: d12d393961a0df409561d82726179569
+      id: 3885997515
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Spitter
+        ObjectType: 12
+        guid: 1f378db00ca67241ad7c9a270dda8884
+      - ElementName: Foley
+        ObjectType: 4
+        guid: 05c0cc1fcaa5e9429bef7c0abc4b8496
+      - ElementName: Play_SP_Foley
+        ObjectType: 3
+        guid: d12d393961a0df409561d82726179569
+      Path: Events\Default Work Unit\Monstre\Spitter\Foley\Play_SP_Foley
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SP_FootStep
+      guid: 702c19273062cf43bdb236e47a78ecdf
+      id: 2561501052
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Spitter
+        ObjectType: 12
+        guid: 1f378db00ca67241ad7c9a270dda8884
+      - ElementName: Footsteps
+        ObjectType: 4
+        guid: e4f3d53dc2d37447a315c39bbef9bea4
+      - ElementName: Play_SP_FootStep
+        ObjectType: 3
+        guid: 702c19273062cf43bdb236e47a78ecdf
+      Path: Events\Default Work Unit\Monstre\Spitter\Footsteps\Play_SP_FootStep
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SP_Projectile
+      guid: 1ca76a5c8371ae40a08ae0f7c56e8862
+      id: 2046270727
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Spitter
+        ObjectType: 12
+        guid: 1f378db00ca67241ad7c9a270dda8884
+      - ElementName: Attack
+        ObjectType: 4
+        guid: 6825c5cdad11424496fdcd055a684992
+      - ElementName: Play_SP_Projectile
+        ObjectType: 3
+        guid: 1ca76a5c8371ae40a08ae0f7c56e8862
+      Path: Events\Default Work Unit\Monstre\Spitter\Attack\Play_SP_Projectile
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SP_Projectile_Hit
+      guid: 66e5cf45684b40439f8988e994cbfeb6
+      id: 3525273781
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Spitter
+        ObjectType: 12
+        guid: 1f378db00ca67241ad7c9a270dda8884
+      - ElementName: Attack
+        ObjectType: 4
+        guid: 6825c5cdad11424496fdcd055a684992
+      - ElementName: Play_SP_Projectile_Hit
+        ObjectType: 3
+        guid: 66e5cf45684b40439f8988e994cbfeb6
+      Path: Events\Default Work Unit\Monstre\Spitter\Attack\Play_SP_Projectile_Hit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SP_Projectile_Splat
+      guid: 3197c41f8c032f4e9dc397c0602281a0
+      id: 3466111482
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Spitter
+        ObjectType: 12
+        guid: 1f378db00ca67241ad7c9a270dda8884
+      - ElementName: Attack
+        ObjectType: 4
+        guid: 6825c5cdad11424496fdcd055a684992
+      - ElementName: Play_SP_Projectile_Splat
+        ObjectType: 3
+        guid: 3197c41f8c032f4e9dc397c0602281a0
+      Path: Events\Default Work Unit\Monstre\Spitter\Attack\Play_SP_Projectile_Splat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -196,7 +1108,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 6177523adf1fa145bf9b15df962a95d6
     GuidInternal: 
-    m_lastTime: -8585282468319389521
+    m_lastTime: -8585282335944248263
     List:
     - name: AttackCombo
       guid: 68bd2449ec239c44a634a3457bde7aac
@@ -224,7 +1136,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 5413541f34608d42a38adfa44c3050f6
     GuidInternal: 
-    m_lastTime: -8585285072694044180
+    m_lastTime: -8585285128790277732
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -238,7 +1150,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 7ee4ee5ef51733469157438dfe872318
     GuidInternal: 
-    m_lastTime: -8585282468318764562
+    m_lastTime: -8585282471688854067
     List: []
   - PhysicalPath: Switches\MainCharacter.wwu
     PathAndIcons:
@@ -254,7 +1166,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit\MainCharacter
     guid: 5f2bb38308f39c4e978de48dd17df45c
     GuidInternal: 
-    m_lastTime: -8585282468318754645
+    m_lastTime: -8585282471688614727
     List:
     - name: AttackCombo
       guid: a57efc11076e7b45ada396f1215be9ee
@@ -481,10 +1393,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: ecdb515c75889443906583e44bbf6ef1
     GuidInternal: 
-    m_lastTime: -8585285072693989613
+    m_lastTime: -8585285128790736503
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 06000000070000000a0000000b000000
+  ExpandedWaapiItemIds: 0500000006000000070000000c0000000d0000000e0000001a00000022000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
