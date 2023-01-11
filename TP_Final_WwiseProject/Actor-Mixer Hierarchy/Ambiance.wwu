@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{2132E58F-D328-41BE-A2EE-593EB76956B8}" SchemaVersion="110">
 	<AudioObjects>
 		<WorkUnit Name="Ambiance" ID="{2132E58F-D328-41BE-A2EE-593EB76956B8}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<WorkUnit Name="SFX" ID="{319E310B-712E-47B1-8C64-E5DA76F88FC5}" PersistMode="Reference"/>
 				<WorkUnit Name="RFX" ID="{A12C285A-29D3-49DD-985E-49EF86231368}" PersistMode="Reference"/>

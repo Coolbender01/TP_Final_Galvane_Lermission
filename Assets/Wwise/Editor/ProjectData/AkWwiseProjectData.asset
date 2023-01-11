@@ -38,8 +38,59 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: c096f127753d3c4da6341e50f5479ee5
     GuidInternal: 
-    m_lastTime: -8585285072694170395
+    m_lastTime: -8585282468319374651
     List:
+    - name: Ambiance
+      guid: 0b7d15038ff9f94b896c9d3e804e05ba
+      id: 2981377429
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c096f127753d3c4da6341e50f5479ee5
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Ambiance
+        ObjectType: 2
+        guid: 0b7d15038ff9f94b896c9d3e804e05ba
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambiance
+    - name: Ennemis
+      guid: c2ec21d9ee95364687164524e305f5d4
+      id: 1507798120
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c096f127753d3c4da6341e50f5479ee5
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Ennemis
+        ObjectType: 2
+        guid: c2ec21d9ee95364687164524e305f5d4
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ennemis
+    - name: MainCharacter
+      guid: d59c9c595525bd47949ed3b28cbfc8cb
+      id: 1518239843
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c096f127753d3c4da6341e50f5479ee5
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: MainCharacter
+        ObjectType: 2
+        guid: d59c9c595525bd47949ed3b28cbfc8cb
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MainCharacter
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -54,6 +105,57 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: ReverbZone_Big
+      guid: c7409bb4a6135744905dc904cf57e58b
+      id: 3193884120
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c096f127753d3c4da6341e50f5479ee5
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: ReverbZone_Big
+        ObjectType: 1
+        guid: c7409bb4a6135744905dc904cf57e58b
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ReverbZone_Big
+    - name: ReverbZone_Cavern
+      guid: 037f4cb176b64e409c8c5e8bf7f07abb
+      id: 1438224957
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c096f127753d3c4da6341e50f5479ee5
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: ReverbZone_Cavern
+        ObjectType: 1
+        guid: 037f4cb176b64e409c8c5e8bf7f07abb
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ReverbZone_Cavern
+    - name: ReverbZone_Small
+      guid: 4ceb473a4eb0de4eb8b381f4ebc451df
+      id: 2399250375
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c096f127753d3c4da6341e50f5479ee5
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: ReverbZone_Small
+        ObjectType: 1
+        guid: 4ceb473a4eb0de4eb8b381f4ebc451df
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\ReverbZone_Small
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -66,7 +168,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 9716599f793b03469dcb447972967bac
     GuidInternal: 
-    m_lastTime: -8585285072694083860
+    m_lastTime: -8585282468348782458
     List: []
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
@@ -80,7 +182,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 9fe65a885223ee4c989d7397dfbf3795
     GuidInternal: 
-    m_lastTime: -8585285072694195382
+    m_lastTime: -8585282468348787422
     List: []
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
@@ -94,8 +196,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 6177523adf1fa145bf9b15df962a95d6
     GuidInternal: 
-    m_lastTime: -8585285072694185468
-    List: []
+    m_lastTime: -8585282468319389521
+    List:
+    - name: AttackCombo
+      guid: 68bd2449ec239c44a634a3457bde7aac
+      id: 1347076325
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6177523adf1fa145bf9b15df962a95d6
+      - ElementName: AttackCombo
+        ObjectType: 13
+        guid: 68bd2449ec239c44a634a3457bde7aac
+      Path: Game Parameters\Default Work Unit\AttackCombo
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -122,8 +238,237 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 7ee4ee5ef51733469157438dfe872318
     GuidInternal: 
-    m_lastTime: -8585285072694034259
+    m_lastTime: -8585282468318764562
     List: []
+  - PhysicalPath: Switches\MainCharacter.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 7ee4ee5ef51733469157438dfe872318
+    - ElementName: MainCharacter
+      ObjectType: 12
+      guid: 5f2bb38308f39c4e978de48dd17df45c
+    ParentPath: Switches\Default Work Unit\MainCharacter
+    guid: 5f2bb38308f39c4e978de48dd17df45c
+    GuidInternal: 
+    m_lastTime: -8585282468318754645
+    List:
+    - name: AttackCombo
+      guid: a57efc11076e7b45ada396f1215be9ee
+      id: 1347076325
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ee4ee5ef51733469157438dfe872318
+      - ElementName: MainCharacter
+        ObjectType: 12
+        guid: 5f2bb38308f39c4e978de48dd17df45c
+      - ElementName: AttackCombo
+        ObjectType: 11
+        guid: a57efc11076e7b45ada396f1215be9ee
+      Path: Switches\Default Work Unit\MainCharacter\AttackCombo
+      values:
+      - name: Combo01
+        guid: 803a715e1f012b44a047986f6a82a568
+        id: 3557003812
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7ee4ee5ef51733469157438dfe872318
+        - ElementName: MainCharacter
+          ObjectType: 12
+          guid: 5f2bb38308f39c4e978de48dd17df45c
+        - ElementName: AttackCombo
+          ObjectType: 11
+          guid: a57efc11076e7b45ada396f1215be9ee
+        - ElementName: Combo01
+          ObjectType: 10
+          guid: 803a715e1f012b44a047986f6a82a568
+      - name: Combo02
+        guid: dffa0502dfc41b43aa0e82ba9e68517a
+        id: 3557003815
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7ee4ee5ef51733469157438dfe872318
+        - ElementName: MainCharacter
+          ObjectType: 12
+          guid: 5f2bb38308f39c4e978de48dd17df45c
+        - ElementName: AttackCombo
+          ObjectType: 11
+          guid: a57efc11076e7b45ada396f1215be9ee
+        - ElementName: Combo02
+          ObjectType: 10
+          guid: dffa0502dfc41b43aa0e82ba9e68517a
+      - name: Combo03
+        guid: d04667d0c6b71a438d55afe1c066a1e8
+        id: 3557003814
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7ee4ee5ef51733469157438dfe872318
+        - ElementName: MainCharacter
+          ObjectType: 12
+          guid: 5f2bb38308f39c4e978de48dd17df45c
+        - ElementName: AttackCombo
+          ObjectType: 11
+          guid: a57efc11076e7b45ada396f1215be9ee
+        - ElementName: Combo03
+          ObjectType: 10
+          guid: d04667d0c6b71a438d55afe1c066a1e8
+      - name: Combo04
+        guid: c691a69ee0edd443a55b1cccd44917f7
+        id: 3557003809
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7ee4ee5ef51733469157438dfe872318
+        - ElementName: MainCharacter
+          ObjectType: 12
+          guid: 5f2bb38308f39c4e978de48dd17df45c
+        - ElementName: AttackCombo
+          ObjectType: 11
+          guid: a57efc11076e7b45ada396f1215be9ee
+        - ElementName: Combo04
+          ObjectType: 10
+          guid: c691a69ee0edd443a55b1cccd44917f7
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Footsteps
+      guid: 91e84262990d8e43ad401249085f2c3e
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7ee4ee5ef51733469157438dfe872318
+      - ElementName: MainCharacter
+        ObjectType: 12
+        guid: 5f2bb38308f39c4e978de48dd17df45c
+      - ElementName: Footsteps
+        ObjectType: 11
+        guid: 91e84262990d8e43ad401249085f2c3e
+      Path: Switches\Default Work Unit\MainCharacter\Footsteps
+      values:
+      - name: Switch_Dirt
+        guid: 8e003e6281fce042bf9912e2f1282dd5
+        id: 3262067523
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7ee4ee5ef51733469157438dfe872318
+        - ElementName: MainCharacter
+          ObjectType: 12
+          guid: 5f2bb38308f39c4e978de48dd17df45c
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: 91e84262990d8e43ad401249085f2c3e
+        - ElementName: Switch_Dirt
+          ObjectType: 10
+          guid: 8e003e6281fce042bf9912e2f1282dd5
+      - name: Switch_Grass
+        guid: e8c197a70591744cb19a3ca887bf5f36
+        id: 2902377486
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7ee4ee5ef51733469157438dfe872318
+        - ElementName: MainCharacter
+          ObjectType: 12
+          guid: 5f2bb38308f39c4e978de48dd17df45c
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: 91e84262990d8e43ad401249085f2c3e
+        - ElementName: Switch_Grass
+          ObjectType: 10
+          guid: e8c197a70591744cb19a3ca887bf5f36
+      - name: Switch_Metal
+        guid: 74c449f0d5f5d147860dc975b26e441f
+        id: 1981379785
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7ee4ee5ef51733469157438dfe872318
+        - ElementName: MainCharacter
+          ObjectType: 12
+          guid: 5f2bb38308f39c4e978de48dd17df45c
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: 91e84262990d8e43ad401249085f2c3e
+        - ElementName: Switch_Metal
+          ObjectType: 10
+          guid: 74c449f0d5f5d147860dc975b26e441f
+      - name: Switch_Mud
+        guid: a9be5e9b443f6a428bbe2d4281b74642
+        id: 3817369922
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7ee4ee5ef51733469157438dfe872318
+        - ElementName: MainCharacter
+          ObjectType: 12
+          guid: 5f2bb38308f39c4e978de48dd17df45c
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: 91e84262990d8e43ad401249085f2c3e
+        - ElementName: Switch_Mud
+          ObjectType: 10
+          guid: a9be5e9b443f6a428bbe2d4281b74642
+      - name: Switch_Stone
+        guid: 43c9047aec754b4cbec02cb009da53c6
+        id: 2541504615
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 7ee4ee5ef51733469157438dfe872318
+        - ElementName: MainCharacter
+          ObjectType: 12
+          guid: 5f2bb38308f39c4e978de48dd17df45c
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: 91e84262990d8e43ad401249085f2c3e
+        - ElementName: Switch_Stone
+          ObjectType: 10
+          guid: 43c9047aec754b4cbec02cb009da53c6
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:

@@ -12,6 +12,386 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="SFX_Whoosh" ID="{8F32C674-B659-4DDF-920D-0E2392C5B1AE}" ShortID="938990383">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Whoosh_Slow" ID="{B7267E34-192D-46EC-A3A7-79680D996519}" ShortID="366180120">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Whoosh_Slow-001" ID="{1ED4D698-BB19-4210-A2DF-76B5A50C9977}" ShortID="834879649">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Whoosh_Slow-001" ID="{F884EA75-A2C6-4C04-934C-B78B2B381940}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Whoosh_Slow-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="528866072"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Whoosh_Slow-001" ID="{F884EA75-A2C6-4C04-934C-B78B2B381940}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Whoosh_Slow-002" ID="{50F2EDAA-01F2-4E4F-BD26-AAACB32BB2AA}" ShortID="997100487">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Whoosh_Slow-002" ID="{6EBE469D-7B13-4108-91DE-93056E01E78D}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Whoosh_Slow-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="259476059"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Whoosh_Slow-002" ID="{6EBE469D-7B13-4108-91DE-93056E01E78D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Whoosh_Slow-003" ID="{908BAFB8-F80C-4537-9278-84EFA48547E3}" ShortID="361483861">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Whoosh_Slow-003" ID="{CDB1DB18-3055-4558-A3EC-3B9BBEB12C99}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Whoosh_Slow-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="11605033"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Whoosh_Slow-003" ID="{CDB1DB18-3055-4558-A3EC-3B9BBEB12C99}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Whoosh_Slow-004" ID="{437C4F38-214F-4259-9F4C-4C2B114A0C27}" ShortID="186901565">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Whoosh_Slow-004" ID="{3E792524-4632-4D51-B96B-F15394ADAD1A}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Whoosh_Slow-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="136597341"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Whoosh_Slow-004" ID="{3E792524-4632-4D51-B96B-F15394ADAD1A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Whoosh_Slow-005" ID="{20B2E0C4-8DD3-4403-98CE-F3A6B487DF28}" ShortID="7076181">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Whoosh_Slow-005" ID="{B5710D48-6FE1-4BDE-984A-2205C14DDC36}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Whoosh_Slow-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="854608352"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Whoosh_Slow-005" ID="{B5710D48-6FE1-4BDE-984A-2205C14DDC36}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Whoosh_Mid" ID="{8D3088F8-3172-4763-B703-6318E3A187B7}" ShortID="606204007">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Whoosh_Mid-001" ID="{0388996C-509C-454E-9EA4-9E4FE3DA2ECA}" ShortID="248529929">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Whoosh_Mid-001" ID="{03A312CE-24C2-43D0-9B48-8B72629DD2C0}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Whoosh_Mid-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="976844156"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Whoosh_Mid-001" ID="{03A312CE-24C2-43D0-9B48-8B72629DD2C0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Whoosh_Mid-002" ID="{52208380-4679-4687-8205-E6DD5BA45EFF}" ShortID="963195531">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Whoosh_Mid-002" ID="{3D4AFD8E-7E40-47EC-85A8-6E20E0B4221C}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Whoosh_Mid-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="98539648"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Whoosh_Mid-002" ID="{3D4AFD8E-7E40-47EC-85A8-6E20E0B4221C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Whoosh_Mid-003" ID="{D924A5E6-6C7E-408B-8159-A0B510B7AD05}" ShortID="1025327667">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Whoosh_Mid-003" ID="{9C49D038-C7D5-4CBB-B861-6902F3BFA2F9}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Whoosh_Mid-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="899397311"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Whoosh_Mid-003" ID="{9C49D038-C7D5-4CBB-B861-6902F3BFA2F9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Whoosh_Mid-004" ID="{D17B1812-0682-4B0A-953D-28763C013E61}" ShortID="71239710">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Whoosh_Mid-004" ID="{21F601E6-15BF-43B9-944B-8CC9B169598A}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Whoosh_Mid-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="431091475"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Whoosh_Mid-004" ID="{21F601E6-15BF-43B9-944B-8CC9B169598A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Whoosh_Mid-005" ID="{9CF4884E-09EB-4714-834F-ED77A6343A53}" ShortID="223984846">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Whoosh_Mid-005" ID="{3154FE29-10D6-4582-A5F7-EB4E1EDC1E4B}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Whoosh_Mid-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="603432491"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Whoosh_Mid-005" ID="{3154FE29-10D6-4582-A5F7-EB4E1EDC1E4B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Whoosh_Fast" ID="{BA374AD8-62EC-47F0-BB9D-E5876879EE71}" ShortID="20311455">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_Whoosh_Fast-001" ID="{D53DF0F1-DAD2-4B71-8117-7D3B181E0987}" ShortID="67600413">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Whoosh_Fast-001" ID="{802CB732-E668-4D74-A1F6-BD2D9C4FE9C4}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Whoosh_Fast-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="522753703"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Whoosh_Fast-001" ID="{802CB732-E668-4D74-A1F6-BD2D9C4FE9C4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Whoosh_Fast-002" ID="{1FABFB53-62C7-4F46-B9D2-9F2D438E6B04}" ShortID="258163004">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Whoosh_Fast-002" ID="{480E3A51-A7DB-4E1F-B6EB-40D61C30A35B}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Whoosh_Fast-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="44873669"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Whoosh_Fast-002" ID="{480E3A51-A7DB-4E1F-B6EB-40D61C30A35B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Whoosh_Fast-003" ID="{C44C2744-D422-442E-BF06-FF9B604899C2}" ShortID="956227609">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Whoosh_Fast-003" ID="{7B78BE92-C69D-47E6-A464-8C3FE89470C9}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Whoosh_Fast-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="347909976"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Whoosh_Fast-003" ID="{7B78BE92-C69D-47E6-A464-8C3FE89470C9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Whoosh_Fast-004" ID="{647B12C7-532B-47D9-AF65-329855D9B10C}" ShortID="949250865">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Whoosh_Fast-004" ID="{DD3AEAAF-38A2-4AFF-8F81-23AB11A83F3B}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Whoosh_Fast-004.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="254187876"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Whoosh_Fast-004" ID="{DD3AEAAF-38A2-4AFF-8F81-23AB11A83F3B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Whoosh_Fast-005" ID="{DEF4E86A-2CC6-4EAE-9A73-748F709FD949}" ShortID="228424727">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_Whoosh_Fast-005" ID="{15C3196F-C528-47B3-881B-B06A2538A665}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_Whoosh_Fast-005.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="70079"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_Whoosh_Fast-005" ID="{15C3196F-C528-47B3-881B-B06A2538A665}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

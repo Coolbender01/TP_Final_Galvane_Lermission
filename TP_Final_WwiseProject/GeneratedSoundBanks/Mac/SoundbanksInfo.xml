@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{EEB720DF-4358-4F0D-CAF9-A842ABF3A449}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="1507798120" Name="Ennemis"/>
+				<Bus Id="1518239843" Name="MainCharacter"/>
+				<Bus Id="2981377429" Name="Ambiance"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="1438224957" Name="ReverbZone_Cavern"/>
+				<AuxBus Id="2399250375" Name="ReverbZone_Small"/>
+				<AuxBus Id="3193884120" Name="ReverbZone_Big"/>
+			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="1347076325" Name="AttackCombo"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="1347076325" Name="AttackCombo">
+					<GameParameterRef Id="1347076325"/>
+					<Switches>
+						<Switch Id="3557003809" Name="Combo04"/>
+						<Switch Id="3557003812" Name="Combo01"/>
+						<Switch Id="3557003814" Name="Combo03"/>
+						<Switch Id="3557003815" Name="Combo02"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2385628198" Name="Footsteps">
+					<Switches>
+						<Switch Id="1981379785" Name="Switch_Metal"/>
+						<Switch Id="2541504615" Name="Switch_Stone"/>
+						<Switch Id="2902377486" Name="Switch_Grass"/>
+						<Switch Id="3262067523" Name="Switch_Dirt"/>
+						<Switch Id="3817369922" Name="Switch_Mud"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="3157003241" Type="User" Language="SFX" Hash="{2F90D610-CFF9-82D9-5BC9-C43A589EE53D}">
+			<ShortName>Test</ShortName>
+			<Path>Test.bnk</Path>
+			<Media>
+				<File Id="437962700" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MS02_WP_Projectile.wav</ShortName>
+					<CachePath>SFX/SFX_MS02_WP_Projectile_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3075902904" Name="Play_SFX_MS02_WP_Projectile" MaxAttenuation="50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="437962700"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{413639A6-7FEA-8FC0-C0E8-1384FB2D4DF3}</FileHash>
+</SoundBanksInfo>

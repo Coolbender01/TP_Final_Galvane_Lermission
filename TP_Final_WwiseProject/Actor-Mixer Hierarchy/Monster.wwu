@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{56CB0296-6F07-40FF-A50B-59C7E07AD1D9}" SchemaVersion="110">
 	<AudioObjects>
 		<WorkUnit Name="Monster" ID="{56CB0296-6F07-40FF-A50B-59C7E07AD1D9}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="11"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<WorkUnit Name="Chomper" ID="{A0759163-C9B6-4D67-90A2-4564036069DE}" PersistMode="Reference"/>
 				<WorkUnit Name="Grenadier" ID="{739B82B8-7145-4C77-B346-A6697320B36E}" PersistMode="Reference"/>
