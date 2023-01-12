@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_CH_ATTACK = 1456885134U;
+        static const AkUniqueID PLAY_CH_DIE = 1383584624U;
         static const AkUniqueID PLAY_CH_FOOTSTEP = 1825440468U;
         static const AkUniqueID PLAY_GR_FOOTSTEP = 2547724478U;
         static const AkUniqueID PLAY_HIT = 2960666077U;
@@ -21,6 +22,7 @@ namespace AK
         static const AkUniqueID PLAY_SP_PROJECTILE = 2046270727U;
         static const AkUniqueID PLAY_SP_PROJECTILE_HIT = 3525273781U;
         static const AkUniqueID PLAY_SP_PROJECTILE_SPLAT = 3466111482U;
+        static const AkUniqueID PLAY_SPOTTED = 2262512141U;
     } // namespace EVENTS
 
     namespace SWITCHES

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1290967234" Type="User" Language="SFX">
+		<SoundBank Id="1290967234" Type="User" Language="SFX" Hash="{84B31290-5AC7-5348-0DEA-1991FE0DB7AE}">
 			<ShortName>Spitter_SoundBank</ShortName>
 			<Path>Spitter_SoundBank.bnk</Path>
 			<Media>
@@ -223,7 +223,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2458534638" Type="User" Language="SFX">
+		<SoundBank Id="2458534638" Type="User" Language="SFX" Hash="{2B0FB6B9-52DD-E2E2-6FF2-E109E63B11B9}">
 			<ShortName>Grenadier_SoundBank</ShortName>
 			<Path>Grenadier_SoundBank.bnk</Path>
 			<Media>
@@ -306,7 +306,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3105787907" Type="User" Language="SFX" Hash="{0D8BDD7D-518D-2B28-2051-619DE7EB228E}">
+		<SoundBank Id="3105787907" Type="User" Language="SFX" Hash="{826F0211-EBCB-6B80-5865-FCB62411E3E1}">
 			<ShortName>Chomper_SoundBank</ShortName>
 			<Path>Chomper_SoundBank.bnk</Path>
 			<Media>
@@ -317,6 +317,10 @@
 				<File Id="58085114" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MS01_WP_Hit-001.wav</ShortName>
 					<CachePath>SFX/SFX_MS01_WP_Hit-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="64354009" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_VC_Spotted_Placeholder-001.wav</ShortName>
+					<CachePath>SFX/MS01_VC_Spotted_Placeholder-001_10C4C929.wem</CachePath>
 				</File>
 				<File Id="77456658" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MS01_FT_Walk_Grass-003.wav</ShortName>
@@ -338,9 +342,17 @@
 					<ShortName>MS01_FT_Walk_Mud-005.wav</ShortName>
 					<CachePath>SFX/MS01_FT_Walk_Mud-005_10C4C929.wem</CachePath>
 				</File>
+				<File Id="190783486" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_VC_Die-003.wav</ShortName>
+					<CachePath>SFX/MS01_VC_Die-003_10C4C929.wem</CachePath>
+				</File>
 				<File Id="215377584" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MS01_FT_Walk_Stone-005.wav</ShortName>
 					<CachePath>SFX/MS01_FT_Walk_Stone-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="216851450" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_VC_Die-001.wav</ShortName>
+					<CachePath>SFX/MS01_VC_Die-001_10C4C929.wem</CachePath>
 				</File>
 				<File Id="223463109" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MS01_FT_Walk_Grass-002.wav</ShortName>
@@ -362,6 +374,10 @@
 					<ShortName>MS01_FT_Walk_Dirt-001.wav</ShortName>
 					<CachePath>SFX/MS01_FT_Walk_Dirt-001_10C4C929.wem</CachePath>
 				</File>
+				<File Id="374908960" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_VC_Spotted_Placeholder-003.wav</ShortName>
+					<CachePath>SFX/MS01_VC_Spotted_Placeholder-003_10C4C929.wem</CachePath>
+				</File>
 				<File Id="497480294" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MS01_FT_Walk_Grass-001.wav</ShortName>
 					<CachePath>SFX/MS01_FT_Walk_Grass-001_10C4C929.wem</CachePath>
@@ -373,6 +389,10 @@
 				<File Id="588175256" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MS01_FT_Walk_Stone-001.wav</ShortName>
 					<CachePath>SFX/MS01_FT_Walk_Stone-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="620835159" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_VC_Spotted_Placeholder-002.wav</ShortName>
+					<CachePath>SFX/MS01_VC_Spotted_Placeholder-002_10C4C929.wem</CachePath>
 				</File>
 				<File Id="621238002" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MS01_FT_Walk_Dirt-005.wav</ShortName>
@@ -390,6 +410,10 @@
 					<ShortName>MS01_FT_Walk_Grass-004.wav</ShortName>
 					<CachePath>SFX/MS01_FT_Walk_Grass-004_10C4C929.wem</CachePath>
 				</File>
+				<File Id="823881626" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_VC_Spotted_Placeholder-004.wav</ShortName>
+					<CachePath>SFX/MS01_VC_Spotted_Placeholder-004_10C4C929.wem</CachePath>
+				</File>
 				<File Id="831853343" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MS01_FT_Walk_Stone-004.wav</ShortName>
 					<CachePath>SFX/MS01_FT_Walk_Stone-004_10C4C929.wem</CachePath>
@@ -397,6 +421,10 @@
 				<File Id="844551065" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MS01_FT_Walk_Dirt-003.wav</ShortName>
 					<CachePath>SFX/MS01_FT_Walk_Dirt-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="852235056" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MS01_VC_Die-002.wav</ShortName>
+					<CachePath>SFX/MS01_VC_Die-002_10C4C929.wem</CachePath>
 				</File>
 				<File Id="935473479" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MS01_FT_Walk_Stone-002.wav</ShortName>
@@ -408,12 +436,19 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1456885134" Name="Play_CH_Attack" MaxAttenuation="6" DurationType="OneShot" DurationMin="1.1794558" DurationMax="1.1794558">
+				<Event Id="1456885134" Name="Play_CH_Attack" MaxAttenuation="15" DurationType="OneShot" DurationMin="1.1794558" DurationMax="1.1794558">
 					<MediaRefs>
 						<MediaRef Id="308880629"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1825440468" Name="Play_CH_FootStep" MaxAttenuation="6" DurationType="OneShot" DurationMin="0.043270834" DurationMax="0.25239584">
+				<Event Id="1383584624" Name="Play_CH_Die" MaxAttenuation="15" DurationType="OneShot" DurationMin="1.2245351" DurationMax="1.9346259">
+					<MediaRefs>
+						<MediaRef Id="190783486"/>
+						<MediaRef Id="216851450"/>
+						<MediaRef Id="852235056"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1825440468" Name="Play_CH_FootStep" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.043270834" DurationMax="0.25239584">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2541504615"/>
@@ -457,11 +492,19 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2960666077" Name="Play_Hit" MaxAttenuation="6" DurationType="OneShot" DurationMin="0.6589116" DurationMax="0.77217686">
+				<Event Id="2960666077" Name="Play_Hit" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.6589116" DurationMax="0.77217686">
 					<MediaRefs>
 						<MediaRef Id="58085114"/>
 						<MediaRef Id="143820051"/>
 						<MediaRef Id="508255807"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2262512141" Name="Play_Spotted" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.2522449" DurationMax="0.6537642">
+					<MediaRefs>
+						<MediaRef Id="64354009"/>
+						<MediaRef Id="374908960"/>
+						<MediaRef Id="620835159"/>
+						<MediaRef Id="823881626"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -478,5 +521,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4E000B13-B477-D336-E821-121F24159F51}</FileHash>
+	<FileHash>{291DC387-FAF6-CEC8-2549-C1B1A92EB97A}</FileHash>
 </SoundBanksInfo>

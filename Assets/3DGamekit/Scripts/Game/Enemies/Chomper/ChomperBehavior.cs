@@ -214,6 +214,7 @@ namespace Gamekit3D
         public void AttackBegin()
         {
             meleeWeapon.BeginAttack(false);
+            AkSoundEngine.PostEvent("Play_CH_Attack", gameObject);
         }
 
         public void AttackEnd()
@@ -249,10 +250,22 @@ namespace Gamekit3D
             controller.animator.SetTrigger(hashThrown);
 
             //We unparent the hit source, as it would destroy it with the gameobject when it get replaced by the ragdol otherwise
-            deathAudio.transform.SetParent(null, true);
+            /*deathAudio.transform.SetParent(null, true);
             deathAudio.PlayRandomClip();
-            GameObject.Destroy(deathAudio, deathAudio.clip == null ? 0.0f : deathAudio.clip.length + 0.5f);
+            GameObject.Destroy(deathAudio, deathAudio.clip == null ? 0.0f : deathAudio.clip.length + 0.5f); */
         }
+
+        void PlayHit()
+        {
+            AkSoundEngine.PostEvent("Play_Hit", gameObject);
+            AkSoundEngine.PostEvent("Play_CH_Die", gameObject);
+        }
+
+        void PlaySpotted()
+        {
+            AkSoundEngine.PostEvent("Play_Spotted", gameObject);
+        }
+
 
         public void ApplyDamage(Damageable.DamageMessage msg)
         {

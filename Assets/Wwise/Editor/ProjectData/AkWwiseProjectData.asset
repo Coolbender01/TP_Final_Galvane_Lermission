@@ -174,7 +174,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit\Monstre\Chomper
     guid: 51c91545ab1e504fa3e40a811d43467c
     GuidInternal: 
-    m_lastTime: -8585281322571777401
+    m_lastTime: -8585280550144735086
     List:
     - name: Chomper_SoundBank
       guid: ee80f1659ed8a54ca8e13e69fbe2920a
@@ -321,7 +321,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Monstre\Chomper
     guid: 9a3f8b7f3bb221479366f252328bcc4a
     GuidInternal: 
-    m_lastTime: -8585281322572501248
+    m_lastTime: -8585280550144814884
     List:
     - name: Attack
       guid: 0ed4893e74ac7b4582a581dbc290d2a8
@@ -565,6 +565,55 @@ MonoBehaviour:
         ObjectType: 3
         guid: a8be6234c683fd40840ccd7189ca3260
       Path: Events\Default Work Unit\Monstre\Chomper\Hit\Play_Hit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Spotted
+      guid: e83f65e442cb6341950d075f1eb79cba
+      id: 2262512141
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Chomper
+        ObjectType: 12
+        guid: 9a3f8b7f3bb221479366f252328bcc4a
+      - ElementName: Spotted
+        ObjectType: 4
+        guid: 7b1619f267f60d4cb7ae5f4eada0c191
+      - ElementName: Play_Spotted
+        ObjectType: 3
+        guid: e83f65e442cb6341950d075f1eb79cba
+      Path: Events\Default Work Unit\Monstre\Chomper\Spotted\Play_Spotted
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Spotted
+      guid: 7b1619f267f60d4cb7ae5f4eada0c191
+      id: 3214304800
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Chomper
+        ObjectType: 12
+        guid: 9a3f8b7f3bb221479366f252328bcc4a
+      - ElementName: Spotted
+        ObjectType: 4
+        guid: 7b1619f267f60d4cb7ae5f4eada0c191
+      Path: Events\Default Work Unit\Monstre\Chomper\Spotted
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1396,7 +1445,7 @@ MonoBehaviour:
     m_lastTime: -8585285128790736503
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000c0000000d0000000e0000001a00000022000000
+  ExpandedWaapiItemIds: 050000000600000007000000080000000c0000000d0000000e00000017000000180000001a0000002000000022000000240000004f0000005000000051000000544000007e410000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

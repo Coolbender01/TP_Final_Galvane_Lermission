@@ -6,8 +6,10 @@
 				<SoundBank Name="Chomper_SoundBank" ID="{65F180EE-D89E-4CA5-A8E1-3E69FBE2920A}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Hit" ID="{3462BEA8-83C6-40FD-840C-CD7189CA3260}" WorkUnitID="{7F8B3F9A-B23B-4721-9366-F252328BCC4A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Spotted" ID="{E4653FE8-CB42-4163-950D-075F1EB79CBA}" WorkUnitID="{7F8B3F9A-B23B-4721-9366-F252328BCC4A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_CH_FootStep" ID="{DEC4A001-1858-4638-8AA7-CA883335CF40}" WorkUnitID="{7F8B3F9A-B23B-4721-9366-F252328BCC4A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_CH_Attack" ID="{2A4BC926-3C24-46DC-A6D3-8DA9C258EF5A}" WorkUnitID="{7F8B3F9A-B23B-4721-9366-F252328BCC4A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CH_Die" ID="{4965A9C3-A60C-4E71-85CF-773BC5F18524}" WorkUnitID="{7F8B3F9A-B23B-4721-9366-F252328BCC4A}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
