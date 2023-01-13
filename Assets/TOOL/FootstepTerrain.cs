@@ -16,13 +16,13 @@ public class FootstepTerrain : MonoBehaviour
     public List<FootstepCollectionEntry> collections;
 
     private AK.Wwise.Switch currentCollection;
-    /*private TerrainCheckData terrainCheck;*/
+    private TerrainCheckData terrainCheck;
     private string currentLayer;
     // Start is called before the first frame update
-  /*  void Start()
+    void Start()
     {
         terrainCheck = new TerrainCheckData();
-    }*/
+    }
 
     public void CheckLayers()
     {
@@ -30,7 +30,7 @@ public class FootstepTerrain : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(transform.position, Vector3.down, out hit, 0.5f))
         {
-            /*if (hit.transform.GetComponent<Terrain>() != null)
+            if (hit.transform.GetComponent<Terrain>() != null)
             {
                 Terrain t = hit.transform.GetComponent<Terrain>();
                 if (currentLayer != terrainCheck.GetLayerName(transform.position, t))
@@ -46,7 +46,7 @@ public class FootstepTerrain : MonoBehaviour
                         }
                     }
                 }
-            */
+            
             }
             else if (currentLayer != LayerMask.LayerToName(hit.transform.gameObject.layer))
             {
@@ -63,9 +63,9 @@ public class FootstepTerrain : MonoBehaviour
             }
 
         }
-    /*
-    }
       
+    }
+      /*
     private List<AudioClip> GetDefaultSound()
     {
         List<AudioClip> defaultList = new List<AudioClip>();

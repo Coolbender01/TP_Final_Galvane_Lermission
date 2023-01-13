@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{1180110C-85DA-494B-A82B-6AF81B8CBA5F}" SchemaVersion="110" RootDocumentID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" ParentDocumentID="{885AE69F-2352-4CEE-989D-7397DFBF3795}">
+<WwiseDocument Type="WorkUnit" ID="{1180110C-85DA-494B-A82B-6AF81B8CBA5F}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Ambiances" ID="{1180110C-85DA-494B-A82B-6AF81B8CBA5F}" OwnerID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" PersistMode="Nested"/>
+		<WorkUnit Name="Ambiances" ID="{1180110C-85DA-494B-A82B-6AF81B8CBA5F}" PersistMode="Standalone"/>
 	</Events>
 </WwiseDocument>

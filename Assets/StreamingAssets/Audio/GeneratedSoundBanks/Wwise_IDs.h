@@ -87,6 +87,7 @@ namespace AK
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID ATTACKCOMBO = 1347076325U;
+        static const AkUniqueID RTPC_GETSPEED = 2486207350U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS
