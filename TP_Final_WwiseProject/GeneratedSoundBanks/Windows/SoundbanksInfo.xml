@@ -9,10 +9,14 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="767608191" Type="User" Language="SFX" Hash="{4C50093F-88A1-2DE8-F288-AC356F5C2B44}">
+		<SoundBank Id="767608191" Type="User" Language="SFX" Hash="{FDE86F68-64AE-1A63-6FFC-4BEF94AAA112}">
 			<ShortName>MC_Soundbank</ShortName>
 			<Path>MC_Soundbank.bnk</Path>
 			<Media>
+				<File Id="70079" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Fast-005.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Fast-005_964618FA.wem</CachePath>
+				</File>
 				<File Id="3370509" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VO_Hurt-004.wav</ShortName>
 					<CachePath>SFX/MC_VO_Hurt-004_10C4C929.wem</CachePath>
@@ -21,6 +25,10 @@
 					<ShortName>MC_FT_Run_Dirt-002.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Dirt-002_10C4C929.wem</CachePath>
 				</File>
+				<File Id="11605033" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Slow-003.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Slow-003_10C4C929.wem</CachePath>
+				</File>
 				<File Id="11979760" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VO_Effort-001.wav</ShortName>
 					<CachePath>SFX/MC_VO_Effort-001_10C4C929.wem</CachePath>
@@ -28,6 +36,10 @@
 				<File Id="41112132" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Walk_Dirt-005.wav</ShortName>
 					<CachePath>SFX/MC_FT_Walk_Dirt-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="44873669" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Fast-002.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Fast-002_964618FA.wem</CachePath>
 				</File>
 				<File Id="48411236" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VO_Hurt-005.wav</ShortName>
@@ -57,6 +69,10 @@
 					<ShortName>MC_FT_Run_Mud-001.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Mud-001_10C4C929.wem</CachePath>
 				</File>
+				<File Id="98539648" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Mid-002.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Mid-002_964618FA.wem</CachePath>
+				</File>
 				<File Id="110132824" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Walk_Grass-002.wav</ShortName>
 					<CachePath>SFX/MC_FT_Walk_Grass-002_10C4C929.wem</CachePath>
@@ -72,6 +88,10 @@
 				<File Id="120133276" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Metal-006.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Metal-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="136597341" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Slow-004.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Slow-004_10C4C929.wem</CachePath>
 				</File>
 				<File Id="148273301" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VO_Hurt-001.wav</ShortName>
@@ -111,7 +131,7 @@
 				</File>
 				<File Id="210280623" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Foley_BodyFall.wav</ShortName>
-					<CachePath>SFX/MC_Foley_BodyFall_10C4C929.wem</CachePath>
+					<CachePath>SFX/MC_Foley_BodyFall_104A20A2.wem</CachePath>
 				</File>
 				<File Id="227592302" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VO_Effort-003.wav</ShortName>
@@ -120,6 +140,14 @@
 				<File Id="233216340" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Foley_High -004.wav</ShortName>
 					<CachePath>SFX/MC_Foley_High -004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="254187876" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Fast-004.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Fast-004_964618FA.wem</CachePath>
+				</File>
+				<File Id="259476059" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Slow-002.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Slow-002_10C4C929.wem</CachePath>
 				</File>
 				<File Id="267803708" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Walk_Dirt-004.wav</ShortName>
@@ -173,6 +201,10 @@
 					<ShortName>MC_FT_Walk_Metal-003.wav</ShortName>
 					<CachePath>SFX/MC_FT_Walk_Metal-003_10C4C929.wem</CachePath>
 				</File>
+				<File Id="347909976" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Fast-003.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Fast-003_964618FA.wem</CachePath>
+				</File>
 				<File Id="347912018" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Walk_Dirt-001.wav</ShortName>
 					<CachePath>SFX/MC_FT_Walk_Dirt-001_10C4C929.wem</CachePath>
@@ -209,6 +241,10 @@
 					<ShortName>MC_Foley_Low-001.wav</ShortName>
 					<CachePath>SFX/MC_Foley_Low-001_10C4C929.wem</CachePath>
 				</File>
+				<File Id="431091475" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Mid-004.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Mid-004_964618FA.wem</CachePath>
+				</File>
 				<File Id="437815570" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VO_Effort-005.wav</ShortName>
 					<CachePath>SFX/MC_VO_Effort-005_10C4C929.wem</CachePath>
@@ -241,9 +277,17 @@
 					<ShortName>SFX_MC_Impact_Water.wav</ShortName>
 					<CachePath>SFX/SFX_MC_Impact_Water_10C4C929.wem</CachePath>
 				</File>
+				<File Id="522753703" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Fast-001.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Fast-001_964618FA.wem</CachePath>
+				</File>
 				<File Id="528262198" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_WP_At-001.wav</ShortName>
 					<CachePath>SFX/SFX_MC_WP_At-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="528866072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Slow-001.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Slow-001_10C4C929.wem</CachePath>
 				</File>
 				<File Id="549653045" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Metal-009.wav</ShortName>
@@ -264,6 +308,10 @@
 				<File Id="585050746" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VO_Attack-005.wav</ShortName>
 					<CachePath>SFX/MC_VO_Attack-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="603432491" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Mid-005.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Mid-005_964618FA.wem</CachePath>
 				</File>
 				<File Id="607152125" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Walk_Stone-004.wav</ShortName>
@@ -341,6 +389,10 @@
 					<ShortName>MC_Foley_High -001.wav</ShortName>
 					<CachePath>SFX/MC_Foley_High -001_10C4C929.wem</CachePath>
 				</File>
+				<File Id="854608352" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Slow-005.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Slow-005_10C4C929.wem</CachePath>
+				</File>
 				<File Id="855519225" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Walk_Metal-004.wav</ShortName>
 					<CachePath>SFX/MC_FT_Walk_Metal-004_10C4C929.wem</CachePath>
@@ -353,6 +405,10 @@
 					<ShortName>MC_FT_Run_Metal-010.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Metal-010_10C4C929.wem</CachePath>
 				</File>
+				<File Id="899397311" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Mid-003.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Mid-003_964618FA.wem</CachePath>
+				</File>
 				<File Id="941160090" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VO_Attack-002.wav</ShortName>
 					<CachePath>SFX/MC_VO_Attack-002_10C4C929.wem</CachePath>
@@ -364,6 +420,10 @@
 				<File Id="968259577" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Grass-004.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Grass-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="976844156" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Mid-001.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Mid-001_964618FA.wem</CachePath>
 				</File>
 				<File Id="978756100" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VO_Hurt-002.wav</ShortName>
@@ -406,20 +466,13 @@
 					<CachePath>SFX/SFX_MC_Impact_Fight-003_10C4C929.wem</CachePath>
 				</File>
 			</Media>
-			<Plugins>
-				<Custom>
-					<Plugin Id="678210808" Name="Silence" LibName="Wwise Silence" LibId="6619138"/>
-					<Plugin Id="878452330" Name="Silence" LibName="Wwise Silence" LibId="6619138"/>
-					<Plugin Id="1032939357" Name="Silence" LibName="Wwise Silence" LibId="6619138"/>
-				</Custom>
-			</Plugins>
 			<Events>
-				<Event Id="525398643" Name="Play_FOL_Bodyfall" DurationType="OneShot" DurationMin="0.5480833" DurationMax="0.5480833">
+				<Event Id="525398643" Name="Play_FOL_Bodyfall" DurationType="OneShot" DurationMin="0.5740044" DurationMax="0.5740044">
 					<MediaRefs>
 						<MediaRef Id="210280623"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="413601464" Name="Play_FOL_High" DurationType="OneShot" DurationMin="0.4040625" DurationMax="0.5596875">
+				<Event Id="413601464" Name="Play_FOL_High" DurationType="OneShot" DurationMin="0.35997877" DurationMax="0.62822795">
 					<MediaRefs>
 						<MediaRef Id="233216340"/>
 						<MediaRef Id="340486880"/>
@@ -428,7 +481,7 @@
 						<MediaRef Id="828496432"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2177554690" Name="Play_FOL_Low" DurationType="OneShot" DurationMin="0.20110416" DurationMax="0.29079166">
+				<Event Id="2177554690" Name="Play_FOL_Low" DurationType="OneShot" DurationMin="0.17916344" DurationMax="0.3264026">
 					<MediaRefs>
 						<MediaRef Id="282682041"/>
 						<MediaRef Id="423384400"/>
@@ -437,7 +490,7 @@
 						<MediaRef Id="1013229702"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1607262946" Name="Play_FOL_Mid" DurationType="OneShot" DurationMin="0.41375" DurationMax="0.60875">
+				<Event Id="1607262946" Name="Play_FOL_Mid" DurationType="OneShot" DurationMin="0.36860934" DurationMax="0.68329877">
 					<MediaRefs>
 						<MediaRef Id="58243303"/>
 						<MediaRef Id="209489160"/>
@@ -446,14 +499,7 @@
 						<MediaRef Id="982145996"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="309129522" Name="Play_FT_Run" DurationType="OneShot" DurationMin="0.4040625" DurationMax="0.5596875">
-					<MediaRefs>
-						<MediaRef Id="233216340"/>
-						<MediaRef Id="340486880"/>
-						<MediaRef Id="608905942"/>
-						<MediaRef Id="759681969"/>
-						<MediaRef Id="828496432"/>
-					</MediaRefs>
+				<Event Id="309129522" Name="Play_FT_Run" DurationType="OneShot" DurationMin="0.1670435" DurationMax="0.5504273">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2541504615"/>
@@ -507,8 +553,11 @@
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2177554690" Name="Play_FOL_Low"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="3221359334" Name="Play_FT_Scuff" DurationType="OneShot" DurationMin="0.15864584" DurationMax="0.28845835">
+				<Event Id="3221359334" Name="Play_FT_Scuff" DurationType="OneShot" DurationMin="0.14133736" DurationMax="0.32378355">
 					<MediaRefs>
 						<MediaRef Id="357798011"/>
 						<MediaRef Id="486696825"/>
@@ -516,13 +565,13 @@
 						<MediaRef Id="640297886"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1093053214" Name="Play_FT_Slide" DurationType="OneShot" DurationMin="0.34183332" DurationMax="0.38616666">
+				<Event Id="1093053214" Name="Play_FT_Slide" DurationType="OneShot" DurationMin="0.30453888" DurationMax="0.4334574">
 					<MediaRefs>
 						<MediaRef Id="115586829"/>
 						<MediaRef Id="201942584"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1500086908" Name="Play_FT_Walk" DurationType="OneShot" DurationMin="0.20110416" DurationMax="0.3461875">
+				<Event Id="1500086908" Name="Play_FT_Walk" DurationType="OneShot" DurationMin="0.17916344" DurationMax="0.38858232">
 					<MediaRefs>
 						<MediaRef Id="282682041"/>
 						<MediaRef Id="423384400"/>
@@ -587,6 +636,9 @@
 					<MediaRefs>
 						<MediaRef Id="528262198"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3893732486" Name="Play_VO_Attack"/>
+					</ActionPostEvent>
 				</Event>
 				<Event Id="2877763528" Name="Play_SFX_MC_AT2" DurationType="OneShot" DurationMin="0.5996145" DurationMax="0.5996145">
 					<MediaRefs>
@@ -595,13 +647,21 @@
 				</Event>
 				<Event Id="2877763529" Name="Play_SFX_MC_AT3" DurationType="OneShot" DurationMin="0.64180887" DurationMax="0.64180887">
 					<MediaRefs>
+						<MediaRef Id="11979760"/>
+						<MediaRef Id="73955752"/>
+						<MediaRef Id="227592302"/>
 						<MediaRef Id="322856510"/>
+						<MediaRef Id="437815570"/>
+						<MediaRef Id="702496007"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2877763534" Name="Play_SFX_MC_AT4" DurationType="OneShot" DurationMin="0.84996146" DurationMax="0.84996146">
 					<MediaRefs>
 						<MediaRef Id="153803607"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="3893732486" Name="Play_VO_Attack"/>
+					</ActionPostEvent>
 				</Event>
 				<Event Id="1370187208" Name="Play_SFX_MC_Impact_Fight" DurationType="OneShot" DurationMin="0.15864584" DurationMax="0.27404165">
 					<MediaRefs>
@@ -616,7 +676,7 @@
 						<MediaRef Id="516472399"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3893732486" Name="Play_VO_Attack" DurationType="OneShot" DurationMin="0.19470833" DurationMax="1">
+				<Event Id="3893732486" Name="Play_VO_Attack" DurationType="OneShot" DurationMin="0.19470833" DurationMax="0.6851042">
 					<MediaRefs>
 						<MediaRef Id="115130405"/>
 						<MediaRef Id="148320710"/>
@@ -624,18 +684,13 @@
 						<MediaRef Id="941160090"/>
 						<MediaRef Id="996363881"/>
 					</MediaRefs>
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="678210808"/>
-						</Custom>
-					</PluginRefs>
 				</Event>
 				<Event Id="420198711" Name="Play_VO_DeathScream" DurationType="OneShot" DurationMin="2.4230833" DurationMax="2.4230833">
 					<MediaRefs>
 						<MediaRef Id="290147654"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3926096204" Name="Play_VO_Effort" DurationType="OneShot" DurationMin="0.1875" DurationMax="1">
+				<Event Id="3926096204" Name="Play_VO_Effort" DurationType="OneShot" DurationMin="0.1875" DurationMax="0.28845835">
 					<MediaRefs>
 						<MediaRef Id="11979760"/>
 						<MediaRef Id="73955752"/>
@@ -643,13 +698,8 @@
 						<MediaRef Id="437815570"/>
 						<MediaRef Id="702496007"/>
 					</MediaRefs>
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="1032939357"/>
-						</Custom>
-					</PluginRefs>
 				</Event>
-				<Event Id="2657945433" Name="Play_VO_Hurt" DurationType="OneShot" DurationMin="0.165875" DurationMax="1">
+				<Event Id="2657945433" Name="Play_VO_Hurt" DurationType="OneShot" DurationMin="0.165875" DurationMax="0.259625">
 					<MediaRefs>
 						<MediaRef Id="3370509"/>
 						<MediaRef Id="48411236"/>
@@ -657,11 +707,33 @@
 						<MediaRef Id="419902045"/>
 						<MediaRef Id="978756100"/>
 					</MediaRefs>
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="878452330"/>
-						</Custom>
-					</PluginRefs>
+				</Event>
+				<Event Id="3737795321" Name="Play_Whoosh_Fast" DurationType="OneShot" DurationMin="0.19088349" DurationMax="0.304">
+					<MediaRefs>
+						<MediaRef Id="70079"/>
+						<MediaRef Id="44873669"/>
+						<MediaRef Id="254187876"/>
+						<MediaRef Id="347909976"/>
+						<MediaRef Id="522753703"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2197274579" Name="Play_Whoosh_Mid" DurationType="OneShot" DurationMin="0.45492497" DurationMax="0.598">
+					<MediaRefs>
+						<MediaRef Id="98539648"/>
+						<MediaRef Id="431091475"/>
+						<MediaRef Id="603432491"/>
+						<MediaRef Id="899397311"/>
+						<MediaRef Id="976844156"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1912453572" Name="Play_Whoosh_Slow" DurationType="OneShot" DurationMin="2.3503056" DurationMax="3.203">
+					<MediaRefs>
+						<MediaRef Id="11605033"/>
+						<MediaRef Id="136597341"/>
+						<MediaRef Id="259476059"/>
+						<MediaRef Id="528866072"/>
+						<MediaRef Id="854608352"/>
+					</MediaRefs>
 				</Event>
 			</Events>
 			<SwitchGroups>
@@ -846,7 +918,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{58236953-4855-698B-CCB8-F25029BEA6E3}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{0A4E8705-C780-9955-3C70-6A441285293E}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -1188,5 +1260,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4A5ECA6B-8965-9C16-79FD-33F853A12B39}</FileHash>
+	<FileHash>{3331415C-A4FA-6628-62B6-5E8A1517CD4F}</FileHash>
 </SoundBanksInfo>

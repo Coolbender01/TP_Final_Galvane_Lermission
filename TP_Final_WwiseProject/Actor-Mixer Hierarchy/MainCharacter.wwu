@@ -149,7 +149,47 @@
 						</ActorMixer>
 						<ActorMixer Name="MC_Footsteps" ID="{A3B61673-44F9-4BF1-AA26-053164726B5C}" ShortID="449275913">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>14</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6D6664EF-012F-48BA-8118-A9D0C17CEDF4}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="20"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{8F3AE2A6-6806-42BF-8196-1334F2905724}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{4E9C18E0-C473-4560-ADB5-57170C692FAF}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -161,6 +201,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<SwitchContainer Name="FT_Walk" ID="{560263ED-4254-4F0A-A925-89F954EF8570}" ShortID="716322353">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
@@ -840,6 +887,13 @@
 									</GroupingInfo>
 								</SwitchContainer>
 								<SwitchContainer Name="FT_Run" ID="{1D5FFBDE-FE13-4857-BDE0-3C397CC7528D}" ShortID="82806148">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
@@ -1541,6 +1595,13 @@
 									</GroupingInfo>
 								</SwitchContainer>
 								<RandomSequenceContainer Name="FT_Slide" ID="{4D087EF4-5CB6-4DBC-824C-460314684DEF}" ShortID="546077286">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
@@ -1597,6 +1658,13 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="FT_Scuff" ID="{9862B925-1BA7-459B-A225-EB18BB53D669}" ShortID="281681848">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-24</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
@@ -1709,6 +1777,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="VO_Hurt" ID="{64F84ABE-1989-4E41-9395-F6FACBE8A52A}" ShortID="751572335">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
@@ -1828,34 +1903,16 @@
 												<ActiveSource Name="MC_VO_Hurt-005" ID="{C016456B-7A2D-43E7-871C-70DAFCC4B12D}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="New Sound SFX" ID="{B6804729-95E4-48A1-987E-0B031E8C32F7}" ShortID="649477970">
-											<PropertyList>
-												<Property Name="Weight" Type="Real64">
-													<ValueList>
-														<Value>100</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<SourcePlugin Name="Silence" ID="{E9967EDD-8F8E-4C95-8784-4515709CCA8E}" ShortID="878452330" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
-													<Language>SFX</Language>
-												</SourcePlugin>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Silence" ID="{E9967EDD-8F8E-4C95-8784-4515709CCA8E}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="VO_Effort" ID="{945B5959-5E0A-4DE9-9758-A28088ADDCF4}" ShortID="159251785">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
@@ -1973,31 +2030,6 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="MC_VO_Effort-005" ID="{045EDCF9-7C04-4D6E-B761-62F58A99254B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="New Sound SFX" ID="{A8113FCD-0221-4CAB-A26F-B0592795D834}" ShortID="978340920">
-											<PropertyList>
-												<Property Name="Weight" Type="Real64">
-													<ValueList>
-														<Value>100</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<SourcePlugin Name="Silence" ID="{21D4E191-E3D4-4141-AA80-43204330758A}" ShortID="1032939357" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
-													<Language>SFX</Language>
-												</SourcePlugin>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Silence" ID="{21D4E191-E3D4-4141-AA80-43204330758A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -2122,31 +2154,6 @@
 												<ActiveSource Name="MC_VO_Attack-005" ID="{19436C05-B25E-44D1-AEAF-1141B19C3D8F}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="New Sound SFX" ID="{4BC3F72F-85ED-4414-9BCD-7BA72A91089C}" ShortID="1027975776">
-											<PropertyList>
-												<Property Name="Weight" Type="Real64">
-													<ValueList>
-														<Value>100</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<SourcePlugin Name="Silence" ID="{E6E27A28-713F-4881-A928-8CC282B4EB9D}" ShortID="678210808" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
-													<Language>SFX</Language>
-												</SourcePlugin>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Silence" ID="{E6E27A28-713F-4881-A928-8CC282B4EB9D}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<Sound Name="VO_DeathScream" ID="{6BB75CC9-958D-42A7-B80B-5C5DBAD42DC6}" ShortID="470135791">
@@ -2174,6 +2181,51 @@
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="MC_Foley" ID="{B5EAF34E-EDB1-4FED-B5D9-37A1027EDCAE}" ShortID="195401133">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>30</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{4AF5909B-E55E-48DC-9207-C6C1DF38621E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E1703A92-5619-47C6-81AC-01A7254EE1CB}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-26</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{682A1D9A-335F-4592-BCB3-E7B5B56239BF}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
@@ -2549,28 +2601,6 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<Sound Name="FOL_Bodyfall" ID="{B9EEDE6C-EFED-4284-A811-CCA31551F5DD}" ShortID="319999578">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="MC_Foley_BodyFall" ID="{B22C4FCF-C430-45D6-9BA9-BE19AC1FF362}">
-											<Language>SFX</Language>
-											<AudioFile>MC_Foley_BodyFall.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="210280623"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="MC_Foley_BodyFall" ID="{B22C4FCF-C430-45D6-9BA9-BE19AC1FF362}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="SFX_MC" ID="{7222F697-9E2F-4CB9-86D4-F6EE377F0BFD}" ShortID="142504012">
@@ -2707,6 +2737,45 @@
 								</Sound>
 							</ChildrenList>
 						</ActorMixer>
+						<Sound Name="FOL_Bodyfall" ID="{B9EEDE6C-EFED-4284-A811-CCA31551F5DD}" ShortID="319999578">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-80</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MC_Foley_BodyFall" ID="{B22C4FCF-C430-45D6-9BA9-BE19AC1FF362}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.471695412311266"/>
+										<Property Name="FadeOutShape" Type="int16" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>MC_Foley_BodyFall.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="210280623"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MC_Foley_BodyFall" ID="{B22C4FCF-C430-45D6-9BA9-BE19AC1FF362}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

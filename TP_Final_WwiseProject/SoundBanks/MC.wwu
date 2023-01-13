@@ -5,24 +5,27 @@
 			<ChildrenList>
 				<SoundBank Name="MC_Soundbank" ID="{EDA739C2-EB6D-4F27-B42B-B41AA38C4A66}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_SFX_MC_AT1" ID="{1F778ACE-E47B-420A-8BB0-9C8F888F2B03}" WorkUnitID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_VO_DeathScream" ID="{129B5DA6-A21B-420F-9E22-70363213F71E}" WorkUnitID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_FT_Walk" ID="{2808862E-469F-4411-A65A-084D43F59EE3}" WorkUnitID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_FOL_Mid" ID="{11750B44-E112-44DC-921E-D2824D7E0EF5}" WorkUnitID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_FOL_Bodyfall" ID="{C9DAF3ED-81F3-4592-8892-4CA708A3688F}" WorkUnitID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_FT_Run" ID="{60D7D4F3-BF48-47A8-9F00-8327F825E456}" WorkUnitID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_FT_Slide" ID="{63FF371E-F52B-4972-9A24-9B167E7BEE4D}" WorkUnitID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_VO_Hurt" ID="{7379C9FB-8861-49AF-9E2C-BF812A5F61FB}" WorkUnitID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_VO_Effort" ID="{17AA95F9-F331-49CD-847F-A272C312822E}" WorkUnitID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_VO_Attack" ID="{915041CD-9ED9-4A6D-869B-C311433B70B3}" WorkUnitID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_FOL_High" ID="{C68F8CE1-2AEA-4ADC-ACD1-4A9609131773}" WorkUnitID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_FT_Scuff" ID="{D3C7BA93-57CD-4B27-B741-A750A9BC1755}" WorkUnitID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_SFX_MC_Impact_Water" ID="{F50C42E1-FB69-4B79-BF1A-3FE75EDC6E45}" WorkUnitID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_SFX_MC_AT2" ID="{F8FD18AD-6367-4C09-BC6C-28C2F919EC60}" WorkUnitID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_SFX_MC_Impact_Fight" ID="{E7E3DB6B-785B-4CE8-A2C9-3B2E53C66878}" WorkUnitID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_SFX_MC_AT4" ID="{ABAB252A-F4A2-4E65-90D9-B01D5FA2D8A5}" WorkUnitID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_FOL_Low" ID="{4F52E5A9-2F2C-4E6F-9A88-41F794694F3A}" WorkUnitID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_SFX_MC_AT3" ID="{C0C350A0-835C-4FAC-A11C-F55190BB5E3A}" WorkUnitID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_MC_AT1" ID="{1F778ACE-E47B-420A-8BB0-9C8F888F2B03}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_VO_DeathScream" ID="{129B5DA6-A21B-420F-9E22-70363213F71E}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FT_Walk" ID="{2808862E-469F-4411-A65A-084D43F59EE3}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FOL_Mid" ID="{11750B44-E112-44DC-921E-D2824D7E0EF5}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FOL_Bodyfall" ID="{C9DAF3ED-81F3-4592-8892-4CA708A3688F}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FT_Run" ID="{60D7D4F3-BF48-47A8-9F00-8327F825E456}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Whoosh_Mid" ID="{60E53CCF-DCC5-4821-AA36-5A572F409CB4}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FT_Slide" ID="{63FF371E-F52B-4972-9A24-9B167E7BEE4D}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_VO_Hurt" ID="{7379C9FB-8861-49AF-9E2C-BF812A5F61FB}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_VO_Effort" ID="{17AA95F9-F331-49CD-847F-A272C312822E}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_VO_Attack" ID="{915041CD-9ED9-4A6D-869B-C311433B70B3}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FOL_High" ID="{C68F8CE1-2AEA-4ADC-ACD1-4A9609131773}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FT_Scuff" ID="{D3C7BA93-57CD-4B27-B741-A750A9BC1755}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_MC_Impact_Water" ID="{F50C42E1-FB69-4B79-BF1A-3FE75EDC6E45}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_MC_AT2" ID="{F8FD18AD-6367-4C09-BC6C-28C2F919EC60}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Whoosh_Fast" ID="{8C23B478-DA2A-4C17-9A86-08FC3C71AD02}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_MC_Impact_Fight" ID="{E7E3DB6B-785B-4CE8-A2C9-3B2E53C66878}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Whoosh_Slow" ID="{7AD0D162-B21D-4DC9-9B87-98938FC3B3BE}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_MC_AT4" ID="{ABAB252A-F4A2-4E65-90D9-B01D5FA2D8A5}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FOL_Low" ID="{4F52E5A9-2F2C-4E6F-9A88-41F794694F3A}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_MC_AT3" ID="{C0C350A0-835C-4FAC-A11C-F55190BB5E3A}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

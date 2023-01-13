@@ -205,6 +205,20 @@ namespace Gamekit3D
             AkSoundEngine.PostEvent("Play_VO_DeathScream", gameObject);
         }
 
+        public void WhooshFast()
+        {
+            AkSoundEngine.PostEvent("Play_Whoosh_Fast", gameObject);
+        }
+
+        public void WhooshMid()
+        {
+            AkSoundEngine.PostEvent("Play_Whoosh_Mid", gameObject);
+        }
+
+        public void WhooshLow()
+        {
+            AkSoundEngine.PostEvent("Play_Whoosh_Low", gameObject);
+        }
         // Called automatically by Unity when the script is first added to a gameobject or is reset from the context menu.
         void Reset()
         {

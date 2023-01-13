@@ -41,6 +41,9 @@ namespace AK
         static const AkUniqueID PLAY_VO_DEATHSCREAM = 420198711U;
         static const AkUniqueID PLAY_VO_EFFORT = 3926096204U;
         static const AkUniqueID PLAY_VO_HURT = 2657945433U;
+        static const AkUniqueID PLAY_WHOOSH_FAST = 3737795321U;
+        static const AkUniqueID PLAY_WHOOSH_MID = 2197274579U;
+        static const AkUniqueID PLAY_WHOOSH_SLOW = 1912453572U;
     } // namespace EVENTS
 
     namespace SWITCHES
