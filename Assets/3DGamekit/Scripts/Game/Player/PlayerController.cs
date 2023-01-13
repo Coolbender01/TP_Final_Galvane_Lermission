@@ -109,6 +109,101 @@ namespace Gamekit3D
         {
             this.canAttack = canAttack;
         }
+        // ELLEN FT FOLEY MISC
+        void Start()
+        {
+            AkSoundEngine.RegisterGameObj(gameObject);
+        }
+
+        public void Walk()
+        {
+            AkSoundEngine.PostEvent("Play_FT_Walk", gameObject);
+        }
+
+        public void Run()
+        {
+            AkSoundEngine.PostEvent("Play_FT_Run", gameObject);
+        }
+
+        public void Scuff()
+        {
+            AkSoundEngine.PostEvent("Play_FT_Scuff", gameObject);
+        }
+
+        public void Slide()
+        {
+            AkSoundEngine.PostEvent("Play_FT_Slide", gameObject);
+        }
+
+        public void FoleyLow()
+        {
+            AkSoundEngine.PostEvent("Play_Fol_Low", gameObject);
+        }
+
+        public void FoleyMid()
+        {
+            AkSoundEngine.PostEvent("Play_Fol_Mid", gameObject);
+        }
+
+        public void FoleyHigh()
+        {
+            AkSoundEngine.PostEvent("Play_Fol_High", gameObject);
+        }
+
+        public void BodyFall()
+        {
+            AkSoundEngine.PostEvent("Play_Fol_BodyFall", gameObject);
+        }
+
+        public void AT1()
+        { 
+            AkSoundEngine.PostEvent("Play_SFX_MC_AT1", gameObject);
+        }
+
+        public void AT2()
+        {
+            AkSoundEngine.PostEvent("Play_SFX_MC_AT2", gameObject);
+        }
+
+        public void AT3()
+        {
+            AkSoundEngine.PostEvent("Play_SFX_MC_AT3", gameObject);
+        }
+
+        public void AT4()
+        {
+            AkSoundEngine.PostEvent("Play_SFX_MC_AT4", gameObject);
+        }
+
+        public void ImpactFight()
+        {
+            AkSoundEngine.PostEvent("Play_SFX_MC_Impact_Fight", gameObject);
+        }
+
+        public void ImpactWater()
+        {
+            AkSoundEngine.PostEvent("Play_SFX_MC_Impact_Water", gameObject);
+        }
+
+        public void VOHurt()
+        {
+            AkSoundEngine.PostEvent("Play_VO_Hurt", gameObject);
+        }
+
+        public void VOEffort()
+        {
+            AkSoundEngine.PostEvent("Play_VO_Effort", gameObject);
+        }
+
+        public void VOAttack()
+        {
+            AkSoundEngine.PostEvent("Play_VO_Attack", gameObject);
+        }
+
+        public void VODeathScream()
+        {
+            AkSoundEngine.PostEvent("Play_VO_DeathScream", gameObject);
+        }
 
         // Called automatically by Unity when the script is first added to a gameobject or is reset from the context menu.
         void Reset()
