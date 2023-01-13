@@ -26,6 +26,7 @@ namespace AK
         static const AkUniqueID PLAY_FT_WALK = 1500086908U;
         static const AkUniqueID PLAY_GR_FOOTSTEP = 2547724478U;
         static const AkUniqueID PLAY_HIT = 2960666077U;
+        static const AkUniqueID PLAY_IDLE = 41941568U;
         static const AkUniqueID PLAY_SFX_MC_AT1 = 2877763531U;
         static const AkUniqueID PLAY_SFX_MC_AT2 = 2877763528U;
         static const AkUniqueID PLAY_SFX_MC_AT3 = 2877763529U;

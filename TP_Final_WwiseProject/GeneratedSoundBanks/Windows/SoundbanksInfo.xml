@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="767608191" Type="User" Language="SFX" Hash="{FDE86F68-64AE-1A63-6FFC-4BEF94AAA112}">
+		<SoundBank Id="767608191" Type="User" Language="SFX" Hash="{8524A5A3-CDD1-2AA2-2A30-127CCD9DA19B}">
 			<ShortName>MC_Soundbank</ShortName>
 			<Path>MC_Soundbank.bnk</Path>
 			<Media>
@@ -131,7 +131,7 @@
 				</File>
 				<File Id="210280623" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Foley_BodyFall.wav</ShortName>
-					<CachePath>SFX/MC_Foley_BodyFall_104A20A2.wem</CachePath>
+					<CachePath>SFX/MC_Foley_BodyFall_1CF7BDE7.wem</CachePath>
 				</File>
 				<File Id="227592302" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VO_Effort-003.wav</ShortName>
@@ -748,7 +748,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1290967234" Type="User" Language="SFX">
+		<SoundBank Id="1290967234" Type="User" Language="SFX" Hash="{84B31290-5AC7-5348-0DEA-1991FE0DB7AE}">
 			<ShortName>Spitter_SoundBank</ShortName>
 			<Path>Spitter_SoundBank.bnk</Path>
 			<Media>
@@ -962,7 +962,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2458534638" Type="User" Language="SFX">
+		<SoundBank Id="2458534638" Type="User" Language="SFX" Hash="{2B0FB6B9-52DD-E2E2-6FF2-E109E63B11B9}">
 			<ShortName>Grenadier_SoundBank</ShortName>
 			<Path>Grenadier_SoundBank.bnk</Path>
 			<Media>
@@ -1045,7 +1045,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3105787907" Type="User" Language="SFX">
+		<SoundBank Id="3105787907" Type="User" Language="SFX" Hash="{86DE5A6C-7C0F-04AD-D37E-312EA90C1C55}">
 			<ShortName>Chomper_SoundBank</ShortName>
 			<Path>Chomper_SoundBank.bnk</Path>
 			<Media>
@@ -1085,6 +1085,10 @@
 					<ShortName>MS01_VC_Die-003.wav</ShortName>
 					<CachePath>SFX/MS01_VC_Die-003_10C4C929.wem</CachePath>
 				</File>
+				<File Id="213243962" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ré.wav</ShortName>
+					<CachePath>SFX/Ré_10C4C929.wem</CachePath>
+				</File>
 				<File Id="215377584" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MS01_FT_Walk_Stone-005.wav</ShortName>
 					<CachePath>SFX/MS01_FT_Walk_Stone-005_10C4C929.wem</CachePath>
@@ -1100,6 +1104,14 @@
 				<File Id="253880444" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MS01_FT_Walk_Grass-005.wav</ShortName>
 					<CachePath>SFX/MS01_FT_Walk_Grass-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="262541260" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>La.wav</ShortName>
+					<CachePath>SFX/La_10C4C929.wem</CachePath>
+				</File>
+				<File Id="267623174" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fa.wav</ShortName>
+					<CachePath>SFX/Fa_10C4C929.wem</CachePath>
 				</File>
 				<File Id="308880629" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MS01_WP_At.wav</ShortName>
@@ -1117,6 +1129,10 @@
 					<ShortName>MS01_VC_Spotted_Placeholder-003.wav</ShortName>
 					<CachePath>SFX/MS01_VC_Spotted_Placeholder-003_10C4C929.wem</CachePath>
 				</File>
+				<File Id="395440531" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Do.wav</ShortName>
+					<CachePath>SFX/Do_10C4C929.wem</CachePath>
+				</File>
 				<File Id="497480294" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MS01_FT_Walk_Grass-001.wav</ShortName>
 					<CachePath>SFX/MS01_FT_Walk_Grass-001_10C4C929.wem</CachePath>
@@ -1124,6 +1140,10 @@
 				<File Id="508255807" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MS01_WP_Hit-003.wav</ShortName>
 					<CachePath>SFX/SFX_MS01_WP_Hit-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="544857877" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mi.wav</ShortName>
+					<CachePath>SFX/Mi_10C4C929.wem</CachePath>
 				</File>
 				<File Id="588175256" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MS01_FT_Walk_Stone-001.wav</ShortName>
@@ -1140,6 +1160,10 @@
 				<File Id="646633001" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MS01_FT_Walk_Dirt-004.wav</ShortName>
 					<CachePath>SFX/MS01_FT_Walk_Dirt-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="720465065" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Si.wav</ShortName>
+					<CachePath>SFX/Si_10C4C929.wem</CachePath>
 				</File>
 				<File Id="758695779" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MS01_FT_Walk_Stone-003.wav</ShortName>
@@ -1164,6 +1188,10 @@
 				<File Id="852235056" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MS01_VC_Die-002.wav</ShortName>
 					<CachePath>SFX/MS01_VC_Die-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="863209858" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sol.wav</ShortName>
+					<CachePath>SFX/Sol_10C4C929.wem</CachePath>
 				</File>
 				<File Id="935473479" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MS01_FT_Walk_Stone-002.wav</ShortName>
@@ -1238,6 +1266,17 @@
 						<MediaRef Id="508255807"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="41941568" Name="Play_Idle" MaxAttenuation="15" DurationType="OneShot" DurationMin="1.1207709" DurationMax="1.1918141">
+					<MediaRefs>
+						<MediaRef Id="213243962"/>
+						<MediaRef Id="262541260"/>
+						<MediaRef Id="267623174"/>
+						<MediaRef Id="395440531"/>
+						<MediaRef Id="544857877"/>
+						<MediaRef Id="720465065"/>
+						<MediaRef Id="863209858"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2262512141" Name="Play_Spotted" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.2522449" DurationMax="0.6537642">
 					<MediaRefs>
 						<MediaRef Id="64354009"/>
@@ -1260,5 +1299,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3331415C-A4FA-6628-62B6-5E8A1517CD4F}</FileHash>
+	<FileHash>{0225DEE2-BCD0-788C-B1BE-FE8DC3526658}</FileHash>
 </SoundBanksInfo>

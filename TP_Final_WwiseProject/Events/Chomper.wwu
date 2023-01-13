@@ -93,6 +93,21 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Idle" ID="{914223F3-60E3-40F8-9C3B-ED4BBC82A62D}" ShortID="505699322">
+					<ChildrenList>
+						<Event Name="Play_Idle" ID="{3E6CF6F7-0F09-4812-9B1C-FB3F97662EB7}">
+							<ChildrenList>
+								<Action Name="" ID="{D0D53283-9A04-4D2D-9F5B-0A87E3A5CD6E}" ShortID="348142108">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RFX_Idle" ID="{8697C0F5-1DB3-4C70-8DC6-9B671124D2CE}" WorkUnitID="{A0759163-C9B6-4D67-90A2-4564036069DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

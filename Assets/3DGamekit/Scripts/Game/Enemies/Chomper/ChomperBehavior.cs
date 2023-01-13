@@ -78,6 +78,10 @@ namespace Gamekit3D
 
         }
 
+        void PlayIdle()
+        {
+            AkSoundEngine.PostEvent("Play_Idle", gameObject);
+        }
         /// <summary>
         /// Called by animation events.
         /// </summary>
