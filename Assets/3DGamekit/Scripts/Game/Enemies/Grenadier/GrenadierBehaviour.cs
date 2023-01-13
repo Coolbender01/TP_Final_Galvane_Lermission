@@ -68,7 +68,10 @@ namespace Gamekit3D
 
         protected float m_ShieldActivationTime;
 
-
+        private void Start()
+        {
+            AkSoundEngine.RegisterGameObj(gameObject);  
+        }
         void OnEnable()
         {
             m_EnemyController = GetComponent<EnemyController>();
@@ -164,9 +167,23 @@ namespace Gamekit3D
 
         public void PlayStep()
         {
-            footstepAudioPlayer.PlayRandomClip();
+            AkSoundEngine.PostEvent("Play_GR_Footstep", gameObject);
         }
 
+        public void PlayFistAttack()
+        {
+            AkSoundEngine.PostEvent("Play_GR_Attack_Fist", gameObject);
+        }
+
+        public void PlayProjectileAttack()
+        {
+            AkSoundEngine.PostEvent("Play_GR_Attack_Projectile", gameObject);
+        }
+
+        public void PlayShieldAttack()
+        {
+            AkSoundEngine.PostEvent("Play_GR_Attack_Shield", gameObject);
+        }
         public void Shoot()
         {
             throwAudioPlayer.PlayRandomClip();

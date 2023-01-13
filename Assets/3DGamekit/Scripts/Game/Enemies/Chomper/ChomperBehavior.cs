@@ -103,6 +103,11 @@ namespace Gamekit3D
                 m_FollowerInstance.distributor.UnregisterFollower(m_FollowerInstance);
         }
 
+        void PlayIdle()
+        {
+            AkSoundEngine.PostEvent("Play_Idle", gameObject);
+        }
+
         private void FixedUpdate()
         {
             m_Controller.animator.SetBool(hashGrounded, controller.grounded);

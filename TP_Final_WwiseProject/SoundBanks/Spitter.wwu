@@ -6,8 +6,10 @@
 				<SoundBank Name="Spitter_SoundBank" ID="{DBC43447-762D-4565-A6E5-6CCB9ADEC25D}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_SP_Projectile" ID="{5C6AA71C-7183-40AE-A08A-E0F7C56E8862}" WorkUnitID="{B08D371F-A60C-4172-AD7C-9A270DDA8884}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SP_Foley" ID="{39392DD1-A061-40DF-9561-D82726179569}" WorkUnitID="{B08D371F-A60C-4172-AD7C-9A270DDA8884}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SP_Projectile_Hit" ID="{45CFE566-4B68-4340-9F89-88E994CBFEB6}" WorkUnitID="{B08D371F-A60C-4172-AD7C-9A270DDA8884}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SP_FootStep" ID="{27192C70-6230-43CF-BDB2-36E47A78ECDF}" WorkUnitID="{B08D371F-A60C-4172-AD7C-9A270DDA8884}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SP_Die" ID="{FA4970E1-6295-4BB0-A5D6-CD69A82BFE25}" WorkUnitID="{B08D371F-A60C-4172-AD7C-9A270DDA8884}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SP_Projectile_Splat" ID="{1FC49731-038C-4E2F-9DC3-97C0602281A0}" WorkUnitID="{B08D371F-A60C-4172-AD7C-9A270DDA8884}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

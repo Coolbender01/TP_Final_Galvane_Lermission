@@ -42,7 +42,17 @@
 				</Folder>
 				<Folder Name="Foley" ID="{1FCCC005-A5CA-42E9-9BEF-7C0ABC4B8496}" ShortID="470030487">
 					<ChildrenList>
-						<Event Name="Play_SP_Foley" ID="{39392DD1-A061-40DF-9561-D82726179569}"/>
+						<Event Name="Play_SP_Foley" ID="{39392DD1-A061-40DF-9561-D82726179569}">
+							<ChildrenList>
+								<Action Name="" ID="{FC752548-E221-439C-BBE4-D45EBB178B33}" ShortID="336982376">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RFX_MS01_Idle" ID="{003BBDFD-95AB-4EC8-9C3D-8A6DAC6D0BDD}" WorkUnitID="{A0759163-C9B6-4D67-90A2-4564036069DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Footsteps" ID="{3DD5F3E4-D3C2-4774-A315-C39BBEF9BEA4}" ShortID="553562527">
@@ -62,7 +72,17 @@
 				</Folder>
 				<Folder Name="Die" ID="{2ACB151F-29D0-4EAC-AC0A-CF987DF13AD1}" ShortID="831580748">
 					<ChildrenList>
-						<Event Name="Play_SP_Die" ID="{FA4970E1-6295-4BB0-A5D6-CD69A82BFE25}"/>
+						<Event Name="Play_SP_Die" ID="{FA4970E1-6295-4BB0-A5D6-CD69A82BFE25}">
+							<ChildrenList>
+								<Action Name="" ID="{5ACE7C64-E9C2-4C91-A7DB-7BE50A9E75F9}" ShortID="748907782">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MS01_VC_Die" ID="{8C8DFB4C-9602-466A-AF87-5CF3D5E0B811}" WorkUnitID="{A0759163-C9B6-4D67-90A2-4564036069DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

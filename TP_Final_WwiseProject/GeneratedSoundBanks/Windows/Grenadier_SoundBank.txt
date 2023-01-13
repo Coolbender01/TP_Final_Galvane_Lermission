@@ -1,5 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	984362133	Play_GR_Attack_Fist			\Default Work Unit\Monstre\Grenadier\Attack\Play_GR_Attack_Fist	
+	1479641432	Play_GR_Attack_Shield			\Default Work Unit\Monstre\Grenadier\Attack\Play_GR_Attack_Shield	
 	2547724478	Play_GR_Footstep			\Default Work Unit\Monstre\Grenadier\Footsteps\Play_GR_Footstep	
+	3571706742	Play_GR_Attack_Projectile			\Default Work Unit\Monstre\Grenadier\Attack\Play_GR_Attack_Projectile	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	2385628198	Footsteps			\Default Work Unit\MainCharacter\Footsteps	
@@ -15,8 +18,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	50923530	MS01_FT_Walk_Dirt-002	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS01_FT_Walk_Dirt-002_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Grenadier\@Grenadier\GR_Footsteps\GR_Footsteps_Dirt\MS01_FT_Walk_Dirt-002		4942
 	270882786	MS03_FT_Stone-001	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS03_FT_Stone-001_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Grenadier\@Grenadier\GR_Footsteps\GR_Footsteps_Stone\MS03_FT_Stone-001		36130
 	338832736	MS01_FT_Walk_Dirt-001	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS01_FT_Walk_Dirt-001_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Grenadier\@Grenadier\GR_Footsteps\GR_Footsteps_Dirt\MS01_FT_Walk_Dirt-001		16712
+	439733869	SFX_MS03_WP_Attack_Shield	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\SFX_MS03_WP_Attack_Shield_9245C4BA.wem		\Actor-Mixer Hierarchy\Monster\Grenadier\@Grenadier\Attack\SFX_MS03_WP_Attack_Shield		834740
 	467646680	MS03_FT_Stone-004	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS03_FT_Stone-004_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Grenadier\@Grenadier\GR_Footsteps\GR_Footsteps_Stone\MS03_FT_Stone-004		48556
 	621238002	MS01_FT_Walk_Dirt-005	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS01_FT_Walk_Dirt-005_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Grenadier\@Grenadier\GR_Footsteps\GR_Footsteps_Dirt\MS01_FT_Walk_Dirt-005		9780
+	622068637	SFX_MS03_WP_Attack_Fist	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\SFX_MS03_WP_Attack_Fist_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Grenadier\@Grenadier\Attack\SFX_MS03_WP_Attack_Fist		466644
+	630043865	SFX_MS03_WP_Attack_Projectile	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\SFX_MS03_WP_Attack_Projectile_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Grenadier\@Grenadier\Attack\SFX_MS03_WP_Attack_Projectile		651318
 	646633001	MS01_FT_Walk_Dirt-004	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS01_FT_Walk_Dirt-004_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Grenadier\@Grenadier\GR_Footsteps\GR_Footsteps_Dirt\MS01_FT_Walk_Dirt-004		4936
 	835293703	MS03_FT_Stone-002	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS03_FT_Stone-002_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Grenadier\@Grenadier\GR_Footsteps\GR_Footsteps_Stone\MS03_FT_Stone-002		33326
 	836619643	MS03_FT_Stone-005	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MS03_FT_Stone-005_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Grenadier\@Grenadier\GR_Footsteps\GR_Footsteps_Stone\MS03_FT_Stone-005		36430

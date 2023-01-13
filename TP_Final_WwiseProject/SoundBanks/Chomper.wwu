@@ -11,6 +11,7 @@
 						<ObjectRef Name="Play_CH_Attack" ID="{2A4BC926-3C24-46DC-A6D3-8DA9C258EF5A}" WorkUnitID="{7F8B3F9A-B23B-4721-9366-F252328BCC4A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Idle" ID="{3E6CF6F7-0F09-4812-9B1C-FB3F97662EB7}" WorkUnitID="{7F8B3F9A-B23B-4721-9366-F252328BCC4A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_CH_Die" ID="{4965A9C3-A60C-4E71-85CF-773BC5F18524}" WorkUnitID="{7F8B3F9A-B23B-4721-9366-F252328BCC4A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Idle" ID="{D4F2D4E3-D96B-4F2A-B24B-E90F24602032}" WorkUnitID="{7F8B3F9A-B23B-4721-9366-F252328BCC4A}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

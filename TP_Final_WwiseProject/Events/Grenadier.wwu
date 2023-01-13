@@ -5,9 +5,37 @@
 			<ChildrenList>
 				<Folder Name="Attack" ID="{F5130B01-E122-4A24-85C4-9274F8A271BC}" ShortID="350904355">
 					<ChildrenList>
-						<Event Name="Play_GR_Attack" ID="{67D01130-74C4-4F1A-A4FA-C067C4BB8D37}">
+						<Event Name="Play_GR_Attack_Fist" ID="{67D01130-74C4-4F1A-A4FA-C067C4BB8D37}">
 							<ChildrenList>
-								<Action Name="" ID="{CBEC7A9B-2381-4119-AEBE-B59110D41597}" ShortID="796711460"/>
+								<Action Name="" ID="{CBEC7A9B-2381-4119-AEBE-B59110D41597}" ShortID="796711460">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MS03_WP_Attack_Fist" ID="{F00BE9A2-9498-4435-AC50-7C7F8CC9278A}" WorkUnitID="{739B82B8-7145-4C77-B346-A6697320B36E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_GR_Attack_Projectile" ID="{6718C5C6-A382-4684-95D0-E03CC19E32DB}">
+							<ChildrenList>
+								<Action Name="" ID="{E9F77011-21B9-402C-B030-138449CBA576}" ShortID="450856686">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MS03_WP_Attack_Projectile" ID="{2537FCD7-F16D-4C81-A511-9C3261373979}" WorkUnitID="{739B82B8-7145-4C77-B346-A6697320B36E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_GR_Attack_Shield" ID="{85B84736-4B4B-456A-A6E3-AA8D75FAF1BA}">
+							<ChildrenList>
+								<Action Name="" ID="{38507E4F-8555-45E4-B3E1-ABF1B4C0ECD7}" ShortID="599282172">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MS03_WP_Attack_Shield" ID="{CA425CDE-6B94-4DF3-9B1B-DDA841377C0D}" WorkUnitID="{739B82B8-7145-4C77-B346-A6697320B36E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 					</ChildrenList>

@@ -45,6 +45,11 @@ namespace Gamekit3D
 
         protected Vector3 m_RememberedTargetPosition;
 
+        //Wwise 
+        void Start()
+        {
+            AkSoundEngine.RegisterGameObj(gameObject);  
+        }
         protected void OnEnable()
         {
             m_Controller = GetComponentInChildren<EnemyController>();
@@ -120,6 +125,7 @@ namespace Gamekit3D
         public void TriggerAttack()
         {
             m_Controller.animator.SetTrigger(hashAttack);
+            Debug.Log("je TIRE");
         }
 
         public void RememberTargetPosition()
@@ -130,12 +136,9 @@ namespace Gamekit3D
             m_RememberedTargetPosition = m_Target.transform.position;
         }
 
-        void PlayStep(int frontFoot)
+        void PlayStep()
         {
-            if (frontStepAudio != null && frontFoot == 1)
-                frontStepAudio.PlayRandomClip();
-            else if (backStepAudio != null && frontFoot == 0)
-                backStepAudio.PlayRandomClip ();
+            AkSoundEngine.PostEvent("Play_CH_Footstep", gameObject);
         }
 
         public void Grunt ()
@@ -144,10 +147,32 @@ namespace Gamekit3D
                 gruntAudio.PlayRandomClip ();
         }
 
+
+        void PlaySpotted()
+        {
+            AkSoundEngine.PostEvent("Play_Spotted", gameObject);
+        }
+
+        void PlayIdle()
+        {
+            AkSoundEngine.PostEvent("Play_Idle", gameObject);
+        }
+
         public void Spotted()
         {
             if (spottedAudio != null)
                 spottedAudio.PlayRandomClip();
+        }
+        void PlayHit()
+        {
+            AkSoundEngine.PostEvent("Play_Hit", gameObject);
+            AkSoundEngine.PostEvent("Play_CH_Die", gameObject);
+        }
+
+        void ProjectileAttack()
+        {
+            AkSoundEngine.PostEvent("Play_SP_Projectile", gameObject);
+            Debug.Log("Je tire");
         }
 
         public void CheckNeedFleeing()
