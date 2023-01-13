@@ -31,23 +31,17 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<SwitchContainer Name="AttackCombo" ID="{9920001B-E3E2-4139-A5CC-AAA9734DD57E}" ShortID="980349125">
+								<BlendContainer Name="AttackCombo" ID="{F519AE27-4D49-4A10-B1DC-145BD0A1AC4C}" ShortID="143241000">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
 										</Reference>
-										<Reference Name="DefaultSwitchOrState">
-											<ObjectRef Name="Combo01" ID="{5E713A80-011F-442B-A047-986F6A82A568}" WorkUnitID="{83B32B5F-F308-4E9C-978D-E48DD17DF45C}"/>
-										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
 										</Reference>
-										<Reference Name="SwitchGroupOrStateGroup">
-											<ObjectRef Name="AttackCombo" ID="{11FC7EA5-6E07-457B-ADA3-96F1215BE9EE}" WorkUnitID="{83B32B5F-F308-4E9C-978D-E48DD17DF45C}"/>
-										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="SFX_MC_WP_At-001" ID="{F5271F20-95AC-4655-BD2E-1FCD43D3CB86}" ShortID="576902655">
+										<Sound Name="SFX_MC_AT1" ID="{F5271F20-95AC-4655-BD2E-1FCD43D3CB86}" ShortID="576902655">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
@@ -69,7 +63,7 @@
 												<ActiveSource Name="SFX_MC_WP_At-001" ID="{76BC5728-E82C-4B34-A654-0C2129275492}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_MC_WP_At-002" ID="{0A70C165-2DF4-4F80-AD64-E1CEDFEA54F9}" ShortID="756627390">
+										<Sound Name="SFX_MC_AT2" ID="{0A70C165-2DF4-4F80-AD64-E1CEDFEA54F9}" ShortID="756627390">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
@@ -91,7 +85,7 @@
 												<ActiveSource Name="SFX_MC_WP_At-002" ID="{09E691A1-6155-4770-8C4A-D8280456353F}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_MC_WP_At-003" ID="{4018571E-3622-4011-8C95-EAC8BF0941FE}" ShortID="107024418">
+										<Sound Name="SFX_MC_AT3" ID="{4018571E-3622-4011-8C95-EAC8BF0941FE}" ShortID="107024418">
 											<PropertyList>
 												<Property Name="Pitch" Type="int32">
 													<ValueList>
@@ -120,7 +114,7 @@
 												<ActiveSource Name="SFX_MC_WP_At-003" ID="{11777E47-F323-4810-A7EC-7FF946908904}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_MC_WP_At-004" ID="{2DD2D08F-4626-4525-9272-FF3503CFDD6C}" ShortID="668819007">
+										<Sound Name="SFX_MC_AT4" ID="{2DD2D08F-4626-4525-9272-FF3503CFDD6C}" ShortID="668819007">
 											<PropertyList>
 												<Property Name="Pitch" Type="int32">
 													<ValueList>
@@ -150,49 +144,7 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-									<GroupingInfo>
-										<GroupingBehaviorList>
-											<GroupingBehavior>
-												<ItemRef Name="SFX_MC_WP_At-003" ID="{4018571E-3622-4011-8C95-EAC8BF0941FE}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="SFX_MC_WP_At-001" ID="{F5271F20-95AC-4655-BD2E-1FCD43D3CB86}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="SFX_MC_WP_At-002" ID="{0A70C165-2DF4-4F80-AD64-E1CEDFEA54F9}"/>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="SFX_MC_WP_At-004" ID="{2DD2D08F-4626-4525-9272-FF3503CFDD6C}"/>
-											</GroupingBehavior>
-										</GroupingBehaviorList>
-										<GroupingList>
-											<Grouping>
-												<SwitchRef Name="Combo01" ID="{5E713A80-011F-442B-A047-986F6A82A568}"/>
-												<ItemList>
-													<ItemRef Name="SFX_MC_WP_At-001" ID="{F5271F20-95AC-4655-BD2E-1FCD43D3CB86}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Combo04" ID="{9EA691C6-EDE0-43D4-A55B-1CCCD44917F7}"/>
-												<ItemList>
-													<ItemRef Name="SFX_MC_WP_At-004" ID="{2DD2D08F-4626-4525-9272-FF3503CFDD6C}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Combo03" ID="{D06746D0-B7C6-431A-8D55-AFE1C066A1E8}"/>
-												<ItemList>
-													<ItemRef Name="SFX_MC_WP_At-003" ID="{4018571E-3622-4011-8C95-EAC8BF0941FE}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Combo02" ID="{0205FADF-C4DF-431B-AA0E-82BA9E68517A}"/>
-												<ItemList>
-													<ItemRef Name="SFX_MC_WP_At-002" ID="{0A70C165-2DF4-4F80-AD64-E1CEDFEA54F9}"/>
-												</ItemList>
-											</Grouping>
-										</GroupingList>
-									</GroupingInfo>
-								</SwitchContainer>
+								</BlendContainer>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="MC_Footsteps" ID="{A3B61673-44F9-4BF1-AA26-053164726B5C}" ShortID="449275913">
@@ -1876,6 +1828,31 @@
 												<ActiveSource Name="MC_VO_Hurt-005" ID="{C016456B-7A2D-43E7-871C-70DAFCC4B12D}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="New Sound SFX" ID="{B6804729-95E4-48A1-987E-0B031E8C32F7}" ShortID="649477970">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Silence" ID="{E9967EDD-8F8E-4C95-8784-4515709CCA8E}" ShortID="878452330" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Silence" ID="{E9967EDD-8F8E-4C95-8784-4515709CCA8E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="VO_Effort" ID="{945B5959-5E0A-4DE9-9758-A28088ADDCF4}" ShortID="159251785">
@@ -1998,6 +1975,31 @@
 												<ActiveSource Name="MC_VO_Effort-005" ID="{045EDCF9-7C04-4D6E-B761-62F58A99254B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="New Sound SFX" ID="{A8113FCD-0221-4CAB-A26F-B0592795D834}" ShortID="978340920">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Silence" ID="{21D4E191-E3D4-4141-AA80-43204330758A}" ShortID="1032939357" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Silence" ID="{21D4E191-E3D4-4141-AA80-43204330758A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="VO_Attack" ID="{AEEF69C3-F575-42E7-8F08-12C233B67B62}" ShortID="166847378">
@@ -2118,6 +2120,31 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="MC_VO_Attack-005" ID="{19436C05-B25E-44D1-AEAF-1141B19C3D8F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="New Sound SFX" ID="{4BC3F72F-85ED-4414-9BCD-7BA72A91089C}" ShortID="1027975776">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Silence" ID="{E6E27A28-713F-4881-A928-8CC282B4EB9D}" ShortID="678210808" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Silence" ID="{E6E27A28-713F-4881-A928-8CC282B4EB9D}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
