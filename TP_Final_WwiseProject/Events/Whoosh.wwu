@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{9CCEE6ED-9428-4FF6-940E-F503B27AD2EE}" SchemaVersion="110" RootDocumentID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" ParentDocumentID="{08E6FF50-3D49-48B2-9389-6121EC96E7F2}">
-	<Events>
-		<WorkUnit Name="Whoosh" ID="{9CCEE6ED-9428-4FF6-940E-F503B27AD2EE}" OwnerID="{08E6FF50-3D49-48B2-9389-6121EC96E7F2}" PersistMode="Nested"/>
-	</Events>
-</WwiseDocument>

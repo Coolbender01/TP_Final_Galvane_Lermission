@@ -18,30 +18,11 @@ namespace AK
         static const AkUniqueID PLAY_CH_FOOTSTEP = 1825440468U;
         static const AkUniqueID PLAY_GR_FOOTSTEP = 2547724478U;
         static const AkUniqueID PLAY_HIT = 2960666077U;
-        static const AkUniqueID PLAY_MC_BODYFALL = 2645783214U;
-        static const AkUniqueID PLAY_MC_FOLEYHIGH = 1259990034U;
-        static const AkUniqueID PLAY_MC_FOLEYLOW = 3654406292U;
-        static const AkUniqueID PLAY_MC_FOLEYMID = 3553887852U;
-        static const AkUniqueID PLAY_MC_ROLL = 1213444204U;
-        static const AkUniqueID PLAY_MC_RUN = 1600895284U;
-        static const AkUniqueID PLAY_MC_SCUFF = 1303875432U;
-        static const AkUniqueID PLAY_MC_WALK = 3017749058U;
-        static const AkUniqueID PLAY_SFX_MC_A = 3339287918U;
-        static const AkUniqueID PLAY_SFX_MC_AT = 3253761118U;
-        static const AkUniqueID PLAY_SFX_MC_ATT = 2877763470U;
-        static const AkUniqueID PLAY_SFX_MC_ATTA = 2479873259U;
-        static const AkUniqueID PLAY_SFX_WHOOSHFAST = 646296418U;
-        static const AkUniqueID PLAY_SFX_WHOOSHMID = 1708505622U;
-        static const AkUniqueID PLAY_SFX_WHOOSHSLOW = 216148591U;
         static const AkUniqueID PLAY_SP_FOOTSTEP = 2561501052U;
         static const AkUniqueID PLAY_SP_PROJECTILE = 2046270727U;
         static const AkUniqueID PLAY_SP_PROJECTILE_HIT = 3525273781U;
         static const AkUniqueID PLAY_SP_PROJECTILE_SPLAT = 3466111482U;
         static const AkUniqueID PLAY_SPOTTED = 2262512141U;
-        static const AkUniqueID PLAY_VO_ATTACK = 3893732486U;
-        static const AkUniqueID PLAY_VO_DEATHSCREAM = 420198711U;
-        static const AkUniqueID PLAY_VO_EFFORT = 3926096204U;
-        static const AkUniqueID PLAY_VO_HURT = 2657945433U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -85,7 +66,6 @@ namespace AK
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID CHOMPER_SOUNDBANK = 3105787907U;
         static const AkUniqueID GRENADIER_SOUNDBANK = 2458534638U;
-        static const AkUniqueID MC_SOUNDBANK = 767608191U;
         static const AkUniqueID SPITTER_SOUNDBANK = 1290967234U;
     } // namespace BANKS
 

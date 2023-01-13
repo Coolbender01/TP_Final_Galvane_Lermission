@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 83b647f9ffea82b4a9680e016dec2197
 ModelImporter:
-  serializedVersion: 21300
+  serializedVersion: 20101
   internalIDToNameTable:
   - first:
       1: 100000
@@ -713,7 +713,6 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -759,7 +758,7 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: EllenIdleShort
       takeName: Take 001
@@ -801,7 +800,6 @@ ModelImporter:
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
-    nodeNameCollisionStrategy: 0
     fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -813,7 +811,6 @@ ModelImporter:
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
-    optimizeBones: 1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -856,8 +853,6 @@ ModelImporter:
   animationType: 2
   humanoidOversampling: 1
   avatarSetup: 2
-  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
-  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

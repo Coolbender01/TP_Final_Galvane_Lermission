@@ -14,13 +14,6 @@
 					</ReferenceList>
 					<ChildrenList>
 						<ActorMixer Name="SFX_Whoosh" ID="{8F32C674-B659-4DDF-920D-0E2392C5B1AE}" ShortID="938990383">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
@@ -275,13 +268,6 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Whoosh_Fast" ID="{BA374AD8-62EC-47F0-BB9D-E5876879EE71}" ShortID="20311455">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-15</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
@@ -302,9 +288,6 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Whoosh_Fast-001" ID="{802CB732-E668-4D74-A1F6-BD2D9C4FE9C4}">
-													<PropertyList>
-														<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
-													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Whoosh_Fast-001.wav</AudioFile>
 													<MediaIDList>
@@ -327,9 +310,6 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Whoosh_Fast-002" ID="{480E3A51-A7DB-4E1F-B6EB-40D61C30A35B}">
-													<PropertyList>
-														<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
-													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Whoosh_Fast-002.wav</AudioFile>
 													<MediaIDList>
@@ -352,9 +332,6 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Whoosh_Fast-003" ID="{7B78BE92-C69D-47E6-A464-8C3FE89470C9}">
-													<PropertyList>
-														<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
-													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Whoosh_Fast-003.wav</AudioFile>
 													<MediaIDList>
@@ -377,9 +354,6 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Whoosh_Fast-004" ID="{DD3AEAAF-38A2-4AFF-8F81-23AB11A83F3B}">
-													<PropertyList>
-														<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
-													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Whoosh_Fast-004.wav</AudioFile>
 													<MediaIDList>
@@ -402,9 +376,6 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="SFX_Whoosh_Fast-005" ID="{15C3196F-C528-47B3-881B-B06A2538A665}">
-													<PropertyList>
-														<Property Name="ChannelConfigOverride" Type="int64" Value="49410"/>
-													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>SFX_Whoosh_Fast-005.wav</AudioFile>
 													<MediaIDList>

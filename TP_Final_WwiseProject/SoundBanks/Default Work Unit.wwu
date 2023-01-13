@@ -4,7 +4,6 @@
 		<WorkUnit Name="Default Work Unit" ID="{9F591697-3B79-4603-9DCB-447972967BAC}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="Monstre" ID="{36341773-5FDD-4C74-AC4D-1385928A34FA}" PersistMode="Reference"/>
-				<WorkUnit Name="MC" ID="{837D5B6B-A923-4AB6-93DC-03397F1FC33F}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

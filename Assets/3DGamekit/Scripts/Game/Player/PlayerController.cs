@@ -31,7 +31,6 @@ namespace Gamekit3D
         public RandomAudioPlayer emoteDeathPlayer;
         public RandomAudioPlayer emoteAttackPlayer;
         public RandomAudioPlayer emoteJumpPlayer;
-      
 
         protected AnimatorStateInfo m_CurrentStateInfo;    // Information about the base layer of the animator cached.
         protected AnimatorStateInfo m_NextStateInfo;
@@ -101,114 +100,10 @@ namespace Gamekit3D
         // Tags
         readonly int m_HashBlockInput = Animator.StringToHash("BlockInput");
 
-        //FOOTSTEP
-        void Start()
-        {
-            AkSoundEngine.RegisterGameObj(gameObject);
-        }
-
-        public void Walk()
-        {
-            AkSoundEngine.PostEvent("Play_MC_Walk", gameObject);
-        }
-        public void Run()
-        {
-            AkSoundEngine.PostEvent("Play_MC_Run", gameObject);
-        }
-
-        public void Scuff()
-        {
-            AkSoundEngine.PostEvent("Play_MC_Scuff", gameObject);
-        }
-        public void FoleyLow()
-        {
-            AkSoundEngine.PostEvent("Play_MC_FoleyLow", gameObject);
-        }
-
-        public void FoleyMid()
-        {
-            AkSoundEngine.PostEvent("Play_MC_FoleyMid", gameObject);
-        }
         protected bool IsMoveInput
         {
             get { return !Mathf.Approximately(m_Input.MoveInput.sqrMagnitude, 0f); }
         }
-
-        public void FoleyHigh()
-        {
-            AkSoundEngine.PostEvent("Play_MC_FoleyLow", gameObject);
-        }
-
-        public void Roll()
-        {
-            AkSoundEngine.PostEvent("Play_MC_Roll", gameObject);
-        }
-
-
-        public void WhooshFast()
-        {
-            AkSoundEngine.PostEvent("Play_SFX_WhooshFast", gameObject);
-        }
-
-        public void Attack()
-        {
-            AkSoundEngine.PostEvent("Play_SFX_MC_A", gameObject);
-        }
-
-        public void ATtack()
-        {
-            AkSoundEngine.PostEvent("Play_SFX_MC_AT", gameObject);
-        }
-
-        public void ATTack()
-        {
-            AkSoundEngine.PostEvent("Play_SFX_MC_ATT", gameObject);
-        }
-
-        public void ATTAck()
-        {
-            AkSoundEngine.PostEvent("Play_SFX_MC_ATTA", gameObject);
-        }
-
-        public void VOHurt()
-        {
-            AkSoundEngine.PostEvent("Play_VO_Hurt", gameObject);
-        }
-
-        public void VOEffort()
-        {
-            AkSoundEngine.PostEvent("Play_VO_Effort", gameObject);
-        }
-
-        public void VOAttack()
-        {          
-            AkSoundEngine.PostEvent("Play_VO_Attack", gameObject);
-
-        }
-
-        public void VODeathScream()
-        {
-            AkSoundEngine.PostEvent("Play_VO_DeathScream", gameObject);
-        }
-        public void WhooshMid()
-        {
-            AkSoundEngine.PostEvent("Play_SFX_WhooshMid", gameObject);
-        }
-
-        public void WhooshSlow()
-        {
-            AkSoundEngine.PostEvent("Play_SFX_WhooshSlow", gameObject);
-        }
-
-        public void BodyFall()
-        {
-            AkSoundEngine.PostEvent("Play_MC_BodyFall", gameObject);
-        }
-
-
-
-
-
 
         public void SetCanAttack(bool canAttack)
         {
