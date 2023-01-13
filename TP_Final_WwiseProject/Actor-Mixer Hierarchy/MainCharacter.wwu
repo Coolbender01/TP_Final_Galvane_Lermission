@@ -32,6 +32,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<BlendContainer Name="AttackCombo" ID="{F519AE27-4D49-4A10-B1DC-145BD0A1AC4C}" ShortID="143241000">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>25</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
@@ -89,7 +96,7 @@
 											<PropertyList>
 												<Property Name="Pitch" Type="int32">
 													<ValueList>
-														<Value>500</Value>
+														<Value>450</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -204,7 +211,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-15</Value>
+												<Value>-13</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -890,7 +897,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-15</Value>
+												<Value>-12</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1598,7 +1605,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-9</Value>
+												<Value>-7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1661,7 +1668,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-24</Value>
+												<Value>-21</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2111,6 +2118,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="MC_VO_Attack-004" ID="{53D86317-3333-476F-9A51-BAF90F117712}" ShortID="82773459">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
@@ -2130,28 +2144,6 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="MC_VO_Attack-004" ID="{8BB1331C-7B4F-4B11-AFC1-276FB923808B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="MC_VO_Attack-005" ID="{4537D3BE-F459-42E0-A04B-1F17AC59B88D}" ShortID="219462322">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="MC_VO_Attack-005" ID="{19436C05-B25E-44D1-AEAF-1141B19C3D8F}">
-													<Language>SFX</Language>
-													<AudioFile>MC_VO_Attack-005.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="585050746"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="MC_VO_Attack-005" ID="{19436C05-B25E-44D1-AEAF-1141B19C3D8F}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -2178,6 +2170,254 @@
 										<ActiveSource Name="MC_VO_DeathScreaming" ID="{B0A780F4-B7A4-420B-AC27-D4ECFF4E4A5C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<RandomSequenceContainer Name="AttackOrEffort" ID="{E4D3F66C-6E83-4BD6-BD91-7D6080150691}" ShortID="615260563">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="VO_Attack" ID="{6E121C8E-A7A8-4BFA-9DD5-C56837C66A95}" ShortID="116763764">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="MC_VO_Attack-001" ID="{36BDF394-9F1D-40C8-ACF5-6DBC4D7BAF14}" ShortID="944742120">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MC_VO_Attack-001" ID="{796D2DCB-B89A-481B-8325-B2281269F1C1}">
+															<Language>SFX</Language>
+															<AudioFile>MC_VO_Attack-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="115130405"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MC_VO_Attack-001" ID="{796D2DCB-B89A-481B-8325-B2281269F1C1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MC_VO_Attack-002" ID="{C2A3A356-989D-414B-823E-4D1809F8358A}" ShortID="377330454">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MC_VO_Attack-002" ID="{1C391B78-E946-47F4-AD2F-CE19954864DB}">
+															<Language>SFX</Language>
+															<AudioFile>MC_VO_Attack-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="941160090"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MC_VO_Attack-002" ID="{1C391B78-E946-47F4-AD2F-CE19954864DB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MC_VO_Attack-003" ID="{8EF42AF5-67C1-4475-9D7A-093DFA1632F6}" ShortID="312804069">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MC_VO_Attack-003" ID="{9B47F02D-DA76-4DF3-BF18-26239E9D9009}">
+															<Language>SFX</Language>
+															<AudioFile>MC_VO_Attack-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="996363881"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MC_VO_Attack-003" ID="{9B47F02D-DA76-4DF3-BF18-26239E9D9009}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MC_VO_Attack-004" ID="{59EEEB78-CF75-499C-B886-20922883C283}" ShortID="250649968">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MC_VO_Attack-004" ID="{7CB7E093-0D5F-4A25-8B70-91D4343DEE4A}">
+															<Language>SFX</Language>
+															<AudioFile>MC_VO_Attack-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="148320710"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MC_VO_Attack-004" ID="{7CB7E093-0D5F-4A25-8B70-91D4343DEE4A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="VO_Effort" ID="{5D556D84-C8AB-4572-AE19-6BD2591E75C5}" ShortID="379771712">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="MC_VO_Effort-001" ID="{7A84D925-BC50-45F7-BB77-67190AC7B8EB}" ShortID="742596469">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MC_VO_Effort-001" ID="{F0D188F8-0E21-4EDF-ABFE-12FE15193D28}">
+															<Language>SFX</Language>
+															<AudioFile>MC_VO_Effort-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="11979760"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MC_VO_Effort-001" ID="{F0D188F8-0E21-4EDF-ABFE-12FE15193D28}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MC_VO_Effort-002" ID="{8AF106CA-E52A-4F43-AA96-304D5978DCF2}" ShortID="316733690">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MC_VO_Effort-002" ID="{185322BF-ABF9-4A7F-9929-31630F68F03D}">
+															<Language>SFX</Language>
+															<AudioFile>MC_VO_Effort-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="702496007"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MC_VO_Effort-002" ID="{185322BF-ABF9-4A7F-9929-31630F68F03D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MC_VO_Effort-003" ID="{CF9D86CF-EDCA-49A6-99BD-68594D891741}" ShortID="541219612">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MC_VO_Effort-003" ID="{7F814717-562C-4EDA-A71B-6EDEAEA5C9F6}">
+															<Language>SFX</Language>
+															<AudioFile>MC_VO_Effort-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="227592302"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MC_VO_Effort-003" ID="{7F814717-562C-4EDA-A71B-6EDEAEA5C9F6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MC_VO_Effort-004" ID="{1627A662-497F-43E6-833F-DA489E9EBE4E}" ShortID="1068677339">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MC_VO_Effort-004" ID="{38E44AED-D0A2-49D1-848A-9CE7C010C4E0}">
+															<Language>SFX</Language>
+															<AudioFile>MC_VO_Effort-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="73955752"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MC_VO_Effort-004" ID="{38E44AED-D0A2-49D1-848A-9CE7C010C4E0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="MC_VO_Effort-005" ID="{EA8E61DA-122D-4602-93A3-89EC780A9984}" ShortID="196194257">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="MC_VO_Effort-005" ID="{B9463E27-E370-4950-B9B7-9FE9134BB97C}">
+															<Language>SFX</Language>
+															<AudioFile>MC_VO_Effort-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="437815570"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="MC_VO_Effort-005" ID="{B9463E27-E370-4950-B9B7-9FE9134BB97C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="MC_Foley" ID="{B5EAF34E-EDB1-4FED-B5D9-37A1027EDCAE}" ShortID="195401133">
@@ -2212,7 +2452,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-26</Value>
+										<Value>-29</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -2480,6 +2720,13 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="FOL_High" ID="{B5A332FD-46F0-4F98-9562-CB82CD19328E}" ShortID="996118450">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>

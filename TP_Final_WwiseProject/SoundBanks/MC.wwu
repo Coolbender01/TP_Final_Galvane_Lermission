@@ -21,6 +21,7 @@
 						<ObjectRef Name="Play_SFX_MC_Impact_Water" ID="{F50C42E1-FB69-4B79-BF1A-3FE75EDC6E45}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_MC_AT2" ID="{F8FD18AD-6367-4C09-BC6C-28C2F919EC60}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Whoosh_Fast" ID="{8C23B478-DA2A-4C17-9A86-08FC3C71AD02}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AttackOrEffort" ID="{FB605D0B-8061-4C31-89A6-08C8845AF406}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_MC_Impact_Fight" ID="{E7E3DB6B-785B-4CE8-A2C9-3B2E53C66878}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Whoosh_Slow" ID="{7AD0D162-B21D-4DC9-9B87-98938FC3B3BE}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_MC_AT4" ID="{ABAB252A-F4A2-4E65-90D9-B01D5FA2D8A5}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
