@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1180110C-85DA-494B-A82B-6AF81B8CBA5F}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Ambiances" ID="{1180110C-85DA-494B-A82B-6AF81B8CBA5F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Ambiances" ID="{1180110C-85DA-494B-A82B-6AF81B8CBA5F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Extérieur" ID="{937C9D21-1874-4FC6-9360-65DDC7AE0F07}" ShortID="1001371013">
+					<ChildrenList>
+						<Event Name="Play_Amb_Ext" ID="{BAA9E413-0237-416B-B1DD-712B025BF1AF}">
+							<ChildrenList>
+								<Action Name="" ID="{58271BBA-838A-4D48-AC1A-212A78813316}" ShortID="572149074">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RFX_Out_Animals" ID="{C51CCC02-3D40-45DD-8D3C-CA41B7A9CA29}" WorkUnitID="{A12C285A-29D3-49DD-985E-49EF86231368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_RFX_Plants" ID="{3E62EEA3-3C6A-446C-9309-F955257BA27A}">
+							<ChildrenList>
+								<Action Name="" ID="{5107B086-02C1-4DFC-BB80-A8E2A158D1FD}" ShortID="562441115">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RFX_Plants" ID="{1710765D-9718-402A-BBF9-D28A65DDAB87}" WorkUnitID="{A12C285A-29D3-49DD-985E-49EF86231368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PLay_AMB_Ext_LP" ID="{EB3866CD-D59D-42A8-9182-EF5216BEF24C}">
+							<ChildrenList>
+								<Action Name="" ID="{D059BB89-A807-44BF-A93D-55F296DCC758}" ShortID="651957980">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Ext_LP" ID="{DD64B280-72B8-4327-9239-BDCFEEFC539F}" WorkUnitID="{8B78EAC6-34BC-4C7A-B11B-71CBE08FD499}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Intérieur" ID="{555F71CA-0734-492E-B872-F23E4C61930E}" ShortID="899706375"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

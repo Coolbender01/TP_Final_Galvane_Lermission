@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="767608191" Type="User" Language="SFX" Hash="{83DDA4DF-F005-8C84-411E-0B3425DAA731}">
+		<SoundBank Id="767608191" Type="User" Language="SFX" Hash="{3DA5CE34-E13E-18FD-4C92-29D438953E3A}">
 			<ShortName>MC_Soundbank</ShortName>
 			<Path>MC_Soundbank.bnk</Path>
 			<Media>
@@ -458,6 +458,11 @@
 					<CachePath>SFX/SFX_MC_Impact_Fight-003_10C4C929.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="457137801" Name="Time Stretch (Custom)" LibName="Wwise Time Stretch" LibId="8519683"/>
+				</Custom>
+			</Plugins>
 			<Events>
 				<Event Id="500209715" Name="Play_AttackOrEffort" DurationType="OneShot" DurationMin="0.1875" DurationMax="0.6851042">
 					<MediaRefs>
@@ -633,6 +638,11 @@
 								<MediaRef Id="723903469"/>
 								<MediaRef Id="1019134729"/>
 							</MediaRefs>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="457137801"/>
+								</Custom>
+							</PluginRefs>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
@@ -751,7 +761,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1290967234" Type="User" Language="SFX" Hash="{28B9B3E4-FA07-2A4D-5C08-6D14E3867B5C}">
+		<SoundBank Id="1290967234" Type="User" Language="SFX" Hash="{7B16433E-B158-637E-95C5-01FC5935F00D}">
 			<ShortName>Spitter_SoundBank</ShortName>
 			<Path>Spitter_SoundBank.bnk</Path>
 			<Media>
@@ -783,6 +793,10 @@
 					<ShortName>SFX_MS02_WP_Projectile_Hit.wav</ShortName>
 					<CachePath>SFX/SFX_MS02_WP_Projectile_Hit_10C4C929.wem</CachePath>
 				</File>
+				<File Id="213243962" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ré.wav</ShortName>
+					<CachePath>SFX/Ré_10C4C929.wem</CachePath>
+				</File>
 				<File Id="215377584" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MS01_FT_Walk_Stone-005.wav</ShortName>
 					<CachePath>SFX/MS01_FT_Walk_Stone-005_10C4C929.wem</CachePath>
@@ -799,6 +813,14 @@
 					<ShortName>MS01_FT_Walk_Grass-005.wav</ShortName>
 					<CachePath>SFX/MS01_FT_Walk_Grass-005_10C4C929.wem</CachePath>
 				</File>
+				<File Id="262541260" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>La.wav</ShortName>
+					<CachePath>SFX/La_10C4C929.wem</CachePath>
+				</File>
+				<File Id="267623174" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fa.wav</ShortName>
+					<CachePath>SFX/Fa_10C4C929.wem</CachePath>
+				</File>
 				<File Id="328049958" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MS01_FT_Walk_Mud-002.wav</ShortName>
 					<CachePath>SFX/MS01_FT_Walk_Mud-002_10C4C929.wem</CachePath>
@@ -806,6 +828,10 @@
 				<File Id="338832736" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MS01_FT_Walk_Dirt-001.wav</ShortName>
 					<CachePath>SFX/MS01_FT_Walk_Dirt-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="395440531" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Do.wav</ShortName>
+					<CachePath>SFX/Do_10C4C929.wem</CachePath>
 				</File>
 				<File Id="430432491" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MS02_WP_Projectile_Splat.wav</ShortName>
@@ -819,6 +845,10 @@
 					<ShortName>MS01_FT_Walk_Grass-001.wav</ShortName>
 					<CachePath>SFX/MS01_FT_Walk_Grass-001_10C4C929.wem</CachePath>
 				</File>
+				<File Id="544857877" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mi.wav</ShortName>
+					<CachePath>SFX/Mi_10C4C929.wem</CachePath>
+				</File>
 				<File Id="588175256" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MS01_FT_Walk_Stone-001.wav</ShortName>
 					<CachePath>SFX/MS01_FT_Walk_Stone-001_10C4C929.wem</CachePath>
@@ -830,6 +860,10 @@
 				<File Id="646633001" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MS01_FT_Walk_Dirt-004.wav</ShortName>
 					<CachePath>SFX/MS01_FT_Walk_Dirt-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="720465065" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Si.wav</ShortName>
+					<CachePath>SFX/Si_10C4C929.wem</CachePath>
 				</File>
 				<File Id="758695779" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MS01_FT_Walk_Stone-003.wav</ShortName>
@@ -851,6 +885,10 @@
 					<ShortName>MS01_VC_Die-002.wav</ShortName>
 					<CachePath>SFX/MS01_VC_Die-002_10C4C929.wem</CachePath>
 				</File>
+				<File Id="863209858" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sol.wav</ShortName>
+					<CachePath>SFX/Sol_10C4C929.wem</CachePath>
+				</File>
 				<File Id="935473479" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MS01_FT_Walk_Stone-002.wav</ShortName>
 					<CachePath>SFX/MS01_FT_Walk_Stone-002_10C4C929.wem</CachePath>
@@ -868,7 +906,17 @@
 						<MediaRef Id="852235056"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3885997515" Name="Play_SP_Foley" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3885997515" Name="Play_SP_Foley" MaxAttenuation="15" DurationType="OneShot" DurationMin="1.1207709" DurationMax="1.1918141">
+					<MediaRefs>
+						<MediaRef Id="213243962"/>
+						<MediaRef Id="262541260"/>
+						<MediaRef Id="267623174"/>
+						<MediaRef Id="395440531"/>
+						<MediaRef Id="544857877"/>
+						<MediaRef Id="720465065"/>
+						<MediaRef Id="863209858"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2561501052" Name="Play_SP_FootStep" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.043270834" DurationMax="0.25239584">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -941,7 +989,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{EEB720DF-4358-4F0D-CAF9-A842ABF3A449}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{20EAA7E7-DE9B-A5B7-B35B-9234766B8C86}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -963,6 +1011,7 @@
 			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="1347076325" Name="AttackCombo"/>
+				<GameParameter Id="2486207350" Name="RTPC_GetSpeed"/>
 			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="1347076325" Name="AttackCombo">
@@ -1094,6 +1143,88 @@
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="2981377429" Type="User" Language="SFX" Hash="{4B9B076D-B830-2440-715F-3A32DDDCDFB0}">
+			<ShortName>Ambiance</ShortName>
+			<Path>Ambiance.bnk</Path>
+			<Media>
+				<File Id="49200380" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_Out_Animals-009.wav</ShortName>
+					<CachePath>SFX/RFX_Out_Animals-009_10C4C929.wem</CachePath>
+				</File>
+				<File Id="103688550" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_Out_Animals-006.wav</ShortName>
+					<CachePath>SFX/RFX_Out_Animals-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="194251334" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_Out_Animals-005.wav</ShortName>
+					<CachePath>SFX/RFX_Out_Animals-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="356075021" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_Out_Animals-003.wav</ShortName>
+					<CachePath>SFX/RFX_Out_Animals-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="420707460" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_Out_Animals-012.wav</ShortName>
+					<CachePath>SFX/RFX_Out_Animals-012_10C4C929.wem</CachePath>
+				</File>
+				<File Id="561665002" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_Out_Animals-010.wav</ShortName>
+					<CachePath>SFX/RFX_Out_Animals-010_10C4C929.wem</CachePath>
+				</File>
+				<File Id="668466547" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_Out_Animals-004.wav</ShortName>
+					<CachePath>SFX/RFX_Out_Animals-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="670214400" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_Ext_LP.wav</ShortName>
+					<Path>Media/670214400.wem</Path>
+					<CachePath>SFX/AMB_Ext_LP_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="773934205" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_Out_Animals-007.wav</ShortName>
+					<CachePath>SFX/RFX_Out_Animals-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="777168309" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_Out_Animals-002.wav</ShortName>
+					<CachePath>SFX/RFX_Out_Animals-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="890786843" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_Out_Animals-001.wav</ShortName>
+					<CachePath>SFX/RFX_Out_Animals-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="973509012" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_Out_Animals-008.wav</ShortName>
+					<CachePath>SFX/RFX_Out_Animals-008_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1002847489" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_Out_Animals-011.wav</ShortName>
+					<CachePath>SFX/RFX_Out_Animals-011_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1384706362" Name="Play_Amb_Ext" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="49200380"/>
+						<MediaRef Id="103688550"/>
+						<MediaRef Id="194251334"/>
+						<MediaRef Id="356075021"/>
+						<MediaRef Id="420707460"/>
+						<MediaRef Id="561665002"/>
+						<MediaRef Id="668466547"/>
+						<MediaRef Id="773934205"/>
+						<MediaRef Id="777168309"/>
+						<MediaRef Id="890786843"/>
+						<MediaRef Id="973509012"/>
+						<MediaRef Id="1002847489"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2454646541" Name="PLay_AMB_Ext_LP" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="670214400"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 		<SoundBank Id="3105787907" Type="User" Language="SFX" Hash="{86DE5A6C-7C0F-04AD-D37E-312EA90C1C55}">
 			<ShortName>Chomper_SoundBank</ShortName>
@@ -1349,5 +1480,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0DB2C467-234A-5408-0C1C-4AA4059F4E6C}</FileHash>
+	<FileHash>{CEEB0904-D1A8-EE03-39AA-B12604D8993D}</FileHash>
 </SoundBanksInfo>

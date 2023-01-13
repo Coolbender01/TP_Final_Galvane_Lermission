@@ -13,6 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_AMB_EXT = 1384706362U;
+        static const AkUniqueID PLAY_AMB_EXT_LP = 2454646541U;
         static const AkUniqueID PLAY_ATTACKOREFFORT = 500209715U;
         static const AkUniqueID PLAY_CH_ATTACK = 1456885134U;
         static const AkUniqueID PLAY_CH_DIE = 1383584624U;
@@ -93,6 +95,7 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID AMBIANCE = 2981377429U;
         static const AkUniqueID CHOMPER_SOUNDBANK = 3105787907U;
         static const AkUniqueID GRENADIER_SOUNDBANK = 2458534638U;
         static const AkUniqueID MC_SOUNDBANK = 767608191U;

@@ -32,6 +32,9 @@ Switch	ID	Name	Switch Group			Notes
 	3262067523	Switch_Dirt	Footsteps			
 	3817369922	Switch_Mud	Footsteps			
 
+Effect plug-ins	ID	Name	Type				Notes
+	457137801	Time Stretch (Custom)	Wwise Time Stretch			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	70079	SFX_Whoosh_Fast-005	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Whoosh_Fast-005_964618FA.wem		\Actor-Mixer Hierarchy\Ambiance\SFX\@SFX\SFX_Whoosh\Whoosh_Fast\SFX_Whoosh_Fast-005		58464
 	3370509	MC_VO_Hurt-004	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MC_VO_Hurt-004_10C4C929.wem		\Actor-Mixer Hierarchy\MainCharacter\MC_ActorMixer\MC_Voice\VO_Hurt\MC_VO_Hurt-004		17404
