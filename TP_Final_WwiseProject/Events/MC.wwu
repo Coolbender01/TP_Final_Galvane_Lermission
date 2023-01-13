@@ -12,14 +12,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_SFX_MS02_WP_Projectile" ID="{3E798D5E-26C8-49A0-B329-173EF8B9A1ED}">
-					<ChildrenList>
-						<Action Name="" ID="{9A9632DB-0DCD-45E2-BD79-8AB6191BE324}" ShortID="93221761">
+						<Action Name="" ID="{355C0ADB-EB21-472B-8FC4-CB87A5636921}" ShortID="551184501">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_MS02_WP_Projectile" ID="{DFA4F6CA-27E6-423F-94F7-33E5714598E7}" WorkUnitID="{F110358F-0D0F-4303-B70D-5BA91100D38A}"/>
+									<ObjectRef Name="Play_AttackOrEffort" ID="{FB605D0B-8061-4C31-89A6-08C8845AF406}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -34,13 +33,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{2AC68C3E-E00D-4B8A-A6D5-F343181B78DC}" ShortID="834071825">
+						<Action Name="" ID="{8ADF78D8-A5C4-4E72-8CE1-02E2DC556403}" ShortID="477053040">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="41"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Play_VO_Attack" ID="{915041CD-9ED9-4A6D-869B-C311433B70B3}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}"/>
+									<ObjectRef Name="Play_VO_Effort" ID="{17AA95F9-F331-49CD-847F-A272C312822E}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -55,10 +54,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{FAAE12C5-64EC-4E48-84F2-90A8B6747BB7}" ShortID="505462721">
+						<Action Name="" ID="{F19D4881-726D-413B-AB10-94FD348DE7E1}" ShortID="872389336">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="VO_Effort" ID="{945B5959-5E0A-4DE9-9758-A28088ADDCF4}" WorkUnitID="{C0C9B6CE-9D55-490D-AB42-003FB402D8DF}"/>
+									<ObjectRef Name="Play_VO_Hurt" ID="{7379C9FB-8861-49AF-9E2C-BF812A5F61FB}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -287,6 +289,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="FOL_Bodyfall" ID="{B9EEDE6C-EFED-4284-A811-CCA31551F5DD}" WorkUnitID="{C0C9B6CE-9D55-490D-AB42-003FB402D8DF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AttackOrEffort" ID="{FB605D0B-8061-4C31-89A6-08C8845AF406}">
+					<ChildrenList>
+						<Action Name="" ID="{87290C1A-4DA9-49F4-A4AE-0B1C865DA440}" ShortID="26489739">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AttackOrEffort" ID="{E4D3F66C-6E83-4BD6-BD91-7D6080150691}" WorkUnitID="{C0C9B6CE-9D55-490D-AB42-003FB402D8DF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

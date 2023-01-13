@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="767608191" Type="User" Language="SFX" Hash="{FDE86F68-64AE-1A63-6FFC-4BEF94AAA112}">
+		<SoundBank Id="767608191" Type="User" Language="SFX" Hash="{CF1ECF80-D8DE-9DF4-9BB9-AE1E6EE1A485}">
 			<ShortName>MC_Soundbank</ShortName>
 			<Path>MC_Soundbank.bnk</Path>
 			<Media>
@@ -96,10 +96,6 @@
 				<File Id="148273301" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VO_Hurt-001.wav</ShortName>
 					<CachePath>SFX/MC_VO_Hurt-001_10C4C929.wem</CachePath>
-				</File>
-				<File Id="148320710" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC_VO_Attack-004.wav</ShortName>
-					<CachePath>SFX/MC_VO_Attack-004_10C4C929.wem</CachePath>
 				</File>
 				<File Id="148371947" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Walk_Grass-001.wav</ShortName>
@@ -305,10 +301,6 @@
 					<ShortName>MC_FT_Run_Stone-001.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Stone-001_10C4C929.wem</CachePath>
 				</File>
-				<File Id="585050746" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>MC_VO_Attack-005.wav</ShortName>
-					<CachePath>SFX/MC_VO_Attack-005_10C4C929.wem</CachePath>
-				</File>
 				<File Id="603432491" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Whoosh_Mid-005.wav</ShortName>
 					<CachePath>SFX/SFX_Whoosh_Mid-005_964618FA.wem</CachePath>
@@ -467,6 +459,18 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="500209715" Name="Play_AttackOrEffort" DurationType="OneShot" DurationMin="0.1875" DurationMax="0.6851042">
+					<MediaRefs>
+						<MediaRef Id="11979760"/>
+						<MediaRef Id="73955752"/>
+						<MediaRef Id="115130405"/>
+						<MediaRef Id="227592302"/>
+						<MediaRef Id="437815570"/>
+						<MediaRef Id="702496007"/>
+						<MediaRef Id="941160090"/>
+						<MediaRef Id="996363881"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="525398643" Name="Play_FOL_Bodyfall" DurationType="OneShot" DurationMin="0.5740044" DurationMax="0.5740044">
 					<MediaRefs>
 						<MediaRef Id="210280623"/>
@@ -637,23 +641,24 @@
 						<MediaRef Id="528262198"/>
 					</MediaRefs>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="3893732486" Name="Play_VO_Attack"/>
+						<ActionPostEventEntry Id="3926096204" Name="Play_VO_Effort"/>
 					</ActionPostEvent>
 				</Event>
 				<Event Id="2877763528" Name="Play_SFX_MC_AT2" DurationType="OneShot" DurationMin="0.5996145" DurationMax="0.5996145">
 					<MediaRefs>
 						<MediaRef Id="721782869"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="500209715" Name="Play_AttackOrEffort"/>
+					</ActionPostEvent>
 				</Event>
-				<Event Id="2877763529" Name="Play_SFX_MC_AT3" DurationType="OneShot" DurationMin="0.64180887" DurationMax="0.64180887">
+				<Event Id="2877763529" Name="Play_SFX_MC_AT3" DurationType="OneShot" DurationMin="0.66061527" DurationMax="0.66061527">
 					<MediaRefs>
-						<MediaRef Id="11979760"/>
-						<MediaRef Id="73955752"/>
-						<MediaRef Id="227592302"/>
 						<MediaRef Id="322856510"/>
-						<MediaRef Id="437815570"/>
-						<MediaRef Id="702496007"/>
 					</MediaRefs>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2657945433" Name="Play_VO_Hurt"/>
+					</ActionPostEvent>
 				</Event>
 				<Event Id="2877763534" Name="Play_SFX_MC_AT4" DurationType="OneShot" DurationMin="0.84996146" DurationMax="0.84996146">
 					<MediaRefs>
@@ -676,11 +681,9 @@
 						<MediaRef Id="516472399"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3893732486" Name="Play_VO_Attack" DurationType="OneShot" DurationMin="0.19470833" DurationMax="0.6851042">
+				<Event Id="3893732486" Name="Play_VO_Attack" DurationType="OneShot" DurationMin="0.5769167" DurationMax="0.6851042">
 					<MediaRefs>
 						<MediaRef Id="115130405"/>
-						<MediaRef Id="148320710"/>
-						<MediaRef Id="585050746"/>
 						<MediaRef Id="941160090"/>
 						<MediaRef Id="996363881"/>
 					</MediaRefs>
@@ -1260,5 +1263,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3331415C-A4FA-6628-62B6-5E8A1517CD4F}</FileHash>
+	<FileHash>{ADC67682-60D4-4106-2308-71A11F2C7740}</FileHash>
 </SoundBanksInfo>

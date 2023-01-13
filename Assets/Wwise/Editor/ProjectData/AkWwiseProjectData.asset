@@ -262,7 +262,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit\MC
     guid: 08b722a9e4cfdb43b1ccb22a6b542dfa
     GuidInternal: 
-    m_lastTime: -8585279969168192307
+    m_lastTime: -8585279916959334917
     List:
     - name: MC_Soundbank
       guid: c239a7ed6deb274fb42bb41aa38c4a66
@@ -661,7 +661,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 9fe65a885223ee4c989d7397dfbf3795
     GuidInternal: 
-    m_lastTime: -8585279969168316022
+    m_lastTime: -8585279916959454201
     List: []
   - PhysicalPath: Events\Grenadier.wwu
     PathAndIcons:
@@ -892,8 +892,28 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\MC
     guid: e6e0b9986105784380ced1527d21f2b7
     GuidInternal: 
-    m_lastTime: -8585279956685773608
+    m_lastTime: -8585279916959389448
     List:
+    - name: Play_AttackOrEffort
+      guid: 0b5d60fb6180314c89a608c8845af406
+      id: 500209715
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: MC
+        ObjectType: 12
+        guid: e6e0b9986105784380ced1527d21f2b7
+      - ElementName: Play_AttackOrEffort
+        ObjectType: 3
+        guid: 0b5d60fb6180314c89a608c8845af406
+      Path: Events\Default Work Unit\MC\Play_AttackOrEffort
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_FOL_Bodyfall
       guid: edf3dac9f381924588924ca708a3688f
       id: 525398643
@@ -1171,26 +1191,6 @@ MonoBehaviour:
         ObjectType: 3
         guid: e1420cf569fb794bbf1a3fe75edc6e45
       Path: Events\Default Work Unit\MC\Play_SFX_MC_Impact_Water
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Play_SFX_MS02_WP_Projectile
-      guid: 5e8d793ec826a049b329173ef8b9a1ed
-      id: 3075902904
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 9fe65a885223ee4c989d7397dfbf3795
-      - ElementName: MC
-        ObjectType: 12
-        guid: e6e0b9986105784380ced1527d21f2b7
-      - ElementName: Play_SFX_MS02_WP_Projectile
-        ObjectType: 3
-        guid: 5e8d793ec826a049b329173ef8b9a1ed
-      Path: Events\Default Work Unit\MC\Play_SFX_MS02_WP_Projectile
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1917,7 +1917,7 @@ MonoBehaviour:
     m_lastTime: -8585285072693989613
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0600000007000000080000001e0000001f0000002000000021000000
+  ExpandedWaapiItemIds: 050000000600000007000000080000001e0000001f0000002000000021000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

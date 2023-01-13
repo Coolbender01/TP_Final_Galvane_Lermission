@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	309129522	Play_FT_Run			\Default Work Unit\MC\Play_FT_Run	
 	413601464	Play_FOL_High			\Default Work Unit\MC\Play_FOL_High	
 	420198711	Play_VO_DeathScream			\Default Work Unit\MC\Play_VO_DeathScream	
+	500209715	Play_AttackOrEffort			\Default Work Unit\MC\Play_AttackOrEffort	
 	525398643	Play_FOL_Bodyfall			\Default Work Unit\MC\Play_FOL_Bodyfall	
 	1093053214	Play_FT_Slide			\Default Work Unit\MC\Play_FT_Slide	
 	1370187208	Play_SFX_MC_Impact_Fight			\Default Work Unit\MC\Play_SFX_MC_Impact_Fight	
@@ -53,7 +54,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	120133276	MC_FT_Run_Metal-006	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MC_FT_Run_Metal-006_10C4C929.wem		\Actor-Mixer Hierarchy\MainCharacter\MC_ActorMixer\MC_Footsteps\FT_Run\MC_FT_Run_Metal\MC_FT_Run_Metal-006		44404
 	136597341	SFX_Whoosh_Slow-004	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\SFX_Whoosh_Slow-004_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\SFX\@SFX\SFX_Whoosh\Whoosh_Slow\SFX_Whoosh_Slow-004		596064
 	148273301	MC_VO_Hurt-001	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MC_VO_Hurt-001_10C4C929.wem		\Actor-Mixer Hierarchy\MainCharacter\MC_ActorMixer\MC_Voice\VO_Hurt\MC_VO_Hurt-001		22250
-	148320710	MC_VO_Attack-004	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MC_VO_Attack-004_10C4C929.wem		\Actor-Mixer Hierarchy\MainCharacter\MC_ActorMixer\MC_Voice\VO_Attack\MC_VO_Attack-004		55480
 	148371947	MC_FT_Walk_Grass-001	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MC_FT_Walk_Grass-001_10C4C929.wem		\Actor-Mixer Hierarchy\MainCharacter\MC_ActorMixer\MC_Footsteps\FT_Walk\MC_FT_Walk_Grass\MC_FT_Walk_Grass-001		13946
 	153803607	SFX_MC_AT4	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\SFX_MC_WP_At-004_10C4C929.wem		\Actor-Mixer Hierarchy\MainCharacter\MC_ActorMixer\MC_Fight\AttackCombo\SFX_MC_AT4		189000
 	159511364	MC_FT_Walk_Mud-003	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MC_FT_Walk_Mud-003_10C4C929.wem		\Actor-Mixer Hierarchy\MainCharacter\MC_ActorMixer\MC_Footsteps\FT_Walk\MC_FT_Walk_Mud\MC_FT_Walk_Mud-003		16712
@@ -105,7 +105,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	558277585	MC_FT_Walk_Metal-002	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MC_FT_Walk_Metal-002_10C4C929.wem		\Actor-Mixer Hierarchy\MainCharacter\MC_ActorMixer\MC_Footsteps\FT_Walk\MC_FT_Walk_Metal\MC_FT_Walk_Metal-002		33326
 	563364855	MC_FT_Scuff-003	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MC_FT_Scuff-003_10C4C929.wem		\Actor-Mixer Hierarchy\MainCharacter\MC_ActorMixer\MC_Footsteps\FT_Scuff\MC_FT_Scuff-003		27788
 	584797665	MC_FT_Run_Stone-001	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MC_FT_Run_Stone-001_10C4C929.wem		\Actor-Mixer Hierarchy\MainCharacter\MC_ActorMixer\MC_Footsteps\FT_Run\MC_FT_Run_Stone\MC_FT_Run_Stone-001		22250
-	585050746	MC_VO_Attack-005	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MC_VO_Attack-005_10C4C929.wem		\Actor-Mixer Hierarchy\MainCharacter\MC_ActorMixer\MC_Voice\VO_Attack\MC_VO_Attack-005		37480
 	603432491	SFX_Whoosh_Mid-005	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\SFX_Whoosh_Mid-005_964618FA.wem		\Actor-Mixer Hierarchy\Ambiance\SFX\@SFX\SFX_Whoosh\Whoosh_Mid\SFX_Whoosh_Mid-005		114912
 	607152125	MC_FT_Walk_Stone-004	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MC_FT_Walk_Stone-004_10C4C929.wem		\Actor-Mixer Hierarchy\MainCharacter\MC_ActorMixer\MC_Footsteps\FT_Walk\MC_FT_Walk_Stone\MC_FT_Walk_Stone-004		22250
 	608905942	MC_Foley_High -005	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\MC_Foley_High -005_10C4C929.wem		\Actor-Mixer Hierarchy\MainCharacter\MC_ActorMixer\MC_Foley\FOL_High\MC_Foley_High -005		39382

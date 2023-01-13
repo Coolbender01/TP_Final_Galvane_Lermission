@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_ATTACKOREFFORT = 500209715U;
         static const AkUniqueID PLAY_CH_ATTACK = 1456885134U;
         static const AkUniqueID PLAY_CH_DIE = 1383584624U;
         static const AkUniqueID PLAY_CH_FOOTSTEP = 1825440468U;
