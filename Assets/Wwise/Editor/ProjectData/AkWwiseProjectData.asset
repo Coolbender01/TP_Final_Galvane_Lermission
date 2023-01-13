@@ -171,7 +171,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit\Ambiance
     guid: edba7a23239ca54b8607f50b0ecd7694
     GuidInternal: 
-    m_lastTime: -8585279575892311010
+    m_lastTime: -8585279563233780090
     List:
     - name: Ambiance
       guid: d547b7aacf039c4eb6da0d7e5cbd4c55
@@ -190,6 +190,22 @@ MonoBehaviour:
         ObjectType: 7
         guid: d547b7aacf039c4eb6da0d7e5cbd4c55
       Path: SoundBanks\Default Work Unit\Ambiance\Ambiance
+  - PhysicalPath: SoundBanks\Ambiances.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9716599f793b03469dcb447972967bac
+    - ElementName: Ambiances
+      ObjectType: 12
+      guid: 344a5cdb86259643a261730fae5c0281
+    ParentPath: SoundBanks\Default Work Unit\Ambiances
+    guid: 344a5cdb86259643a261730fae5c0281
+    GuidInternal: 
+    m_lastTime: -8585279561990182102
+    List: []
   - PhysicalPath: SoundBanks\Chomper.wwu
     PathAndIcons:
     - ElementName: SoundBanks
@@ -240,7 +256,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 9716599f793b03469dcb447972967bac
     GuidInternal: 
-    m_lastTime: -8585279629834052862
+    m_lastTime: -8585279563233770117
     List: []
   - PhysicalPath: SoundBanks\Grenadier.wwu
     PathAndIcons:
@@ -381,7 +397,7 @@ MonoBehaviour:
     ParentPath: Events\Ambiances
     guid: 0c118011da854b49a82b6af81b8cba5f
     GuidInternal: 
-    m_lastTime: -8585279575892380824
+    m_lastTime: -8585279563236679074
     List:
     - name: "Ext\xE9rieur"
       guid: 219d7c937418c64f936065ddc7ae0f07
@@ -477,6 +493,22 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+  - PhysicalPath: Events\Ambiances_Ext.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Ambiances
+      ObjectType: 12
+      guid: 0c118011da854b49a82b6af81b8cba5f
+    - ElementName: Ambiances_Ext
+      ObjectType: 12
+      guid: dc960bbc93982d4397c1867b286ef7f1
+    ParentPath: Events\Ambiances\Ambiances_Ext
+    guid: dc960bbc93982d4397c1867b286ef7f1
+    GuidInternal: 
+    m_lastTime: -8585279561990251910
+    List: []
   - PhysicalPath: Events\Chomper.wwu
     PathAndIcons:
     - ElementName: Events
@@ -2188,7 +2220,7 @@ MonoBehaviour:
     m_lastTime: -8585285128790736503
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000050000000600000007000000080000000e0000000f0000001000000011000000120000001b0000001c0000001d000000
+  ExpandedWaapiItemIds: 060000000700000008000000110000001300000014000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

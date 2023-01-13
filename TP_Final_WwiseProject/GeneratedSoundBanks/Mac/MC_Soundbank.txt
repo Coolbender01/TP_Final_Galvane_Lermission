@@ -34,6 +34,7 @@ Switch	ID	Name	Switch Group			Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	457137801	Time Stretch (Custom)	Wwise Time Stretch			
+	872322657	Time Stretch (Custom)	Wwise Time Stretch			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	70079	SFX_Whoosh_Fast-005	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Whoosh_Fast-005_964618FA.wem		\Actor-Mixer Hierarchy\Ambiance\SFX\@SFX\SFX_Whoosh\Whoosh_Fast\SFX_Whoosh_Fast-005		58464

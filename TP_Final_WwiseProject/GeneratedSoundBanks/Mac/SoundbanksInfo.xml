@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="767608191" Type="User" Language="SFX" Hash="{3DA5CE34-E13E-18FD-4C92-29D438953E3A}">
+		<SoundBank Id="767608191" Type="User" Language="SFX" Hash="{E9A74637-AB7D-CA89-7BA9-26EEAA907B21}">
 			<ShortName>MC_Soundbank</ShortName>
 			<Path>MC_Soundbank.bnk</Path>
 			<Media>
@@ -461,6 +461,7 @@
 			<Plugins>
 				<Custom>
 					<Plugin Id="457137801" Name="Time Stretch (Custom)" LibName="Wwise Time Stretch" LibId="8519683"/>
+					<Plugin Id="872322657" Name="Time Stretch (Custom)" LibName="Wwise Time Stretch" LibId="8519683"/>
 				</Custom>
 			</Plugins>
 			<Events>
@@ -476,7 +477,7 @@
 						<MediaRef Id="996363881"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="525398643" Name="Play_FOL_Bodyfall" DurationType="OneShot" DurationMin="0.5740044" DurationMax="0.5740044">
+				<Event Id="525398643" Name="Play_FOL_Bodyfall" DurationType="OneShot" DurationMin="0.5480833" DurationMax="0.5480833">
 					<MediaRefs>
 						<MediaRef Id="210280623"/>
 					</MediaRefs>
@@ -560,6 +561,11 @@
 								<MediaRef Id="949018400"/>
 								<MediaRef Id="968259577"/>
 							</MediaRefs>
+							<PluginRefs>
+								<Custom>
+									<PluginRef Id="872322657"/>
+								</Custom>
+							</PluginRefs>
 						</SwitchContainer>
 					</SwitchContainers>
 					<ActionPostEvent>
@@ -1480,5 +1486,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CEEB0904-D1A8-EE03-39AA-B12604D8993D}</FileHash>
+	<FileHash>{B7984E26-28C4-10C6-5589-FCF0389E557F}</FileHash>
 </SoundBanksInfo>
