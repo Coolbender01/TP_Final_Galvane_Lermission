@@ -15,6 +15,8 @@
 					</ChildrenList>
 				</Event>
 				<WorkUnit Name="Monstre" ID="{27B771D3-7C37-4469-83C6-4B740136E820}" PersistMode="Reference"/>
+				<WorkUnit Name="MC" ID="{7413A05F-CB87-4D7D-97CE-6D9776EF7CCA}" PersistMode="Reference"/>
+				<WorkUnit Name="SFX" ID="{08E6FF50-3D49-48B2-9389-6121EC96E7F2}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

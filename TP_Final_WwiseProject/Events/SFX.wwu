@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{08E6FF50-3D49-48B2-9389-6121EC96E7F2}" SchemaVersion="110" RootDocumentID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" ParentDocumentID="{885AE69F-2352-4CEE-989D-7397DFBF3795}">
+	<Events>
+		<WorkUnit Name="SFX" ID="{08E6FF50-3D49-48B2-9389-6121EC96E7F2}" OwnerID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_SFX_WhooshFast" ID="{EC7739EF-B761-41D5-AC20-69E8530B3F24}">
+					<ChildrenList>
+						<Action Name="" ID="{697DFC6C-C748-46D3-AAF6-3ACDEC5655F7}" ShortID="807323435">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Whoosh_Fast" ID="{BA374AD8-62EC-47F0-BB9D-E5876879EE71}" WorkUnitID="{319E310B-712E-47B1-8C64-E5DA76F88FC5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_WhooshMid" ID="{C801F360-B950-47E6-9089-1C721DEF4556}">
+					<ChildrenList>
+						<Action Name="" ID="{E2C7D7C6-63A2-472E-BA5C-2C0B9610D5B9}" ShortID="548931994">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Whoosh_Mid" ID="{8D3088F8-3172-4763-B703-6318E3A187B7}" WorkUnitID="{319E310B-712E-47B1-8C64-E5DA76F88FC5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_WhooshSlow" ID="{D0C12575-13D9-441F-BA2D-7226164E9AF8}">
+					<ChildrenList>
+						<Action Name="" ID="{C9222DDE-66A6-4167-87AC-B5B68AA79F9C}" ShortID="148249873">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Whoosh_Slow" ID="{B7267E34-192D-46EC-A3A7-79680D996519}" WorkUnitID="{319E310B-712E-47B1-8C64-E5DA76F88FC5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<WorkUnit Name="Whoosh" ID="{9CCEE6ED-9428-4FF6-940E-F503B27AD2EE}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

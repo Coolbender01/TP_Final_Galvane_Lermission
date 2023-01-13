@@ -9,6 +9,681 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
+		<SoundBank Id="247557814" Type="User" Language="SFX" Hash="{9A52F717-9BC8-2C23-0991-CBCE827B2E4A}">
+			<ShortName>Foley</ShortName>
+			<Path>Foley.bnk</Path>
+			<Media>
+				<File Id="70079" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Fast-005.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Fast-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="3370509" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VO_Hurt-004.wav</ShortName>
+					<CachePath>SFX/MC_VO_Hurt-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="6663419" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Dirt-002.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Dirt-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="11605033" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Slow-003.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Slow-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="11979760" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VO_Effort-001.wav</ShortName>
+					<CachePath>SFX/MC_VO_Effort-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="41112132" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Dirt-005.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Dirt-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="44873669" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Fast-002.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Fast-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="48411236" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VO_Hurt-005.wav</ShortName>
+					<CachePath>SFX/MC_VO_Hurt-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="58243303" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Foley_Mid-003.wav</ShortName>
+					<CachePath>SFX/MC_Foley_Mid-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="65283633" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Metal-005.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Metal-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="73955752" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VO_Effort-004.wav</ShortName>
+					<CachePath>SFX/MC_VO_Effort-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="76219142" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Stone-003.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Stone-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="98415626" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Mud-001.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Mud-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="110132824" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Grass-002.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Grass-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="120133276" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Metal-006.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Metal-006_10C4C929.wem</CachePath>
+				</File>
+				<File Id="136597341" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Slow-004.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Slow-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="148273301" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VO_Hurt-001.wav</ShortName>
+					<CachePath>SFX/MC_VO_Hurt-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="148371947" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Grass-001.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Grass-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="159511364" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Mud-003.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Mud-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="195786389" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Mud-004.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Mud-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="200394349" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Mud-001.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Mud-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="209489160" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Foley_Mid-004.wav</ShortName>
+					<CachePath>SFX/MC_Foley_Mid-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="210280623" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Foley_BodyFall.wav</ShortName>
+					<CachePath>SFX/MC_Foley_BodyFall_10C4C929.wem</CachePath>
+				</File>
+				<File Id="227592302" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VO_Effort-003.wav</ShortName>
+					<CachePath>SFX/MC_VO_Effort-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="233216340" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Foley_High -004.wav</ShortName>
+					<CachePath>SFX/MC_Foley_High -004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="254187876" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Fast-004.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Fast-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="259476059" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Slow-002.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Slow-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="267803708" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Dirt-004.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Dirt-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="277855332" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Foley_Mid-001.wav</ShortName>
+					<CachePath>SFX/MC_Foley_Mid-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="279220786" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Stone-005.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Stone-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="282682041" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Foley_Low-004.wav</ShortName>
+					<CachePath>SFX/MC_Foley_Low-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="314549132" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Metal-008.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Metal-008_10C4C929.wem</CachePath>
+				</File>
+				<File Id="314768993" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Stone-002.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Stone-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="323686682" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Grass-003.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Grass-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="339672465" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Dirt-001.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Dirt-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="340486880" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Foley_High -003.wav</ShortName>
+					<CachePath>SFX/MC_Foley_High -003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="342102496" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Grass-005.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Grass-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="344433413" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Metal-003.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Metal-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="347909976" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Fast-003.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Fast-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="347912018" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Dirt-001.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Dirt-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="348862527" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Metal-001.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Metal-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="357798011" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Scuff-001.wav</ShortName>
+					<CachePath>SFX/MC_FT_Scuff-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="365165393" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Grass-002.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Grass-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="371855614" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Mud-002.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Mud-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="379647349" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Metal-005.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Metal-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="419902045" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VO_Hurt-003.wav</ShortName>
+					<CachePath>SFX/MC_VO_Hurt-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="423384400" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Foley_Low-001.wav</ShortName>
+					<CachePath>SFX/MC_Foley_Low-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="437815570" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VO_Effort-005.wav</ShortName>
+					<CachePath>SFX/MC_VO_Effort-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="441369239" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Grass-001.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Grass-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="470905479" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Dirt-003.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Dirt-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="483702295" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Mud-004.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Mud-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="486696825" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Scuff-004.wav</ShortName>
+					<CachePath>SFX/MC_FT_Scuff-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="494647765" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Stone-001.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Stone-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="502640892" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Foley_Low-003.wav</ShortName>
+					<CachePath>SFX/MC_Foley_Low-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="522753703" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Fast-001.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Fast-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="528866072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Slow-001.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Slow-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="549653045" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Metal-009.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Metal-009_10C4C929.wem</CachePath>
+				</File>
+				<File Id="558277585" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Metal-002.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Metal-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="563364855" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Scuff-003.wav</ShortName>
+					<CachePath>SFX/MC_FT_Scuff-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="584797665" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Stone-001.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Stone-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="607152125" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Stone-004.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Stone-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="608905942" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Foley_High -005.wav</ShortName>
+					<CachePath>SFX/MC_Foley_High -005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="627285938" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Dirt-005.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Dirt-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="640297886" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Scuff-002.wav</ShortName>
+					<CachePath>SFX/MC_FT_Scuff-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="663027982" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Mud-005.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Mud-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="663134585" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Foley_Mid-002.wav</ShortName>
+					<CachePath>SFX/MC_Foley_Mid-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="676418297" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Mud-005.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Mud-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="686807110" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Mud-002.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Mud-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="702496007" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VO_Effort-002.wav</ShortName>
+					<CachePath>SFX/MC_VO_Effort-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="708316107" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Foley_Low-005.wav</ShortName>
+					<CachePath>SFX/MC_Foley_Low-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="716113268" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Dirt-002.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Dirt-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="720936721" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Stone-003.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Stone-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="723903469" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Grass-004.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Grass-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="730240306" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Metal-007.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Metal-007_10C4C929.wem</CachePath>
+				</File>
+				<File Id="759681969" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Foley_High -002.wav</ShortName>
+					<CachePath>SFX/MC_Foley_High -002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="781576736" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Stone-005.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Stone-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="828496432" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Foley_High -001.wav</ShortName>
+					<CachePath>SFX/MC_Foley_High -001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="854608352" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Slow-005.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Slow-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="855519225" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Metal-004.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Metal-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="859422604" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Stone-002.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Stone-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="864002366" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Metal-010.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Metal-010_10C4C929.wem</CachePath>
+				</File>
+				<File Id="949018400" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Grass-005.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Grass-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="968259577" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Grass-004.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Grass-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="978756100" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_VO_Hurt-002.wav</ShortName>
+					<CachePath>SFX/MC_VO_Hurt-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="982145996" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Foley_Mid-005.wav</ShortName>
+					<CachePath>SFX/MC_Foley_Mid-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1013229702" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_Foley_Low-002.wav</ShortName>
+					<CachePath>SFX/MC_Foley_Low-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1019134729" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Grass-003.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Grass-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1030134477" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Stone-004.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Stone-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1034921823" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Mud-003.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Mud-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1035008668" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Run_Dirt-004.wav</ShortName>
+					<CachePath>SFX/MC_FT_Run_Dirt-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1036841765" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MC_FT_Walk_Dirt-003.wav</ShortName>
+					<CachePath>SFX/MC_FT_Walk_Dirt-003_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2645783214" Name="Play_MC_BodyFall" DurationType="OneShot" DurationMin="0.4882867" DurationMax="0.6152027">
+					<MediaRefs>
+						<MediaRef Id="210280623"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1259990034" Name="Play_MC_FoleyHigh" DurationType="OneShot" DurationMin="0.35997877" DurationMax="0.62822795">
+					<MediaRefs>
+						<MediaRef Id="233216340"/>
+						<MediaRef Id="340486880"/>
+						<MediaRef Id="608905942"/>
+						<MediaRef Id="759681969"/>
+						<MediaRef Id="828496432"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3654406292" Name="Play_MC_FoleyLow" DurationType="OneShot" DurationMin="0.17916344" DurationMax="0.3264026">
+					<MediaRefs>
+						<MediaRef Id="282682041"/>
+						<MediaRef Id="423384400"/>
+						<MediaRef Id="502640892"/>
+						<MediaRef Id="708316107"/>
+						<MediaRef Id="1013229702"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3553887852" Name="Play_MC_FoleyMid" DurationType="OneShot" DurationMin="0.36860934" DurationMax="0.68329877">
+					<MediaRefs>
+						<MediaRef Id="58243303"/>
+						<MediaRef Id="209489160"/>
+						<MediaRef Id="277855332"/>
+						<MediaRef Id="663134585"/>
+						<MediaRef Id="982145996"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1213444204" Name="Play_MC_Roll" DurationType="OneShot" DurationMin="0.98828673" DurationMax="1.1152027">
+					<MediaRefs>
+						<MediaRef Id="70079"/>
+						<MediaRef Id="3370509"/>
+						<MediaRef Id="11979760"/>
+						<MediaRef Id="44873669"/>
+						<MediaRef Id="48411236"/>
+						<MediaRef Id="73955752"/>
+						<MediaRef Id="148273301"/>
+						<MediaRef Id="210280623"/>
+						<MediaRef Id="227592302"/>
+						<MediaRef Id="233216340"/>
+						<MediaRef Id="254187876"/>
+						<MediaRef Id="340486880"/>
+						<MediaRef Id="347909976"/>
+						<MediaRef Id="419902045"/>
+						<MediaRef Id="437815570"/>
+						<MediaRef Id="522753703"/>
+						<MediaRef Id="608905942"/>
+						<MediaRef Id="702496007"/>
+						<MediaRef Id="759681969"/>
+						<MediaRef Id="828496432"/>
+						<MediaRef Id="978756100"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1600895284" Name="Play_MC_Run" DurationType="OneShot" DurationMin="0.17916344" DurationMax="0.5665561">
+					<MediaRefs>
+						<MediaRef Id="282682041"/>
+						<MediaRef Id="423384400"/>
+						<MediaRef Id="502640892"/>
+						<MediaRef Id="708316107"/>
+						<MediaRef Id="1013229702"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2541504615"/>
+							<MediaRefs>
+								<MediaRef Id="584797665"/>
+								<MediaRef Id="720936721"/>
+								<MediaRef Id="781576736"/>
+								<MediaRef Id="859422604"/>
+								<MediaRef Id="1030134477"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="1981379785"/>
+							<MediaRefs>
+								<MediaRef Id="120133276"/>
+								<MediaRef Id="314549132"/>
+								<MediaRef Id="379647349"/>
+								<MediaRef Id="549653045"/>
+								<MediaRef Id="730240306"/>
+								<MediaRef Id="864002366"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3262067523" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="6663419"/>
+								<MediaRef Id="339672465"/>
+								<MediaRef Id="470905479"/>
+								<MediaRef Id="627285938"/>
+								<MediaRef Id="1035008668"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3817369922"/>
+							<MediaRefs>
+								<MediaRef Id="98415626"/>
+								<MediaRef Id="483702295"/>
+								<MediaRef Id="663027982"/>
+								<MediaRef Id="686807110"/>
+								<MediaRef Id="1034921823"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2902377486"/>
+							<MediaRefs>
+								<MediaRef Id="323686682"/>
+								<MediaRef Id="365165393"/>
+								<MediaRef Id="441369239"/>
+								<MediaRef Id="949018400"/>
+								<MediaRef Id="968259577"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1303875432" Name="Play_MC_Scuff" DurationType="OneShot" DurationMin="0.13731377" DurationMax="0.33327115">
+					<MediaRefs>
+						<MediaRef Id="357798011"/>
+						<MediaRef Id="486696825"/>
+						<MediaRef Id="563364855"/>
+						<MediaRef Id="640297886"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3017749058" Name="Play_MC_Walk" DurationType="OneShot" DurationMin="0.17916344" DurationMax="0.39996868">
+					<MediaRefs>
+						<MediaRef Id="282682041"/>
+						<MediaRef Id="423384400"/>
+						<MediaRef Id="502640892"/>
+						<MediaRef Id="708316107"/>
+						<MediaRef Id="1013229702"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2541504615"/>
+							<MediaRefs>
+								<MediaRef Id="76219142"/>
+								<MediaRef Id="279220786"/>
+								<MediaRef Id="314768993"/>
+								<MediaRef Id="494647765"/>
+								<MediaRef Id="607152125"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="1981379785"/>
+							<MediaRefs>
+								<MediaRef Id="65283633"/>
+								<MediaRef Id="344433413"/>
+								<MediaRef Id="348862527"/>
+								<MediaRef Id="558277585"/>
+								<MediaRef Id="855519225"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3262067523" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="41112132"/>
+								<MediaRef Id="267803708"/>
+								<MediaRef Id="347912018"/>
+								<MediaRef Id="716113268"/>
+								<MediaRef Id="1036841765"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3817369922"/>
+							<MediaRefs>
+								<MediaRef Id="159511364"/>
+								<MediaRef Id="195786389"/>
+								<MediaRef Id="200394349"/>
+								<MediaRef Id="371855614"/>
+								<MediaRef Id="676418297"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2902377486"/>
+							<MediaRefs>
+								<MediaRef Id="110132824"/>
+								<MediaRef Id="148371947"/>
+								<MediaRef Id="342102496"/>
+								<MediaRef Id="723903469"/>
+								<MediaRef Id="1019134729"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="216148591" Name="Play_SFX_WhooshSlow" DurationType="OneShot" DurationMin="2.795" DurationMax="3.203">
+					<MediaRefs>
+						<MediaRef Id="11605033"/>
+						<MediaRef Id="136597341"/>
+						<MediaRef Id="259476059"/>
+						<MediaRef Id="528866072"/>
+						<MediaRef Id="854608352"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="Footsteps">
+					<Switches>
+						<Switch Id="1981379785" Name="Switch_Metal"/>
+						<Switch Id="2541504615" Name="Switch_Stone"/>
+						<Switch Id="2902377486" Name="Switch_Grass"/>
+						<Switch Id="3262067523" Name="Switch_Dirt"/>
+						<Switch Id="3817369922" Name="Switch_Mud"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="472194887" Type="User" Language="SFX" Hash="{791E1BB7-AD85-53C7-A2A1-3AD1A796B38F}">
+			<ShortName>SFX_Whoosh</ShortName>
+			<Path>SFX_Whoosh.bnk</Path>
+			<Media>
+				<File Id="70079" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Fast-005.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Fast-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="11605033" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Slow-003.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Slow-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="44873669" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Fast-002.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Fast-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="98539648" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Mid-002.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Mid-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="136597341" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Slow-004.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Slow-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="254187876" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Fast-004.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Fast-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="259476059" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Slow-002.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Slow-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="347909976" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Fast-003.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Fast-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="431091475" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Mid-004.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Mid-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="522753703" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Fast-001.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Fast-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="528866072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Slow-001.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Slow-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="603432491" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Mid-005.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Mid-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="854608352" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Slow-005.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Slow-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="899397311" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Mid-003.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Mid-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="976844156" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Whoosh_Mid-001.wav</ShortName>
+					<CachePath>SFX/SFX_Whoosh_Mid-001_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="646296418" Name="Play_SFX_WhooshFast" DurationType="OneShot" DurationMin="0.227" DurationMax="0.304">
+					<MediaRefs>
+						<MediaRef Id="70079"/>
+						<MediaRef Id="44873669"/>
+						<MediaRef Id="254187876"/>
+						<MediaRef Id="347909976"/>
+						<MediaRef Id="522753703"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1708505622" Name="Play_SFX_WhooshMid" DurationType="OneShot" DurationMin="0.541" DurationMax="0.598">
+					<MediaRefs>
+						<MediaRef Id="98539648"/>
+						<MediaRef Id="431091475"/>
+						<MediaRef Id="603432491"/>
+						<MediaRef Id="899397311"/>
+						<MediaRef Id="976844156"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="216148591" Name="Play_SFX_WhooshSlow" DurationType="OneShot" DurationMin="2.795" DurationMax="3.203">
+					<MediaRefs>
+						<MediaRef Id="11605033"/>
+						<MediaRef Id="136597341"/>
+						<MediaRef Id="259476059"/>
+						<MediaRef Id="528866072"/>
+						<MediaRef Id="854608352"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="1290967234" Type="User" Language="SFX" Hash="{84B31290-5AC7-5348-0DEA-1991FE0DB7AE}">
 			<ShortName>Spitter_SoundBank</ShortName>
 			<Path>Spitter_SoundBank.bnk</Path>
@@ -521,5 +1196,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{291DC387-FAF6-CEC8-2549-C1B1A92EB97A}</FileHash>
+	<FileHash>{9FDD3D80-7AEB-AA60-3459-029C6FF4D365}</FileHash>
 </SoundBanksInfo>

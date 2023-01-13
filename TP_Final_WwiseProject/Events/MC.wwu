@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7413A05F-CB87-4D7D-97CE-6D9776EF7CCA}" SchemaVersion="110" RootDocumentID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" ParentDocumentID="{885AE69F-2352-4CEE-989D-7397DFBF3795}">
+	<Events>
+		<WorkUnit Name="MC" ID="{7413A05F-CB87-4D7D-97CE-6D9776EF7CCA}" OwnerID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="Foley" ID="{91259125-F7C7-4718-87C5-D74C335A3552}" PersistMode="Reference"/>
+				<WorkUnit Name="Footstep" ID="{3044D6A6-8A7E-44BD-ADCE-15DAD108CB5D}" PersistMode="Reference"/>
+				<WorkUnit Name="Fight" ID="{A05AFB4E-9E2C-4423-8E9F-CB7ED73AA003}" PersistMode="Reference"/>
+				<WorkUnit Name="VO" ID="{6748A796-8592-41BD-B75B-0DB5A5845001}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

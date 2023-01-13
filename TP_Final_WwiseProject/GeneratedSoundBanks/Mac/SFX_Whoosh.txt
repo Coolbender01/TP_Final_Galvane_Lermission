@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	216148591	Play_SFX_WhooshSlow			\Default Work Unit\SFX\Play_SFX_WhooshSlow	
+	646296418	Play_SFX_WhooshFast			\Default Work Unit\SFX\Play_SFX_WhooshFast	
+	1708505622	Play_SFX_WhooshMid			\Default Work Unit\SFX\Play_SFX_WhooshMid	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	70079	SFX_Whoosh_Fast-005	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Whoosh_Fast-005_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\SFX\@SFX\SFX_Whoosh\Whoosh_Fast\SFX_Whoosh_Fast-005		58464
+	11605033	SFX_Whoosh_Slow-003	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Whoosh_Slow-003_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\SFX\@SFX\SFX_Whoosh\Whoosh_Slow\SFX_Whoosh_Slow-003		540960
+	44873669	SFX_Whoosh_Fast-002	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Whoosh_Fast-002_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\SFX\@SFX\SFX_Whoosh\Whoosh_Fast\SFX_Whoosh_Fast-002		43680
+	98539648	SFX_Whoosh_Mid-002	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Whoosh_Mid-002_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\SFX\@SFX\SFX_Whoosh\Whoosh_Mid\SFX_Whoosh_Mid-002		114336
+	136597341	SFX_Whoosh_Slow-004	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Whoosh_Slow-004_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\SFX\@SFX\SFX_Whoosh\Whoosh_Slow\SFX_Whoosh_Slow-004		596064
+	254187876	SFX_Whoosh_Fast-004	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Whoosh_Fast-004_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\SFX\@SFX\SFX_Whoosh\Whoosh_Fast\SFX_Whoosh_Fast-004		55392
+	259476059	SFX_Whoosh_Slow-002	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Whoosh_Slow-002_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\SFX\@SFX\SFX_Whoosh\Whoosh_Slow\SFX_Whoosh_Slow-002		536736
+	347909976	SFX_Whoosh_Fast-003	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Whoosh_Fast-003_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\SFX\@SFX\SFX_Whoosh\Whoosh_Fast\SFX_Whoosh_Fast-003		49056
+	431091475	SFX_Whoosh_Mid-004	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Whoosh_Mid-004_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\SFX\@SFX\SFX_Whoosh\Whoosh_Mid\SFX_Whoosh_Mid-004		103968
+	522753703	SFX_Whoosh_Fast-001	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Whoosh_Fast-001_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\SFX\@SFX\SFX_Whoosh\Whoosh_Fast\SFX_Whoosh_Fast-001		56928
+	528866072	SFX_Whoosh_Slow-001	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Whoosh_Slow-001_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\SFX\@SFX\SFX_Whoosh\Whoosh_Slow\SFX_Whoosh_Slow-001		559968
+	603432491	SFX_Whoosh_Mid-005	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Whoosh_Mid-005_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\SFX\@SFX\SFX_Whoosh\Whoosh_Mid\SFX_Whoosh_Mid-005		114912
+	854608352	SFX_Whoosh_Slow-005	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Whoosh_Slow-005_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\SFX\@SFX\SFX_Whoosh\Whoosh_Slow\SFX_Whoosh_Slow-005		615072
+	899397311	SFX_Whoosh_Mid-003	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Whoosh_Mid-003_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\SFX\@SFX\SFX_Whoosh\Whoosh_Mid\SFX_Whoosh_Mid-003		107808
+	976844156	SFX_Whoosh_Mid-001	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Whoosh_Mid-001_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\SFX\@SFX\SFX_Whoosh\Whoosh_Mid\SFX_Whoosh_Mid-001		110496
+
