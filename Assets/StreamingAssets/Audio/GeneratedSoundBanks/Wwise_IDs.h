@@ -25,6 +25,9 @@ namespace AK
         static const AkUniqueID PLAY_FT_SCUFF = 3221359334U;
         static const AkUniqueID PLAY_FT_SLIDE = 1093053214U;
         static const AkUniqueID PLAY_FT_WALK = 1500086908U;
+        static const AkUniqueID PLAY_GR_ATTACK_FIST = 984362133U;
+        static const AkUniqueID PLAY_GR_ATTACK_PROJECTILE = 3571706742U;
+        static const AkUniqueID PLAY_GR_ATTACK_SHIELD = 1479641432U;
         static const AkUniqueID PLAY_GR_FOOTSTEP = 2547724478U;
         static const AkUniqueID PLAY_HIT = 2960666077U;
         static const AkUniqueID PLAY_IDLE = 41941568U;
@@ -34,6 +37,8 @@ namespace AK
         static const AkUniqueID PLAY_SFX_MC_AT4 = 2877763534U;
         static const AkUniqueID PLAY_SFX_MC_IMPACT_FIGHT = 1370187208U;
         static const AkUniqueID PLAY_SFX_MC_IMPACT_WATER = 1379967859U;
+        static const AkUniqueID PLAY_SP_DIE = 568765208U;
+        static const AkUniqueID PLAY_SP_FOLEY = 3885997515U;
         static const AkUniqueID PLAY_SP_FOOTSTEP = 2561501052U;
         static const AkUniqueID PLAY_SP_PROJECTILE = 2046270727U;
         static const AkUniqueID PLAY_SP_PROJECTILE_HIT = 3525273781U;

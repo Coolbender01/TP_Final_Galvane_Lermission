@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8B78EAC6-34BC-4C7A-B11B-71CBE08FD499}" SchemaVersion="110" RootDocumentID="{2132E58F-D328-41BE-A2EE-593EB76956B8}" ParentDocumentID="{2132E58F-D328-41BE-A2EE-593EB76956B8}">
+	<AudioObjects>
+		<WorkUnit Name="2D" ID="{8B78EAC6-34BC-4C7A-B11B-71CBE08FD499}" OwnerID="{2132E58F-D328-41BE-A2EE-593EB76956B8}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="AMB_Ext" ID="{9D1AE6FD-2F77-4320-B342-FA610F204A35}" ShortID="868438965">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="AMB_Ext_LP" ID="{DD64B280-72B8-4327-9239-BDCFEEFC539F}" ShortID="927897353">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Ext_LP" ID="{D9312F6A-4CE5-4D98-971C-55EE119074E2}">
+									<Language>SFX</Language>
+									<AudioFile>AMB_Ext_LP.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="670214400"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Ext_LP" ID="{D9312F6A-4CE5-4D98-971C-55EE119074E2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="AMB_Int" ID="{3E9A86E0-A01B-4D94-8E7F-A2793544B3D1}" ShortID="265076823">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="AMB_ToxicWater_LP" ID="{5B8AF43D-1F15-4327-907B-660391293D8E}" ShortID="1033996963">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_ToxicWater_LP" ID="{0F6AF146-9A3C-40FD-8DF3-D18A71023D62}">
+									<Language>SFX</Language>
+									<AudioFile>AMB_ToxicWater_LP.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="557910433"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_ToxicWater_LP" ID="{0F6AF146-9A3C-40FD-8DF3-D18A71023D62}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_Cavern_LP" ID="{0F0CFD56-3DC4-49B4-AF02-6BC128FE7973}" ShortID="1043013823">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Cavern_LP" ID="{3A5662A8-4152-434D-B3D0-8AC240BB3B47}">
+									<Language>SFX</Language>
+									<AudioFile>AMB_Cavern_LP.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1042680909"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Cavern_LP" ID="{3A5662A8-4152-434D-B3D0-8AC240BB3B47}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_SS_LP" ID="{0F79271C-A6CD-46ED-A729-95B4B7F02452}" ShortID="455124053">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_SS_LP" ID="{E05E8B66-F2A8-4324-BEF2-0EEDD9412DC3}">
+									<Language>SFX</Language>
+									<AudioFile>AMB_SS_LP.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="130311721"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_SS_LP" ID="{E05E8B66-F2A8-4324-BEF2-0EEDD9412DC3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

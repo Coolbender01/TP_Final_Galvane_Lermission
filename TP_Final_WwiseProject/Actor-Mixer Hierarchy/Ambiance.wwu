@@ -8,7 +8,8 @@
 			</PropertyList>
 			<ChildrenList>
 				<WorkUnit Name="SFX" ID="{319E310B-712E-47B1-8C64-E5DA76F88FC5}" PersistMode="Reference"/>
-				<WorkUnit Name="RFX" ID="{A12C285A-29D3-49DD-985E-49EF86231368}" PersistMode="Reference"/>
+				<WorkUnit Name="2D" ID="{8B78EAC6-34BC-4C7A-B11B-71CBE08FD499}" PersistMode="Reference"/>
+				<WorkUnit Name="3D" ID="{D96801C3-24CF-4AD9-9369-9E1ED12BBB30}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

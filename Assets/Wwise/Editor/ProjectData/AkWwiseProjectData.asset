@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 6bfbccf4d2879c4583fb448e8130ba97
     GuidInternal: 
-    m_lastTime: -8585285072693979694
+    m_lastTime: -8585285128791435803
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: c096f127753d3c4da6341e50f5479ee5
     GuidInternal: 
-    m_lastTime: -8585282468319374651
+    m_lastTime: -8585283305295896887
     List:
     - name: Ambiance
       guid: 0b7d15038ff9f94b896c9d3e804e05ba
@@ -174,7 +174,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit\Monstre\Chomper
     guid: 51c91545ab1e504fa3e40a811d43467c
     GuidInternal: 
-    m_lastTime: -8585280510646654116
+    m_lastTime: -8585279907178258054
     List:
     - name: Chomper_SoundBank
       guid: ee80f1659ed8a54ca8e13e69fbe2920a
@@ -207,7 +207,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 9716599f793b03469dcb447972967bac
     GuidInternal: 
-    m_lastTime: -8585280023636083989
+    m_lastTime: -8585279914082865994
     List: []
   - PhysicalPath: SoundBanks\Grenadier.wwu
     PathAndIcons:
@@ -226,7 +226,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit\Monstre\Grenadier
     guid: a6f2ad69c4773248a9d8bae4f681a341
     GuidInternal: 
-    m_lastTime: -8585280615116344295
+    m_lastTime: -8585279790029998144
     List:
     - name: Grenadier_SoundBank
       guid: 82a478956add5f4c824233415911cf8a
@@ -262,7 +262,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit\MC
     guid: 08b722a9e4cfdb43b1ccb22a6b542dfa
     GuidInternal: 
-    m_lastTime: -8585279916959334917
+    m_lastTime: -8585279760709561002
     List:
     - name: MC_Soundbank
       guid: c239a7ed6deb274fb42bb41aa38c4a66
@@ -295,7 +295,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit\Monstre
     guid: 73173436dd5f744cac4d1385928a34fa
     GuidInternal: 
-    m_lastTime: -8585280615116329416
+    m_lastTime: -8585281322572291802
     List: []
   - PhysicalPath: SoundBanks\Spitter.wwu
     PathAndIcons:
@@ -314,7 +314,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit\Monstre\Spitter
     guid: 4ec7a141fdb1d441b3fc8daee5bddd8b
     GuidInternal: 
-    m_lastTime: -8585280615116319493
+    m_lastTime: -8585279907185988594
     List:
     - name: Spitter_SoundBank
       guid: 4734c4db2d766545a6e56ccb9adec25d
@@ -354,7 +354,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Monstre\Chomper
     guid: 9a3f8b7f3bb221479366f252328bcc4a
     GuidInternal: 
-    m_lastTime: -8585280510649243593
+    m_lastTime: -8585279905450459874
     List:
     - name: Attack
       guid: 0ed4893e74ac7b4582a581dbc290d2a8
@@ -468,6 +468,29 @@ MonoBehaviour:
         ObjectType: 4
         guid: 88427364c130b64387095ec9fc304ad6
       Path: Events\Default Work Unit\Monstre\Chomper\Hit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Idle
+      guid: f3234291e360f8409c3bed4bbc82a62d
+      id: 1874288895
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Chomper
+        ObjectType: 12
+        guid: 9a3f8b7f3bb221479366f252328bcc4a
+      - ElementName: Idle
+        ObjectType: 4
+        guid: f3234291e360f8409c3bed4bbc82a62d
+      Path: Events\Default Work Unit\Monstre\Chomper\Idle
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -601,6 +624,32 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Idle
+      guid: f7f66c3e090f12489b1cfb3f97662eb7
+      id: 41941568
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Chomper
+        ObjectType: 12
+        guid: 9a3f8b7f3bb221479366f252328bcc4a
+      - ElementName: Idle
+        ObjectType: 4
+        guid: f3234291e360f8409c3bed4bbc82a62d
+      - ElementName: Play_Idle
+        ObjectType: 3
+        guid: f7f66c3e090f12489b1cfb3f97662eb7
+      Path: Events\Default Work Unit\Monstre\Chomper\Idle\Play_Idle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Spotted
       guid: e83f65e442cb6341950d075f1eb79cba
       id: 2262512141
@@ -661,7 +710,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 9fe65a885223ee4c989d7397dfbf3795
     GuidInternal: 
-    m_lastTime: -8585279916959454201
+    m_lastTime: -8585279914083574106
     List: []
   - PhysicalPath: Events\Grenadier.wwu
     PathAndIcons:
@@ -680,7 +729,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Monstre\Grenadier
     guid: 4fad0e6490247d4890ac594088d180d6
     GuidInternal: 
-    m_lastTime: -8585280615119326692
+    m_lastTime: -8585279907191663540
     List:
     - name: Attack
       guid: 010b13f522e1244a85c49274f8a271bc
@@ -774,9 +823,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_GR_Attack
+    - name: Play_GR_Attack_Fist
       guid: 3011d067c4741a4fa4fac067c4bb8d37
-      id: 3040080128
+      id: 984362133
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -793,10 +842,62 @@ MonoBehaviour:
       - ElementName: Attack
         ObjectType: 4
         guid: 010b13f522e1244a85c49274f8a271bc
-      - ElementName: Play_GR_Attack
+      - ElementName: Play_GR_Attack_Fist
         ObjectType: 3
         guid: 3011d067c4741a4fa4fac067c4bb8d37
-      Path: Events\Default Work Unit\Monstre\Grenadier\Attack\Play_GR_Attack
+      Path: Events\Default Work Unit\Monstre\Grenadier\Attack\Play_GR_Attack_Fist
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GR_Attack_Projectile
+      guid: c6c5186782a3844695d0e03cc19e32db
+      id: 3571706742
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Grenadier
+        ObjectType: 12
+        guid: 4fad0e6490247d4890ac594088d180d6
+      - ElementName: Attack
+        ObjectType: 4
+        guid: 010b13f522e1244a85c49274f8a271bc
+      - ElementName: Play_GR_Attack_Projectile
+        ObjectType: 3
+        guid: c6c5186782a3844695d0e03cc19e32db
+      Path: Events\Default Work Unit\Monstre\Grenadier\Attack\Play_GR_Attack_Projectile
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GR_Attack_Shield
+      guid: 3647b8854b4b6a45a6e3aa8d75faf1ba
+      id: 1479641432
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Grenadier
+        ObjectType: 12
+        guid: 4fad0e6490247d4890ac594088d180d6
+      - ElementName: Attack
+        ObjectType: 4
+        guid: 010b13f522e1244a85c49274f8a271bc
+      - ElementName: Play_GR_Attack_Shield
+        ObjectType: 3
+        guid: 3647b8854b4b6a45a6e3aa8d75faf1ba
+      Path: Events\Default Work Unit\Monstre\Grenadier\Attack\Play_GR_Attack_Shield
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -892,7 +993,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\MC
     guid: e6e0b9986105784380ced1527d21f2b7
     GuidInternal: 
-    m_lastTime: -8585279912371716362
+    m_lastTime: -8585279760709580943
     List:
     - name: Play_AttackOrEffort
       guid: 0b5d60fb6180314c89a608c8845af406
@@ -1348,7 +1449,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Monstre
     guid: d371b727377c694483c64b740136e820
     GuidInternal: 
-    m_lastTime: -8585280615119316679
+    m_lastTime: -8585281322572076593
     List: []
   - PhysicalPath: Events\Spitter.wwu
     PathAndIcons:
@@ -1367,7 +1468,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Monstre\Spitter
     guid: 1f378db00ca67241ad7c9a270dda8884
     GuidInternal: 
-    m_lastTime: -8585280615119301895
+    m_lastTime: -8585279907191653589
     List:
     - name: Attack
       guid: 6825c5cdad11424496fdcd055a684992
@@ -1657,7 +1758,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 5413541f34608d42a38adfa44c3050f6
     GuidInternal: 
-    m_lastTime: -8585285072694044180
+    m_lastTime: -8585285128790277732
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -1671,7 +1772,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 7ee4ee5ef51733469157438dfe872318
     GuidInternal: 
-    m_lastTime: -8585282468318764562
+    m_lastTime: -8585282471688854067
     List: []
   - PhysicalPath: Switches\MainCharacter.wwu
     PathAndIcons:
@@ -1687,7 +1788,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit\MainCharacter
     guid: 5f2bb38308f39c4e978de48dd17df45c
     GuidInternal: 
-    m_lastTime: -8585282468318754645
+    m_lastTime: -8585282471688614727
     List:
     - name: AttackCombo
       guid: a57efc11076e7b45ada396f1215be9ee
@@ -1914,10 +2015,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: ecdb515c75889443906583e44bbf6ef1
     GuidInternal: 
-    m_lastTime: -8585285072693989613
+    m_lastTime: -8585285128790736503
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000080000000b0000000c0000000d0000001e0000001f0000002000000021000000
+  ExpandedWaapiItemIds: 050000000600000007000000090000000b0000000c0000000e0000001a0000002f0000004200000048000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

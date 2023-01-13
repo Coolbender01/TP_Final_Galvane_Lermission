@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D96801C3-24CF-4AD9-9369-9E1ED12BBB30}" SchemaVersion="110" RootDocumentID="{2132E58F-D328-41BE-A2EE-593EB76956B8}" ParentDocumentID="{2132E58F-D328-41BE-A2EE-593EB76956B8}">
+	<AudioObjects>
+		<WorkUnit Name="3D" ID="{D96801C3-24CF-4AD9-9369-9E1ED12BBB30}" OwnerID="{2132E58F-D328-41BE-A2EE-593EB76956B8}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="RFX" ID="{A12C285A-29D3-49DD-985E-49EF86231368}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

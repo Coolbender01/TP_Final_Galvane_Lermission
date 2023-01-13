@@ -47,7 +47,7 @@
 								<Action Name="" ID="{FC752548-E221-439C-BBE4-D45EBB178B33}" ShortID="336982376">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="RFX_MS01_Idle" ID="{003BBDFD-95AB-4EC8-9C3D-8A6DAC6D0BDD}" WorkUnitID="{A0759163-C9B6-4D67-90A2-4564036069DE}"/>
+											<ObjectRef Name="RFX_Idle" ID="{8697C0F5-1DB3-4C70-8DC6-9B671124D2CE}" WorkUnitID="{A0759163-C9B6-4D67-90A2-4564036069DE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
