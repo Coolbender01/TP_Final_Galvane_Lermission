@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<WorkUnit Name="Monstre" ID="{27B771D3-7C37-4469-83C6-4B740136E820}" PersistMode="Reference"/>
 				<WorkUnit Name="MC" ID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{C74D8273-88AA-4BBE-95C0-D81753E53341}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

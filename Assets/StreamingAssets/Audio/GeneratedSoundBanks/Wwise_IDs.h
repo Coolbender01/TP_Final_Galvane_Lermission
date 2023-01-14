@@ -53,6 +53,9 @@ namespace AK
         static const AkUniqueID PLAY_WHOOSH_FAST = 3737795321U;
         static const AkUniqueID PLAY_WHOOSH_MID = 2197274579U;
         static const AkUniqueID PLAY_WHOOSH_SLOW = 1912453572U;
+        static const AkUniqueID UI_CONFIRM = 216067002U;
+        static const AkUniqueID UI_CONFIRMSMALL = 1292146495U;
+        static const AkUniqueID UI_HIGHLIGHT = 1402340918U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -100,6 +103,7 @@ namespace AK
         static const AkUniqueID GRENADIER_SOUNDBANK = 2458534638U;
         static const AkUniqueID MC_SOUNDBANK = 767608191U;
         static const AkUniqueID SPITTER_SOUNDBANK = 1290967234U;
+        static const AkUniqueID UI_SOUNDBANK = 2454045173U;
     } // namespace BANKS
 
     namespace BUSSES
