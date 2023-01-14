@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="767608191" Type="User" Language="SFX" Hash="{E9A74637-AB7D-CA89-7BA9-26EEAA907B21}">
+		<SoundBank Id="767608191" Type="User" Language="SFX" Hash="{EA35DF68-4755-C80E-2BA5-7BAA13E00FD3}">
 			<ShortName>MC_Soundbank</ShortName>
 			<Path>MC_Soundbank.bnk</Path>
 			<Media>
@@ -1040,6 +1040,41 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
+		<SoundBank Id="2454045173" Type="User" Language="SFX" Hash="{785F5378-31FD-F4CA-0A85-A3FF5CFE9AB6}">
+			<ShortName>UI_Soundbank</ShortName>
+			<Path>UI_Soundbank.bnk</Path>
+			<Media>
+				<File Id="106693867" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Confirm.wav</ShortName>
+					<CachePath>SFX/UI_Confirm_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1023493739" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_ConfirmSmall.wav</ShortName>
+					<CachePath>SFX/UI_ConfirmSmall_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1039660020" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI_Highlight.wav</ShortName>
+					<CachePath>SFX/UI_Highlight_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="216067002" Name="UI_Confirm" DurationType="OneShot" DurationMin="2.5384583" DurationMax="2.5384583">
+					<MediaRefs>
+						<MediaRef Id="106693867"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1292146495" Name="UI_ConfirmSmall" DurationType="OneShot" DurationMin="1.8461459" DurationMax="1.8461459">
+					<MediaRefs>
+						<MediaRef Id="1023493739"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1402340918" Name="UI_Highlight" DurationType="OneShot" DurationMin="0.6918402" DurationMax="0.6918402">
+					<MediaRefs>
+						<MediaRef Id="1039660020"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="2458534638" Type="User" Language="SFX" Hash="{135946FB-620E-11EF-4D71-9A35ABB98D8A}">
 			<ShortName>Grenadier_SoundBank</ShortName>
 			<Path>Grenadier_SoundBank.bnk</Path>
@@ -1486,5 +1521,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B3EBBCD7-7A5A-2EF8-D820-5FABA5F9D929}</FileHash>
+	<FileHash>{E99B15F0-713F-A3AB-4EA2-A745BBA1D2DB}</FileHash>
 </SoundBanksInfo>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{39B8FF8D-FD29-4139-9AEE-B8D8B6734BFB}" SchemaVersion="110" RootDocumentID="{9F591697-3B79-4603-9DCB-447972967BAC}" ParentDocumentID="{9F591697-3B79-4603-9DCB-447972967BAC}">
+<WwiseDocument Type="WorkUnit" ID="{39B8FF8D-FD29-4139-9AEE-B8D8B6734BFB}" SchemaVersion="110">
 	<SoundBanks>
-		<WorkUnit Name="UI" ID="{39B8FF8D-FD29-4139-9AEE-B8D8B6734BFB}" OwnerID="{9F591697-3B79-4603-9DCB-447972967BAC}" PersistMode="Nested">
+		<WorkUnit Name="UI" ID="{39B8FF8D-FD29-4139-9AEE-B8D8B6734BFB}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="UI_Soundbank" ID="{9F6DF4AD-F5A4-447C-AC8D-FEC960A5A355}">
 					<ObjectInclusionList>
