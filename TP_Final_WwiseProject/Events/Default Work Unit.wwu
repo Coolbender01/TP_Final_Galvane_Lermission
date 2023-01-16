@@ -6,6 +6,17 @@
 				<WorkUnit Name="Monstre" ID="{27B771D3-7C37-4469-83C6-4B740136E820}" PersistMode="Reference"/>
 				<WorkUnit Name="MC" ID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" PersistMode="Reference"/>
 				<WorkUnit Name="UI" ID="{C74D8273-88AA-4BBE-95C0-D81753E53341}" PersistMode="Reference"/>
+				<Event Name="Play_SFX_Plant_WindBlowing" ID="{C7A8D135-F7BE-4D59-89CA-63F32F318CE9}">
+					<ChildrenList>
+						<Action Name="" ID="{914A63A6-986A-4FCE-8777-55465EC13736}" ShortID="562209822">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Plant_WindBlowing" ID="{89EB9F31-AB38-43EE-A62B-6D85000B4A1E}" WorkUnitID="{A12C285A-29D3-49DD-985E-49EF86231368}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

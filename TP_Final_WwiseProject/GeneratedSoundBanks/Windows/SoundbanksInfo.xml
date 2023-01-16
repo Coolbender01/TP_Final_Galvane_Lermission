@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="767608191" Type="User" Language="SFX" Hash="{EA35DF68-4755-C80E-2BA5-7BAA13E00FD3}">
+		<SoundBank Id="767608191" Type="User" Language="SFX" Hash="{CCBE2072-310B-C25D-066A-84AE23F06C76}">
 			<ShortName>MC_Soundbank</ShortName>
 			<Path>MC_Soundbank.bnk</Path>
 			<Media>
@@ -45,6 +45,10 @@
 					<ShortName>MC_VO_Hurt-005.wav</ShortName>
 					<CachePath>SFX/MC_VO_Hurt-005_10C4C929.wem</CachePath>
 				</File>
+				<File Id="51015511" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Babble_10.ogg.wav</ShortName>
+					<CachePath>SFX/Ellen_Babble_10.ogg_10C4C929.wem</CachePath>
+				</File>
 				<File Id="58243303" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Foley_Mid-003.wav</ShortName>
 					<CachePath>SFX/MC_Foley_Mid-003_10C4C929.wem</CachePath>
@@ -64,6 +68,10 @@
 				<File Id="76219142" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Walk_Stone-003.wav</ShortName>
 					<CachePath>SFX/MC_FT_Walk_Stone-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="79398294" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Babble_02.ogg.wav</ShortName>
+					<CachePath>SFX/Ellen_Babble_02.ogg_10C4C929.wem</CachePath>
 				</File>
 				<File Id="98415626" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Mud-001.wav</ShortName>
@@ -129,6 +137,10 @@
 					<ShortName>MC_Foley_BodyFall.wav</ShortName>
 					<CachePath>SFX/MC_Foley_BodyFall_1CF7BDE7.wem</CachePath>
 				</File>
+				<File Id="214193843" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Babble_11.ogg.wav</ShortName>
+					<CachePath>SFX/Ellen_Babble_11.ogg_10C4C929.wem</CachePath>
+				</File>
 				<File Id="227592302" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VO_Effort-003.wav</ShortName>
 					<CachePath>SFX/MC_VO_Effort-003_10C4C929.wem</CachePath>
@@ -161,9 +173,17 @@
 					<ShortName>MC_Foley_Low-004.wav</ShortName>
 					<CachePath>SFX/MC_Foley_Low-004_10C4C929.wem</CachePath>
 				</File>
+				<File Id="288357245" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Babble_01.ogg.wav</ShortName>
+					<CachePath>SFX/Ellen_Babble_01.ogg_10C4C929.wem</CachePath>
+				</File>
 				<File Id="290147654" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VO_DeathScreaming.wav</ShortName>
 					<CachePath>SFX/MC_VO_DeathScreaming_10C4C929.wem</CachePath>
+				</File>
+				<File Id="308643685" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Babble_09.ogg.wav</ShortName>
+					<CachePath>SFX/Ellen_Babble_09.ogg_10C4C929.wem</CachePath>
 				</File>
 				<File Id="314549132" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Metal-008.wav</ShortName>
@@ -196,6 +216,10 @@
 				<File Id="344433413" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Walk_Metal-003.wav</ShortName>
 					<CachePath>SFX/MC_FT_Walk_Metal-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="345998745" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Babble_03.ogg.wav</ShortName>
+					<CachePath>SFX/Ellen_Babble_03.ogg_10C4C929.wem</CachePath>
 				</File>
 				<File Id="347909976" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Whoosh_Fast-003.wav</ShortName>
@@ -244,6 +268,10 @@
 				<File Id="437815570" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_VO_Effort-005.wav</ShortName>
 					<CachePath>SFX/MC_VO_Effort-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="440616789" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_Plants-003.wav</ShortName>
+					<CachePath>SFX/RFX_Plants-003_10C4C929.wem</CachePath>
 				</File>
 				<File Id="441369239" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Grass-001.wav</ShortName>
@@ -317,6 +345,10 @@
 					<ShortName>MC_FT_Run_Dirt-005.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Dirt-005_10C4C929.wem</CachePath>
 				</File>
+				<File Id="628609151" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Babble_06.ogg.wav</ShortName>
+					<CachePath>SFX/Ellen_Babble_06.ogg_10C4C929.wem</CachePath>
+				</File>
 				<File Id="640297886" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Scuff-002.wav</ShortName>
 					<CachePath>SFX/MC_FT_Scuff-002_10C4C929.wem</CachePath>
@@ -373,9 +405,21 @@
 					<ShortName>MC_Foley_High -002.wav</ShortName>
 					<CachePath>SFX/MC_Foley_High -002_10C4C929.wem</CachePath>
 				</File>
+				<File Id="766448375" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Babble_04.ogg.wav</ShortName>
+					<CachePath>SFX/Ellen_Babble_04.ogg_10C4C929.wem</CachePath>
+				</File>
 				<File Id="781576736" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Stone-005.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Stone-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="792313998" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Babble_12.ogg.wav</ShortName>
+					<CachePath>SFX/Ellen_Babble_12.ogg_10C4C929.wem</CachePath>
+				</File>
+				<File Id="798881527" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Babble_08.ogg.wav</ShortName>
+					<CachePath>SFX/Ellen_Babble_08.ogg_10C4C929.wem</CachePath>
 				</File>
 				<File Id="828496432" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_Foley_High -001.wav</ShortName>
@@ -437,9 +481,17 @@
 					<ShortName>MC_FT_Walk_Grass-003.wav</ShortName>
 					<CachePath>SFX/MC_FT_Walk_Grass-003_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1029959694" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Babble_07.ogg.wav</ShortName>
+					<CachePath>SFX/Ellen_Babble_07.ogg_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1030134477" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Stone-004.wav</ShortName>
 					<CachePath>SFX/MC_FT_Run_Stone-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1030892387" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ellen_Babble_05.ogg.wav</ShortName>
+					<CachePath>SFX/Ellen_Babble_05.ogg_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1034921823" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>MC_FT_Run_Mud-003.wav</ShortName>
@@ -456,6 +508,10 @@
 				<File Id="1054579223" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_MC_Impact_Fight-003.wav</ShortName>
 					<CachePath>SFX/SFX_MC_Impact_Fight-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1072082701" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_Plants-001.wav</ShortName>
+					<CachePath>SFX/RFX_Plants-001_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -754,6 +810,44 @@
 						<MediaRef Id="854608352"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4237661783" Name="RfX_Plants_SQ" MaxAttenuation="50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="440616789"/>
+						<MediaRef Id="1072082701"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1178033423" Name="VO_Hud_Seq1" DurationType="OneShot" DurationMin="2.847347" DurationMax="9.304036">
+					<MediaRefs>
+						<MediaRef Id="51015511"/>
+						<MediaRef Id="79398294"/>
+						<MediaRef Id="214193843"/>
+						<MediaRef Id="288357245"/>
+						<MediaRef Id="308643685"/>
+						<MediaRef Id="345998745"/>
+						<MediaRef Id="628609151"/>
+						<MediaRef Id="766448375"/>
+						<MediaRef Id="792313998"/>
+						<MediaRef Id="798881527"/>
+						<MediaRef Id="1029959694"/>
+						<MediaRef Id="1030892387"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1178033420" Name="VO_Hud_Seq2" DurationType="OneShot" DurationMin="1.6736735" DurationMax="4.902018">
+					<MediaRefs>
+						<MediaRef Id="51015511"/>
+						<MediaRef Id="79398294"/>
+						<MediaRef Id="214193843"/>
+						<MediaRef Id="288357245"/>
+						<MediaRef Id="308643685"/>
+						<MediaRef Id="345998745"/>
+						<MediaRef Id="628609151"/>
+						<MediaRef Id="766448375"/>
+						<MediaRef Id="792313998"/>
+						<MediaRef Id="798881527"/>
+						<MediaRef Id="1029959694"/>
+						<MediaRef Id="1030892387"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="2385628198" Name="Footsteps">
@@ -1040,13 +1134,21 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2454045173" Type="User" Language="SFX" Hash="{785F5378-31FD-F4CA-0A85-A3FF5CFE9AB6}">
+		<SoundBank Id="2454045173" Type="User" Language="SFX" Hash="{394CA070-91F2-CA7F-B00F-3118EB00321D}">
 			<ShortName>UI_Soundbank</ShortName>
 			<Path>UI_Soundbank.bnk</Path>
 			<Media>
 				<File Id="106693867" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_Confirm.wav</ShortName>
 					<CachePath>SFX/UI_Confirm_10C4C929.wem</CachePath>
+				</File>
+				<File Id="326768510" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Hud_TriggerIn.wav</ShortName>
+					<CachePath>SFX/SFX_Hud_TriggerIn_10C4C929.wem</CachePath>
+				</File>
+				<File Id="820971673" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Hud_Triggerout.wav</ShortName>
+					<CachePath>SFX/SFX_Hud_Triggerout_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1023493739" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>UI_ConfirmSmall.wav</ShortName>
@@ -1058,6 +1160,16 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="2029000732" Name="SFX_Hud_TriggerIn" DurationType="OneShot" DurationMin="2" DurationMax="2">
+					<MediaRefs>
+						<MediaRef Id="326768510"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1692947803" Name="SFX_Hud_TriggerOut" DurationType="OneShot" DurationMin="2" DurationMax="2">
+					<MediaRefs>
+						<MediaRef Id="820971673"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="216067002" Name="UI_Confirm" DurationType="OneShot" DurationMin="2.5384583" DurationMax="2.5384583">
 					<MediaRefs>
 						<MediaRef Id="106693867"/>
@@ -1185,7 +1297,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2981377429" Type="User" Language="SFX" Hash="{4B9B076D-B830-2440-715F-3A32DDDCDFB0}">
+		<SoundBank Id="2981377429" Type="User" Language="SFX" Hash="{5B969ECB-A0E2-88A3-8F8D-906FE3070199}">
 			<ShortName>Ambiance</ShortName>
 			<Path>Ambiance.bnk</Path>
 			<Media>
@@ -1208,6 +1320,14 @@
 				<File Id="420707460" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>RFX_Out_Animals-012.wav</ShortName>
 					<CachePath>SFX/RFX_Out_Animals-012_10C4C929.wem</CachePath>
+				</File>
+				<File Id="440616789" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_Plants-003.wav</ShortName>
+					<CachePath>SFX/RFX_Plants-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="518570860" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Plant_WindBlowing.wav</ShortName>
+					<CachePath>SFX/SFX_Plant_WindBlowing_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="561665002" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>RFX_Out_Animals-010.wav</ShortName>
@@ -1242,6 +1362,10 @@
 					<ShortName>RFX_Out_Animals-011.wav</ShortName>
 					<CachePath>SFX/RFX_Out_Animals-011_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1072082701" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_Plants-001.wav</ShortName>
+					<CachePath>SFX/RFX_Plants-001_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
 				<Event Id="1384706362" Name="Play_Amb_Ext" DurationType="Infinite">
@@ -1263,6 +1387,22 @@
 				<Event Id="2454646541" Name="PLay_AMB_Ext_LP" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="670214400"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3882178070" Name="Play_SFX_Plant_WindBlowing" MaxAttenuation="30" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="518570860"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4237661783" Name="RfX_Plants_SQ" MaxAttenuation="50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="440616789"/>
+						<MediaRef Id="1072082701"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2718560927" Name="SFX_Plant_WindBlowing" MaxAttenuation="30" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="518570860"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -1521,5 +1661,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E99B15F0-713F-A3AB-4EA2-A745BBA1D2DB}</FileHash>
+	<FileHash>{EEBB82C4-46A2-11B1-4BAA-E08D17882DD6}</FileHash>
 </SoundBanksInfo>

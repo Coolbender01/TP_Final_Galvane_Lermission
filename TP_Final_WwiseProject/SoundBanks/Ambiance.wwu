@@ -7,6 +7,9 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Amb_Ext" ID="{BAA9E413-0237-416B-B1DD-712B025BF1AF}" WorkUnitID="{1180110C-85DA-494B-A82B-6AF81B8CBA5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PLay_AMB_Ext_LP" ID="{EB3866CD-D59D-42A8-9182-EF5216BEF24C}" WorkUnitID="{1180110C-85DA-494B-A82B-6AF81B8CBA5F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX_Plant_WindBlowing" ID="{A76CC482-D88C-43AC-82F0-00BBA0310D4F}" WorkUnitID="{1180110C-85DA-494B-A82B-6AF81B8CBA5F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RfX_Plants_SQ" ID="{C147B69E-27EF-4721-B80E-F549A78380E6}" WorkUnitID="{1180110C-85DA-494B-A82B-6AF81B8CBA5F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_Plant_WindBlowing" ID="{C7A8D135-F7BE-4D59-89CA-63F32F318CE9}" WorkUnitID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

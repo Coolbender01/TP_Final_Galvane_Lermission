@@ -162,13 +162,16 @@ MonoBehaviour:
     - ElementName: SoundBanks
       ObjectType: 5
       guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9716599f793b03469dcb447972967bac
     - ElementName: Ambiance
       ObjectType: 12
       guid: edba7a23239ca54b8607f50b0ecd7694
-    ParentPath: SoundBanks\Ambiance
+    ParentPath: SoundBanks\Default Work Unit\Ambiance
     guid: edba7a23239ca54b8607f50b0ecd7694
     GuidInternal: 
-    m_lastTime: -8585279481204533301
+    m_lastTime: -8585277825055209478
     List:
     - name: Ambiance
       guid: d547b7aacf039c4eb6da0d7e5cbd4c55
@@ -177,26 +180,16 @@ MonoBehaviour:
       - ElementName: SoundBanks
         ObjectType: 5
         guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9716599f793b03469dcb447972967bac
       - ElementName: Ambiance
         ObjectType: 12
         guid: edba7a23239ca54b8607f50b0ecd7694
       - ElementName: Ambiance
         ObjectType: 7
         guid: d547b7aacf039c4eb6da0d7e5cbd4c55
-      Path: SoundBanks\Ambiance\Ambiance
-  - PhysicalPath: SoundBanks\Ambiances.wwu
-    PathAndIcons:
-    - ElementName: SoundBanks
-      ObjectType: 5
-      guid: 00000000000000000000000000000000
-    - ElementName: Ambiances
-      ObjectType: 12
-      guid: 344a5cdb86259643a261730fae5c0281
-    ParentPath: SoundBanks\Ambiances
-    guid: 344a5cdb86259643a261730fae5c0281
-    GuidInternal: 
-    m_lastTime: -8585279481204493620
-    List: []
+      Path: SoundBanks\Default Work Unit\Ambiance\Ambiance
   - PhysicalPath: SoundBanks\Chomper.wwu
     PathAndIcons:
     - ElementName: SoundBanks
@@ -302,7 +295,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit\MC
     guid: 08b722a9e4cfdb43b1ccb22a6b542dfa
     GuidInternal: 
-    m_lastTime: -8585279916959334917
+    m_lastTime: -8585277830798787606
     List:
     - name: MC_Soundbank
       guid: c239a7ed6deb274fb42bb41aa38c4a66
@@ -387,7 +380,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\UI
     guid: 8dffb83929fd39419aeeb8d8b6734bfb
     GuidInternal: 
-    m_lastTime: -8585279479414510639
+    m_lastTime: -8585277886057605448
     List:
     - name: UI_Soundbank
       guid: adf46d9fa4f57c44ac8dfec960a5a355
@@ -415,7 +408,7 @@ MonoBehaviour:
     ParentPath: Events\Ambiances
     guid: 0c118011da854b49a82b6af81b8cba5f
     GuidInternal: 
-    m_lastTime: -8585279481207975537
+    m_lastTime: -8585277830798852081
     List:
     - name: "Ext\xE9rieur"
       guid: 219d7c937418c64f936065ddc7ae0f07
@@ -491,9 +484,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_RFX_Plants
-      guid: a3ee623e6a3c6c449309f955257ba27a
-      id: 690023583
+    - name: RfX_Plants_SQ
+      guid: 9eb647c1ef272147b80ef549a78380e6
+      id: 4237661783
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -504,29 +497,33 @@ MonoBehaviour:
       - ElementName: "Ext\xE9rieur"
         ObjectType: 4
         guid: 219d7c937418c64f936065ddc7ae0f07
-      - ElementName: Play_RFX_Plants
+      - ElementName: RfX_Plants_SQ
         ObjectType: 3
-        guid: a3ee623e6a3c6c449309f955257ba27a
-      Path: "Events\\Ambiances\\Ext\xE9rieur\\Play_RFX_Plants"
+        guid: 9eb647c1ef272147b80ef549a78380e6
+      Path: "Events\\Ambiances\\Ext\xE9rieur\\RfX_Plants_SQ"
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-  - PhysicalPath: Events\Ambiances_Ext.wwu
-    PathAndIcons:
-    - ElementName: Events
-      ObjectType: 5
-      guid: 00000000000000000000000000000000
-    - ElementName: Ambiances
-      ObjectType: 12
-      guid: 0c118011da854b49a82b6af81b8cba5f
-    - ElementName: Ambiances_Ext
-      ObjectType: 12
-      guid: dc960bbc93982d4397c1867b286ef7f1
-    ParentPath: Events\Ambiances\Ambiances_Ext
-    guid: dc960bbc93982d4397c1867b286ef7f1
-    GuidInternal: 
-    m_lastTime: -8585279481207940817
-    List: []
+    - name: SFX_Plant_WindBlowing
+      guid: 82c46ca78cd8ac4382f000bba0310d4f
+      id: 2718560927
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambiances
+        ObjectType: 12
+        guid: 0c118011da854b49a82b6af81b8cba5f
+      - ElementName: "Ext\xE9rieur"
+        ObjectType: 4
+        guid: 219d7c937418c64f936065ddc7ae0f07
+      - ElementName: SFX_Plant_WindBlowing
+        ObjectType: 3
+        guid: 82c46ca78cd8ac4382f000bba0310d4f
+      Path: "Events\\Ambiances\\Ext\xE9rieur\\SFX_Plant_WindBlowing"
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Chomper.wwu
     PathAndIcons:
     - ElementName: Events
@@ -900,8 +897,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 9fe65a885223ee4c989d7397dfbf3795
     GuidInternal: 
-    m_lastTime: -8585279479415939117
-    List: []
+    m_lastTime: -8585277825055075570
+    List:
+    - name: Play_SFX_Plant_WindBlowing
+      guid: 35d1a8c7bef7594d89ca63f32f318ce9
+      id: 3882178070
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Play_SFX_Plant_WindBlowing
+        ObjectType: 3
+        guid: 35d1a8c7bef7594d89ca63f32f318ce9
+      Path: Events\Default Work Unit\Play_SFX_Plant_WindBlowing
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Grenadier.wwu
     PathAndIcons:
     - ElementName: Events
@@ -1183,8 +1197,28 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\MC
     guid: e6e0b9986105784380ced1527d21f2b7
     GuidInternal: 
-    m_lastTime: -8585279912371716362
+    m_lastTime: -8585277886059792806
     List:
+    - name: Fol_MC
+      guid: 488c4e78944d954e897efb47d912abef
+      id: 4173462547
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: MC
+        ObjectType: 12
+        guid: e6e0b9986105784380ced1527d21f2b7
+      - ElementName: Fol_MC
+        ObjectType: 4
+        guid: 488c4e78944d954e897efb47d912abef
+      Path: Events\Default Work Unit\MC\Fol_MC
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_AttackOrEffort
       guid: 0b5d60fb6180314c89a608c8845af406
       id: 500209715
@@ -1198,10 +1232,13 @@ MonoBehaviour:
       - ElementName: MC
         ObjectType: 12
         guid: e6e0b9986105784380ced1527d21f2b7
+      - ElementName: VO_MC
+        ObjectType: 4
+        guid: 9d58148d7aa75641b29063cb744b6692
       - ElementName: Play_AttackOrEffort
         ObjectType: 3
         guid: 0b5d60fb6180314c89a608c8845af406
-      Path: Events\Default Work Unit\MC\Play_AttackOrEffort
+      Path: Events\Default Work Unit\MC\VO_MC\Play_AttackOrEffort
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1218,10 +1255,13 @@ MonoBehaviour:
       - ElementName: MC
         ObjectType: 12
         guid: e6e0b9986105784380ced1527d21f2b7
+      - ElementName: Fol_MC
+        ObjectType: 4
+        guid: 488c4e78944d954e897efb47d912abef
       - ElementName: Play_FOL_Bodyfall
         ObjectType: 3
         guid: edf3dac9f381924588924ca708a3688f
-      Path: Events\Default Work Unit\MC\Play_FOL_Bodyfall
+      Path: Events\Default Work Unit\MC\Fol_MC\Play_FOL_Bodyfall
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1238,10 +1278,13 @@ MonoBehaviour:
       - ElementName: MC
         ObjectType: 12
         guid: e6e0b9986105784380ced1527d21f2b7
+      - ElementName: Fol_MC
+        ObjectType: 4
+        guid: 488c4e78944d954e897efb47d912abef
       - ElementName: Play_FOL_High
         ObjectType: 3
         guid: e18c8fc6ea2adc4aacd14a9609131773
-      Path: Events\Default Work Unit\MC\Play_FOL_High
+      Path: Events\Default Work Unit\MC\Fol_MC\Play_FOL_High
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1258,10 +1301,13 @@ MonoBehaviour:
       - ElementName: MC
         ObjectType: 12
         guid: e6e0b9986105784380ced1527d21f2b7
+      - ElementName: Fol_MC
+        ObjectType: 4
+        guid: 488c4e78944d954e897efb47d912abef
       - ElementName: Play_FOL_Low
         ObjectType: 3
         guid: a9e5524f2c2f6f4e9a8841f794694f3a
-      Path: Events\Default Work Unit\MC\Play_FOL_Low
+      Path: Events\Default Work Unit\MC\Fol_MC\Play_FOL_Low
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1278,10 +1324,13 @@ MonoBehaviour:
       - ElementName: MC
         ObjectType: 12
         guid: e6e0b9986105784380ced1527d21f2b7
+      - ElementName: Fol_MC
+        ObjectType: 4
+        guid: 488c4e78944d954e897efb47d912abef
       - ElementName: Play_FOL_Mid
         ObjectType: 3
         guid: 440b751112e1dc44921ed2824d7e0ef5
-      Path: Events\Default Work Unit\MC\Play_FOL_Mid
+      Path: Events\Default Work Unit\MC\Fol_MC\Play_FOL_Mid
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1298,10 +1347,13 @@ MonoBehaviour:
       - ElementName: MC
         ObjectType: 12
         guid: e6e0b9986105784380ced1527d21f2b7
+      - ElementName: Fol_MC
+        ObjectType: 4
+        guid: 488c4e78944d954e897efb47d912abef
       - ElementName: Play_FT_Run
         ObjectType: 3
         guid: f3d4d76048bfa8479f008327f825e456
-      Path: Events\Default Work Unit\MC\Play_FT_Run
+      Path: Events\Default Work Unit\MC\Fol_MC\Play_FT_Run
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1318,10 +1370,13 @@ MonoBehaviour:
       - ElementName: MC
         ObjectType: 12
         guid: e6e0b9986105784380ced1527d21f2b7
+      - ElementName: Fol_MC
+        ObjectType: 4
+        guid: 488c4e78944d954e897efb47d912abef
       - ElementName: Play_FT_Scuff
         ObjectType: 3
         guid: 93bac7d3cd57274bb741a750a9bc1755
-      Path: Events\Default Work Unit\MC\Play_FT_Scuff
+      Path: Events\Default Work Unit\MC\Fol_MC\Play_FT_Scuff
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1338,10 +1393,13 @@ MonoBehaviour:
       - ElementName: MC
         ObjectType: 12
         guid: e6e0b9986105784380ced1527d21f2b7
+      - ElementName: Fol_MC
+        ObjectType: 4
+        guid: 488c4e78944d954e897efb47d912abef
       - ElementName: Play_FT_Slide
         ObjectType: 3
         guid: 1e37ff632bf572499a249b167e7bee4d
-      Path: Events\Default Work Unit\MC\Play_FT_Slide
+      Path: Events\Default Work Unit\MC\Fol_MC\Play_FT_Slide
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1358,10 +1416,13 @@ MonoBehaviour:
       - ElementName: MC
         ObjectType: 12
         guid: e6e0b9986105784380ced1527d21f2b7
+      - ElementName: Fol_MC
+        ObjectType: 4
+        guid: 488c4e78944d954e897efb47d912abef
       - ElementName: Play_FT_Walk
         ObjectType: 3
         guid: 2e8608289f461144a65a084d43f59ee3
-      Path: Events\Default Work Unit\MC\Play_FT_Walk
+      Path: Events\Default Work Unit\MC\Fol_MC\Play_FT_Walk
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1498,10 +1559,13 @@ MonoBehaviour:
       - ElementName: MC
         ObjectType: 12
         guid: e6e0b9986105784380ced1527d21f2b7
+      - ElementName: VO_MC
+        ObjectType: 4
+        guid: 9d58148d7aa75641b29063cb744b6692
       - ElementName: Play_VO_Attack
         ObjectType: 3
         guid: cd415091d99e6d4a869bc311433b70b3
-      Path: Events\Default Work Unit\MC\Play_VO_Attack
+      Path: Events\Default Work Unit\MC\VO_MC\Play_VO_Attack
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1518,10 +1582,13 @@ MonoBehaviour:
       - ElementName: MC
         ObjectType: 12
         guid: e6e0b9986105784380ced1527d21f2b7
+      - ElementName: VO_MC
+        ObjectType: 4
+        guid: 9d58148d7aa75641b29063cb744b6692
       - ElementName: Play_VO_DeathScream
         ObjectType: 3
         guid: a65d9b121ba20f429e2270363213f71e
-      Path: Events\Default Work Unit\MC\Play_VO_DeathScream
+      Path: Events\Default Work Unit\MC\VO_MC\Play_VO_DeathScream
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1538,10 +1605,13 @@ MonoBehaviour:
       - ElementName: MC
         ObjectType: 12
         guid: e6e0b9986105784380ced1527d21f2b7
+      - ElementName: VO_MC
+        ObjectType: 4
+        guid: 9d58148d7aa75641b29063cb744b6692
       - ElementName: Play_VO_Effort
         ObjectType: 3
         guid: f995aa1731f3cd49847fa272c312822e
-      Path: Events\Default Work Unit\MC\Play_VO_Effort
+      Path: Events\Default Work Unit\MC\VO_MC\Play_VO_Effort
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1558,10 +1628,13 @@ MonoBehaviour:
       - ElementName: MC
         ObjectType: 12
         guid: e6e0b9986105784380ced1527d21f2b7
+      - ElementName: VO_MC
+        ObjectType: 4
+        guid: 9d58148d7aa75641b29063cb744b6692
       - ElementName: Play_VO_Hurt
         ObjectType: 3
         guid: fbc979736188af499e2cbf812a5f61fb
-      Path: Events\Default Work Unit\MC\Play_VO_Hurt
+      Path: Events\Default Work Unit\MC\VO_MC\Play_VO_Hurt
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1622,6 +1695,72 @@ MonoBehaviour:
         ObjectType: 3
         guid: 62d1d07a1db2c94d9b8798938fc3b3be
       Path: Events\Default Work Unit\MC\Play_Whoosh_Slow
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_Hud_Seq1
+      guid: bca1ec5b4e3f604d85c50833017c679b
+      id: 1178033423
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: MC
+        ObjectType: 12
+        guid: e6e0b9986105784380ced1527d21f2b7
+      - ElementName: VO_MC
+        ObjectType: 4
+        guid: 9d58148d7aa75641b29063cb744b6692
+      - ElementName: VO_Hud_Seq1
+        ObjectType: 3
+        guid: bca1ec5b4e3f604d85c50833017c679b
+      Path: Events\Default Work Unit\MC\VO_MC\VO_Hud_Seq1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_Hud_Seq2
+      guid: d2acc3274155f548b7021e65d58dd974
+      id: 1178033420
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: MC
+        ObjectType: 12
+        guid: e6e0b9986105784380ced1527d21f2b7
+      - ElementName: VO_MC
+        ObjectType: 4
+        guid: 9d58148d7aa75641b29063cb744b6692
+      - ElementName: VO_Hud_Seq2
+        ObjectType: 3
+        guid: d2acc3274155f548b7021e65d58dd974
+      Path: Events\Default Work Unit\MC\VO_MC\VO_Hud_Seq2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_MC
+      guid: 9d58148d7aa75641b29063cb744b6692
+      id: 2405842063
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: MC
+        ObjectType: 12
+        guid: e6e0b9986105784380ced1527d21f2b7
+      - ElementName: VO_MC
+        ObjectType: 4
+        guid: 9d58148d7aa75641b29063cb744b6692
+      Path: Events\Default Work Unit\MC\VO_MC
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1922,8 +2061,48 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\UI
     guid: 73824dc7aa88be4b95c0d81753e53341
     GuidInternal: 
-    m_lastTime: -8585279479415894476
+    m_lastTime: -8585277886059782888
     List:
+    - name: SFX_Hud_TriggerIn
+      guid: ac0ab1bcc007db42aaeee98d990f07f5
+      id: 2029000732
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: UI
+        ObjectType: 12
+        guid: 73824dc7aa88be4b95c0d81753e53341
+      - ElementName: SFX_Hud_TriggerIn
+        ObjectType: 3
+        guid: ac0ab1bcc007db42aaeee98d990f07f5
+      Path: Events\Default Work Unit\UI\SFX_Hud_TriggerIn
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SFX_Hud_TriggerOut
+      guid: ea45ebb3f96780429ab26a5bde1d4ad7
+      id: 1692947803
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: UI
+        ObjectType: 12
+        guid: 73824dc7aa88be4b95c0d81753e53341
+      - ElementName: SFX_Hud_TriggerOut
+        ObjectType: 3
+        guid: ea45ebb3f96780429ab26a5bde1d4ad7
+      Path: Events\Default Work Unit\UI\SFX_Hud_TriggerOut
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: UI_Confirm
       guid: eb24ef33e3f67340b1620e04937f031d
       id: 216067002
@@ -2314,7 +2493,7 @@ MonoBehaviour:
     m_lastTime: -8585285072693989613
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 01000000050000000600000007000000080000000b0000001100000012000000130000001400000015000000190000001a0000001b0000001c0000001d0000001e0000003f0000004000000043000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

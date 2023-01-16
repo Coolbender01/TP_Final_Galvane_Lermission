@@ -2,22 +2,22 @@
 <ValidationCache Version="1" SchemaVersion="110">
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1673099616" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1673099616" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\TP_Final_WwiseProject.wproj" DateLow="1673658765" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\TP_Final_WwiseProject.Fr6.wsettings" DateLow="1673660245" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\TP_Final_WwiseProject.wproj" DateLow="1673661722" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\TP_Final_WwiseProject.Fr6.wsettings" DateLow="1673833914" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Switches\MainCharacter.wwu" DateLow="1673360053" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1673360053" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\States\Default Work Unit.wwu" DateLow="1673636184" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\States\Ambiances.wwu" DateLow="1673636184" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1673099616" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\SoundBanks\UI.wwu" DateLow="1673658944" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\SoundBanks\UI.wwu" DateLow="1673818279" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\SoundBanks\Spitter.wwu" DateLow="1673636184" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\SoundBanks\Monstre.wwu" DateLow="1673545373" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\SoundBanks\MC.wwu" DateLow="1673615189" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\SoundBanks\MC.wwu" DateLow="1673823805" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\SoundBanks\Grenadier.wwu" DateLow="1673636184" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1673660132" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\SoundBanks\Chomper.wwu" DateLow="1673636184" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\SoundBanks\Ambiances.wwu" DateLow="1673658765" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\SoundBanks\Ambiance.wwu" DateLow="1673658765" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\SoundBanks\Ambiances.wwu" DateLow="1673661722" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\SoundBanks\Ambiance.wwu" DateLow="1673824379" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Queries\Factory Queries.wwu" DateLow="1673099616" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1673099616" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1673099616" DateHigh="0"/>
@@ -28,15 +28,15 @@
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1673360053" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1673099616" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1673636295" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Events\UI.wwu" DateLow="1673658943" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Events\UI.wwu" DateLow="1673818279" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Events\Spitter.wwu" DateLow="1673636183" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Events\Monstre.wwu" DateLow="1673545373" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Events\MC.wwu" DateLow="1673615648" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Events\MC.wwu" DateLow="1673818279" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Events\Grenadier.wwu" DateLow="1673636183" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Events\Default Work Unit.wwu" DateLow="1673658943" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Events\Default Work Unit.wwu" DateLow="1673824379" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Events\Chomper.wwu" DateLow="1673636183" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Events\Ambiances_Ext.wwu" DateLow="1673658764" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Events\Ambiances.wwu" DateLow="1673658764" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Events\Ambiances_Ext.wwu" DateLow="1673661722" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Events\Ambiances.wwu" DateLow="1673823805" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Effects\Factory Effects.wwu" DateLow="1673099616" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1673099616" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1673099616" DateHigh="0"/>
@@ -45,16 +45,16 @@
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1673533043" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1673099616" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1673099616" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Actor-Mixer Hierarchy\UI.wwu" DateLow="1673658943" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Actor-Mixer Hierarchy\UI.wwu" DateLow="1673818279" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Actor-Mixer Hierarchy\Switch.wwu" DateLow="1673360053" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Actor-Mixer Hierarchy\Spitter.wwu" DateLow="1673636183" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Actor-Mixer Hierarchy\SFX.wwu" DateLow="1673615189" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Actor-Mixer Hierarchy\RFX.wwu" DateLow="1673658764" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Actor-Mixer Hierarchy\SFX.wwu" DateLow="1673818279" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Actor-Mixer Hierarchy\RFX.wwu" DateLow="1673825833" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Actor-Mixer Hierarchy\Monster.wwu" DateLow="1673376120" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Actor-Mixer Hierarchy\MC_Voice.wwu" DateLow="1673360053" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Actor-Mixer Hierarchy\MC_Footsteps.wwu" DateLow="1673360053" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Actor-Mixer Hierarchy\MC_Combat.wwu" DateLow="1673360053" DateHigh="0"/>
-	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Actor-Mixer Hierarchy\MainCharacter.wwu" DateLow="1673658943" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Actor-Mixer Hierarchy\MainCharacter.wwu" DateLow="1673818279" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Actor-Mixer Hierarchy\Grenadier.wwu" DateLow="1673636183" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Actor-Mixer Hierarchy\Environment.wwu" DateLow="1673376120" DateHigh="0"/>
 	<ValidationCacheItem File="D:\GitHub\TP_Final\TP_Final_WwiseProject\Actor-Mixer Hierarchy\Doors.wwu" DateLow="1673360053" DateHigh="0"/>

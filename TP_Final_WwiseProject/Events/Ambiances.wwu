@@ -16,23 +16,34 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_RFX_Plants" ID="{3E62EEA3-3C6A-446C-9309-F955257BA27A}">
-							<ChildrenList>
-								<Action Name="" ID="{5107B086-02C1-4DFC-BB80-A8E2A158D1FD}" ShortID="562441115">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="RFX_Plants" ID="{1710765D-9718-402A-BBF9-D28A65DDAB87}" WorkUnitID="{A12C285A-29D3-49DD-985E-49EF86231368}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="PLay_AMB_Ext_LP" ID="{EB3866CD-D59D-42A8-9182-EF5216BEF24C}">
 							<ChildrenList>
 								<Action Name="" ID="{D059BB89-A807-44BF-A93D-55F296DCC758}" ShortID="651957980">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="AMB_Ext_LP" ID="{DD64B280-72B8-4327-9239-BDCFEEFC539F}" WorkUnitID="{8B78EAC6-34BC-4C7A-B11B-71CBE08FD499}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RfX_Plants_SQ" ID="{C147B69E-27EF-4721-B80E-F549A78380E6}">
+							<ChildrenList>
+								<Action Name="" ID="{5BAFA8B5-B1A0-413E-BA87-C2964179AD1A}" ShortID="710356407">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RfX_Plants_SQ" ID="{355C38C0-EE1C-41AC-9348-B48E9E063459}" WorkUnitID="{A12C285A-29D3-49DD-985E-49EF86231368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_Plant_WindBlowing" ID="{A76CC482-D88C-43AC-82F0-00BBA0310D4F}">
+							<ChildrenList>
+								<Action Name="" ID="{495861B6-21E9-4ACF-96A5-358157BE7194}" ShortID="587356762">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_Plant_WindBlowing" ID="{89EB9F31-AB38-43EE-A62B-6D85000B4A1E}" WorkUnitID="{A12C285A-29D3-49DD-985E-49EF86231368}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

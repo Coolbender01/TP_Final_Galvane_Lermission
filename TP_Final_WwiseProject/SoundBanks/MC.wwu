@@ -10,8 +10,10 @@
 						<ObjectRef Name="Play_FT_Walk" ID="{2808862E-469F-4411-A65A-084D43F59EE3}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_FOL_Mid" ID="{11750B44-E112-44DC-921E-D2824D7E0EF5}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_FOL_Bodyfall" ID="{C9DAF3ED-81F3-4592-8892-4CA708A3688F}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RfX_Plants_SQ" ID="{C147B69E-27EF-4721-B80E-F549A78380E6}" WorkUnitID="{1180110C-85DA-494B-A82B-6AF81B8CBA5F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_FT_Run" ID="{60D7D4F3-BF48-47A8-9F00-8327F825E456}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Whoosh_Mid" ID="{60E53CCF-DCC5-4821-AA36-5A572F409CB4}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="VO_Hud_Seq2" ID="{27C3ACD2-5541-48F5-B702-1E65D58DD974}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_FT_Slide" ID="{63FF371E-F52B-4972-9A24-9B167E7BEE4D}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_VO_Hurt" ID="{7379C9FB-8861-49AF-9E2C-BF812A5F61FB}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_VO_Effort" ID="{17AA95F9-F331-49CD-847F-A272C312822E}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
@@ -23,6 +25,7 @@
 						<ObjectRef Name="Play_Whoosh_Fast" ID="{8C23B478-DA2A-4C17-9A86-08FC3C71AD02}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_AttackOrEffort" ID="{FB605D0B-8061-4C31-89A6-08C8845AF406}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_MC_Impact_Fight" ID="{E7E3DB6B-785B-4CE8-A2C9-3B2E53C66878}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="VO_Hud_Seq1" ID="{5BECA1BC-3F4E-4D60-85C5-0833017C679B}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Whoosh_Slow" ID="{7AD0D162-B21D-4DC9-9B87-98938FC3B3BE}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SFX_MC_AT4" ID="{ABAB252A-F4A2-4E65-90D9-B01D5FA2D8A5}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_FOL_Low" ID="{4F52E5A9-2F2C-4E6F-9A88-41F794694F3A}" WorkUnitID="{98B9E0E6-0561-4378-80CE-D1527D21F2B7}" Origin="Manual" Filter="7"/>

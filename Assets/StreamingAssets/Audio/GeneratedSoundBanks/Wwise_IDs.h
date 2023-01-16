@@ -39,6 +39,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_MC_AT4 = 2877763534U;
         static const AkUniqueID PLAY_SFX_MC_IMPACT_FIGHT = 1370187208U;
         static const AkUniqueID PLAY_SFX_MC_IMPACT_WATER = 1379967859U;
+        static const AkUniqueID PLAY_SFX_PLANT_WINDBLOWING = 3882178070U;
         static const AkUniqueID PLAY_SP_DIE = 568765208U;
         static const AkUniqueID PLAY_SP_FOLEY = 3885997515U;
         static const AkUniqueID PLAY_SP_FOOTSTEP = 2561501052U;
@@ -53,9 +54,15 @@ namespace AK
         static const AkUniqueID PLAY_WHOOSH_FAST = 3737795321U;
         static const AkUniqueID PLAY_WHOOSH_MID = 2197274579U;
         static const AkUniqueID PLAY_WHOOSH_SLOW = 1912453572U;
+        static const AkUniqueID RFX_PLANTS_SQ = 4237661783U;
+        static const AkUniqueID SFX_HUD_TRIGGERIN = 2029000732U;
+        static const AkUniqueID SFX_HUD_TRIGGEROUT = 1692947803U;
+        static const AkUniqueID SFX_PLANT_WINDBLOWING = 2718560927U;
         static const AkUniqueID UI_CONFIRM = 216067002U;
         static const AkUniqueID UI_CONFIRMSMALL = 1292146495U;
         static const AkUniqueID UI_HIGHLIGHT = 1402340918U;
+        static const AkUniqueID VO_HUD_SEQ1 = 1178033423U;
+        static const AkUniqueID VO_HUD_SEQ2 = 1178033420U;
     } // namespace EVENTS
 
     namespace SWITCHES
