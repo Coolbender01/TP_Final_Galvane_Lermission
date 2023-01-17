@@ -37,7 +37,9 @@ namespace AK
         static const AkUniqueID PLAY_GR_ATTACK_FIST = 984362133U;
         static const AkUniqueID PLAY_GR_ATTACK_PROJECTILE = 3571706742U;
         static const AkUniqueID PLAY_GR_ATTACK_SHIELD = 1479641432U;
+        static const AkUniqueID PLAY_GR_DIE = 1350860350U;
         static const AkUniqueID PLAY_GR_FOOTSTEP = 2547724478U;
+        static const AkUniqueID PLAY_GR_HIT = 1487052915U;
         static const AkUniqueID PLAY_HEAL = 2639148008U;
         static const AkUniqueID PLAY_HIT = 2960666077U;
         static const AkUniqueID PLAY_IDLE = 41941568U;

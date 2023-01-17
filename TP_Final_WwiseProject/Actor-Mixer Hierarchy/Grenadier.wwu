@@ -713,6 +713,142 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="GR_Hit" ID="{343AD150-7016-434C-BCC0-2E06C0A41FF9}" ShortID="477760922">
+							<ChildrenList>
+								<RandomSequenceContainer Name="GR_Hit" ID="{9C33688D-0CDC-4E28-9970-21DE81ABEB7F}" ShortID="452042901">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{765B80CE-F1D6-4F59-8167-F1BE20DFD70D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="76"/>
+															<Property Name="Min" Type="Real64" Value="-76"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C508D233-7936-4B97-99FE-E19C7DB80E27}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="MS02_RFX_Hit-001" ID="{245E095A-2D68-47B4-A830-760F60929A9B}" ShortID="596839347">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MS02_RFX_Hit-001" ID="{0A1E1C13-3EA8-48B2-88B6-190B49C8D2AB}">
+													<Language>SFX</Language>
+													<AudioFile>MS02_RFX_Hit-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="285854316"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MS02_RFX_Hit-001" ID="{0A1E1C13-3EA8-48B2-88B6-190B49C8D2AB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MS02_RFX_Hit-002" ID="{2A454296-CA1E-4D63-AC58-7967F3B3385D}" ShortID="713852089">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MS02_RFX_Hit-002" ID="{08CF2DA3-F0C5-48B8-86B0-2B823B84CCB6}">
+													<Language>SFX</Language>
+													<AudioFile>MS02_RFX_Hit-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="989288212"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MS02_RFX_Hit-002" ID="{08CF2DA3-F0C5-48B8-86B0-2B823B84CCB6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="MS02_RFX_Hit-003" ID="{ABFD8061-D509-4A19-B209-4653FFE5C1C0}" ShortID="10751820">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="MS02_RFX_Hit-003" ID="{51E6889D-9080-4CA4-A2B9-E306F2B20E5E}">
+													<Language>SFX</Language>
+													<AudioFile>MS02_RFX_Hit-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1065582742"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="MS02_RFX_Hit-003" ID="{51E6889D-9080-4CA4-A2B9-E306F2B20E5E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="GR_Die" ID="{5CF81ED9-EBD6-4E6F-8B52-D5BAD2052386}" ShortID="28708327">
+							<ChildrenList>
+								<Sound Name="MS02_RFX_Die" ID="{BA013917-F271-4A5E-997F-5E648230A503}" ShortID="282006545">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MS02_RFX_Die" ID="{A172F6FA-3399-4D5A-BAAB-F9E6CDC46412}">
+											<Language>SFX</Language>
+											<AudioFile>MS02_RFX_Die.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="920522560"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MS02_RFX_Die" ID="{A172F6FA-3399-4D5A-BAAB-F9E6CDC46412}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

@@ -62,7 +62,32 @@
 				</Folder>
 				<Folder Name="Die" ID="{4036BBFF-54D2-45DD-9E86-9DC0FB2DD33A}" ShortID="399031839">
 					<ChildrenList>
-						<Event Name="Play_GR_Die" ID="{70423467-45E3-4069-83B0-2AE2FCE87A41}"/>
+						<Event Name="Play_GR_Die" ID="{70423467-45E3-4069-83B0-2AE2FCE87A41}">
+							<ChildrenList>
+								<Action Name="" ID="{F3EB18B7-808B-48A6-94B7-920983175A05}" ShortID="997115324">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MS02_RFX_Die" ID="{BA013917-F271-4A5E-997F-5E648230A503}" WorkUnitID="{739B82B8-7145-4C77-B346-A6697320B36E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Hit" ID="{E62FB125-8F59-47FC-B74E-5885C945C8BD}" ShortID="196495960">
+					<ChildrenList>
+						<Event Name="Play_GR_Hit" ID="{3EE169B3-5DB1-46A5-A6DB-2CB14CD1730D}">
+							<ChildrenList>
+								<Action Name="" ID="{2FCA85DC-66A0-483B-B2A4-D8D247CE644C}" ShortID="843735904">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GR_Hit" ID="{9C33688D-0CDC-4E28-9970-21DE81ABEB7F}" WorkUnitID="{739B82B8-7145-4C77-B346-A6697320B36E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

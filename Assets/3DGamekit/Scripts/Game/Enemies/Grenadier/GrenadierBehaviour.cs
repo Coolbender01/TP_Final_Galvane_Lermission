@@ -134,12 +134,23 @@ namespace Gamekit3D
             damageAudioPlayer.PlayRandomClip();
             m_EnemyController.animator.SetTrigger(hashHitParam);
             m_CoreMaterial.SetColor("_Color2", Color.red);
+            PlayHit();
+        }
+        void PlayHit()
+        {
+            AkSoundEngine.PostEvent("Play_GR_Hit", gameObject);
         }
 
         public void Die()
         {
             deathAudioPlayer.PlayRandomClip();
             m_EnemyController.animator.SetTrigger(hashDeathParam);
+            PlayDie();
+        }
+
+        void PlayDie()
+        {
+            AkSoundEngine.PostEvent("Play_GR_Die", gameObject);
         }
 
         public void ActivateShield()

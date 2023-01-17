@@ -16,6 +16,7 @@
 				<Property Name="Event Action List\{3AD8559C-BB35-44B0-BCB3-583529A38A88}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{3E62EEA3-3C6A-446C-9309-F955257BA27A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{3E798D5E-26C8-49A0-B329-173EF8B9A1ED}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{3EE169B3-5DB1-46A5-A6DB-2CB14CD1730D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{44EF204F-1337-4C03-9FEC-AB671C83D310}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{45CFE566-4B68-4340-9F89-88E994CBFEB6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4965A9C3-A60C-4E71-85CF-773BC5F18524}\x64_Expand States" Type="string" Value=""/>
@@ -67,7 +68,7 @@
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="cP8Kg0GXR0281pDW8Y6W9jQJ7U6KfSBFv5LH8aEXWBI="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="OQcFd19PJUm2renhM2QN6A=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="gqR4lWrdX0yCQjNBWRHPig=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
 				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups_v2" Type="string" Value="o3Ayr1r2V0GpVq2hD+OHpwEAT0MWAAAAwKTgdvt/AAAIgeE67AEAAAAAAADsAQAAwKTgdvt/AAAEkXlw+38AALAWWFDsAQAAAAAAAOwBAAAIAAAAAAAAAGjhT0MWAAAAcP6NcPt/AACP/41w+38AAHD+jXD7fwAAwKTgdvt/AADApOB2+38AAAiB4TrsAQAAAQAAAMtsP8mDHZdBvRCKUNvBeXEBAE9DFgAAAMCk4Hb7fwAACIHhOuwBAAAAAAAA7AEAAMCk4Hb7fwAABJF5cPt/AACwFlhQ7AEAAAAAAADsAQAACAAAAAAAAABo4U9DFgAAAHD+jXD7fwAAj/+NcPt/AABw/o1w+38AAMCk4Hb7fwAAwKTgdvt/AAAIgeE67AEAAAEAAAA="/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>

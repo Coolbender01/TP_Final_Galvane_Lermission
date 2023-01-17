@@ -272,7 +272,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit\Monstre\Grenadier
     guid: a6f2ad69c4773248a9d8bae4f681a341
     GuidInternal: 
-    m_lastTime: -8585279707011988433
+    m_lastTime: -8585276128450763557
     List:
     - name: Grenadier_SoundBank
       guid: 82a478956add5f4c824233415911cf8a
@@ -1032,7 +1032,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Monstre\Grenadier
     guid: 4fad0e6490247d4890ac594088d180d6
     GuidInternal: 
-    m_lastTime: -8585279707020315622
+    m_lastTime: -8585276128450632346
     List:
     - name: Attack
       guid: 010b13f522e1244a85c49274f8a271bc
@@ -1123,6 +1123,29 @@ MonoBehaviour:
         ObjectType: 4
         guid: 55c14edff1e3b542b2b3c9554932b54c
       Path: Events\Default Work Unit\Monstre\Grenadier\Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Hit
+      guid: 25b12fe6598ffc47b74e5885c945c8bd
+      id: 1116398592
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Grenadier
+        ObjectType: 12
+        guid: 4fad0e6490247d4890ac594088d180d6
+      - ElementName: Hit
+        ObjectType: 4
+        guid: 25b12fe6598ffc47b74e5885c945c8bd
+      Path: Events\Default Work Unit\Monstre\Grenadier\Hit
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1279,6 +1302,32 @@ MonoBehaviour:
         ObjectType: 3
         guid: f46d824acc76a546bebf496af504efc8
       Path: Events\Default Work Unit\Monstre\Grenadier\Footsteps\Play_GR_Footstep
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_GR_Hit
+      guid: b369e13eb15da546a6db2cb14cd1730d
+      id: 1487052915
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: Monstre
+        ObjectType: 12
+        guid: d371b727377c694483c64b740136e820
+      - ElementName: Grenadier
+        ObjectType: 12
+        guid: 4fad0e6490247d4890ac594088d180d6
+      - ElementName: Hit
+        ObjectType: 4
+        guid: 25b12fe6598ffc47b74e5885c945c8bd
+      - ElementName: Play_GR_Hit
+        ObjectType: 3
+        guid: b369e13eb15da546a6db2cb14cd1730d
+      Path: Events\Default Work Unit\Monstre\Grenadier\Hit\Play_GR_Hit
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -2828,7 +2877,7 @@ MonoBehaviour:
     m_lastTime: -8585285072693989613
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000003f00000040000000430000004b0000004c0000005000000055000000560000005a0000005b0000005c000000620000006300000065000000800000008500000086000000ba000000bc000000be000000cf000000d1000000d3000000
+  ExpandedWaapiItemIds: 01000000030000000400000005000000060000000700000008000000090000000a0000000d0000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000003e0000003f00000040000000430000004b0000004c0000005000000055000000560000005a0000005b0000005c00000062000000630000006500000074000000800000008500000086000000ba000000bc000000be000000cf000000d1000000d3000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
