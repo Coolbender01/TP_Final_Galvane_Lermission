@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="767608191" Type="User" GUID="{EDA739C2-EB6D-4F27-B42B-B41AA38C4A66}" Language="SFX">
+		<SoundBank Id="767608191" Type="User" GUID="{EDA739C2-EB6D-4F27-B42B-B41AA38C4A66}" Language="SFX" Hash="{0C4F791A-82B7-1FAF-74FB-BF89CD0FC6CB}">
 			<ShortName>MC_Soundbank</ShortName>
 			<Path>MC_Soundbank.bnk</Path>
 			<Media>
@@ -861,7 +861,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="984691642" Type="User" GUID="{77050739-4F5F-4925-B6AD-E9E133640DE8}" Language="SFX">
+		<SoundBank Id="984691642" Type="User" GUID="{77050739-4F5F-4925-B6AD-E9E133640DE8}" Language="SFX" Hash="{DD7E5C05-D523-FF87-7AF6-010CA196F5E3}">
 			<ShortName>InGame</ShortName>
 			<Path>InGame.bnk</Path>
 			<Media>
@@ -928,7 +928,7 @@
 				<Event Id="1796837" Name="UnMute_PresurePad" GUID="{5FC88202-E70E-430B-A529-CC3A85A64C27}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1290967234" Type="User" GUID="{DBC43447-762D-4565-A6E5-6CCB9ADEC25D}" Language="SFX">
+		<SoundBank Id="1290967234" Type="User" GUID="{DBC43447-762D-4565-A6E5-6CCB9ADEC25D}" Language="SFX" Hash="{AAFDDF2C-A74E-ED25-E23D-EF03325C57A2}">
 			<ShortName>Spitter_SoundBank</ShortName>
 			<Path>Spitter_SoundBank.bnk</Path>
 			<Media>
@@ -1156,7 +1156,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{0D2A0551-EBFE-34AE-79FA-B604995C026E}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{6910AAA5-C102-BC4D-65C7-DB5B0771EC64}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -1189,6 +1189,19 @@
 				<GameParameter Id="1347076325" Name="AttackCombo" GUID="{4924BD68-23EC-449C-A634-A3457BDE7AAC}"/>
 				<GameParameter Id="2486207350" Name="RTPC_GetSpeed" GUID="{7BA46F3F-151C-4116-AFF2-29C5AE26CBE2}"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1482338711" Name="MusicGroup" GUID="{33C33B6D-42C0-4BBA-8D75-DF4A21AEFE13}">
+					<States>
+						<State Id="748895195" Name="None" GUID="{63E3E946-A648-4FB3-8EEC-25FC5B75C4CE}"/>
+						<State Id="1598298728" Name="Music_Menu" GUID="{4FF6472E-3709-4428-AD45-71D96BF4C4E5}"/>
+						<State Id="2209143525" Name="Music_Level2" GUID="{F27356B4-0B27-4797-9897-0D0068FCE8E8}"/>
+						<State Id="2209143526" Name="Music_Level1" GUID="{0800CBAE-1D3D-4B4B-8CAA-1032F1BE25EA}"/>
+						<State Id="2637400697" Name="Music_Victory" GUID="{1910EDAB-99A9-4D1D-ABDA-853BB1D167E7}"/>
+						<State Id="3678931145" Name="Music_Death" GUID="{9DBA42CA-65D7-4CFE-BEDB-5A83A3DDC4FB}"/>
+						<State Id="3782024871" Name="Music_Battle" GUID="{55A5695E-79A1-490A-AD16-F4B6ABD3FCAC}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="1347076325" Name="AttackCombo" GUID="{11FC7EA5-6E07-457B-ADA3-96F1215BE9EE}">
 					<GameParameterRef Id="1347076325"/>
@@ -1210,7 +1223,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2454045173" Type="User" GUID="{9F6DF4AD-F5A4-447C-AC8D-FEC960A5A355}" Language="SFX">
+		<SoundBank Id="2454045173" Type="User" GUID="{9F6DF4AD-F5A4-447C-AC8D-FEC960A5A355}" Language="SFX" Hash="{695281EF-716D-65EF-1C99-073EAB3969FC}">
 			<ShortName>UI_Soundbank</ShortName>
 			<Path>UI_Soundbank.bnk</Path>
 			<Media>
@@ -1401,7 +1414,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2981377429" Type="User" GUID="{AAB747D5-03CF-4E9C-B6DA-0D7E5CBD4C55}" Language="SFX">
+		<SoundBank Id="2981377429" Type="User" GUID="{AAB747D5-03CF-4E9C-B6DA-0D7E5CBD4C55}" Language="SFX" Hash="{EB729700-2DEF-5DB8-2C0B-24AA80BFC697}">
 			<ShortName>Ambiance</ShortName>
 			<Path>Ambiance.bnk</Path>
 			<Media>
@@ -1540,7 +1553,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3105787907" Type="User" GUID="{65F180EE-D89E-4CA5-A8E1-3E69FBE2920A}" Language="SFX">
+		<SoundBank Id="3105787907" Type="User" GUID="{65F180EE-D89E-4CA5-A8E1-3E69FBE2920A}" Language="SFX" Hash="{C7186C30-73D6-3CDA-C07F-8BFAC0A00D3B}">
 			<ShortName>Chomper_SoundBank</ShortName>
 			<Path>Chomper_SoundBank.bnk</Path>
 			<Media>
@@ -1793,6 +1806,72 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
+		<SoundBank Id="3589812408" Type="User" GUID="{81E87E94-4D2F-4BD5-A16C-B6B3DFB53374}" Language="SFX" Hash="{07BC5876-2151-7EFB-D06A-084D5B406975}">
+			<ShortName>Music_Soundbank</ShortName>
+			<Path>Music_Soundbank.bnk</Path>
+			<Media>
+				<File Id="277267414" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music_BattleTheme.wav</ShortName>
+					<CachePath>SFX/Music_BattleTheme_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="485604276" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Menu_Music.wav</ShortName>
+					<CachePath>SFX/Menu_Music_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="723082382" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music_Level2.wav</ShortName>
+					<CachePath>SFX/Music_Level2_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="984233522" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Music_Level1.wav</ShortName>
+					<CachePath>SFX/Music_Level1_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1228139402" Name="Play_Music_Switch" GUID="{D46FFEDC-EB0C-4EA5-902B-E9C2ADD46679}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1482338711" Id="3782024871" GUID="{55A5695E-79A1-490A-AD16-F4B6ABD3FCAC}"/>
+							<MediaRefs>
+								<MediaRef Id="277267414"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1482338711" Id="2209143526" GUID="{0800CBAE-1D3D-4B4B-8CAA-1032F1BE25EA}"/>
+							<MediaRefs>
+								<MediaRef Id="984233522"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1482338711" Id="2209143525" GUID="{F27356B4-0B27-4797-9897-0D0068FCE8E8}"/>
+							<MediaRefs>
+								<MediaRef Id="723082382"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1482338711" Id="1598298728" GUID="{4FF6472E-3709-4428-AD45-71D96BF4C4E5}"/>
+							<MediaRefs>
+								<MediaRef Id="485604276"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2505149896" Name="Stop_Music_Switch" GUID="{F6F1C140-2F9B-42CA-9897-4FC0FAD5DDD0}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="1482338711" Name="MusicGroup" GUID="{33C33B6D-42C0-4BBA-8D75-DF4A21AEFE13}">
+					<States>
+						<State Id="748895195" Name="None" GUID="{63E3E946-A648-4FB3-8EEC-25FC5B75C4CE}"/>
+						<State Id="1598298728" Name="Music_Menu" GUID="{4FF6472E-3709-4428-AD45-71D96BF4C4E5}"/>
+						<State Id="2209143525" Name="Music_Level2" GUID="{F27356B4-0B27-4797-9897-0D0068FCE8E8}"/>
+						<State Id="2209143526" Name="Music_Level1" GUID="{0800CBAE-1D3D-4B4B-8CAA-1032F1BE25EA}"/>
+						<State Id="2637400697" Name="Music_Victory" GUID="{1910EDAB-99A9-4D1D-ABDA-853BB1D167E7}"/>
+						<State Id="3678931145" Name="Music_Death" GUID="{9DBA42CA-65D7-4CFE-BEDB-5A83A3DDC4FB}"/>
+						<State Id="3782024871" Name="Music_Battle" GUID="{55A5695E-79A1-490A-AD16-F4B6ABD3FCAC}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EC068690-1C47-DFC1-CC67-5226301860FD}</FileHash>
+	<FileHash>{8A10F7A0-101A-F5D6-F891-098B118CB7C5}</FileHash>
 </SoundBanksInfo>

@@ -18,6 +18,7 @@
 					</ChildrenList>
 				</Event>
 				<WorkUnit Name="InGame" ID="{C34A3624-74A8-4221-AC94-BFBDC6D61373}" PersistMode="Reference"/>
+				<WorkUnit Name="Music" ID="{508D7AA9-136F-4AB1-88AA-7CE5E41E3B76}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

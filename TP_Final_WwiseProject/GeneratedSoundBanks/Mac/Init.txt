@@ -7,6 +7,18 @@ Switch	ID	Name	Switch Group			Notes
 	3557003814	Combo03	AttackCombo			
 	3557003815	Combo02	AttackCombo			
 
+State Group	ID	Name			Wwise Object Path	Notes
+	1482338711	MusicGroup			\Music\MusicGroup	
+
+State	ID	Name	State Group			Notes
+	748895195	None	MusicGroup			
+	1598298728	Music_Menu	MusicGroup			
+	2209143525	Music_Level2	MusicGroup			
+	2209143526	Music_Level1	MusicGroup			
+	2637400697	Music_Victory	MusicGroup			
+	3678931145	Music_Death	MusicGroup			
+	3782024871	Music_Battle	MusicGroup			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	1507798120	Ennemis			\Default Work Unit\Master Audio Bus\Ennemis	
 	1518239843	MainCharacter			\Default Work Unit\Master Audio Bus\MainCharacter	

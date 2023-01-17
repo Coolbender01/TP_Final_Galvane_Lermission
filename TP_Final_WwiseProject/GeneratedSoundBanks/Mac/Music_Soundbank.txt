@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1228139402	Play_Music_Switch			\Default Work Unit\Music\Play_Music_Switch	
+	2505149896	Stop_Music_Switch			\Default Work Unit\Music\Stop_Music_Switch	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1482338711	MusicGroup			\Music\MusicGroup	
+
+State	ID	Name	State Group			Notes
+	748895195	None	MusicGroup			
+	1598298728	Music_Menu	MusicGroup			
+	2209143525	Music_Level2	MusicGroup			
+	2209143526	Music_Level1	MusicGroup			
+	2637400697	Music_Victory	MusicGroup			
+	3678931145	Music_Death	MusicGroup			
+	3782024871	Music_Battle	MusicGroup			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	277267414	Music_BattleTheme	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\Music_BattleTheme_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Switch\BattleTheme\Music_BattleTheme\Music_BattleTheme		4608096
+	485604276	Menu_Music	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\Menu_Music_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Switch\Music_Menu\Menu_Music\Menu_Music		4608096
+	723082382	Music_Level2	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\Music_Level2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Switch\Music_Level2\Music_Level2\Music_Level2		11293872
+	984233522	Music_Level1	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\Music_Level1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Switch\Music_Level1\Music_Level1\Music_Level1		18432096
+

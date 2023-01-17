@@ -12,10 +12,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	3742498135	Mute_PressurePad			\Default Work Unit\InGame\Mute_PressurePad	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	56450524	SFX_Christal_Idle_LP	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Christal_Idle_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Environment\Switch\SFX_Christal_Idle_LP		1404748
-	107397822	SFX_MC_WP_Stick_Obt	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_MC_WP_Stick_Obt_10C4C929.wem		\Actor-Mixer Hierarchy\Environment\Staff\SFX_MC_WP_Stick_Obt		349704
-	156368826	InGame_Heal	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\InGame_Heal_10C4C929.wem		\Actor-Mixer Hierarchy\Environment\Heal\InGame_Heal		267504
-	474818672	InGame_SFX_PressurePad	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\InGame_PressurePad_10C4C929.wem		\Actor-Mixer Hierarchy\Environment\PressurePad\InGame_SFX_PressurePad		297300
-	493828024	SFX_Door_Open	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Door_Open_FC20F141.wem		\Actor-Mixer Hierarchy\Environment\Doors\SFX_Door_Open		1240760
-	501839359	SFX_Container_Break	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Container_Break_10C4C929.wem		\Actor-Mixer Hierarchy\Environment\Box\SFX_Container_Break		300462
+	56450524	SFX_Christal_Idle_LP	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Christal_Idle_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Environment\Switch\SFX_Christal_Idle_LP		1404748
+	107397822	SFX_MC_WP_Stick_Obt	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_MC_WP_Stick_Obt_10C4C929.wem		\Actor-Mixer Hierarchy\Environment\Staff\SFX_MC_WP_Stick_Obt		349704
+	156368826	InGame_Heal	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\InGame_Heal_10C4C929.wem		\Actor-Mixer Hierarchy\Environment\Heal\InGame_Heal		267504
+	474818672	InGame_SFX_PressurePad	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\InGame_PressurePad_10C4C929.wem		\Actor-Mixer Hierarchy\Environment\PressurePad\InGame_SFX_PressurePad		297300
+	493828024	SFX_Door_Open	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Door_Open_FC20F141.wem		\Actor-Mixer Hierarchy\Environment\Doors\SFX_Door_Open		1240760
+	501839359	SFX_Container_Break	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Container_Break_10C4C929.wem		\Actor-Mixer Hierarchy\Environment\Box\SFX_Container_Break		300462
 
