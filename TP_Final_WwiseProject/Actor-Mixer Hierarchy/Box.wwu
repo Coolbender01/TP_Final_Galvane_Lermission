@@ -1,6 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E6114D97-1E64-4077-881A-DAF1544FEFDD}" SchemaVersion="110" RootDocumentID="{D2141009-0F17-445A-80DA-969B10DCA37B}" ParentDocumentID="{D2141009-0F17-445A-80DA-969B10DCA37B}">
 	<AudioObjects>
-		<WorkUnit Name="Box" ID="{E6114D97-1E64-4077-881A-DAF1544FEFDD}" OwnerID="{D2141009-0F17-445A-80DA-969B10DCA37B}" PersistMode="Nested"/>
+		<WorkUnit Name="Box" ID="{E6114D97-1E64-4077-881A-DAF1544FEFDD}" OwnerID="{D2141009-0F17-445A-80DA-969B10DCA37B}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="SFX_Container_Break" ID="{E4E023F2-4213-4345-A377-8F4F5F1E3428}" ShortID="416529415">
+					<PropertyList>
+						<Property Name="3DPosition" Type="int16" Value="1"/>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{75C0DDD9-A399-4605-92BE-FE0C55C24EE2}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="51"/>
+											<Property Name="Min" Type="Real64" Value="-76"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Container_Break" ID="{BC1637D3-CDFC-4E0D-B2F0-C56A7EFD9E62}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Container_Break.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="501839359"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{C8771636-53FC-444D-9001-2E9DF032950D}"/>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Container_Break" ID="{BC1637D3-CDFC-4E0D-B2F0-C56A7EFD9E62}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

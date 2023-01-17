@@ -9,6 +9,10 @@ namespace Gamekit3D.GameCommands
         public Vector3 start = -Vector3.forward;
         public Vector3 end = Vector3.forward;
 
+        private void Start()
+        {
+            AkSoundEngine.RegisterGameObj(gameObject);
+        }
         public override void PerformTransform(float position)
         {
 

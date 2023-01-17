@@ -13,12 +13,19 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID MUTE_HEAL = 904448771U;
+        static const AkUniqueID MUTE_PRESSUREPAD = 3742498135U;
+        static const AkUniqueID MUTE_STICK = 540272743U;
+        static const AkUniqueID PLAY_AMB_CAVERN = 3686445418U;
         static const AkUniqueID PLAY_AMB_EXT = 1384706362U;
         static const AkUniqueID PLAY_AMB_EXT_LP = 2454646541U;
         static const AkUniqueID PLAY_ATTACKOREFFORT = 500209715U;
+        static const AkUniqueID PLAY_BOX_BREAK = 3331416737U;
         static const AkUniqueID PLAY_CH_ATTACK = 1456885134U;
         static const AkUniqueID PLAY_CH_DIE = 1383584624U;
         static const AkUniqueID PLAY_CH_FOOTSTEP = 1825440468U;
+        static const AkUniqueID PLAY_CRISTAL_IDLE = 2323772145U;
+        static const AkUniqueID PLAY_DOOR_OPEN = 1660008929U;
         static const AkUniqueID PLAY_FOL_BODYFALL = 525398643U;
         static const AkUniqueID PLAY_FOL_HIGH = 413601464U;
         static const AkUniqueID PLAY_FOL_LOW = 2177554690U;
@@ -31,8 +38,11 @@ namespace AK
         static const AkUniqueID PLAY_GR_ATTACK_PROJECTILE = 3571706742U;
         static const AkUniqueID PLAY_GR_ATTACK_SHIELD = 1479641432U;
         static const AkUniqueID PLAY_GR_FOOTSTEP = 2547724478U;
+        static const AkUniqueID PLAY_HEAL = 2639148008U;
         static const AkUniqueID PLAY_HIT = 2960666077U;
         static const AkUniqueID PLAY_IDLE = 41941568U;
+        static const AkUniqueID PLAY_PRESSUREPAD = 1624416746U;
+        static const AkUniqueID PLAY_RFX_CAVERN = 1631003278U;
         static const AkUniqueID PLAY_SFX_MC_AT1 = 2877763531U;
         static const AkUniqueID PLAY_SFX_MC_AT2 = 2877763528U;
         static const AkUniqueID PLAY_SFX_MC_AT3 = 2877763529U;
@@ -47,6 +57,7 @@ namespace AK
         static const AkUniqueID PLAY_SP_PROJECTILE_HIT = 3525273781U;
         static const AkUniqueID PLAY_SP_PROJECTILE_SPLAT = 3466111482U;
         static const AkUniqueID PLAY_SPOTTED = 2262512141U;
+        static const AkUniqueID PLAY_STICK_OBT = 34432710U;
         static const AkUniqueID PLAY_VO_ATTACK = 3893732486U;
         static const AkUniqueID PLAY_VO_DEATHSCREAM = 420198711U;
         static const AkUniqueID PLAY_VO_EFFORT = 3926096204U;
@@ -61,6 +72,8 @@ namespace AK
         static const AkUniqueID UI_CONFIRM = 216067002U;
         static const AkUniqueID UI_CONFIRMSMALL = 1292146495U;
         static const AkUniqueID UI_HIGHLIGHT = 1402340918U;
+        static const AkUniqueID UNMUTE_HEAL = 2767686108U;
+        static const AkUniqueID UNMUTE_PRESUREPAD = 1796837U;
         static const AkUniqueID VO_HUD_SEQ1 = 1178033423U;
         static const AkUniqueID VO_HUD_SEQ2 = 1178033420U;
     } // namespace EVENTS
@@ -108,6 +121,7 @@ namespace AK
         static const AkUniqueID AMBIANCE = 2981377429U;
         static const AkUniqueID CHOMPER_SOUNDBANK = 3105787907U;
         static const AkUniqueID GRENADIER_SOUNDBANK = 2458534638U;
+        static const AkUniqueID INGAME = 984691642U;
         static const AkUniqueID MC_SOUNDBANK = 767608191U;
         static const AkUniqueID SPITTER_SOUNDBANK = 1290967234U;
         static const AkUniqueID UI_SOUNDBANK = 2454045173U;

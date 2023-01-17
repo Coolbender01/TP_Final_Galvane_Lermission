@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="767608191" Type="User" Language="SFX" Hash="{CCBE2072-310B-C25D-066A-84AE23F06C76}">
+		<SoundBank Id="767608191" Type="User" GUID="{EDA739C2-EB6D-4F27-B42B-B41AA38C4A66}" Language="SFX" Hash="{0C4F791A-82B7-1FAF-74FB-BF89CD0FC6CB}">
 			<ShortName>MC_Soundbank</ShortName>
 			<Path>MC_Soundbank.bnk</Path>
 			<Media>
@@ -516,12 +516,12 @@
 			</Media>
 			<Plugins>
 				<Custom>
-					<Plugin Id="457137801" Name="Time Stretch (Custom)" LibName="Wwise Time Stretch" LibId="8519683"/>
-					<Plugin Id="872322657" Name="Time Stretch (Custom)" LibName="Wwise Time Stretch" LibId="8519683"/>
+					<Plugin Id="457137801" Name="Time Stretch (Custom)" GUID="{AC85B942-1F58-4F66-B430-8578C30F958D}" LibName="Wwise Time Stretch" LibId="8519683"/>
+					<Plugin Id="872322657" Name="Time Stretch (Custom)" GUID="{B52ABB2D-7A71-4DC6-843C-A72F77D5316D}" LibName="Wwise Time Stretch" LibId="8519683"/>
 				</Custom>
 			</Plugins>
 			<Events>
-				<Event Id="500209715" Name="Play_AttackOrEffort" DurationType="OneShot" DurationMin="0.1875" DurationMax="0.6851042">
+				<Event Id="500209715" Name="Play_AttackOrEffort" GUID="{FB605D0B-8061-4C31-89A6-08C8845AF406}" DurationType="OneShot" DurationMin="0.1875" DurationMax="0.6851042">
 					<MediaRefs>
 						<MediaRef Id="11979760"/>
 						<MediaRef Id="73955752"/>
@@ -533,12 +533,12 @@
 						<MediaRef Id="996363881"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="525398643" Name="Play_FOL_Bodyfall" DurationType="OneShot" DurationMin="0.5480833" DurationMax="0.5480833">
+				<Event Id="525398643" Name="Play_FOL_Bodyfall" GUID="{C9DAF3ED-81F3-4592-8892-4CA708A3688F}" DurationType="OneShot" DurationMin="0.5480833" DurationMax="0.5480833">
 					<MediaRefs>
 						<MediaRef Id="210280623"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="413601464" Name="Play_FOL_High" DurationType="OneShot" DurationMin="0.35997877" DurationMax="0.62822795">
+				<Event Id="413601464" Name="Play_FOL_High" GUID="{C68F8CE1-2AEA-4ADC-ACD1-4A9609131773}" DurationType="OneShot" DurationMin="0.35997877" DurationMax="0.62822795">
 					<MediaRefs>
 						<MediaRef Id="233216340"/>
 						<MediaRef Id="340486880"/>
@@ -547,7 +547,7 @@
 						<MediaRef Id="828496432"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2177554690" Name="Play_FOL_Low" DurationType="OneShot" DurationMin="0.17916344" DurationMax="0.3264026">
+				<Event Id="2177554690" Name="Play_FOL_Low" GUID="{4F52E5A9-2F2C-4E6F-9A88-41F794694F3A}" DurationType="OneShot" DurationMin="0.17916344" DurationMax="0.3264026">
 					<MediaRefs>
 						<MediaRef Id="282682041"/>
 						<MediaRef Id="423384400"/>
@@ -556,7 +556,7 @@
 						<MediaRef Id="1013229702"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1607262946" Name="Play_FOL_Mid" DurationType="OneShot" DurationMin="0.36860934" DurationMax="0.68329877">
+				<Event Id="1607262946" Name="Play_FOL_Mid" GUID="{11750B44-E112-44DC-921E-D2824D7E0EF5}" DurationType="OneShot" DurationMin="0.36860934" DurationMax="0.68329877">
 					<MediaRefs>
 						<MediaRef Id="58243303"/>
 						<MediaRef Id="209489160"/>
@@ -565,10 +565,10 @@
 						<MediaRef Id="982145996"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="309129522" Name="Play_FT_Run" DurationType="OneShot" DurationMin="0.1670435" DurationMax="0.5504273">
+				<Event Id="309129522" Name="Play_FT_Run" GUID="{60D7D4F3-BF48-47A8-9F00-8327F825E456}" DurationType="OneShot" DurationMin="0.1670435" DurationMax="0.5504273">
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2541504615"/>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2541504615" GUID="{7A04C943-75EC-4C4B-BEC0-2CB009DA53C6}"/>
 							<MediaRefs>
 								<MediaRef Id="584797665"/>
 								<MediaRef Id="720936721"/>
@@ -578,7 +578,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="1981379785"/>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="1981379785" GUID="{F049C474-F5D5-47D1-860D-C975B26E441F}"/>
 							<MediaRefs>
 								<MediaRef Id="120133276"/>
 								<MediaRef Id="314549132"/>
@@ -589,7 +589,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3262067523" Default="true"/>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3262067523" GUID="{623E008E-FC81-42E0-BF99-12E2F1282DD5}" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="6663419"/>
 								<MediaRef Id="339672465"/>
@@ -599,7 +599,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3817369922"/>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3817369922" GUID="{9B5EBEA9-3F44-426A-8BBE-2D4281B74642}"/>
 							<MediaRefs>
 								<MediaRef Id="98415626"/>
 								<MediaRef Id="483702295"/>
@@ -609,7 +609,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2902377486"/>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2902377486" GUID="{A797C1E8-9105-4C74-B19A-3CA887BF5F36}"/>
 							<MediaRefs>
 								<MediaRef Id="323686682"/>
 								<MediaRef Id="365165393"/>
@@ -625,10 +625,10 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="2177554690" Name="Play_FOL_Low"/>
+						<ActionPostEventEntry Id="2177554690" Name="Play_FOL_Low" GUID="{4F52E5A9-2F2C-4E6F-9A88-41F794694F3A}"/>
 					</ActionPostEvent>
 				</Event>
-				<Event Id="3221359334" Name="Play_FT_Scuff" DurationType="OneShot" DurationMin="0.14133736" DurationMax="0.32378355">
+				<Event Id="3221359334" Name="Play_FT_Scuff" GUID="{D3C7BA93-57CD-4B27-B741-A750A9BC1755}" DurationType="OneShot" DurationMin="0.14133736" DurationMax="0.32378355">
 					<MediaRefs>
 						<MediaRef Id="357798011"/>
 						<MediaRef Id="486696825"/>
@@ -636,13 +636,13 @@
 						<MediaRef Id="640297886"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1093053214" Name="Play_FT_Slide" DurationType="OneShot" DurationMin="0.30453888" DurationMax="0.4334574">
+				<Event Id="1093053214" Name="Play_FT_Slide" GUID="{63FF371E-F52B-4972-9A24-9B167E7BEE4D}" DurationType="OneShot" DurationMin="0.30453888" DurationMax="0.4334574">
 					<MediaRefs>
 						<MediaRef Id="115586829"/>
 						<MediaRef Id="201942584"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1500086908" Name="Play_FT_Walk" DurationType="OneShot" DurationMin="0.17916344" DurationMax="0.38858232">
+				<Event Id="1500086908" Name="Play_FT_Walk" GUID="{2808862E-469F-4411-A65A-084D43F59EE3}" DurationType="OneShot" DurationMin="0.17916344" DurationMax="0.38858232">
 					<MediaRefs>
 						<MediaRef Id="282682041"/>
 						<MediaRef Id="423384400"/>
@@ -652,7 +652,7 @@
 					</MediaRefs>
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2541504615"/>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2541504615" GUID="{7A04C943-75EC-4C4B-BEC0-2CB009DA53C6}"/>
 							<MediaRefs>
 								<MediaRef Id="76219142"/>
 								<MediaRef Id="279220786"/>
@@ -662,7 +662,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="1981379785"/>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="1981379785" GUID="{F049C474-F5D5-47D1-860D-C975B26E441F}"/>
 							<MediaRefs>
 								<MediaRef Id="65283633"/>
 								<MediaRef Id="344433413"/>
@@ -672,7 +672,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3262067523" Default="true"/>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3262067523" GUID="{623E008E-FC81-42E0-BF99-12E2F1282DD5}" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="41112132"/>
 								<MediaRef Id="267803708"/>
@@ -682,7 +682,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3817369922"/>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3817369922" GUID="{9B5EBEA9-3F44-426A-8BBE-2D4281B74642}"/>
 							<MediaRefs>
 								<MediaRef Id="159511364"/>
 								<MediaRef Id="195786389"/>
@@ -692,7 +692,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2902377486"/>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2902377486" GUID="{A797C1E8-9105-4C74-B19A-3CA887BF5F36}"/>
 							<MediaRefs>
 								<MediaRef Id="110132824"/>
 								<MediaRef Id="148371947"/>
@@ -708,39 +708,39 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2877763531" Name="Play_SFX_MC_AT1" DurationType="OneShot" DurationMin="0.6570068" DurationMax="0.6570068">
+				<Event Id="2877763531" Name="Play_SFX_MC_AT1" GUID="{1F778ACE-E47B-420A-8BB0-9C8F888F2B03}" DurationType="OneShot" DurationMin="0.6570068" DurationMax="0.6570068">
 					<MediaRefs>
 						<MediaRef Id="528262198"/>
 					</MediaRefs>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="3926096204" Name="Play_VO_Effort"/>
+						<ActionPostEventEntry Id="3926096204" Name="Play_VO_Effort" GUID="{17AA95F9-F331-49CD-847F-A272C312822E}"/>
 					</ActionPostEvent>
 				</Event>
-				<Event Id="2877763528" Name="Play_SFX_MC_AT2" DurationType="OneShot" DurationMin="0.5996145" DurationMax="0.5996145">
+				<Event Id="2877763528" Name="Play_SFX_MC_AT2" GUID="{F8FD18AD-6367-4C09-BC6C-28C2F919EC60}" DurationType="OneShot" DurationMin="0.5996145" DurationMax="0.5996145">
 					<MediaRefs>
 						<MediaRef Id="721782869"/>
 					</MediaRefs>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="500209715" Name="Play_AttackOrEffort"/>
+						<ActionPostEventEntry Id="500209715" Name="Play_AttackOrEffort" GUID="{FB605D0B-8061-4C31-89A6-08C8845AF406}"/>
 					</ActionPostEvent>
 				</Event>
-				<Event Id="2877763529" Name="Play_SFX_MC_AT3" DurationType="OneShot" DurationMin="0.66061527" DurationMax="0.66061527">
+				<Event Id="2877763529" Name="Play_SFX_MC_AT3" GUID="{C0C350A0-835C-4FAC-A11C-F55190BB5E3A}" DurationType="OneShot" DurationMin="0.66061527" DurationMax="0.66061527">
 					<MediaRefs>
 						<MediaRef Id="322856510"/>
 					</MediaRefs>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="2657945433" Name="Play_VO_Hurt"/>
+						<ActionPostEventEntry Id="2657945433" Name="Play_VO_Hurt" GUID="{7379C9FB-8861-49AF-9E2C-BF812A5F61FB}"/>
 					</ActionPostEvent>
 				</Event>
-				<Event Id="2877763534" Name="Play_SFX_MC_AT4" DurationType="OneShot" DurationMin="0.84996146" DurationMax="0.84996146">
+				<Event Id="2877763534" Name="Play_SFX_MC_AT4" GUID="{ABAB252A-F4A2-4E65-90D9-B01D5FA2D8A5}" DurationType="OneShot" DurationMin="0.84996146" DurationMax="0.84996146">
 					<MediaRefs>
 						<MediaRef Id="153803607"/>
 					</MediaRefs>
 					<ActionPostEvent>
-						<ActionPostEventEntry Id="3893732486" Name="Play_VO_Attack"/>
+						<ActionPostEventEntry Id="3893732486" Name="Play_VO_Attack" GUID="{915041CD-9ED9-4A6D-869B-C311433B70B3}"/>
 					</ActionPostEvent>
 				</Event>
-				<Event Id="1370187208" Name="Play_SFX_MC_Impact_Fight" DurationType="OneShot" DurationMin="0.15864584" DurationMax="0.27404165">
+				<Event Id="1370187208" Name="Play_SFX_MC_Impact_Fight" GUID="{E7E3DB6B-785B-4CE8-A2C9-3B2E53C66878}" DurationType="OneShot" DurationMin="0.15864584" DurationMax="0.27404165">
 					<MediaRefs>
 						<MediaRef Id="58574385"/>
 						<MediaRef Id="352159780"/>
@@ -748,24 +748,24 @@
 						<MediaRef Id="1054579223"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1379967859" Name="Play_SFX_MC_Impact_Water" DurationType="OneShot" DurationMin="2.6538541" DurationMax="2.6538541">
+				<Event Id="1379967859" Name="Play_SFX_MC_Impact_Water" GUID="{F50C42E1-FB69-4B79-BF1A-3FE75EDC6E45}" DurationType="OneShot" DurationMin="2.6538541" DurationMax="2.6538541">
 					<MediaRefs>
 						<MediaRef Id="516472399"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3893732486" Name="Play_VO_Attack" DurationType="OneShot" DurationMin="0.5769167" DurationMax="0.6851042">
+				<Event Id="3893732486" Name="Play_VO_Attack" GUID="{915041CD-9ED9-4A6D-869B-C311433B70B3}" DurationType="OneShot" DurationMin="0.5769167" DurationMax="0.6851042">
 					<MediaRefs>
 						<MediaRef Id="115130405"/>
 						<MediaRef Id="941160090"/>
 						<MediaRef Id="996363881"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="420198711" Name="Play_VO_DeathScream" DurationType="OneShot" DurationMin="2.4230833" DurationMax="2.4230833">
+				<Event Id="420198711" Name="Play_VO_DeathScream" GUID="{129B5DA6-A21B-420F-9E22-70363213F71E}" DurationType="OneShot" DurationMin="2.4230833" DurationMax="2.4230833">
 					<MediaRefs>
 						<MediaRef Id="290147654"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3926096204" Name="Play_VO_Effort" DurationType="OneShot" DurationMin="0.1875" DurationMax="0.28845835">
+				<Event Id="3926096204" Name="Play_VO_Effort" GUID="{17AA95F9-F331-49CD-847F-A272C312822E}" DurationType="OneShot" DurationMin="0.1875" DurationMax="0.28845835">
 					<MediaRefs>
 						<MediaRef Id="11979760"/>
 						<MediaRef Id="73955752"/>
@@ -774,7 +774,7 @@
 						<MediaRef Id="702496007"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2657945433" Name="Play_VO_Hurt" DurationType="OneShot" DurationMin="0.165875" DurationMax="0.259625">
+				<Event Id="2657945433" Name="Play_VO_Hurt" GUID="{7379C9FB-8861-49AF-9E2C-BF812A5F61FB}" DurationType="OneShot" DurationMin="0.165875" DurationMax="0.259625">
 					<MediaRefs>
 						<MediaRef Id="3370509"/>
 						<MediaRef Id="48411236"/>
@@ -783,7 +783,7 @@
 						<MediaRef Id="978756100"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3737795321" Name="Play_Whoosh_Fast" DurationType="OneShot" DurationMin="0.19088349" DurationMax="0.304">
+				<Event Id="3737795321" Name="Play_Whoosh_Fast" GUID="{8C23B478-DA2A-4C17-9A86-08FC3C71AD02}" DurationType="OneShot" DurationMin="0.19088349" DurationMax="0.304">
 					<MediaRefs>
 						<MediaRef Id="70079"/>
 						<MediaRef Id="44873669"/>
@@ -792,7 +792,7 @@
 						<MediaRef Id="522753703"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2197274579" Name="Play_Whoosh_Mid" DurationType="OneShot" DurationMin="0.45492497" DurationMax="0.598">
+				<Event Id="2197274579" Name="Play_Whoosh_Mid" GUID="{60E53CCF-DCC5-4821-AA36-5A572F409CB4}" DurationType="OneShot" DurationMin="0.45492497" DurationMax="0.598">
 					<MediaRefs>
 						<MediaRef Id="98539648"/>
 						<MediaRef Id="431091475"/>
@@ -801,7 +801,7 @@
 						<MediaRef Id="976844156"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1912453572" Name="Play_Whoosh_Slow" DurationType="OneShot" DurationMin="2.3503056" DurationMax="3.203">
+				<Event Id="1912453572" Name="Play_Whoosh_Slow" GUID="{7AD0D162-B21D-4DC9-9B87-98938FC3B3BE}" DurationType="OneShot" DurationMin="2.3503056" DurationMax="3.203">
 					<MediaRefs>
 						<MediaRef Id="11605033"/>
 						<MediaRef Id="136597341"/>
@@ -810,13 +810,13 @@
 						<MediaRef Id="854608352"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4237661783" Name="RfX_Plants_SQ" MaxAttenuation="50" DurationType="Infinite">
+				<Event Id="4237661783" Name="RfX_Plants_SQ" GUID="{C147B69E-27EF-4721-B80E-F549A78380E6}" MaxAttenuation="50" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="440616789"/>
 						<MediaRef Id="1072082701"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1178033423" Name="VO_Hud_Seq1" DurationType="OneShot" DurationMin="2.847347" DurationMax="9.304036">
+				<Event Id="1178033423" Name="VO_Hud_Seq1" GUID="{5BECA1BC-3F4E-4D60-85C5-0833017C679B}" DurationType="OneShot" DurationMin="2.847347" DurationMax="9.304036">
 					<MediaRefs>
 						<MediaRef Id="51015511"/>
 						<MediaRef Id="79398294"/>
@@ -832,7 +832,7 @@
 						<MediaRef Id="1030892387"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1178033420" Name="VO_Hud_Seq2" DurationType="OneShot" DurationMin="1.6736735" DurationMax="4.902018">
+				<Event Id="1178033420" Name="VO_Hud_Seq2" GUID="{27C3ACD2-5541-48F5-B702-1E65D58DD974}" DurationType="OneShot" DurationMin="1.6736735" DurationMax="4.902018">
 					<MediaRefs>
 						<MediaRef Id="51015511"/>
 						<MediaRef Id="79398294"/>
@@ -850,18 +850,85 @@
 				</Event>
 			</Events>
 			<SwitchGroups>
-				<SwitchGroup Id="2385628198" Name="Footsteps">
+				<SwitchGroup Id="2385628198" Name="Footsteps" GUID="{6242E891-0D99-438E-AD40-1249085F2C3E}">
 					<Switches>
-						<Switch Id="1981379785" Name="Switch_Metal"/>
-						<Switch Id="2541504615" Name="Switch_Stone"/>
-						<Switch Id="2902377486" Name="Switch_Grass"/>
-						<Switch Id="3262067523" Name="Switch_Dirt"/>
-						<Switch Id="3817369922" Name="Switch_Mud"/>
+						<Switch Id="1981379785" Name="Switch_Metal" GUID="{F049C474-F5D5-47D1-860D-C975B26E441F}"/>
+						<Switch Id="2541504615" Name="Switch_Stone" GUID="{7A04C943-75EC-4C4B-BEC0-2CB009DA53C6}"/>
+						<Switch Id="2902377486" Name="Switch_Grass" GUID="{A797C1E8-9105-4C74-B19A-3CA887BF5F36}"/>
+						<Switch Id="3262067523" Name="Switch_Dirt" GUID="{623E008E-FC81-42E0-BF99-12E2F1282DD5}"/>
+						<Switch Id="3817369922" Name="Switch_Mud" GUID="{9B5EBEA9-3F44-426A-8BBE-2D4281B74642}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1290967234" Type="User" Language="SFX" Hash="{7B16433E-B158-637E-95C5-01FC5935F00D}">
+		<SoundBank Id="984691642" Type="User" GUID="{77050739-4F5F-4925-B6AD-E9E133640DE8}" Language="SFX" Hash="{5B4AB13C-9E6B-93AB-D4F5-8AD3824C6FBB}">
+			<ShortName>InGame</ShortName>
+			<Path>InGame.bnk</Path>
+			<Media>
+				<File Id="56450524" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Christal_Idle_LP.wav</ShortName>
+					<CachePath>SFX/SFX_Christal_Idle_LP_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="107397822" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_MC_WP_Stick_Obt.wav</ShortName>
+					<CachePath>SFX/SFX_MC_WP_Stick_Obt_10C4C929.wem</CachePath>
+				</File>
+				<File Id="156368826" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>InGame_Heal.wav</ShortName>
+					<CachePath>SFX/InGame_Heal_10C4C929.wem</CachePath>
+				</File>
+				<File Id="474818672" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>InGame_PressurePad.wav</ShortName>
+					<CachePath>SFX/InGame_PressurePad_10C4C929.wem</CachePath>
+				</File>
+				<File Id="493828024" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Door_Open.wav</ShortName>
+					<CachePath>SFX/SFX_Door_Open_FC20F141.wem</CachePath>
+				</File>
+				<File Id="501839359" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Container_Break.wav</ShortName>
+					<CachePath>SFX/SFX_Container_Break_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="904448771" Name="Mute_Heal" GUID="{38CB9265-489A-4BBE-AA1C-28BBBE073EDD}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3742498135" Name="Mute_PressurePad" GUID="{7B6A9578-BD9B-4A88-91A2-200C491146A0}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="540272743" Name="Mute_Stick" GUID="{97D721F8-3FD5-4B6F-9423-4DB598868971}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3331416737" Name="Play_Box_Break" GUID="{0E2FC96F-F378-4400-9730-22024EE31FC6}" DurationType="OneShot" DurationMin="3.3066514" DurationMax="3.75834">
+					<MediaRefs>
+						<MediaRef Id="501839359"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2323772145" Name="PLay_Cristal_Idle" GUID="{DC2AC7EE-DED0-47A2-B0B2-E02B24B19D0D}" MaxAttenuation="15" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="56450524"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1660008929" Name="PLay_Door_Open" GUID="{CB910C49-C292-4D48-A3A6-167513AAE9A4}" DurationType="OneShot" DurationMin="7.0332437" DurationMax="7.0332437">
+					<MediaRefs>
+						<MediaRef Id="493828024"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2639148008" Name="Play_Heal" GUID="{B0C1C06F-685E-409C-A8F2-A44A9E147481}" DurationType="OneShot" DurationMin="1.39275" DurationMax="1.39275">
+					<MediaRefs>
+						<MediaRef Id="156368826"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1624416746" Name="Play_PressurePad" GUID="{44EF204F-1337-4C03-9FEC-AB671C83D310}" DurationType="OneShot" DurationMin="1.5479375" DurationMax="1.5479375">
+					<MediaRefs>
+						<MediaRef Id="474818672"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="34432710" Name="Play_Stick_Obt" GUID="{973369F0-9C0D-4250-B46C-ADF1CEB852D2}" DurationType="OneShot" DurationMin="1.9819047" DurationMax="1.9819047">
+					<MediaRefs>
+						<MediaRef Id="107397822"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2767686108" Name="UnMute_Heal" GUID="{CD356506-A565-49C6-8F63-98B7AA69C6AF}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1796837" Name="UnMute_PresurePad" GUID="{5FC88202-E70E-430B-A529-CC3A85A64C27}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1290967234" Type="User" GUID="{DBC43447-762D-4565-A6E5-6CCB9ADEC25D}" Language="SFX" Hash="{AAFDDF2C-A74E-ED25-E23D-EF03325C57A2}">
 			<ShortName>Spitter_SoundBank</ShortName>
 			<Path>Spitter_SoundBank.bnk</Path>
 			<Media>
@@ -999,14 +1066,14 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="568765208" Name="Play_SP_Die" MaxAttenuation="15" DurationType="OneShot" DurationMin="1.2245351" DurationMax="1.9346259">
+				<Event Id="568765208" Name="Play_SP_Die" GUID="{FA4970E1-6295-4BB0-A5D6-CD69A82BFE25}" MaxAttenuation="15" DurationType="OneShot" DurationMin="1.2245351" DurationMax="1.9346259">
 					<MediaRefs>
 						<MediaRef Id="190783486"/>
 						<MediaRef Id="216851450"/>
 						<MediaRef Id="852235056"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3885997515" Name="Play_SP_Foley" MaxAttenuation="15" DurationType="OneShot" DurationMin="1.1207709" DurationMax="1.1918141">
+				<Event Id="3885997515" Name="Play_SP_Foley" GUID="{39392DD1-A061-40DF-9561-D82726179569}" MaxAttenuation="15" DurationType="OneShot" DurationMin="1.1207709" DurationMax="1.1918141">
 					<MediaRefs>
 						<MediaRef Id="213243962"/>
 						<MediaRef Id="262541260"/>
@@ -1017,10 +1084,10 @@
 						<MediaRef Id="863209858"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2561501052" Name="Play_SP_FootStep" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.043270834" DurationMax="0.25239584">
+				<Event Id="2561501052" Name="Play_SP_FootStep" GUID="{27192C70-6230-43CF-BDB2-36E47A78ECDF}" MaxAttenuation="20" DurationType="OneShot" DurationMin="0.043270834" DurationMax="0.25239584">
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2541504615"/>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2541504615" GUID="{7A04C943-75EC-4C4B-BEC0-2CB009DA53C6}"/>
 							<MediaRefs>
 								<MediaRef Id="215377584"/>
 								<MediaRef Id="588175256"/>
@@ -1030,7 +1097,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3262067523" Default="true"/>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3262067523" GUID="{623E008E-FC81-42E0-BF99-12E2F1282DD5}" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="50923530"/>
 								<MediaRef Id="338832736"/>
@@ -1040,7 +1107,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3817369922"/>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3817369922" GUID="{9B5EBEA9-3F44-426A-8BBE-2D4281B74642}"/>
 							<MediaRefs>
 								<MediaRef Id="90159069"/>
 								<MediaRef Id="151233379"/>
@@ -1050,7 +1117,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2902377486"/>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2902377486" GUID="{A797C1E8-9105-4C74-B19A-3CA887BF5F36}"/>
 							<MediaRefs>
 								<MediaRef Id="77456658"/>
 								<MediaRef Id="223463109"/>
@@ -1061,80 +1128,89 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2046270727" Name="Play_SP_Projectile" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.053423" DurationMax="1.7553413">
+				<Event Id="2046270727" Name="Play_SP_Projectile" GUID="{5C6AA71C-7183-40AE-A08A-E0F7C56E8862}" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.053423" DurationMax="1.7553413">
 					<MediaRefs>
 						<MediaRef Id="437962700"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3525273781" Name="Play_SP_Projectile_Hit" MaxAttenuation="20" DurationType="OneShot" DurationMin="2.477007" DurationMax="2.477007">
+				<Event Id="3525273781" Name="Play_SP_Projectile_Hit" GUID="{45CFE566-4B68-4340-9F89-88E994CBFEB6}" MaxAttenuation="20" DurationType="OneShot" DurationMin="2.477007" DurationMax="2.477007">
 					<MediaRefs>
 						<MediaRef Id="208791350"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3466111482" Name="Play_SP_Projectile_Splat" MaxAttenuation="20" DurationType="OneShot" DurationMin="5.1519957" DurationMax="5.1519957">
+				<Event Id="3466111482" Name="Play_SP_Projectile_Splat" GUID="{1FC49731-038C-4E2F-9DC3-97C0602281A0}" MaxAttenuation="20" DurationType="OneShot" DurationMin="5.1519957" DurationMax="5.1519957">
 					<MediaRefs>
 						<MediaRef Id="430432491"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 			<SwitchGroups>
-				<SwitchGroup Id="2385628198" Name="Footsteps">
+				<SwitchGroup Id="2385628198" Name="Footsteps" GUID="{6242E891-0D99-438E-AD40-1249085F2C3E}">
 					<Switches>
-						<Switch Id="1981379785" Name="Switch_Metal"/>
-						<Switch Id="2541504615" Name="Switch_Stone"/>
-						<Switch Id="2902377486" Name="Switch_Grass"/>
-						<Switch Id="3262067523" Name="Switch_Dirt"/>
-						<Switch Id="3817369922" Name="Switch_Mud"/>
+						<Switch Id="1981379785" Name="Switch_Metal" GUID="{F049C474-F5D5-47D1-860D-C975B26E441F}"/>
+						<Switch Id="2541504615" Name="Switch_Stone" GUID="{7A04C943-75EC-4C4B-BEC0-2CB009DA53C6}"/>
+						<Switch Id="2902377486" Name="Switch_Grass" GUID="{A797C1E8-9105-4C74-B19A-3CA887BF5F36}"/>
+						<Switch Id="3262067523" Name="Switch_Dirt" GUID="{623E008E-FC81-42E0-BF99-12E2F1282DD5}"/>
+						<Switch Id="3817369922" Name="Switch_Mud" GUID="{9B5EBEA9-3F44-426A-8BBE-2D4281B74642}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A56B512F-40F5-9711-8A0B-8760B7ADE6DA}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{0D2A0551-EBFE-34AE-79FA-B604995C026E}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="3701691487" Name="Hall_Large_Bright" GUID="{CB602948-2D1D-4977-A8D5-378184293E80}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
 				<AudioDevices>
-					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
-					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+					<Plugin Id="2317455096" Name="No_Output" GUID="{D2E00496-D88A-4365-A263-44D9F43B5DEF}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" GUID="{547B08BA-7F4D-4DAD-8320-03760F48DFCA}" LibName="System" LibId="11403271"/>
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="1507798120" Name="Ennemis"/>
-				<Bus Id="1518239843" Name="MainCharacter"/>
-				<Bus Id="2981377429" Name="Ambiance"/>
-				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="1507798120" Name="Ennemis" GUID="{D921ECC2-95EE-4636-8716-4524E305F5D4}"/>
+				<Bus Id="1518239843" Name="MainCharacter" GUID="{599C9CD5-2555-47BD-949E-D3B28CBFC8CB}"/>
+				<Bus Id="2981377429" Name="Ambiance" GUID="{03157D0B-F98F-4BF9-896C-9D3E804E05BA}"/>
+				<Bus Id="3803692087" Name="Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 			<AuxBusses>
-				<AuxBus Id="1438224957" Name="ReverbZone_Cavern"/>
-				<AuxBus Id="2399250375" Name="ReverbZone_Small"/>
-				<AuxBus Id="3193884120" Name="ReverbZone_Big"/>
+				<AuxBus Id="1438224957" Name="ReverbZone_Cavern" GUID="{B14C7F03-B676-404E-9C8C-5E8BF7F07ABB}"/>
+				<AuxBus Id="2399250375" Name="ReverbZone_Small" GUID="{3A47EB4C-B04E-4EDE-B8B3-81F4EBC451DF}"/>
+				<AuxBus Id="3193884120" Name="ReverbZone_Big" GUID="{B49B40C7-13A6-4457-905D-C904CF57E58B}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3701691487"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
 			</AuxBusses>
 			<GameParameters>
-				<GameParameter Id="1347076325" Name="AttackCombo"/>
-				<GameParameter Id="2486207350" Name="RTPC_GetSpeed"/>
+				<GameParameter Id="1347076325" Name="AttackCombo" GUID="{4924BD68-23EC-449C-A634-A3457BDE7AAC}"/>
+				<GameParameter Id="2486207350" Name="RTPC_GetSpeed" GUID="{7BA46F3F-151C-4116-AFF2-29C5AE26CBE2}"/>
 			</GameParameters>
 			<SwitchGroups>
-				<SwitchGroup Id="1347076325" Name="AttackCombo">
+				<SwitchGroup Id="1347076325" Name="AttackCombo" GUID="{11FC7EA5-6E07-457B-ADA3-96F1215BE9EE}">
 					<GameParameterRef Id="1347076325"/>
 					<Switches>
-						<Switch Id="3557003809" Name="Combo04"/>
-						<Switch Id="3557003812" Name="Combo01"/>
-						<Switch Id="3557003814" Name="Combo03"/>
-						<Switch Id="3557003815" Name="Combo02"/>
+						<Switch Id="3557003809" Name="Combo04" GUID="{9EA691C6-EDE0-43D4-A55B-1CCCD44917F7}"/>
+						<Switch Id="3557003812" Name="Combo01" GUID="{5E713A80-011F-442B-A047-986F6A82A568}"/>
+						<Switch Id="3557003814" Name="Combo03" GUID="{D06746D0-B7C6-431A-8D55-AFE1C066A1E8}"/>
+						<Switch Id="3557003815" Name="Combo02" GUID="{0205FADF-C4DF-431B-AA0E-82BA9E68517A}"/>
 					</Switches>
 				</SwitchGroup>
-				<SwitchGroup Id="2385628198" Name="Footsteps">
+				<SwitchGroup Id="2385628198" Name="Footsteps" GUID="{6242E891-0D99-438E-AD40-1249085F2C3E}">
 					<Switches>
-						<Switch Id="1981379785" Name="Switch_Metal"/>
-						<Switch Id="2541504615" Name="Switch_Stone"/>
-						<Switch Id="2902377486" Name="Switch_Grass"/>
-						<Switch Id="3262067523" Name="Switch_Dirt"/>
-						<Switch Id="3817369922" Name="Switch_Mud"/>
+						<Switch Id="1981379785" Name="Switch_Metal" GUID="{F049C474-F5D5-47D1-860D-C975B26E441F}"/>
+						<Switch Id="2541504615" Name="Switch_Stone" GUID="{7A04C943-75EC-4C4B-BEC0-2CB009DA53C6}"/>
+						<Switch Id="2902377486" Name="Switch_Grass" GUID="{A797C1E8-9105-4C74-B19A-3CA887BF5F36}"/>
+						<Switch Id="3262067523" Name="Switch_Dirt" GUID="{623E008E-FC81-42E0-BF99-12E2F1282DD5}"/>
+						<Switch Id="3817369922" Name="Switch_Mud" GUID="{9B5EBEA9-3F44-426A-8BBE-2D4281B74642}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2454045173" Type="User" Language="SFX" Hash="{394CA070-91F2-CA7F-B00F-3118EB00321D}">
+		<SoundBank Id="2454045173" Type="User" GUID="{9F6DF4AD-F5A4-447C-AC8D-FEC960A5A355}" Language="SFX" Hash="{695281EF-716D-65EF-1C99-073EAB3969FC}">
 			<ShortName>UI_Soundbank</ShortName>
 			<Path>UI_Soundbank.bnk</Path>
 			<Media>
@@ -1160,34 +1236,34 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2029000732" Name="SFX_Hud_TriggerIn" DurationType="OneShot" DurationMin="2" DurationMax="2">
+				<Event Id="2029000732" Name="SFX_Hud_TriggerIn" GUID="{BCB10AAC-07C0-42DB-AAEE-E98D990F07F5}" DurationType="OneShot" DurationMin="2" DurationMax="2">
 					<MediaRefs>
 						<MediaRef Id="326768510"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1692947803" Name="SFX_Hud_TriggerOut" DurationType="OneShot" DurationMin="2" DurationMax="2">
+				<Event Id="1692947803" Name="SFX_Hud_TriggerOut" GUID="{B3EB45EA-67F9-4280-9AB2-6A5BDE1D4AD7}" DurationType="OneShot" DurationMin="2" DurationMax="2">
 					<MediaRefs>
 						<MediaRef Id="820971673"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="216067002" Name="UI_Confirm" DurationType="OneShot" DurationMin="2.5384583" DurationMax="2.5384583">
+				<Event Id="216067002" Name="UI_Confirm" GUID="{33EF24EB-F6E3-4073-B162-0E04937F031D}" DurationType="OneShot" DurationMin="2.5384583" DurationMax="2.5384583">
 					<MediaRefs>
 						<MediaRef Id="106693867"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1292146495" Name="UI_ConfirmSmall" DurationType="OneShot" DurationMin="1.8461459" DurationMax="1.8461459">
+				<Event Id="1292146495" Name="UI_ConfirmSmall" GUID="{141B4281-B65C-41F6-BD91-2302E02A7CAA}" DurationType="OneShot" DurationMin="1.8461459" DurationMax="1.8461459">
 					<MediaRefs>
 						<MediaRef Id="1023493739"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1402340918" Name="UI_Highlight" DurationType="OneShot" DurationMin="0.6918402" DurationMax="0.6918402">
+				<Event Id="1402340918" Name="UI_Highlight" GUID="{B895DB65-3A01-4DDA-92BE-8173E050165A}" DurationType="OneShot" DurationMin="0.6918402" DurationMax="0.6918402">
 					<MediaRefs>
 						<MediaRef Id="1039660020"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2458534638" Type="User" Language="SFX" Hash="{135946FB-620E-11EF-4D71-9A35ABB98D8A}">
+		<SoundBank Id="2458534638" Type="User" GUID="{9578A482-DD6A-4C5F-8242-33415911CF8A}" Language="SFX" Hash="{E24990E5-5A96-8120-4857-FDBAA3FA552C}">
 			<ShortName>Grenadier_SoundBank</ShortName>
 			<Path>Grenadier_SoundBank.bnk</Path>
 			<Media>
@@ -1245,25 +1321,25 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="984362133" Name="Play_GR_Attack_Fist" MaxAttenuation="35" DurationType="OneShot" DurationMin="5.28966" DurationMax="5.28966">
+				<Event Id="984362133" Name="Play_GR_Attack_Fist" GUID="{67D01130-74C4-4F1A-A4FA-C067C4BB8D37}" MaxAttenuation="35" DurationType="OneShot" DurationMin="5.28966" DurationMax="5.28966">
 					<MediaRefs>
 						<MediaRef Id="622068637"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3571706742" Name="Play_GR_Attack_Projectile" MaxAttenuation="35" DurationType="OneShot" DurationMin="7.3834696" DurationMax="7.3834696">
+				<Event Id="3571706742" Name="Play_GR_Attack_Projectile" GUID="{6718C5C6-A382-4684-95D0-E03CC19E32DB}" MaxAttenuation="35" DurationType="OneShot" DurationMin="7.3834696" DurationMax="7.3834696">
 					<MediaRefs>
 						<MediaRef Id="630043865"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1479641432" Name="Play_GR_Attack_Shield" MaxAttenuation="35" DurationType="OneShot" DurationMin="4.7315445" DurationMax="4.7315445">
+				<Event Id="1479641432" Name="Play_GR_Attack_Shield" GUID="{85B84736-4B4B-456A-A6E3-AA8D75FAF1BA}" MaxAttenuation="35" DurationType="OneShot" DurationMin="4.7315445" DurationMax="4.7315445">
 					<MediaRefs>
 						<MediaRef Id="439733869"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2547724478" Name="Play_GR_Footstep" MaxAttenuation="35" DurationType="OneShot" DurationMin="0.050416667" DurationMax="0.5047917">
+				<Event Id="2547724478" Name="Play_GR_Footstep" GUID="{4A826DF4-76CC-46A5-BEBF-496AF504EFC8}" MaxAttenuation="35" DurationType="OneShot" DurationMin="0.050416667" DurationMax="0.5047917">
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2541504615" Default="true"/>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2541504615" GUID="{7A04C943-75EC-4C4B-BEC0-2CB009DA53C6}" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="270882786"/>
 								<MediaRef Id="467646680"/>
@@ -1273,7 +1349,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3262067523"/>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3262067523" GUID="{623E008E-FC81-42E0-BF99-12E2F1282DD5}"/>
 							<MediaRefs>
 								<MediaRef Id="50923530"/>
 								<MediaRef Id="338832736"/>
@@ -1286,24 +1362,32 @@
 				</Event>
 			</Events>
 			<SwitchGroups>
-				<SwitchGroup Id="2385628198" Name="Footsteps">
+				<SwitchGroup Id="2385628198" Name="Footsteps" GUID="{6242E891-0D99-438E-AD40-1249085F2C3E}">
 					<Switches>
-						<Switch Id="1981379785" Name="Switch_Metal"/>
-						<Switch Id="2541504615" Name="Switch_Stone"/>
-						<Switch Id="2902377486" Name="Switch_Grass"/>
-						<Switch Id="3262067523" Name="Switch_Dirt"/>
-						<Switch Id="3817369922" Name="Switch_Mud"/>
+						<Switch Id="1981379785" Name="Switch_Metal" GUID="{F049C474-F5D5-47D1-860D-C975B26E441F}"/>
+						<Switch Id="2541504615" Name="Switch_Stone" GUID="{7A04C943-75EC-4C4B-BEC0-2CB009DA53C6}"/>
+						<Switch Id="2902377486" Name="Switch_Grass" GUID="{A797C1E8-9105-4C74-B19A-3CA887BF5F36}"/>
+						<Switch Id="3262067523" Name="Switch_Dirt" GUID="{623E008E-FC81-42E0-BF99-12E2F1282DD5}"/>
+						<Switch Id="3817369922" Name="Switch_Mud" GUID="{9B5EBEA9-3F44-426A-8BBE-2D4281B74642}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2981377429" Type="User" Language="SFX" Hash="{5B969ECB-A0E2-88A3-8F8D-906FE3070199}">
+		<SoundBank Id="2981377429" Type="User" GUID="{AAB747D5-03CF-4E9C-B6DA-0D7E5CBD4C55}" Language="SFX" Hash="{F3495523-FEB7-299E-A78D-9CEDFA0681B2}">
 			<ShortName>Ambiance</ShortName>
 			<Path>Ambiance.bnk</Path>
 			<Media>
 				<File Id="49200380" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>RFX_Out_Animals-009.wav</ShortName>
 					<CachePath>SFX/RFX_Out_Animals-009_10C4C929.wem</CachePath>
+				</File>
+				<File Id="59465687" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_Cavern-002.wav</ShortName>
+					<CachePath>SFX/RFX_Cavern-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="95811985" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_Cavern-001.wav</ShortName>
+					<CachePath>SFX/RFX_Cavern-001_10C4C929.wem</CachePath>
 				</File>
 				<File Id="103688550" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>RFX_Out_Animals-006.wav</ShortName>
@@ -1350,6 +1434,10 @@
 					<ShortName>RFX_Out_Animals-002.wav</ShortName>
 					<CachePath>SFX/RFX_Out_Animals-002_10C4C929.wem</CachePath>
 				</File>
+				<File Id="847506791" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>RFX_Cavern-003.wav</ShortName>
+					<CachePath>SFX/RFX_Cavern-003_10C4C929.wem</CachePath>
+				</File>
 				<File Id="890786843" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>RFX_Out_Animals-001.wav</ShortName>
 					<CachePath>SFX/RFX_Out_Animals-001_10C4C929.wem</CachePath>
@@ -1362,13 +1450,23 @@
 					<ShortName>RFX_Out_Animals-011.wav</ShortName>
 					<CachePath>SFX/RFX_Out_Animals-011_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1042680909" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>AMB_Cavern_LP.wav</ShortName>
+					<Path>Media/1042680909.wem</Path>
+					<CachePath>SFX/AMB_Cavern_LP_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="1072082701" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>RFX_Plants-001.wav</ShortName>
 					<CachePath>SFX/RFX_Plants-001_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1384706362" Name="Play_Amb_Ext" DurationType="Infinite">
+				<Event Id="3686445418" Name="Play_AMB_Cavern" GUID="{3584F36E-EC6C-4932-94EA-86CD3C11EA0F}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1042680909"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1384706362" Name="Play_Amb_Ext" GUID="{BAA9E413-0237-416B-B1DD-712B025BF1AF}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="49200380"/>
 						<MediaRef Id="103688550"/>
@@ -1384,30 +1482,37 @@
 						<MediaRef Id="1002847489"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2454646541" Name="PLay_AMB_Ext_LP" DurationType="Infinite">
+				<Event Id="2454646541" Name="PLay_AMB_Ext_LP" GUID="{EB3866CD-D59D-42A8-9182-EF5216BEF24C}" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="670214400"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3882178070" Name="Play_SFX_Plant_WindBlowing" MaxAttenuation="30" DurationType="Infinite">
+				<Event Id="1631003278" Name="Play_RFX_Cavern" GUID="{9C2BA0CC-8785-4570-A4A7-CD6A82C5C010}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="59465687"/>
+						<MediaRef Id="95811985"/>
+						<MediaRef Id="847506791"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3882178070" Name="Play_SFX_Plant_WindBlowing" GUID="{C7A8D135-F7BE-4D59-89CA-63F32F318CE9}" MaxAttenuation="30" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="518570860"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4237661783" Name="RfX_Plants_SQ" MaxAttenuation="50" DurationType="Infinite">
+				<Event Id="4237661783" Name="RfX_Plants_SQ" GUID="{C147B69E-27EF-4721-B80E-F549A78380E6}" MaxAttenuation="50" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="440616789"/>
 						<MediaRef Id="1072082701"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2718560927" Name="SFX_Plant_WindBlowing" MaxAttenuation="30" DurationType="Infinite">
+				<Event Id="2718560927" Name="SFX_Plant_WindBlowing" GUID="{A76CC482-D88C-43AC-82F0-00BBA0310D4F}" MaxAttenuation="30" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="518570860"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3105787907" Type="User" Language="SFX" Hash="{86DE5A6C-7C0F-04AD-D37E-312EA90C1C55}">
+		<SoundBank Id="3105787907" Type="User" GUID="{65F180EE-D89E-4CA5-A8E1-3E69FBE2920A}" Language="SFX" Hash="{C7186C30-73D6-3CDA-C07F-8BFAC0A00D3B}">
 			<ShortName>Chomper_SoundBank</ShortName>
 			<Path>Chomper_SoundBank.bnk</Path>
 			<Media>
@@ -1565,22 +1670,22 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1456885134" Name="Play_CH_Attack" MaxAttenuation="15" DurationType="OneShot" DurationMin="1.1794558" DurationMax="1.1794558">
+				<Event Id="1456885134" Name="Play_CH_Attack" GUID="{2A4BC926-3C24-46DC-A6D3-8DA9C258EF5A}" MaxAttenuation="15" DurationType="OneShot" DurationMin="1.1794558" DurationMax="1.1794558">
 					<MediaRefs>
 						<MediaRef Id="308880629"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1383584624" Name="Play_CH_Die" MaxAttenuation="15" DurationType="OneShot" DurationMin="1.2245351" DurationMax="1.9346259">
+				<Event Id="1383584624" Name="Play_CH_Die" GUID="{4965A9C3-A60C-4E71-85CF-773BC5F18524}" MaxAttenuation="15" DurationType="OneShot" DurationMin="1.2245351" DurationMax="1.9346259">
 					<MediaRefs>
 						<MediaRef Id="190783486"/>
 						<MediaRef Id="216851450"/>
 						<MediaRef Id="852235056"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1825440468" Name="Play_CH_FootStep" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.043270834" DurationMax="0.25239584">
+				<Event Id="1825440468" Name="Play_CH_FootStep" GUID="{DEC4A001-1858-4638-8AA7-CA883335CF40}" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.043270834" DurationMax="0.25239584">
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2541504615"/>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2541504615" GUID="{7A04C943-75EC-4C4B-BEC0-2CB009DA53C6}"/>
 							<MediaRefs>
 								<MediaRef Id="215377584"/>
 								<MediaRef Id="588175256"/>
@@ -1590,7 +1695,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3262067523" Default="true"/>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3262067523" GUID="{623E008E-FC81-42E0-BF99-12E2F1282DD5}" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="50923530"/>
 								<MediaRef Id="338832736"/>
@@ -1600,7 +1705,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3817369922"/>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="3817369922" GUID="{9B5EBEA9-3F44-426A-8BBE-2D4281B74642}"/>
 							<MediaRefs>
 								<MediaRef Id="90159069"/>
 								<MediaRef Id="151233379"/>
@@ -1610,7 +1715,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2902377486"/>
+							<SwitchValue GroupType="Switch" GroupId="2385628198" Id="2902377486" GUID="{A797C1E8-9105-4C74-B19A-3CA887BF5F36}"/>
 							<MediaRefs>
 								<MediaRef Id="77456658"/>
 								<MediaRef Id="223463109"/>
@@ -1621,14 +1726,14 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2960666077" Name="Play_Hit" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.6589116" DurationMax="0.77217686">
+				<Event Id="2960666077" Name="Play_Hit" GUID="{3462BEA8-83C6-40FD-840C-CD7189CA3260}" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.6589116" DurationMax="0.77217686">
 					<MediaRefs>
 						<MediaRef Id="58085114"/>
 						<MediaRef Id="143820051"/>
 						<MediaRef Id="508255807"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="41941568" Name="Play_Idle" MaxAttenuation="15" DurationType="OneShot" DurationMin="1.1207709" DurationMax="1.1918141">
+				<Event Id="41941568" Name="Play_Idle" GUID="{3E6CF6F7-0F09-4812-9B1C-FB3F97662EB7}" MaxAttenuation="15" DurationType="OneShot" DurationMin="1.1207709" DurationMax="1.1918141">
 					<MediaRefs>
 						<MediaRef Id="213243962"/>
 						<MediaRef Id="262541260"/>
@@ -1639,7 +1744,7 @@
 						<MediaRef Id="863209858"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2262512141" Name="Play_Spotted" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.2522449" DurationMax="0.6537642">
+				<Event Id="2262512141" Name="Play_Spotted" GUID="{E4653FE8-CB42-4163-950D-075F1EB79CBA}" MaxAttenuation="15" DurationType="OneShot" DurationMin="0.2522449" DurationMax="0.6537642">
 					<MediaRefs>
 						<MediaRef Id="64354009"/>
 						<MediaRef Id="374908960"/>
@@ -1649,17 +1754,17 @@
 				</Event>
 			</Events>
 			<SwitchGroups>
-				<SwitchGroup Id="2385628198" Name="Footsteps">
+				<SwitchGroup Id="2385628198" Name="Footsteps" GUID="{6242E891-0D99-438E-AD40-1249085F2C3E}">
 					<Switches>
-						<Switch Id="1981379785" Name="Switch_Metal"/>
-						<Switch Id="2541504615" Name="Switch_Stone"/>
-						<Switch Id="2902377486" Name="Switch_Grass"/>
-						<Switch Id="3262067523" Name="Switch_Dirt"/>
-						<Switch Id="3817369922" Name="Switch_Mud"/>
+						<Switch Id="1981379785" Name="Switch_Metal" GUID="{F049C474-F5D5-47D1-860D-C975B26E441F}"/>
+						<Switch Id="2541504615" Name="Switch_Stone" GUID="{7A04C943-75EC-4C4B-BEC0-2CB009DA53C6}"/>
+						<Switch Id="2902377486" Name="Switch_Grass" GUID="{A797C1E8-9105-4C74-B19A-3CA887BF5F36}"/>
+						<Switch Id="3262067523" Name="Switch_Dirt" GUID="{623E008E-FC81-42E0-BF99-12E2F1282DD5}"/>
+						<Switch Id="3817369922" Name="Switch_Mud" GUID="{9B5EBEA9-3F44-426A-8BBE-2D4281B74642}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EEBB82C4-46A2-11B1-4BAA-E08D17882DD6}</FileHash>
+	<FileHash>{DA14A233-4842-A729-61BD-0D681B80562D}</FileHash>
 </SoundBanksInfo>

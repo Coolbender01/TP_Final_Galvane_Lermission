@@ -71,6 +71,7 @@ namespace Gamekit3D
 
             ragdollInstance.SetActive(true);
             Destroy(gameObject);
+            Debug.Log("ADIOS");
         }
     }
 }

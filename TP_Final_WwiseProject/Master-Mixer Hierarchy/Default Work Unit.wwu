@@ -14,7 +14,13 @@
 						<Bus Name="Ennemis" ID="{D921ECC2-95EE-4636-8716-4524E305F5D4}"/>
 						<AuxBus Name="ReverbZone_Small" ID="{3A47EB4C-B04E-4EDE-B8B3-81F4EBC451DF}"/>
 						<AuxBus Name="ReverbZone_Cavern" ID="{B14C7F03-B676-404E-9C8C-5E8BF7F07ABB}"/>
-						<AuxBus Name="ReverbZone_Big" ID="{B49B40C7-13A6-4457-905D-C904CF57E58B}"/>
+						<AuxBus Name="ReverbZone_Big" ID="{B49B40C7-13A6-4457-905D-C904CF57E58B}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Hall_Large_Bright" ID="{CB602948-2D1D-4977-A8D5-378184293E80}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
 						<Bus Name="Ambiance" ID="{03157D0B-F98F-4BF9-896C-9D3E804E05BA}"/>
 					</ChildrenList>
 				</Bus>

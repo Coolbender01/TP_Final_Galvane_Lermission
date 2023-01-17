@@ -78,6 +78,14 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="AMB_Cavern_LP" ID="{0F0CFD56-3DC4-49B4-AF02-6BC128FE7973}" ShortID="1043013823">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="IsStreamingEnabled" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>

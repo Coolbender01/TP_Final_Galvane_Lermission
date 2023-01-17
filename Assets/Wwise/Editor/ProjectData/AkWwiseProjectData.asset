@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: c096f127753d3c4da6341e50f5479ee5
     GuidInternal: 
-    m_lastTime: -8585282468319374651
+    m_lastTime: -8585276600417648304
     List:
     - name: Ambiance
       guid: 0b7d15038ff9f94b896c9d3e804e05ba
@@ -171,7 +171,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit\Ambiance
     guid: edba7a23239ca54b8607f50b0ecd7694
     GuidInternal: 
-    m_lastTime: -8585277825055209478
+    m_lastTime: -8585276500572722176
     List:
     - name: Ambiance
       guid: d547b7aacf039c4eb6da0d7e5cbd4c55
@@ -190,6 +190,19 @@ MonoBehaviour:
         ObjectType: 7
         guid: d547b7aacf039c4eb6da0d7e5cbd4c55
       Path: SoundBanks\Default Work Unit\Ambiance\Ambiance
+  - PhysicalPath: SoundBanks\Ambiances.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Ambiances
+      ObjectType: 12
+      guid: 344a5cdb86259643a261730fae5c0281
+    ParentPath: SoundBanks\Ambiances
+    guid: 344a5cdb86259643a261730fae5c0281
+    GuidInternal: 
+    m_lastTime: -8585278032515985160
+    List: []
   - PhysicalPath: SoundBanks\Chomper.wwu
     PathAndIcons:
     - ElementName: SoundBanks
@@ -240,7 +253,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 9716599f793b03469dcb447972967bac
     GuidInternal: 
-    m_lastTime: -8585279467532459705
+    m_lastTime: -8585276600417797920
     List: []
   - PhysicalPath: SoundBanks\Grenadier.wwu
     PathAndIcons:
@@ -281,6 +294,39 @@ MonoBehaviour:
         ObjectType: 7
         guid: 82a478956add5f4c824233415911cf8a
       Path: SoundBanks\Default Work Unit\Monstre\Grenadier\Grenadier_SoundBank
+  - PhysicalPath: SoundBanks\InGame.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9716599f793b03469dcb447972967bac
+    - ElementName: InGame
+      ObjectType: 12
+      guid: 552018e2cc35e9408da67b837127b47a
+    ParentPath: SoundBanks\Default Work Unit\InGame
+    guid: 552018e2cc35e9408da67b837127b47a
+    GuidInternal: 
+    m_lastTime: -8585276361033545620
+    List:
+    - name: InGame
+      guid: 390705775f4f2549b6ade9e133640de8
+      id: 984691642
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9716599f793b03469dcb447972967bac
+      - ElementName: InGame
+        ObjectType: 12
+        guid: 552018e2cc35e9408da67b837127b47a
+      - ElementName: InGame
+        ObjectType: 7
+        guid: 390705775f4f2549b6ade9e133640de8
+      Path: SoundBanks\Default Work Unit\InGame\InGame
   - PhysicalPath: SoundBanks\MC.wwu
     PathAndIcons:
     - ElementName: SoundBanks
@@ -295,7 +341,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit\MC
     guid: 08b722a9e4cfdb43b1ccb22a6b542dfa
     GuidInternal: 
-    m_lastTime: -8585277830798787606
+    m_lastTime: -8585277053915546178
     List:
     - name: MC_Soundbank
       guid: c239a7ed6deb274fb42bb41aa38c4a66
@@ -380,7 +426,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\UI
     guid: 8dffb83929fd39419aeeb8d8b6734bfb
     GuidInternal: 
-    m_lastTime: -8585277886057605448
+    m_lastTime: -8585277053915546178
     List:
     - name: UI_Soundbank
       guid: adf46d9fa4f57c44ac8dfec960a5a355
@@ -408,7 +454,7 @@ MonoBehaviour:
     ParentPath: Events\Ambiances
     guid: 0c118011da854b49a82b6af81b8cba5f
     GuidInternal: 
-    m_lastTime: -8585277830798852081
+    m_lastTime: -8585276500572632447
     List:
     - name: "Ext\xE9rieur"
       guid: 219d7c937418c64f936065ddc7ae0f07
@@ -441,6 +487,26 @@ MonoBehaviour:
         ObjectType: 4
         guid: ca715f5534072e49b872f23e4c61930e
       Path: "Events\\Ambiances\\Int\xE9rieur"
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_AMB_Cavern
+      guid: 6ef384356cec324994ea86cd3c11ea0f
+      id: 3686445418
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambiances
+        ObjectType: 12
+        guid: 0c118011da854b49a82b6af81b8cba5f
+      - ElementName: "Int\xE9rieur"
+        ObjectType: 4
+        guid: ca715f5534072e49b872f23e4c61930e
+      - ElementName: Play_AMB_Cavern
+        ObjectType: 3
+        guid: 6ef384356cec324994ea86cd3c11ea0f
+      Path: "Events\\Ambiances\\Int\xE9rieur\\Play_AMB_Cavern"
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -484,6 +550,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_RFX_Cavern
+      guid: cca02b9c85877045a4a7cd6a82c5c010
+      id: 1631003278
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambiances
+        ObjectType: 12
+        guid: 0c118011da854b49a82b6af81b8cba5f
+      - ElementName: "Int\xE9rieur"
+        ObjectType: 4
+        guid: ca715f5534072e49b872f23e4c61930e
+      - ElementName: Play_RFX_Cavern
+        ObjectType: 3
+        guid: cca02b9c85877045a4a7cd6a82c5c010
+      Path: "Events\\Ambiances\\Int\xE9rieur\\Play_RFX_Cavern"
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: RfX_Plants_SQ
       guid: 9eb647c1ef272147b80ef549a78380e6
       id: 4237661783
@@ -524,6 +610,19 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+  - PhysicalPath: Events\Ambiances_Ext.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Ambiances_Ext
+      ObjectType: 12
+      guid: dc960bbc93982d4397c1867b286ef7f1
+    ParentPath: Events\Ambiances_Ext
+    guid: dc960bbc93982d4397c1867b286ef7f1
+    GuidInternal: 
+    m_lastTime: -8585278125802883628
+    List: []
   - PhysicalPath: Events\Chomper.wwu
     PathAndIcons:
     - ElementName: Events
@@ -897,7 +996,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 9fe65a885223ee4c989d7397dfbf3795
     GuidInternal: 
-    m_lastTime: -8585277825055075570
+    m_lastTime: -8585276600417718128
     List:
     - name: Play_SFX_Plant_WindBlowing
       guid: 35d1a8c7bef7594d89ca63f32f318ce9
@@ -1183,6 +1282,242 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+  - PhysicalPath: Events\InGame.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9fe65a885223ee4c989d7397dfbf3795
+    - ElementName: InGame
+      ObjectType: 12
+      guid: 24364ac3a8742142ac94bfbdc6d61373
+    ParentPath: Events\Default Work Unit\InGame
+    guid: 24364ac3a8742142ac94bfbdc6d61373
+    GuidInternal: 
+    m_lastTime: -8585276361033433623
+    List:
+    - name: Mute_Heal
+      guid: 6592cb389a48be4baa1c28bbbe073edd
+      id: 904448771
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: InGame
+        ObjectType: 12
+        guid: 24364ac3a8742142ac94bfbdc6d61373
+      - ElementName: Mute_Heal
+        ObjectType: 3
+        guid: 6592cb389a48be4baa1c28bbbe073edd
+      Path: Events\Default Work Unit\InGame\Mute_Heal
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Mute_PressurePad
+      guid: 78956a7b9bbd884a91a2200c491146a0
+      id: 3742498135
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: InGame
+        ObjectType: 12
+        guid: 24364ac3a8742142ac94bfbdc6d61373
+      - ElementName: Mute_PressurePad
+        ObjectType: 3
+        guid: 78956a7b9bbd884a91a2200c491146a0
+      Path: Events\Default Work Unit\InGame\Mute_PressurePad
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Mute_Stick
+      guid: f821d797d53f6f4b94234db598868971
+      id: 540272743
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: InGame
+        ObjectType: 12
+        guid: 24364ac3a8742142ac94bfbdc6d61373
+      - ElementName: Mute_Stick
+        ObjectType: 3
+        guid: f821d797d53f6f4b94234db598868971
+      Path: Events\Default Work Unit\InGame\Mute_Stick
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Box_Break
+      guid: 6fc92f0e78f30044973022024ee31fc6
+      id: 3331416737
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: InGame
+        ObjectType: 12
+        guid: 24364ac3a8742142ac94bfbdc6d61373
+      - ElementName: Play_Box_Break
+        ObjectType: 3
+        guid: 6fc92f0e78f30044973022024ee31fc6
+      Path: Events\Default Work Unit\InGame\Play_Box_Break
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PLay_Cristal_Idle
+      guid: eec72adcd0dea247b0b2e02b24b19d0d
+      id: 2323772145
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: InGame
+        ObjectType: 12
+        guid: 24364ac3a8742142ac94bfbdc6d61373
+      - ElementName: PLay_Cristal_Idle
+        ObjectType: 3
+        guid: eec72adcd0dea247b0b2e02b24b19d0d
+      Path: Events\Default Work Unit\InGame\PLay_Cristal_Idle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PLay_Door_Open
+      guid: 490c91cb92c2484da3a6167513aae9a4
+      id: 1660008929
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: InGame
+        ObjectType: 12
+        guid: 24364ac3a8742142ac94bfbdc6d61373
+      - ElementName: PLay_Door_Open
+        ObjectType: 3
+        guid: 490c91cb92c2484da3a6167513aae9a4
+      Path: Events\Default Work Unit\InGame\PLay_Door_Open
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Heal
+      guid: 6fc0c1b05e689c40a8f2a44a9e147481
+      id: 2639148008
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: InGame
+        ObjectType: 12
+        guid: 24364ac3a8742142ac94bfbdc6d61373
+      - ElementName: Play_Heal
+        ObjectType: 3
+        guid: 6fc0c1b05e689c40a8f2a44a9e147481
+      Path: Events\Default Work Unit\InGame\Play_Heal
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_PressurePad
+      guid: 4f20ef443713034c9fecab671c83d310
+      id: 1624416746
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: InGame
+        ObjectType: 12
+        guid: 24364ac3a8742142ac94bfbdc6d61373
+      - ElementName: Play_PressurePad
+        ObjectType: 3
+        guid: 4f20ef443713034c9fecab671c83d310
+      Path: Events\Default Work Unit\InGame\Play_PressurePad
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Stick_Obt
+      guid: f06933970d9c5042b46cadf1ceb852d2
+      id: 34432710
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: InGame
+        ObjectType: 12
+        guid: 24364ac3a8742142ac94bfbdc6d61373
+      - ElementName: Play_Stick_Obt
+        ObjectType: 3
+        guid: f06933970d9c5042b46cadf1ceb852d2
+      Path: Events\Default Work Unit\InGame\Play_Stick_Obt
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: UnMute_Heal
+      guid: 066535cd65a5c6498f6398b7aa69c6af
+      id: 2767686108
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: InGame
+        ObjectType: 12
+        guid: 24364ac3a8742142ac94bfbdc6d61373
+      - ElementName: UnMute_Heal
+        ObjectType: 3
+        guid: 066535cd65a5c6498f6398b7aa69c6af
+      Path: Events\Default Work Unit\InGame\UnMute_Heal
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: UnMute_PresurePad
+      guid: 0282c85f0ee70b43a529cc3a85a64c27
+      id: 1796837
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fe65a885223ee4c989d7397dfbf3795
+      - ElementName: InGame
+        ObjectType: 12
+        guid: 24364ac3a8742142ac94bfbdc6d61373
+      - ElementName: UnMute_PresurePad
+        ObjectType: 3
+        guid: 0282c85f0ee70b43a529cc3a85a64c27
+      Path: Events\Default Work Unit\InGame\UnMute_PresurePad
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\MC.wwu
     PathAndIcons:
     - ElementName: Events
@@ -1197,7 +1532,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\MC
     guid: e6e0b9986105784380ced1527d21f2b7
     GuidInternal: 
-    m_lastTime: -8585277886059792806
+    m_lastTime: -8585277053919037150
     List:
     - name: Fol_MC
       guid: 488c4e78944d954e897efb47d912abef
@@ -2061,7 +2396,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\UI
     guid: 73824dc7aa88be4b95c0d81753e53341
     GuidInternal: 
-    m_lastTime: -8585277886059782888
+    m_lastTime: -8585277053919027188
     List:
     - name: SFX_Hud_TriggerIn
       guid: ac0ab1bcc007db42aaeee98d990f07f5
@@ -2175,7 +2510,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 6177523adf1fa145bf9b15df962a95d6
     GuidInternal: 
-    m_lastTime: -8585279705902606722
+    m_lastTime: -8585279697945422664
     List:
     - name: AttackCombo
       guid: 68bd2449ec239c44a634a3457bde7aac
@@ -2220,7 +2555,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit\Ambiances
     guid: eedb8b6ed0fe6a439a1e2f22e692cb7d
     GuidInternal: 
-    m_lastTime: -8585279707011973565
+    m_lastTime: -8585278032515925319
     List: []
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -2493,7 +2828,7 @@ MonoBehaviour:
     m_lastTime: -8585285072693989613
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000050000000600000007000000080000000b0000001100000012000000130000001400000015000000190000001a0000001b0000001c0000001d0000001e0000003f0000004000000043000000
+  ExpandedWaapiItemIds: 01000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000003f00000040000000430000004b0000004c0000005000000055000000560000005a0000005b0000005c000000620000006300000065000000800000008500000086000000ba000000bc000000be000000cf000000d1000000d3000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

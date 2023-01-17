@@ -15,6 +15,7 @@ namespace Gamekit3D.GameCommands
             if (0 != (layers.value & 1 << other.gameObject.layer))
             {
                 Send();
+                Debug.Log("inch c'est là ");
             }
         }
     }

@@ -51,7 +51,32 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Intérieur" ID="{555F71CA-0734-492E-B872-F23E4C61930E}" ShortID="899706375"/>
+				<Folder Name="Intérieur" ID="{555F71CA-0734-492E-B872-F23E4C61930E}" ShortID="899706375">
+					<ChildrenList>
+						<Event Name="Play_AMB_Cavern" ID="{3584F36E-EC6C-4932-94EA-86CD3C11EA0F}">
+							<ChildrenList>
+								<Action Name="" ID="{02B587D5-1333-46B1-B966-F56B3BF7A41F}" ShortID="757071687">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Cavern_LP" ID="{0F0CFD56-3DC4-49B4-AF02-6BC128FE7973}" WorkUnitID="{8B78EAC6-34BC-4C7A-B11B-71CBE08FD499}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_RFX_Cavern" ID="{9C2BA0CC-8785-4570-A4A7-CD6A82C5C010}">
+							<ChildrenList>
+								<Action Name="" ID="{EC928740-F473-4228-856D-C8EF82F050CB}" ShortID="350936342">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RFX_Cavern" ID="{1C144ABA-DDA7-4573-8E93-203CA63E0BD0}" WorkUnitID="{A12C285A-29D3-49DD-985E-49EF86231368}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -37,6 +37,7 @@ namespace Gamekit3D.SimpleSFX
             {
                 yield return new WaitForSeconds(Random.value * 2);
                 Play();
+                Debug.Log("Maybe");
             }
         }
 

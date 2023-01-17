@@ -41,6 +41,7 @@ namespace Gamekit3D
         {
             ResetDamage();
             m_Collider = GetComponent<Collider>();
+            AkSoundEngine.RegisterGameObj(gameObject);
         }
 
         void Update()
@@ -53,6 +54,7 @@ namespace Gamekit3D
                     m_timeSinceLastHit = 0.0f;
                     isInvulnerable = false;
                     OnBecomeVulnerable.Invoke();
+                    Debug.Log("zbim");
                 }
             }
         }
@@ -63,6 +65,7 @@ namespace Gamekit3D
             isInvulnerable = false;
             m_timeSinceLastHit = 0.0f;
             OnResetDamage.Invoke();
+            Debug.Log("Casséduku");
         }
 
         public void SetColliderState(bool enabled)
@@ -74,12 +77,14 @@ namespace Gamekit3D
         {
             if (currentHitPoints <= 0)
             {//ignore damage if already dead. TODO : may have to change that if we want to detect hit on death...
+                Debug.Log("BimBamBoum");
                 return;
             }
 
             if (isInvulnerable)
             {
                 OnHitWhileInvulnerable.Invoke();
+                Debug.Log("Je suis cassé");
                 return;
             }
 
@@ -98,8 +103,11 @@ namespace Gamekit3D
 
             if (currentHitPoints <= 0)
                 schedule += OnDeath.Invoke; //This avoid race condition when objects kill each other.
+ 
+
             else
                 OnReceiveDamage.Invoke();
+            Debug.Log("crounch");
 
             var messageType = currentHitPoints <= 0 ? MessageType.DEAD : MessageType.DAMAGED;
 

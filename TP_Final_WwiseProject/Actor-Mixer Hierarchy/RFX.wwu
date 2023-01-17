@@ -4,6 +4,12 @@
 		<WorkUnit Name="RFX" ID="{A12C285A-29D3-49DD-985E-49EF86231368}" OwnerID="{D96801C3-24CF-4AD9-9369-9E1ED12BBB30}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="@RFX" ID="{039215CE-7FC2-4BA5-B853-FB4B0A8CBA26}" ShortID="320481127">
+					<PropertyList>
+						<Property Name="3DPosition" Type="int16" Value="2"/>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
@@ -27,6 +33,7 @@
 									<PropertyList>
 										<Property Name="3DPosition" Type="int16" Value="2"/>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 										<Property Name="InitialDelay" Type="Real64">
 											<ValueList>
 												<Value>3.5</Value>
@@ -958,7 +965,40 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="RFX_Cavern-001" ID="{60B7B509-C7FB-4EEF-8126-676AEB67A3F4}" ShortID="1038335861">
+								<RandomSequenceContainer Name="RFX_Cavern" ID="{1C144ABA-DDA7-4573-8E93-203CA63E0BD0}" ShortID="541609327">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{84500950-A85A-428A-849C-393F26DD2433}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="4"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3BFCD50B-A6DE-4800-8F8F-AC58AEE3BF71}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-7"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
@@ -968,65 +1008,80 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="RFX_Cavern-001" ID="{909EC49E-3932-45CA-A620-852010FDB075}">
-											<Language>SFX</Language>
-											<AudioFile>RFX_Cavern-001.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="95811985"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<Sound Name="RFX_Cavern-003" ID="{F48B4F39-042C-4E8E-95B3-786DD9FBFE22}" ShortID="588175158">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambiance" ID="{03157D0B-F98F-4BF9-896C-9D3E804E05BA}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RFX_Cavern-003" ID="{CC0C8E9F-D7C8-4E9D-AF27-3345F8DC4FE5}">
+													<Language>SFX</Language>
+													<AudioFile>RFX_Cavern-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="847506791"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RFX_Cavern-003" ID="{CC0C8E9F-D7C8-4E9D-AF27-3345F8DC4FE5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RFX_Cavern-002" ID="{06C67438-D9D9-4A69-A5E1-D9F263414CE6}" ShortID="428414839">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambiance" ID="{03157D0B-F98F-4BF9-896C-9D3E804E05BA}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RFX_Cavern-002" ID="{DABF60C7-60ED-485D-9F51-BD11B111B51F}">
+													<Language>SFX</Language>
+													<AudioFile>RFX_Cavern-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="59465687"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RFX_Cavern-002" ID="{DABF60C7-60ED-485D-9F51-BD11B111B51F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RFX_Cavern-001" ID="{60B7B509-C7FB-4EEF-8126-676AEB67A3F4}" ShortID="1038335861">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambiance" ID="{03157D0B-F98F-4BF9-896C-9D3E804E05BA}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RFX_Cavern-001" ID="{909EC49E-3932-45CA-A620-852010FDB075}">
+													<Language>SFX</Language>
+													<AudioFile>RFX_Cavern-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="95811985"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RFX_Cavern-001" ID="{909EC49E-3932-45CA-A620-852010FDB075}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="RFX_Cavern-001" ID="{909EC49E-3932-45CA-A620-852010FDB075}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="RFX_Cavern-002" ID="{06C67438-D9D9-4A69-A5E1-D9F263414CE6}" ShortID="428414839">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="RFX_Cavern-002" ID="{DABF60C7-60ED-485D-9F51-BD11B111B51F}">
-											<Language>SFX</Language>
-											<AudioFile>RFX_Cavern-002.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="59465687"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="RFX_Cavern-002" ID="{DABF60C7-60ED-485D-9F51-BD11B111B51F}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="RFX_Cavern-003" ID="{F48B4F39-042C-4E8E-95B3-786DD9FBFE22}" ShortID="588175158">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="RFX_Cavern-003" ID="{CC0C8E9F-D7C8-4E9D-AF27-3345F8DC4FE5}">
-											<Language>SFX</Language>
-											<AudioFile>RFX_Cavern-003.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="847506791"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="RFX_Cavern-003" ID="{CC0C8E9F-D7C8-4E9D-AF27-3345F8DC4FE5}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{D73C5AE0-DF02-47DA-98D5-16CF920E7BDC}"/>
+					</PositioningInfo>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

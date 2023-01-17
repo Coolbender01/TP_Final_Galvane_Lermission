@@ -18,6 +18,9 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	2399250375	ReverbZone_Small			\Default Work Unit\Master Audio Bus\ReverbZone_Small	
 	3193884120	ReverbZone_Big			\Default Work Unit\Master Audio Bus\ReverbZone_Big	
 
+Effect plug-ins	ID	Name	Type				Notes
+	3701691487	Hall_Large_Bright	Wwise RoomVerb			
+
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
 	3859886410	System	System			

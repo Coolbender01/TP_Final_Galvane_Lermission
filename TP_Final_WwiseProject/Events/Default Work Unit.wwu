@@ -17,6 +17,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<WorkUnit Name="InGame" ID="{C34A3624-74A8-4221-AC94-BFBDC6D61373}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
