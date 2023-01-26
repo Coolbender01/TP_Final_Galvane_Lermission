@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D2141009-0F17-445A-80DA-969B10DCA37B}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Environment" ID="{D2141009-0F17-445A-80DA-969B10DCA37B}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="Box" ID="{E6114D97-1E64-4077-881A-DAF1544FEFDD}" PersistMode="Reference"/>
+				<WorkUnit Name="Doors" ID="{FAFF72A2-33BB-4B95-BEC5-A9F338FB5F3C}" PersistMode="Reference"/>
+				<WorkUnit Name="Switch" ID="{CFA01B59-1828-4E42-8DB5-2E2D448BAA84}" PersistMode="Reference"/>
+				<WorkUnit Name="PressurePad" ID="{3B043975-31B9-45EE-AB2B-2A7C8A8EF628}" PersistMode="Reference"/>
+				<WorkUnit Name="Staff" ID="{FEA1D7AD-391C-43AE-BBD2-12A25D505D86}" PersistMode="Reference"/>
+				<WorkUnit Name="Heal" ID="{0881421D-17BB-449D-8339-659E5224D182}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

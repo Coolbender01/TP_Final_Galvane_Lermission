@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0881421D-17BB-449D-8339-659E5224D182}" SchemaVersion="110" RootDocumentID="{D2141009-0F17-445A-80DA-969B10DCA37B}" ParentDocumentID="{D2141009-0F17-445A-80DA-969B10DCA37B}">
+	<AudioObjects>
+		<WorkUnit Name="Heal" ID="{0881421D-17BB-449D-8339-659E5224D182}" OwnerID="{D2141009-0F17-445A-80DA-969B10DCA37B}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="InGame_Heal" ID="{E6409D8D-55C1-4065-A4BA-C62314F59A15}" ShortID="636251260">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{184E4AA0-1F16-4485-8B21-A867F6AEDA76}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="InGame_Heal" ID="{C696AC6F-D603-44E9-9D9D-2C34F4B9C94C}">
+							<Language>SFX</Language>
+							<AudioFile>InGame_Heal.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="156368826"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="InGame_Heal" ID="{C696AC6F-D603-44E9-9D9D-2C34F4B9C94C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

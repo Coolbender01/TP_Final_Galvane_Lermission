@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B08D371F-A60C-4172-AD7C-9A270DDA8884}" SchemaVersion="110" RootDocumentID="{885AE69F-2352-4CEE-989D-7397DFBF3795}" ParentDocumentID="{27B771D3-7C37-4469-83C6-4B740136E820}">
+	<Events>
+		<WorkUnit Name="Spitter" ID="{B08D371F-A60C-4172-AD7C-9A270DDA8884}" OwnerID="{27B771D3-7C37-4469-83C6-4B740136E820}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Attack" ID="{CDC52568-11AD-4442-96FD-CD055A684992}" ShortID="688035301">
+					<ChildrenList>
+						<Event Name="Play_SP_Projectile" ID="{5C6AA71C-7183-40AE-A08A-E0F7C56E8862}">
+							<ChildrenList>
+								<Action Name="" ID="{B621BD4E-7EC1-4E17-82A9-4684F7EAF5EE}" ShortID="341840703">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MS02_WP_Projectile" ID="{DFA4F6CA-27E6-423F-94F7-33E5714598E7}" WorkUnitID="{F110358F-0D0F-4303-B70D-5BA91100D38A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SP_Projectile_Hit" ID="{45CFE566-4B68-4340-9F89-88E994CBFEB6}">
+							<ChildrenList>
+								<Action Name="" ID="{244124A1-138D-4101-95A4-25A5E231A2E6}" ShortID="55052008">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MS02_WP_Projectile_Hit" ID="{BBD9AD36-4552-4D66-A0E3-E964A81DCF3A}" WorkUnitID="{F110358F-0D0F-4303-B70D-5BA91100D38A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SP_Projectile_Splat" ID="{1FC49731-038C-4E2F-9DC3-97C0602281A0}">
+							<ChildrenList>
+								<Action Name="" ID="{CCC49F30-B983-48BC-B22C-959BBDD039A9}" ShortID="963578400">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_MS02_WP_Projectile_Splat" ID="{841D3A29-2FBB-49A2-A807-377470E60160}" WorkUnitID="{F110358F-0D0F-4303-B70D-5BA91100D38A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Foley" ID="{1FCCC005-A5CA-42E9-9BEF-7C0ABC4B8496}" ShortID="470030487">
+					<ChildrenList>
+						<Event Name="Play_SP_Foley" ID="{39392DD1-A061-40DF-9561-D82726179569}">
+							<ChildrenList>
+								<Action Name="" ID="{FC752548-E221-439C-BBE4-D45EBB178B33}" ShortID="336982376">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RFX_Idle" ID="{8697C0F5-1DB3-4C70-8DC6-9B671124D2CE}" WorkUnitID="{A0759163-C9B6-4D67-90A2-4564036069DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Footsteps" ID="{3DD5F3E4-D3C2-4774-A315-C39BBEF9BEA4}" ShortID="553562527">
+					<ChildrenList>
+						<Event Name="Play_SP_FootStep" ID="{27192C70-6230-43CF-BDB2-36E47A78ECDF}">
+							<ChildrenList>
+								<Action Name="" ID="{3FB11508-24C3-4D0A-8414-1D37B1653963}" ShortID="880038000">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SP_Footsteps" ID="{A39D9BD3-CB57-4530-B5D5-289E4864F3CE}" WorkUnitID="{F110358F-0D0F-4303-B70D-5BA91100D38A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Die" ID="{2ACB151F-29D0-4EAC-AC0A-CF987DF13AD1}" ShortID="831580748">
+					<ChildrenList>
+						<Event Name="Play_SP_Die" ID="{FA4970E1-6295-4BB0-A5D6-CD69A82BFE25}">
+							<ChildrenList>
+								<Action Name="" ID="{5ACE7C64-E9C2-4C91-A7DB-7BE50A9E75F9}" ShortID="748907782">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MS01_VC_Die" ID="{8C8DFB4C-9602-466A-AF87-5CF3D5E0B811}" WorkUnitID="{A0759163-C9B6-4D67-90A2-4564036069DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

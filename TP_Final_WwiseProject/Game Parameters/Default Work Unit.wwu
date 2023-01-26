@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3A527761-1FDF-45A1-BF9B-15DF962A95D6}" SchemaVersion="110">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{3A527761-1FDF-45A1-BF9B-15DF962A95D6}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="AttackCombo" ID="{4924BD68-23EC-449C-A634-A3457BDE7AAC}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="5"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_GetSpeed" ID="{7BA46F3F-151C-4116-AFF2-29C5AE26CBE2}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="8"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

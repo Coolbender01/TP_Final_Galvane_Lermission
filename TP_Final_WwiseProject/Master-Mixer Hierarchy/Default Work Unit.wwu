@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}" SchemaVersion="110">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{27F196C0-3D75-4D3C-A634-1E50F5479EE5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{547B08BA-7F4D-4DAD-8320-03760F48DFCA}" WorkUnitID="{8FA79570-519B-4C07-AAC7-76D4B486F95D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="MainCharacter" ID="{599C9CD5-2555-47BD-949E-D3B28CBFC8CB}"/>
+						<Bus Name="Ennemis" ID="{D921ECC2-95EE-4636-8716-4524E305F5D4}"/>
+						<AuxBus Name="ReverbZone_Small" ID="{3A47EB4C-B04E-4EDE-B8B3-81F4EBC451DF}"/>
+						<AuxBus Name="ReverbZone_Cavern" ID="{B14C7F03-B676-404E-9C8C-5E8BF7F07ABB}"/>
+						<AuxBus Name="ReverbZone_Big" ID="{B49B40C7-13A6-4457-905D-C904CF57E58B}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Hall_Large_Bright" ID="{CB602948-2D1D-4977-A8D5-378184293E80}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+						<Bus Name="Ambiance" ID="{03157D0B-F98F-4BF9-896C-9D3E804E05BA}"/>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

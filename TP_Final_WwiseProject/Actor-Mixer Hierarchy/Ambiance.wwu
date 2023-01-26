@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2132E58F-D328-41BE-A2EE-593EB76956B8}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Ambiance" ID="{2132E58F-D328-41BE-A2EE-593EB76956B8}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="SFX" ID="{319E310B-712E-47B1-8C64-E5DA76F88FC5}" PersistMode="Reference"/>
+				<WorkUnit Name="2D" ID="{8B78EAC6-34BC-4C7A-B11B-71CBE08FD499}" PersistMode="Reference"/>
+				<WorkUnit Name="3D" ID="{D96801C3-24CF-4AD9-9369-9E1ED12BBB30}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

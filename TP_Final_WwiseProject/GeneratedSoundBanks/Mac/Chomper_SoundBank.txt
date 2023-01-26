@@ -1,0 +1,58 @@
+Event	ID	Name			Wwise Object Path	Notes
+	41941568	Play_Idle			\Default Work Unit\Monstre\Chomper\Idle\Play_Idle	
+	1383584624	Play_CH_Die			\Default Work Unit\Monstre\Chomper\Die\Play_CH_Die	
+	1456885134	Play_CH_Attack			\Default Work Unit\Monstre\Chomper\Attack\Play_CH_Attack	
+	1825440468	Play_CH_FootStep			\Default Work Unit\Monstre\Chomper\Footsteps\Play_CH_FootStep	
+	2262512141	Play_Spotted			\Default Work Unit\Monstre\Chomper\Spotted\Play_Spotted	
+	2960666077	Play_Hit			\Default Work Unit\Monstre\Chomper\Hit\Play_Hit	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\MainCharacter\Footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	1981379785	Switch_Metal	Footsteps			
+	2541504615	Switch_Stone	Footsteps			
+	2902377486	Switch_Grass	Footsteps			
+	3262067523	Switch_Dirt	Footsteps			
+	3817369922	Switch_Mud	Footsteps			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	50923530	MS01_FT_Walk_Dirt-002	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_FT_Walk_Dirt-002_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\CH_Footsteps\CH_Footsteps_Dirt\MS01_FT_Walk_Dirt-002		4942
+	58085114	SFX_MS01_WP_Hit-001	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_MS01_WP_Hit-001_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\SFX_MS01_WP_Hit\SFX_MS01_WP_Hit-001		68202
+	64354009	MS01_VC_Spotted_Placeholder-001	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_VC_Spotted_Placeholder-001_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\MS01_VC_Spotted_Placeholder\MS01_VC_Spotted_Placeholder-001		22344
+	77456658	MS01_FT_Walk_Grass-003	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_FT_Walk_Grass-003_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\CH_Footsteps\CH_Footsteps_Grass\MS01_FT_Walk_Grass-003		11866
+	90159069	MS01_FT_Walk_Mud-001	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_FT_Walk_Mud-001_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\CH_Footsteps\CH_Footsteps_Mud\MS01_FT_Walk_Mud-001		22250
+	143820051	SFX_MS01_WP_Hit-002	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_MS01_WP_Hit-002_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\SFX_MS01_WP_Hit\SFX_MS01_WP_Hit-002		59916
+	151233379	MS01_FT_Walk_Mud-004	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_FT_Walk_Mud-004_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\CH_Footsteps\CH_Footsteps_Mud\MS01_FT_Walk_Mud-004		22250
+	161496371	MS01_FT_Walk_Mud-005	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_FT_Walk_Mud-005_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\CH_Footsteps\CH_Footsteps_Mud\MS01_FT_Walk_Mud-005		13942
+	190783486	MS01_VC_Die-003	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_VC_Die-003_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\MS01_VC_Die\MS01_VC_Die-003		170730
+	213243962	Ré	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\Ré_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\RFX_Idle\Ré		197800
+	215377584	MS01_FT_Walk_Stone-005	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_FT_Walk_Stone-005_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\CH_Footsteps\CH_Footsteps_Stone\MS01_FT_Walk_Stone-005		4250
+	216851450	MS01_VC_Die-001	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_VC_Die-001_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\MS01_VC_Die\MS01_VC_Die-001		108100
+	223463109	MS01_FT_Walk_Grass-002	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_FT_Walk_Grass-002_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\CH_Footsteps\CH_Footsteps_Grass\MS01_FT_Walk_Grass-002		11866
+	253880444	MS01_FT_Walk_Grass-005	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_FT_Walk_Grass-005_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\CH_Footsteps\CH_Footsteps_Grass\MS01_FT_Walk_Grass-005		24326
+	262541260	La	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\La_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\RFX_Idle\La		204068
+	267623174	Fa	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\Fa_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\RFX_Idle\Fa		202816
+	308880629	SFX_MS01_WP_Attack	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_MS01_WP_At_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\SFX_MS01_WP_Attack		104124
+	328049958	MS01_FT_Walk_Mud-002	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_FT_Walk_Mud-002_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\CH_Footsteps\CH_Footsteps_Mud\MS01_FT_Walk_Mud-002		22250
+	338832736	MS01_FT_Walk_Dirt-001	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_FT_Walk_Dirt-001_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\CH_Footsteps\CH_Footsteps_Dirt\MS01_FT_Walk_Dirt-001		16712
+	374908960	MS01_VC_Spotted_Placeholder-003	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_VC_Spotted_Placeholder-003_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\MS01_VC_Spotted_Placeholder\MS01_VC_Spotted_Placeholder-003		56396
+	395440531	Do	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\Do_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\RFX_Idle\Do		204068
+	497480294	MS01_FT_Walk_Grass-001	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_FT_Walk_Grass-001_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\CH_Footsteps\CH_Footsteps_Grass\MS01_FT_Walk_Grass-001		14634
+	508255807	SFX_MS01_WP_Hit-003	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_MS01_WP_Hit-003_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\SFX_MS01_WP_Hit\SFX_MS01_WP_Hit-003		58212
+	544857877	Mi	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\Mi_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\RFX_Idle\Mi		201560
+	588175256	MS01_FT_Walk_Stone-001	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_FT_Walk_Stone-001_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\CH_Footsteps\CH_Footsteps_Stone\MS01_FT_Walk_Stone-001		7020
+	620835159	MS01_VC_Spotted_Placeholder-002	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_VC_Spotted_Placeholder-002_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\MS01_VC_Spotted_Placeholder\MS01_VC_Spotted_Placeholder-002		57758
+	621238002	MS01_FT_Walk_Dirt-005	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_FT_Walk_Dirt-005_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\CH_Footsteps\CH_Footsteps_Dirt\MS01_FT_Walk_Dirt-005		9780
+	646633001	MS01_FT_Walk_Dirt-004	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_FT_Walk_Dirt-004_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\CH_Footsteps\CH_Footsteps_Dirt\MS01_FT_Walk_Dirt-004		4936
+	720465065	Si	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\Si_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\RFX_Idle\Si		210332
+	758695779	MS01_FT_Walk_Stone-003	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_FT_Walk_Stone-003_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\CH_Footsteps\CH_Footsteps_Stone\MS01_FT_Walk_Stone-003		5634
+	790390031	MS01_FT_Walk_Grass-004	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_FT_Walk_Grass-004_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\CH_Footsteps\CH_Footsteps_Grass\MS01_FT_Walk_Grass-004		15326
+	823881626	MS01_VC_Spotted_Placeholder-004	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_VC_Spotted_Placeholder-004_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\MS01_VC_Spotted_Placeholder\MS01_VC_Spotted_Placeholder-004		55488
+	831853343	MS01_FT_Walk_Stone-004	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_FT_Walk_Stone-004_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\CH_Footsteps\CH_Footsteps_Stone\MS01_FT_Walk_Stone-004		4942
+	844551065	MS01_FT_Walk_Dirt-003	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_FT_Walk_Dirt-003_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\CH_Footsteps\CH_Footsteps_Dirt\MS01_FT_Walk_Dirt-003		9788
+	852235056	MS01_VC_Die-002	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_VC_Die-002_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\MS01_VC_Die\MS01_VC_Die-002		124716
+	863209858	Sol	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\Sol_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\RFX_Idle\Sol		204068
+	935473479	MS01_FT_Walk_Stone-002	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_FT_Walk_Stone-002_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\CH_Footsteps\CH_Footsteps_Stone\MS01_FT_Walk_Stone-002		4942
+	953202994	MS01_FT_Walk_Mud-003	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\MS01_FT_Walk_Mud-003_10C4C929.wem		\Actor-Mixer Hierarchy\Monster\Chomper\@Chomper\CH_Footsteps\CH_Footsteps_Mud\MS01_FT_Walk_Mud-003		16712
+

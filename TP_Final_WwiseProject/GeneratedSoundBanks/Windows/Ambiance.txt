@@ -1,0 +1,33 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1384706362	Play_Amb_Ext			\Ambiances\Extérieur\Play_Amb_Ext	
+	1631003278	Play_RFX_Cavern			\Ambiances\Intérieur\Play_RFX_Cavern	
+	2454646541	PLay_AMB_Ext_LP			\Ambiances\Extérieur\PLay_AMB_Ext_LP	
+	2718560927	SFX_Plant_WindBlowing			\Ambiances\Extérieur\SFX_Plant_WindBlowing	
+	3686445418	Play_AMB_Cavern			\Ambiances\Intérieur\Play_AMB_Cavern	
+	3882178070	Play_SFX_Plant_WindBlowing			\Default Work Unit\Play_SFX_Plant_WindBlowing	
+	4237661783	RfX_Plants_SQ			\Ambiances\Extérieur\RfX_Plants_SQ	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	49200380	RFX_Out_Animals-009	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\RFX_Out_Animals-009_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\3D\RFX\@RFX\Exterior\RFX_Out_Animals\RFX_Out_Animals-009		220780
+	59465687	RFX_Cavern-002	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\RFX_Cavern-002_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\3D\RFX\@RFX\Interior\RFX_Cavern\RFX_Cavern-002		158984
+	95811985	RFX_Cavern-001	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\RFX_Cavern-001_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\3D\RFX\@RFX\Interior\RFX_Cavern\RFX_Cavern-001		773376
+	103688550	RFX_Out_Animals-006	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\RFX_Out_Animals-006_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\3D\RFX\@RFX\Exterior\RFX_Out_Animals\RFX_Out_Animals-006		487352
+	194251334	RFX_Out_Animals-005	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\RFX_Out_Animals-005_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\3D\RFX\@RFX\Exterior\RFX_Out_Animals\RFX_Out_Animals-005		423528
+	356075021	RFX_Out_Animals-003	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\RFX_Out_Animals-003_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\3D\RFX\@RFX\Exterior\RFX_Out_Animals\RFX_Out_Animals-003		497814
+	420707460	RFX_Out_Animals-012	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\RFX_Out_Animals-012_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\3D\RFX\@RFX\Exterior\RFX_Out_Animals\RFX_Out_Animals-012		393708
+	440616789	RFX_Plants-003	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\RFX_Plants-003_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\3D\RFX\@RFX\Exterior\RfX_Plants_SQ\RFX_Plants\RFX_Plants-003		148112
+	518570860	SFX_Plant_WindBlowing	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\SFX_Plant_WindBlowing_D79FB2B7.wem		\Actor-Mixer Hierarchy\Ambiance\3D\RFX\@RFX\Exterior\SFX_Plant_WindBlowing		1378176
+	561665002	RFX_Out_Animals-010	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\RFX_Out_Animals-010_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\3D\RFX\@RFX\Exterior\RFX_Out_Animals\RFX_Out_Animals-010		530876
+	668466547	RFX_Out_Animals-004	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\RFX_Out_Animals-004_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\3D\RFX\@RFX\Exterior\RFX_Out_Animals\RFX_Out_Animals-004		260100
+	773934205	RFX_Out_Animals-007	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\RFX_Out_Animals-007_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\3D\RFX\@RFX\Exterior\RFX_Out_Animals\RFX_Out_Animals-007		739888
+	777168309	RFX_Out_Animals-002	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\RFX_Out_Animals-002_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\3D\RFX\@RFX\Exterior\RFX_Out_Animals\RFX_Out_Animals-002		295402
+	847506791	RFX_Cavern-003	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\RFX_Cavern-003_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\3D\RFX\@RFX\Interior\RFX_Cavern\RFX_Cavern-003		529648
+	890786843	RFX_Out_Animals-001	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\RFX_Out_Animals-001_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\3D\RFX\@RFX\Exterior\RFX_Out_Animals\RFX_Out_Animals-001		369740
+	973509012	RFX_Out_Animals-008	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\RFX_Out_Animals-008_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\3D\RFX\@RFX\Exterior\RFX_Out_Animals\RFX_Out_Animals-008		672186
+	1002847489	RFX_Out_Animals-011	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\RFX_Out_Animals-011_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\3D\RFX\@RFX\Exterior\RFX_Out_Animals\RFX_Out_Animals-011		423528
+	1072082701	RFX_Plants-001	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\RFX_Plants-001_10C4C929.wem		\Actor-Mixer Hierarchy\Ambiance\3D\RFX\@RFX\Exterior\RfX_Plants_SQ\RFX_Plants\RFX_Plants-001		376134
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	670214400	AMB_Ext_LP	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\AMB_Ext_LP_D79FB2B7.wem	670214400.wem	\Actor-Mixer Hierarchy\Ambiance\2D\AMB_Ext\AMB_Ext_LP	
+	1042680909	AMB_Cavern_LP	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Windows\SFX\AMB_Cavern_LP_D79FB2B7.wem	1042680909.wem	\Actor-Mixer Hierarchy\Ambiance\2D\AMB_Int\AMB_Cavern_LP	
+

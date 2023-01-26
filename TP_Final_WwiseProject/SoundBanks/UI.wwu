@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{39B8FF8D-FD29-4139-9AEE-B8D8B6734BFB}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="UI" ID="{39B8FF8D-FD29-4139-9AEE-B8D8B6734BFB}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="UI_Soundbank" ID="{9F6DF4AD-F5A4-447C-AC8D-FEC960A5A355}">
+					<ObjectInclusionList>
+						<ObjectRef Name="UI_Confirm" ID="{33EF24EB-F6E3-4073-B162-0E04937F031D}" WorkUnitID="{C74D8273-88AA-4BBE-95C0-D81753E53341}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_ConfirmSmall" ID="{141B4281-B65C-41F6-BD91-2302E02A7CAA}" WorkUnitID="{C74D8273-88AA-4BBE-95C0-D81753E53341}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX_Hud_TriggerOut" ID="{B3EB45EA-67F9-4280-9AB2-6A5BDE1D4AD7}" WorkUnitID="{C74D8273-88AA-4BBE-95C0-D81753E53341}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX_Hud_TriggerIn" ID="{BCB10AAC-07C0-42DB-AAEE-E98D990F07F5}" WorkUnitID="{C74D8273-88AA-4BBE-95C0-D81753E53341}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Highlight" ID="{B895DB65-3A01-4DDA-92BE-8173E050165A}" WorkUnitID="{C74D8273-88AA-4BBE-95C0-D81753E53341}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{69ADF2A6-77C4-4832-A9D8-BAE4F681A341}" SchemaVersion="110" RootDocumentID="{9F591697-3B79-4603-9DCB-447972967BAC}" ParentDocumentID="{36341773-5FDD-4C74-AC4D-1385928A34FA}">
+	<SoundBanks>
+		<WorkUnit Name="Grenadier" ID="{69ADF2A6-77C4-4832-A9D8-BAE4F681A341}" OwnerID="{36341773-5FDD-4C74-AC4D-1385928A34FA}" PersistMode="Nested">
+			<ChildrenList>
+				<SoundBank Name="Grenadier_SoundBank" ID="{9578A482-DD6A-4C5F-8242-33415911CF8A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_GR_Die" ID="{70423467-45E3-4069-83B0-2AE2FCE87A41}" WorkUnitID="{640EAD4F-2490-487D-90AC-594088D180D6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GR_Attack_Shield" ID="{85B84736-4B4B-456A-A6E3-AA8D75FAF1BA}" WorkUnitID="{640EAD4F-2490-487D-90AC-594088D180D6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GR_Attack_Projectile" ID="{6718C5C6-A382-4684-95D0-E03CC19E32DB}" WorkUnitID="{640EAD4F-2490-487D-90AC-594088D180D6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GR_Hit" ID="{3EE169B3-5DB1-46A5-A6DB-2CB14CD1730D}" WorkUnitID="{640EAD4F-2490-487D-90AC-594088D180D6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GR_Footstep" ID="{4A826DF4-76CC-46A5-BEBF-496AF504EFC8}" WorkUnitID="{640EAD4F-2490-487D-90AC-594088D180D6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GR_Attack_Fist" ID="{67D01130-74C4-4F1A-A4FA-C067C4BB8D37}" WorkUnitID="{640EAD4F-2490-487D-90AC-594088D180D6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

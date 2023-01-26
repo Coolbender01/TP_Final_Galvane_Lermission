@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	216067002	UI_Confirm			\Default Work Unit\UI\UI_Confirm	
+	1292146495	UI_ConfirmSmall			\Default Work Unit\UI\UI_ConfirmSmall	
+	1402340918	UI_Highlight			\Default Work Unit\UI\UI_Highlight	
+	1692947803	SFX_Hud_TriggerOut			\Default Work Unit\UI\SFX_Hud_TriggerOut	
+	2029000732	SFX_Hud_TriggerIn			\Default Work Unit\UI\SFX_Hud_TriggerIn	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	106693867	UI_Confirm	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\UI_Confirm_10C4C929.wem		\Actor-Mixer Hierarchy\UI\Main Menu\UI_Confirm		487480
+	326768510	SFX_Hud_TriggerIn	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Hud_TriggerIn_10C4C929.wem		\Actor-Mixer Hierarchy\UI\Hud\SFX_Hud_TriggerIn		352896
+	820971673	SFX_Hud_Triggerout	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Hud_Triggerout_10C4C929.wem		\Actor-Mixer Hierarchy\UI\Hud\SFX_Hud_Triggerout		352896
+	1023493739	UI_ConfirmSmall	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\UI_ConfirmSmall_10C4C929.wem		\Actor-Mixer Hierarchy\UI\Main Menu\UI_ConfirmSmall		354556
+	1039660020	UI_Highlight	C:\Users\True G4M3R\Documents\GitHub\TP_Final\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\UI_Highlight_10C4C929.wem		\Actor-Mixer Hierarchy\UI\Main Menu\UI_Highlight		232712
+

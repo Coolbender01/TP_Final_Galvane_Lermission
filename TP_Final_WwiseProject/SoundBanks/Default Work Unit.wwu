@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9F591697-3B79-4603-9DCB-447972967BAC}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{9F591697-3B79-4603-9DCB-447972967BAC}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Monstre" ID="{36341773-5FDD-4C74-AC4D-1385928A34FA}" PersistMode="Reference"/>
+				<WorkUnit Name="MC" ID="{A922B708-CFE4-43DB-B1CC-B22A6B542DFA}" PersistMode="Reference"/>
+				<WorkUnit Name="Ambiance" ID="{237ABAED-9C23-4BA5-8607-F50B0ECD7694}" PersistMode="Reference"/>
+				<WorkUnit Name="InGame" ID="{E2182055-35CC-40E9-8DA6-7B837127B47A}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

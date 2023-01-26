@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BC0B96DC-9893-432D-97C1-867B286EF7F1}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Ambiances_Ext" ID="{BC0B96DC-9893-432D-97C1-867B286EF7F1}" PersistMode="Standalone"/>
+	</Events>
+</WwiseDocument>

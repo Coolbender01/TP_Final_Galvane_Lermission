@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E2182055-35CC-40E9-8DA6-7B837127B47A}" SchemaVersion="110" RootDocumentID="{9F591697-3B79-4603-9DCB-447972967BAC}" ParentDocumentID="{9F591697-3B79-4603-9DCB-447972967BAC}">
+	<SoundBanks>
+		<WorkUnit Name="InGame" ID="{E2182055-35CC-40E9-8DA6-7B837127B47A}" OwnerID="{9F591697-3B79-4603-9DCB-447972967BAC}" PersistMode="Nested">
+			<ChildrenList>
+				<SoundBank Name="InGame" ID="{77050739-4F5F-4925-B6AD-E9E133640DE8}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Heal" ID="{B0C1C06F-685E-409C-A8F2-A44A9E147481}" WorkUnitID="{C34A3624-74A8-4221-AC94-BFBDC6D61373}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stick_Obt" ID="{973369F0-9C0D-4250-B46C-ADF1CEB852D2}" WorkUnitID="{C34A3624-74A8-4221-AC94-BFBDC6D61373}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UnMute_PresurePad" ID="{5FC88202-E70E-430B-A529-CC3A85A64C27}" WorkUnitID="{C34A3624-74A8-4221-AC94-BFBDC6D61373}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Box_Break" ID="{0E2FC96F-F378-4400-9730-22024EE31FC6}" WorkUnitID="{C34A3624-74A8-4221-AC94-BFBDC6D61373}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PLay_Cristal_Idle" ID="{DC2AC7EE-DED0-47A2-B0B2-E02B24B19D0D}" WorkUnitID="{C34A3624-74A8-4221-AC94-BFBDC6D61373}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UnMute_Heal" ID="{CD356506-A565-49C6-8F63-98B7AA69C6AF}" WorkUnitID="{C34A3624-74A8-4221-AC94-BFBDC6D61373}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Mute_PressurePad" ID="{7B6A9578-BD9B-4A88-91A2-200C491146A0}" WorkUnitID="{C34A3624-74A8-4221-AC94-BFBDC6D61373}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Mute_Stick" ID="{97D721F8-3FD5-4B6F-9423-4DB598868971}" WorkUnitID="{C34A3624-74A8-4221-AC94-BFBDC6D61373}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Mute_Heal" ID="{38CB9265-489A-4BBE-AA1C-28BBBE073EDD}" WorkUnitID="{C34A3624-74A8-4221-AC94-BFBDC6D61373}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_PressurePad" ID="{44EF204F-1337-4C03-9FEC-AB671C83D310}" WorkUnitID="{C34A3624-74A8-4221-AC94-BFBDC6D61373}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PLay_Door_Open" ID="{CB910C49-C292-4D48-A3A6-167513AAE9A4}" WorkUnitID="{C34A3624-74A8-4221-AC94-BFBDC6D61373}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

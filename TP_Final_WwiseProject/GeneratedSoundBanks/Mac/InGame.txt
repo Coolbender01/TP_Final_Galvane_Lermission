@@ -1,0 +1,21 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1796837	UnMute_PresurePad			\Default Work Unit\InGame\UnMute_PresurePad	
+	34432710	Play_Stick_Obt			\Default Work Unit\InGame\Play_Stick_Obt	
+	540272743	Mute_Stick			\Default Work Unit\InGame\Mute_Stick	
+	904448771	Mute_Heal			\Default Work Unit\InGame\Mute_Heal	
+	1624416746	Play_PressurePad			\Default Work Unit\InGame\Play_PressurePad	
+	1660008929	PLay_Door_Open			\Default Work Unit\InGame\PLay_Door_Open	
+	2323772145	PLay_Cristal_Idle			\Default Work Unit\InGame\PLay_Cristal_Idle	
+	2639148008	Play_Heal			\Default Work Unit\InGame\Play_Heal	
+	2767686108	UnMute_Heal			\Default Work Unit\InGame\UnMute_Heal	
+	3331416737	Play_Box_Break			\Default Work Unit\InGame\Play_Box_Break	
+	3742498135	Mute_PressurePad			\Default Work Unit\InGame\Mute_PressurePad	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	56450524	SFX_Christal_Idle_LP	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Christal_Idle_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Environment\Switch\SFX_Christal_Idle_LP		1404748
+	107397822	SFX_MC_WP_Stick_Obt	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_MC_WP_Stick_Obt_10C4C929.wem		\Actor-Mixer Hierarchy\Environment\Staff\SFX_MC_WP_Stick_Obt		349704
+	156368826	InGame_Heal	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\InGame_Heal_10C4C929.wem		\Actor-Mixer Hierarchy\Environment\Heal\InGame_Heal		267504
+	474818672	InGame_SFX_PressurePad	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\InGame_PressurePad_10C4C929.wem		\Actor-Mixer Hierarchy\Environment\PressurePad\InGame_SFX_PressurePad		297300
+	493828024	SFX_Door_Open	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Door_Open_FC20F141.wem		\Actor-Mixer Hierarchy\Environment\Doors\SFX_Door_Open		1240760
+	501839359	SFX_Container_Break	D:\GitHub\TP_Final\TP_Final_WwiseProject\.cache\Mac\SFX\SFX_Container_Break_10C4C929.wem		\Actor-Mixer Hierarchy\Environment\Box\SFX_Container_Break		300462
+
